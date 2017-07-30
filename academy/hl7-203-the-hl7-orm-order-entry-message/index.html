@@ -1,0 +1,439 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy</title>
+<meta name="description" content="The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders. ">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HL7">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Mohan Balachandran">
+<meta property="article:published_time" content="September 2, 2014">
+<meta property="og:description" content="The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders. ">
+<meta property="og:title" content="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy">
+<meta itemprop="og:headline" content="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy">
+<meta property="twitter:description" content="The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders. ">
+
+<meta class="swiftype" name="title" data-type="string" content="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders. " />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+
+<link rel="canonical" href="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_hl7-203-the-hl7-orm-order-entry-message academy_hl7-203-the-hl7-orm-order-entry-message_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">HL7 203 - The HL7 ORM (Order Entry) message</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/2xzeMZo9aYQQQk6KiqiOsG/133e18144c864de6189daec280c71747/prof-mohan.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mohan Balachandran"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Mohan Balachandran
+        </h4>
+        <p class="person-title">Co-Founder</p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    September 2, 2014
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">HL7</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <p>The Order Entry (ORM) message is one of the most commonly used HL7 message type. ORM messages contain information about an order. This includes placing new orders, canceling existing orders, discontinuation, holding, etc. Orders pertain to either materials (e.g., 1 liter of 0.9% saline) or services (e.g., a blood panel, etc.). Usually this is patient specific. The trigger event for this message is any change to an order i.e. order is created, modified, cancelled, put on hold and so on.</p>
+
+<p>Before we jump into ORM messages, a quick review might be in order. As we’ve discussed <a href="https://catalyze.io/learn/hl7/">before</a>, HL7 has many message types which can be very daunting. It’s not only that there are messages but also that there are types of HL7 messages which are geared towards handling specific events. Admission, Discharge, Transfer (ADT) messages are sent when patient’s are admitted, discharged or otherwise moved around the hospital. Scheduling (SIU) messages schedule and update appointments in clinics. Order Entry (ORM) messages are sent when orders are placed or edited and Order Result (ORU) messages are sent back with results that correspond to the original ORM message. These are the most common HL7 message types; most other workflows, like updating flowsheets or filing visit notes, use some combination of segments from these message types to accomplish their goals. Since we already covered the ADT message in detail <a href="https://catalyze.io/learn/hl7/hl7-201-the-admission-discharge-transfer-adt-message/">here</a>, we thought we could move onto the Order Entry (ORM) message.</p>
+
+<p>As mentioned earlier, an order is a request for material or services, usually for a specific patient. These could be anything ranging from medication orders, measuring of vitals, lab tests, specific food / dietary orders, radiology films. These could also be generic orders (not clinical or pertaining to patient) for materials required to keep the hospital running i.e. linens from housekeeping, supplies from central supply etc. If something needs to happen in a hospital or clinic, from printing a requisition to e-prescribing, orders distribute pertinent data from system to system.</p>
+
+<p>ORM messages are most commonly used to send Radiology Orders and Lab Orders[1]. Following the standard HL7 message structure, an ORM message is made up of segments and groups of segments, each of which may be required, optional, repeatable, or some combination thereof. A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:
+- No brackets around it - <strong>Required</strong>
+- [] - <strong>Optional</strong>
+- { } - <strong>Repeating</strong>
+- [{ }] - <strong>Optional Repeating</strong></p>
+
+<p>The ORM message structure is as follows.
+<code>
+ORM     General Order Message
+MSH     Message Header
+ [{NTE}]    Notes and Comments (for Header)
+[
+   PID     Patient Identification
+   [PD1]    Additional Patient Identification
+      [{NTE}]  Notes and Comments (for Patient ID)
+   [PV1    Patient Visit
+    [PV2|]   Patient Visit Additional Information
+    [{IN1   Insurance
+      [IN2]   Insurance Additional Info
+   [IN3]   Insurance Additional Info
+    }]
+    [GT1]   Guarantor
+    [{AL1}]   Allergy
+  ]
+]
+ {
+   ORC    Common Order
+  [
+   Order Detail Segment OBR, etc.
+       [{NTE}]  Notes and Comments (for Detail)
+       [{DG1}]  Diagnosis
+       [
+        {
+         OBX   Observation/Result
+              [{NTE}] Notes and Comments (for Results)
+         }
+       ]
+  ]
+  {[CTI]}   Clinical Trial Identification
+ [BLG]    Billing segment
+ }
+</code></p>
+
+<p>A couple of interesting things to note before we work through an example.</p>
+
+<ul>
+  <li>
+    <p>As mentioned earlier, the ORM message can be used to send patient specific orders or just operational orders (like ordering sheets etc.) which is why, the PID segment above is an optional segment. The segment is only required in the case of new orders and only if the new order is related to a particular patient. Only then will / should  the PID segment be included in the message.</p>
+  </li>
+  <li>
+    <p>Note the presence of multiple (optional, repeatable) Diagnosis (DG1) segments. If repeated, the first will be the primary diagnosis.</p>
+  </li>
+  <li>
+    <p>Note the presence of the OBX (Observation) segment as an optional, repeatable segment. The use here is different from its use in the ORU (Observational Report - Unsolicited) message. When used, it carries clinical information that might be needed by the receiving system to interpret the observation that will be made, rather than information about observations and results. So if the consuming system is an Imaging system, then the ID would be set to TCM and and additional context around the order would be sent (for example, CPT code of order with the associated description- 73610^X-RAY ANKLE 3+ VW). Similarly, other ID types allowed include GDT (narrative), Addendum (ADT), Study Notes (TCM), Transcribed Reports (TX).</p>
+  </li>
+</ul>
+
+<p>With that out of the way, let’s take a simple message and see how it gets translated into an HL7 ORM message.</p>
+
+<p>The message I want to send is: A male, African American patient, John Appleseed, MRN:20891312, SSN:123-45-7890 born on December 1, 1966 and account number of 11480003 needs to have X-Ray of his ankle done. The order is being place by Dr. James Matthews. The exact procedure to be performed is X-RAY ANKLE 3+ VW with the associated CPT code  of 73610. This is based upon a diagnosis of Broken Ankle. Additional information that will need to be sent will include facility, sending and receiving systems, the version of HL7 being used etc.</p>
+
+<p>Based on this information, the segments would be created as follows:</p>
+
+<p><strong>MSH - Message Header</strong>
+Assuming an all Epic environment i.e. sending and receiving systems are all Epic and order is created at 2014/04/18 at 17:33:14. Version of HL7 being used is v2.3. This would result in a segment that looks like this.</p>
+
+<p><code>
+MSH|^~\&amp;|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||
+</code></p>
+
+<p><strong>PID - Patient Identification</strong>
+Since this message is a patient specific order, it needs all the associated patient info to prevent any confusion and ensure no billing comebacks. This would include the patients identifier, full name, DOB, sex, race, address, phone number(s), account number, SSN and place of birth. Some of these are optional as described in the format specification.</p>
+
+<p><code>
+PID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505 S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S|| 11480003|123-45-7890||||^^^WI^^
+</code>
+I’ll skip the NTE segment and go the next key one.</p>
+
+<p><strong>PD1 - Patient Additional demographics</strong>
+This essentially contains the name and ID of primary facility where care is being provided and the name and ID of the provider placing the order resulting in</p>
+
+<p><code>
+PD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^
+</code></p>
+
+<p><strong>PV1 - Patient Visit</strong>
+This usually contains information on the admission information, attending, referring and consulting, admitting physician IDs and names and so on. I’ll just keep it simple and just have the attending physician’s info in the sample giving us</p>
+
+<p><code>
+PV1|||^^^CARE HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V
+</code></p>
+
+<p><strong>ORC - Common Order</strong>
+Finally, we get to the order details. As mentioned before, since this is a patient specific order, it must be a new order.  So, we need to specify that it is a new order (NW), the order number of the originating (placer) system (987654 from EPIC), the order number of the system filling this (for reference - 76543 from EPIC). Additional details that need to be filled in include dates and times of transaction, who created the order, who the ordering provider was, the location IDs (facility, department) and callback information in case something needs to be clarified.</p>
+
+<p><code>
+ORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||
+</code></p>
+
+<p><strong>Observation Request</strong>
+Since the order is being sent to an imaging facility, additional details need to be specified such as the CPT codes and so on. I won’t detail this as much here. The key fields required here are the order details (73610^X-RAY ANKLE 3+ VW), ordering provider info (1173^MATTHEWS^JAMES^A^^^) and who the interpreter of the results is going to be (6064^MANSFIELD^JEREMY^^^^).
+<code>
+OBR|1|363463^EPC|1858^EPC|73610^X-RAY ANKLE 3+ VW^^^X-RAY ANKLE ||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-
+8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|
+</code></p>
+
+<p><strong>DG1:  - Diagnosis</strong>
+Some basic context needs to be provide so that the billing systems can do their work so diagnosis information is also provided. So in ICD10 (I10), ankle fracture is coded as S82.</p>
+
+<p><code>
+DG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||
+</code></p>
+
+<p>Now, we string all these together and we get the full HL7 ORM message.</p>
+
+<p><code>
+MSH|^~\&amp;|EPIC|EPIC|||20140418173314|1148|ORM^O01|497|D|2.3||
+PID|1||20891312^^^^EPI||APPLESEED^JOHN^A^^MR.^||19661201|M||AfrAm|505 S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-4567|(608)123-5678||S|| 11480003|123-45-7890||||^^^WI^^
+PD1|||FACILITY(EAST)^^12345|1173^MATTHEWS^JAMES^A^^^
+PV1|||^^^CARE HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V
+ORC|NW|987654^EPIC|76543^EPC||Final||^^^20140418170014^^^^||20140418173314|1148^PATTERSON^JAMES^^^^||1173^MATTHEWS^JAMES^A^^^|1133^^^222^^^^^|(618)222-1122||
+OBR|1|363463^EPC|1858^EPC|73610^X-RAY ANKLE 3+ VW^^^X-RAY ANKLE ||||||||||||1173^MATTHEWS^JAMES^A^^^|(608)258-
+8866||||||||Final||^^^20140418170014^^^^|||||6064^MANSFIELD^JEREMY^^^^||1148010^1A^EAST^X-RAY^^^|^|
+DG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||
+</code></p>
+
+<p>It’s not pretty, but it’s the way healthcare orders are passed from system to system today, even if it’s an all EPIC facility. Thankfully there are services like Datica to help you work with HL7 messages.</p>
+
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
+
+<p>Looking for further help on integrating an ORM (Orders, Procedures) feed with an EHR? Check out <a href="http://content.catalyze.io/orm-orders-procedures-integration-help">ORM Integration Help</a></p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

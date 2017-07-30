@@ -1,0 +1,391 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Introduction to FHIR | The Datica Academy</title>
+<meta name="description" content="The FHIR acronym stands for Fast Healthcare Interoperability Resources. FHIR is a new open sourced interoperability standard of the HL7 organization. ">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="Introduction to FHIR | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, FHIR">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Mohan Balachandran">
+<meta property="article:published_time" content="May 26, 2015">
+<meta property="og:description" content="The FHIR acronym stands for Fast Healthcare Interoperability Resources. FHIR is a new open sourced interoperability standard of the HL7 organization. ">
+<meta property="og:title" content="Introduction to FHIR | The Datica Academy">
+<meta itemprop="og:headline" content="Introduction to FHIR | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/introduction-to-fhir/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="Introduction to FHIR | The Datica Academy">
+<meta property="twitter:description" content="The FHIR acronym stands for Fast Healthcare Interoperability Resources. FHIR is a new open sourced interoperability standard of the HL7 organization. ">
+
+<meta class="swiftype" name="title" data-type="string" content="Introduction to FHIR | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="The FHIR acronym stands for Fast Healthcare Interoperability Resources. FHIR is a new open sourced interoperability standard of the HL7 organization. " />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/introduction-to-fhir/" />
+<meta class="swiftype" name="tags" data-type="string" content="FHIR" />
+
+<link rel="canonical" href="https://datica.com/academy/introduction-to-fhir/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/introduction-to-fhir/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_introduction-to-fhir academy_introduction-to-fhir_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">Introduction to FHIR</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/2xzeMZo9aYQQQk6KiqiOsG/133e18144c864de6189daec280c71747/prof-mohan.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mohan Balachandran"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Mohan Balachandran
+        </h4>
+        <p class="person-title">Co-Founder</p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    May 26, 2015
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">FHIR</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                    <div class="lead"> <p>FHIR (Fast Healthcare Interoperability Resources) is a new and emerging standard being developed under the auspices of the <a href="https://hl7.org">Health Language 7</a> (HL7) organization. <a href="https://catalyze.io/learn/hl7-101-a-primer">(View a primer on HL7.)</a> Pronounced as ‘Fire’, it was initially developed by <a href="http://www.healthintersections.com.au/">Graham Grieve</a>, who insisted FHIR be open sourced. At its core, FHIR is intended to be <strong>the</strong> next generation of healthcare interoperability. It tries to combine the best features of HL7 Version 2 and Version 3, in which Grieve was significantly involved.</p>
+</div>
+                
+<h3 id="why-fhir">Why FHIR?</h3>
+
+<p>The current state-of-the-art in healthcare integration and interoperability is based on HL7, and is a serious mess. Organizations today spend upwards of $5000 to $10,000 per HL7 interface, not to mention serious licensing fees to implement and use integration engines. All of which raise the interesting question of, “Wait, if they are all based on a standard, why do I need an integration engine?” For two reasons:</p>
+
+<ol>
+  <li>HL7 is a standard but it is not an <strong>open</strong> standard. You need to be a member of the HL7 organization and pay  fees before using the content in any commercial fashion.</li>
+  <li>HL7 is an ancient standard: <a href="http://en.wikipedia.org/wiki/Health_Level_7">Wikipedia</a> notes that it was developed in the late 80s when a lot of things we take for granted now didn’t exist - mobile numbers, emails, NPI (national provider identifiers), APIs…</li>
+</ol>
+
+<p>What resulted was a lot of “I’ll just do it <strong>this</strong> way”, causing an explosion of HL7 variants. This, in turn, led to the need for interface engines where additional logic needs to be coded to accommodate those <em>“this-way”</em> variants and other healthcare specific use cases. That led to the bigger problem that integration and logic is now embedded into the data transformation process. Change your source system (upgrade, replace, etc.) and your integration falls apart. Need more data than you’re currently getting, well, it’s back to the integration engine again. Oh, by the way, there is no concept of CI / CD (continuous integration, continuous deployment) in the context of integration engines. Often developers make changes in production directly, which is also why healthcare institutions are very cautious about providing access to systems sending data to any external system, no matter the value. And for good reason, as you can imagine.</p>
+
+<h4 id="a-better-more-modern-approach-to-integration-and-interoperability">A better, more modern approach to integration and interoperability</h4>
+
+<p>FHIR has an ambitious goal. Integration capabilities should be built into the EHR itself along with the other aspects of authentication and security. Over time, this will eliminate the need for expensive integration projects and licenses. Additionally, the use of modern concepts such as <a href="http://en.wikipedia.org/wiki/Representational_state_transfer">RESTful APIs</a> and accompanying documentation will make it much easier for developers and applications to quickly connect and get the data needed. From a design perspective, the general principle is that since healthcare is complicated, creating a standard set of models which are transactional in nature (like HL7) has been shown to be problematic. Therefore, creating core models (like patients, for example), having standardized data models around those core elements, and ensuring that most, if not all, use cases can be addressed by allowing requests to be <strong>composed</strong> as needed.</p>
+
+<p>Given the above, FHIR does offer many improvements over existing standards:</p>
+
+<ul>
+  <li><strong>It’s open source</strong>: This is a big deal and the first effort in making healthcare integration more transparent and accessible. Putting it out in the open has created a significant community including developers, vendors and enterprises.</li>
+  <li><strong>RESTful</strong>: REST-based design brings a significant amount of benefit, namely that an API that adheres to the principles of REST does not require the client to know anything about the structure of the API. Rather, the server needs to provide whatever information the client needs to interact with the service.</li>
+  <li><strong>Extensible</strong>: Extensibility under the RESTful context ensures that additions can be easily tacked on to cover specific use cases without impacting the core models.</li>
+  <li><strong>Composable</strong>: Composability ensures that almost any request can be cobbled together using core models or resources and associated extensions.</li>
+  <li><strong>Good documentation</strong>: Uniquely driven by the RESTful API approach, which enforces good documentation as a byproduct. A playable version of the FHIR APIs would be a nice to have and is something that we, at Datica, intend to provide as part of this documentation.</li>
+  <li><strong>Support for modern web standards</strong>: XML, JSON, HTTP, Atom, OAuth, REST - these are the underlying technologies that FHIR leverages. These are battle tested and have been proven at scale and under significant security requirements.</li>
+</ul>
+
+<h4 id="flexibility-without-modifying-underlying-systems-or-integration-engines">Flexibility without modifying underlying systems or integration engines</h4>
+
+<p>As described earlier, various healthcare workflows (e.g. z-segments in HL7) that forced extensions of standards is one of the biggest challenges with older integrations. Underlying systems required code changes to generate specific datasets and additional work on the integration engine to support the data processing. All this made it very cumbersome to create and manage integrations with any changes in the underlying source systems (e.g. upgrades etc.), causing a significant amount of rework.</p>
+
+<p>FHIR addresses this by:</p>
+
+<ul>
+  <li><strong>Focusing on ease of implementation</strong>: Implementation is very different from most standards where the focus is typically more on coverage and data models. FHIR is interesting because the focus has been on ease of implementation from the beginning, including backwards compatibility. Multiple implementation libraries have also been provided in Java and .NET, among others, along with many examples to kick-start development. The website claims “multiple developers had simple interfaces working in a single day”, which is unheard of in healthcare.</li>
+  <li><strong>Easy extensibility</strong>: FHIR solves extensibility challenges by defining a simple framework for extending and adapting the existing resources. All systems, no matter how they are developed, can easily read these extensions and extension definitions can be retrieved using the same framework as retrieving other resources.</li>
+  <li><strong>Human readability</strong>: HL7 3.0 had a concept of a human readable version of the document / data being shared to ensure that developers or clinicians could still read the source data to eliminate any potential of misconfiguration or coding errors. FHIR borrows this concept as well. Every resource carries a human-readable text representation using html as a fallback display option. This is particularly important for complex clinical information where many systems take a simple textual/document based approach.</li>
+</ul>
+
+<h3 id="advantages-over-existing-standards-eg-hl7">Advantages over existing standards, e.g. HL7</h3>
+
+<ul>
+  <li><strong>Pipe delimited vs. JSON, XML…</strong>: No further discussion is required. This approach makes it more easily usable, understandable and testable.</li>
+  <li><strong>Security</strong>: HL7 as a protocol doesn’t have security and authentication built into it. To be fair, HL7 was always meant to enable intra-system communication, like between lab systems and an EHR. All of which were within a health system’s firewalls. Therefore authentication wasn’t really needed. The evolution of healthcare has made care delivery more dispersed, which is why HL7 is beginning to show it’s gaps. FHIR leverages (or is in the process of defining) modern https based authentication and authorization capabilities such as OAuth, which are prevalent in the modern web and have been battle tested over the years.</li>
+  <li><strong>Flexible and composable</strong>: The FHIR design allows developers to combine requests to create any interface or extend resources (with associated definition) and “tack” them onto pre-defined resource models. <a href="https://catalyze.io/learn/the-fhir-resource-object-the-core-building-block">(More on the Resource Object here.)</a> No coding up the underlying systems or touching interface engines required.</li>
+</ul>
+
+<h3 id="status-and-challenges">Status and challenges</h3>
+
+<p>FHIR is still a work in progress. It does have a few advantages.</p>
+
+<h4 id="significant-industry-support">Significant industry support</h4>
+
+<p>Individual developers and other organizations have contributed sample implementations, like <a href="http://jamesagnew.github.io/hapi-fhir/">HAPI-FHIR</a> and many more. Plus a significant group of enterprises have come together under the auspices of HL7 with the moniker of “Argonaut Project”. This group includes EHR vendors and health systems such as
+- athenahealth
+- Beth Israel Deaconess Medical Center
+- Cerner
+- Epic
+- Intermountain Healthcare
+- Mayo Clinic
+- Meditech
+- McKesson
+- Partners HealthCare System
+- SMART at the Boston Children’s Hospital Informatics Program
+- The Advisory Board Company</p>
+
+<h4 id="its-a-work-in-progress">It’s a work in progress</h4>
+
+<p>Despite significant industry support, it is unlikely widespread implementations of FHIR will be seen until the 2016-2017 timeframe because definitions and specifications are still in progress, implementations are still underway and more EHR software changes are likely required.</p>
+
+<h4 id="security-is-still-an-open-item">Security is still an open item</h4>
+
+<p>Security with FHIR is incomplete. Authentication before Authorization or vice versa? Conformance and associated profiles per link? Is there to be an API route to call to verify that? Is that route open to everyone?</p>
+
+<h4 id="not-real-time">Not real-time</h4>
+
+<p>Currently the biggest gap, FHIR is not a real-time protocol. In contrast, HL7 was always a real-time protocol. If someone was admitted to the hospital, all relevant parties were notified immediately via ADT.</p>
+
+<p>FHIR is currently still a request based protocol. You ask if you need to know something such as <em>“Was this person admitted to the hospital?”</em>, which makes sense from a patient app perspective, but not so much from a workflow perspective. Webhooks are optional additions, but begs the question <em>“Why can’t we just FHIR enable HL7?”</em> The Datica answer is, <em>“Yes, indeed. It should.”</em></p>
+
+<h4 id="granular-resource-model-can-become-request-intensive">Granular resource model can become request intensive</h4>
+
+<p>ADT (and other HL7) messages were crafted with care to support hospital and ancillary system workflows. The flexibility and composability (described in the advantages section above) come at a cost. To get all the data that one normally expects from an ADT message would require a “bundle” of FHIR resources. This could get complicated and request-intensive quickly.</p>
+
+<h3 id="summary">Summary</h3>
+
+<p>Overall, FHIR has a lot going for it. There are gaps but they are neither unexpected nor insurmountable. Stay tuned for updates as the FHIR standard evolves.</p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

@@ -1,0 +1,461 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HL7 205 - The HL7 MDM (Medical Document Management) Message | The Datica Academy</title>
+<meta name="description" content="The Medical Document Management (MDM) message is a commonly used HL7 message type that provides information about new or updated notes or documents. ">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="HL7 205 - The HL7 MDM (Medical Document Management) Message | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HL7">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Rick Wattras">
+<meta property="article:published_time" content="May 11, 2016">
+<meta property="og:description" content="The Medical Document Management (MDM) message is a commonly used HL7 message type that provides information about new or updated notes or documents. ">
+<meta property="og:title" content="HL7 205 - The HL7 MDM (Medical Document Management) Message | The Datica Academy">
+<meta itemprop="og:headline" content="HL7 205 - The HL7 MDM (Medical Document Management) Message | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="HL7 205 - The HL7 MDM (Medical Document Management) Message | The Datica Academy">
+<meta property="twitter:description" content="The Medical Document Management (MDM) message is a commonly used HL7 message type that provides information about new or updated notes or documents. ">
+
+<meta class="swiftype" name="title" data-type="string" content="HL7 205 - The HL7 MDM (Medical Document Management) Message | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="The Medical Document Management (MDM) message is a commonly used HL7 message type that provides information about new or updated notes or documents. " />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+
+<link rel="canonical" href="https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/hl7-205-the-hl7-mdm-medical-document-management-message/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_hl7-205-the-hl7-mdm-medical-document-management-message academy_hl7-205-the-hl7-mdm-medical-document-management-message_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">HL7 205 - The HL7 MDM (Medical Document Management) Message</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/4xmJ1U6DBewscgS6sq6Y0a/3c8fb5edd007644abcb2fa43b536327d/prof-rick.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Rick Wattras"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Rick Wattras
+        </h4>
+        <p class="person-title"></p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    May 11, 2016
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">HL7</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <p>The Medical Document Management (MDM) message is a commonly used HL7 message type that provides information about new or updated notes or documents. Per the HL7 standard, it’s main purpose is “to produce an accurate, legal, and legible document that serves as a comprehensive account of healthcare services provided to a patient”.</p>
+
+<p>There are several MDM message trigger events and they can be split into two categores - those that describe the status of the document and those that both describe the document and also contain the document itself:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>MDM Subtype</th>
+      <th>Trigger Event/Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T01</td>
+      <td>Original Document Notification</td>
+    </tr>
+    <tr>
+      <td>T02</td>
+      <td>Original Document Notification with Content</td>
+    </tr>
+    <tr>
+      <td>T03</td>
+      <td>Document Status Change Notification</td>
+    </tr>
+    <tr>
+      <td>T04</td>
+      <td>Document Status Change Notification with Content</td>
+    </tr>
+    <tr>
+      <td>T05</td>
+      <td>Document Addendum Notification</td>
+    </tr>
+    <tr>
+      <td>T06</td>
+      <td>Document Addendum Notification with Content</td>
+    </tr>
+    <tr>
+      <td>T07</td>
+      <td>Document Edit Notification</td>
+    </tr>
+    <tr>
+      <td>T08</td>
+      <td>Document Edit Notification with Content</td>
+    </tr>
+    <tr>
+      <td>T09</td>
+      <td>Document Replacement Notification</td>
+    </tr>
+    <tr>
+      <td>T10</td>
+      <td>Document Replacement Notification with Content</td>
+    </tr>
+    <tr>
+      <td>T11</td>
+      <td>Document Cancel Notification</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Following the standard HL7 message structure, an MDM message is made up of segments and groups of segments, each of which may be required, optional, repeatable, or some combination thereof. A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:
+- No brackets around it - <strong>Required</strong>
+- [] - <strong>Optional</strong>
+- { } - <strong>Repeating</strong>
+- [{ }] - <strong>Optional Repeating</strong></p>
+
+<p>The MDM message structure is as follows.
+<code>
+MDM     Medical Document Management Message
+MSH     Message Header
+PID     Patient Identification
+  [{NTE}]  Notes and Comments
+PV1   Patient Visit
+{[
+  ORC    Common Order
+  OBR Observation Request
+    [NTE]  Notes and Comments
+]}
+TXA Document Notification
+  [{NTE}] Notes and Comments
+{
+  OBX* Observation notes
+    [{NTE}] Notes and Comments
+}
+</code></p>
+
+<p>Some notes on the above triggers and message structure:</p>
+
+<ul>
+  <li>
+    <p>The most common of the MDM subtypes is the T02 because it notifies the receiving system that a new document has been created and also includes the document content itself. One typical workflow will have a vendor write notes back into the EMR via an MDM^T02 so that the notes are loaded into a patient’s chart and available for physician review.</p>
+  </li>
+  <li>
+    <p>The ORC/OBR segments are optional and are mostly only used for workflows like order-based transcriptions, where an order can be created or updated by the MDM message.</p>
+  </li>
+  <li>
+    <p>Note the asterisk (*) next to the OBX segment. That’s there to indicate that MDM messages will only include repeating OBX segments if they include the document content itself. The content is stored in the OBX segment(s) in a format dictated by the receiving system. Some possible formats include: plain text, formatted text (ie. RTF), or base64-encoded documents like PDFs. The document can be split across multiple OBX segments or stored in one single OBX dependent on the preference of the receiving system or the character limits of each segment.</p>
+  </li>
+</ul>
+
+<p>Now let’s break down an example MDM HL7 message by each segment. The message we want to send is: a note containing a consulting physician’s (James A. Matthews) clinical diagnosis has been created and should be attached to a patient’s chart. The patient is Mike J. Thomas: male, African American, MRN:12983718, SSN:123-45-9999, born on January 1, 1970, account number: 18273652.</p>
+
+<p>Based on this information, the required segments would be created as follows:</p>
+
+<p><strong>MSH - Message Header</strong>
+Let’s assume an all Epic environment, i.e. the sending and receiving systems are both Epic, and that the note is created on 2016/05/10 at 07:16:33. Also, the version of HL7 being used is v2.3. This would result in a segment that looks like this.</p>
+
+<p><code>
+MSH|^~\&amp;|Epic|Epic|||20160510071633||MDM^T02|12345|D|2.3
+</code></p>
+
+<p><strong>PID - Patient Identification</strong>
+Here we identify which patient this note is about. We include the patient’s identifier, full name, DOB, sex, race, address, phone number(s), account number, SSN and place of birth. Some of these are optional as described in the format specification:</p>
+
+<p><code>
+PID|1||12983718^^^^EPI||Thomas^Mike^J^^MR.^||19500101|M||AfrAm|506 S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-9998|(608)123-5679||S||18273652|123-45-9999||||^^^WI^^
+</code></p>
+
+<p><strong>PV1 - Patient Visit</strong>
+This usually contains information on the admission information, attending, referring and consulting, admitting physician IDs and names and so on. We’ll just keep it simple and just have the consulting physician’s info:</p>
+
+<p><code>
+PV1|||^^^CARE HEALTH SYSTEMS^^^^^||||||1173^MATTHEWS^JAMES^A^^^||||||||||||
+</code></p>
+
+<p><strong>TXA - Document Notification</strong>
+The TXA segment contains information about the transcribed document including the report type, date/time, provider info, a unique document number assigned by the sending system (ex: 12345), and a document status (ex: PA = Pre-Authenticated):</p>
+
+<p><code>
+TXA||CN||20160510071633|1173^MATTHEWS^JAMES^A^^^|||||||^^12345|||||PA|
+</code></p>
+
+<p><strong>OBX - Observation</strong>
+OBX segment(s) contain the document content itself. Here, we’ll split out document contents into multiple OBX segments for clarity though this isn’t a requirement. The receiving system should dictate their preference. In this example, TX indicates the content will be in plain text:</p>
+
+<p><code>
+OBX|1|TX|||Clinical summary: Based on the information provided, the patient likely has viral sinusitis  commonly called a head cold.
+OBX|2|TX|||Diagnosis: Viral Sinusitis
+OBX|3|TX|||Diagnosis ICD: J01.90
+OBX|4|TX|||Prescription: benzonatate (Tessalon Perles) 100mg oral tablet 30 tablets, 5 days supply. Take one to two tablets by mouth three times a day as needed. disp. 30. Refills: 0, Refill as needed: no, Allow substitutions: yes
+</code></p>
+
+<p>Now, putting them all together we get the full HL7 MDM message.</p>
+
+<p><code>
+MSH|^~\&amp;|Epic|Epic|||20160510071633||MDM^T02|12345|D|2.3
+PID|1||12983718^^^^EPI||Thomas^Mike^J^^MR.^||19500101|M||AfrAm|506 S. HAMILTON AVE^^MADISON^WI^53505^US^^^DN |DN|(608)123-9998|(608)123-5679||S||18273652|123-45-9999||||^^^WI^^
+PV1|||^^^CARE HEALTH SYSTEMS^^^^^||||||1173^MATTHEWS^JAMES^A^^^||||||||||||
+TXA||CN||20160510071633|1173^MATTHEWS^JAMES^A^^^|||||||^^12345|||||PA|
+OBX|1|TX|||Clinical summary: Based on the information provided, the patient likely has viral sinusitis  commonly called a head cold.
+OBX|2|TX|||Diagnosis: Viral Sinusitis
+OBX|3|TX|||Diagnosis ICD: J01.90
+OBX|4|TX|||Prescription: benzonatate (Tessalon Perles) 100mg oral tablet 30 tablets, 5 days supply. Take one to two tablets by mouth three times a day as needed. disp. 30. Refills: 0, Refill as needed: no, Allow substitutions: yes
+</code></p>
+
+<p>That’s it! If it looks complicated, don’t worry - Datica is here to help.</p>
+
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
+
+<p>And don’t forget to review the rest of our HL7 articles <a href="https://datica.com/academy">here</a> to learn more about other available HL7 message types and workflows.</p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

@@ -1,0 +1,556 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy</title>
+<meta name="description" content="The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling messages with date and time, resources, services, location, and more appoint info. ">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HL7">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Mohan Balachandran">
+<meta property="article:published_time" content="May 4, 2016">
+<meta property="og:description" content="The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling messages with date and time, resources, services, location, and more appoint info. ">
+<meta property="og:title" content="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy">
+<meta itemprop="og:headline" content="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy">
+<meta property="twitter:description" content="The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling messages with date and time, resources, services, location, and more appoint info. ">
+
+<meta class="swiftype" name="title" data-type="string" content="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling messages with date and time, resources, services, location, and more appoint info. " />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+
+<link rel="canonical" href="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_hl7-204-the-hl7-scheduling-messages-siu-and-srm academy_hl7-204-the-hl7-scheduling-messages-siu-and-srm_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">HL7 204 - The HL7 Scheduling messages, SIU and SRM</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/2xzeMZo9aYQQQk6KiqiOsG/133e18144c864de6189daec280c71747/prof-mohan.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mohan Balachandran"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Mohan Balachandran
+        </h4>
+        <p class="person-title">Co-Founder</p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    May 4, 2016
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">HL7</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <p>The SIU (Schedule Information Unsolicited) and SRM (Schedule Request Message) messages contain information related to appointment scheduling. SRM messages are used for requesting changes to a health system’s schedule, such as a request for a new appointment booking, appointment rescheduling, modification, cancellation, etc. SIU messages are used to notify auxiliary applications of a change made to the health system’s schedule, such as a notification for the booking of a new appointment, appointment rescheduling, modification, cancellation, etc. Scheduling messages contain information about the appointment date and time, resources, services, location, and any other pertinent information regarding the appointment. The purpose or action prescribed by any scheduling message will depend entirely on the trigger event (See the List of Trigger Events below).</p>
+
+<p>Following the standard HL7 message structure, an SIU or SRM message is made up of segments and groups of segments, each of which may be required, optional, repeatable, or some combination thereof. A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:</p>
+
+<ul>
+  <li>No brackets around it - Required</li>
+  <li>[] - <strong>Optional</strong></li>
+  <li>{ } - <strong>Repeating</strong></li>
+  <li>[{ }] - <strong>Optional Repeating</strong></li>
+</ul>
+
+<p>Below are the message structures of both the SIU and the SRM:</p>
+
+<h2 id="siu-message-structure">SIU Message Structure</h2>
+<p>```
+SIU     Schedule Information Unsolicited</p>
+
+<p>MSH     Message Header
+SCH     Schedule Activity Information
+ [{NTE}]     Notes and Comments (for Schedule Activity)
+PID     Patient Identification
+ [PD1]     Patient Additional Demographics
+ [ROL]     Role (for Patient)
+ [PV1]     Patient Visit Information
+ [PV2]     Patient Visit Info Continued
+ [{OBX}]     Notes and Comments (for Patient)
+ [{DG1}]     Diagnosis (for Patient)
+{
+	RGS     Resource Group Segment
+	{
+		AIS     Appointment Info. - Service
+		 [{NTE}]     Notes and Comments (for Service)
+	}
+	[{
+		AIG     Appointment Info. - General Resource
+		 [{NTE}]     Notes and Comments (for Resource)
+	}]
+	[{
+		AIP     Appointment Info. - Personnel
+		 [{NTE}]     Notes and Comments (for Personnel)
+	}]
+}
+```</p>
+
+<h2 id="the-srm-message-structure">The SRM Message Structure</h2>
+<p>```
+SRM     Schedule Request Message</p>
+
+<p>MSH     Message Header
+ARQ     Appointment Request Information
+ [{NTE}]     Notes and Comments (for Schedule Activity)
+PID     Patient Identification
+ [PD1]     Patient Additional Demographics
+ [ROL]     Role (for Patient)
+ [PV1]     Patient Visit Information
+ [PV2]     Patient Visit Info Continued
+ [{OBX}]     Notes and Comments (for Patient)
+ [{DG1}]     Diagnosis (for Patient)
+{
+	RGS     Resource Group Segment
+	{
+		AIS     Appointment Info. - Service
+		 [{NTE}]     Notes and Comments (for Service)
+	}
+	[{
+		AIG     Appointment Info. - General Resource
+		 [{NTE}]     Notes and Comments (for Resource)
+	}]
+	[{
+		AIP     Appointment Info. - Personnel
+		 [{NTE}]     Notes and Comments (for Personnel)
+	}]
+}
+```</p>
+
+<p>There are a few things to note about the message structures. As you may have already noticed, the structure of the two message types are virtually identical. We’ll discuss that more later. For now, we will explore the shared features of both the SIU and SRM:</p>
+
+<ul>
+  <li>
+    <p>The Resource Group segment (RGS) is always required, and may contain more than one resource group. This segment acts as a header for the collection of resource segments that follow it.</p>
+  </li>
+  <li>
+    <p>Within a Resource Group, the Appointment Service Information (AIS) is the only required resource segment. This suggests that any new/requested appointment must have a scheduled service attached to it.</p>
+  </li>
+  <li>
+    <p>Note the presence of multiple (optional, repeatable) Diagnosis (DG1) segments. If repeated, the first will be the primary diagnosis.</p>
+  </li>
+  <li>
+    <p>Note the presence of the OBX (Observation) segment as an optional, repeatable segment. The use here is different from its use in the ORU (Observational Report - Unsolicited) message. When used, it contains notes and comments pertaining to the patient in much the same way an NTE segment would, rather than information about observations and results. For instance, the OBX segments may contain a Transcribed Report (TX) with patient information that may be relevant to the appointment.</p>
+  </li>
+</ul>
+
+<p>As mentioned before, the only apparent difference between the structure of an SIU message and an SRM message is the second segment. The SIU message contains an <strong>SCH</strong> segment whereas the SRM message contains an <strong>ARQ</strong> segment. Even these two segments share most of the same fields. However, there are some key differences, notably:</p>
+
+<ul>
+  <li>
+    <p><strong>Date/Time Range</strong>
+  In the SIU message, the SCH segment contains one field with all of the appointment timing/quantity information in one place (SCH.11). In the SRM message, the ARQ segment has four separate fields for appointment timing quantity. They consist of one required field for the requested start date/time range (ARQ.11) and the optional fields for appointment priority (ARQ.12), repeating interval (ARQ.13), and the interval duration (ARQ.14).</p>
+  </li>
+  <li>
+    <p><strong>Audit Trail Contacts</strong>
+  The SIU message can contain the name, phone number, address, and location information for the person who “placed” the appointment (SCH.12 - SCH.15), the person who “filled” the appointment (SCH.16 - SCH.19), and the person who “entered” the appointment (SCH.20 - SCH.22). As an SRM message is sent only when an appointment has not yet been filled, the ARQ segment only contains fields for the placer (ARQ.15 - ARQ.18) and enterer (ARQ.19 - ARQ.21) of the appointment.</p>
+  </li>
+  <li>
+    <p><strong>Filler Status Code</strong>
+  The status of the appointment is only present in SIU messages (SCH.25). This is, again, due to the fact that a scheduling request must be filled before it can have any status other than “requested”.</p>
+  </li>
+</ul>
+
+<p>Apart from the few differences between the SCH segment and the ARQ segment, there is no structural difference between an SIU message and an SRM message. However, the main difference between any two message types comes not from the structure of the message, but from the action prescribed by the different trigger events.</p>
+
+<h3 id="list-of-trigger-events">List of Trigger Events</h3>
+
+<p>Trigger events for SRM:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Segment ID</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S01</td>
+      <td>Request New Appointment Booking</td>
+    </tr>
+    <tr>
+      <td>S02</td>
+      <td>Request Appointment Rescheduling</td>
+    </tr>
+    <tr>
+      <td>S03</td>
+      <td>Request Appointment Modification</td>
+    </tr>
+    <tr>
+      <td>S04</td>
+      <td>Request Appointment Cancellation</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Trigger Events for SIU:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Segment ID</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S12</td>
+      <td>Notification of New Appointment Booking</td>
+    </tr>
+    <tr>
+      <td>S13</td>
+      <td>Notification of Appointment Rescheduling</td>
+    </tr>
+    <tr>
+      <td>S14</td>
+      <td>Notification of Appointment Modification</td>
+    </tr>
+    <tr>
+      <td>S15</td>
+      <td>Notification of Appointment Cancellation</td>
+    </tr>
+    <tr>
+      <td>S26</td>
+      <td>Notification that Patient did not show up for Scheduled Appointment</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="message-construction">Message Construction</h3>
+
+<p>The message I want to send is: A female, Caucasian patient, Jane Fredericks, MRN:30745109, SSN:321-87-6543 born on May 1, 1973 and account number of 11396810 wants to schedule a new appointment to have an X-Ray taken of her ankle. The appointment request is being placed by Dr. James Matthews. The exact service to be performed is X-RAY ANKLE 3+ VW with the associated CPT code of 73610. This is based upon a diagnosis of Broken Ankle. Additional information that will need to be sent will include the appointment date and time, duration, sending and receiving systems, the version of HL7 being used etc. The request is approved and the hospital sends a notification for the new appointment booking.</p>
+
+<p>Based on this information, the segments would be created as follows:</p>
+
+<h4 id="msh---message-header">MSH - Message Header</h4>
+<p>Assuming an all Epic environment i.e. sending and receiving systems are all Epic and request is created at 2016/05/02 at 16:20:33. Version of HL7 being used is v2.3. Since this message is a notification for a new appointment booking, the message type is SIU and the trigger event is S12. This would result in a segment that looks like this.</p>
+
+<p><code>
+MSH|^~\&amp;|EPIC|EPIC|||20160502162033||SIU^S12|538|D|2.3||
+</code></p>
+
+<h4 id="sch">SCH</h4>
+<p>This contains all of the scheduling information - the placer and filler application’s appointment identifiers, duration, start time, the person who requested the appointment, and the appointment status. To keep things simple, we’ll only include the identifiers and required information.</p>
+
+<p><code>
+SCH|01928374|57483920|||||||1|hr|1^^^20160515133000|||||||||1173^MATTHEWS^JAMES^A|||||BOOKED
+</code></p>
+
+<h4 id="pid---patient-identification">PID - Patient Identification</h4>
+<p>Since this message is a patient specific request, it needs all the associated patient info to prevent any confusion. This would include the patient’s identifier, full name, DOB, sex, race, address, phone number(s), account number, SSN and place of birth.</p>
+
+<p><code>
+PID|1||30745109^^^^EPI||FREDERICKS^JANE^I^^MRS.^||19730501|F||Cauc|421 N. BAKER ST^^MADISON^WI^53513^US^^^DN|DN|(608)555-6789|(608)555-4321||S||11396810|321-87-6543||||^^^WI^^
+</code></p>
+
+<h4 id="pv1---patient-visit">PV1 - Patient Visit</h4>
+<p>This usually contains information on the admission information, attending, referring and consulting, admitting physician IDs and names and so on. I’ll just keep it simple and just have the attending physician’s info in the sample giving us</p>
+
+<p><code>
+PV1|||^^^CARE HEALTH SYSTEMS^^^^^||| |1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V
+</code></p>
+
+<h4 id="dg1---diagnosis">DG1 - Diagnosis</h4>
+<p>Some basic context needs to be provided so that the billing systems can do their work so diagnosis information is also provided. So in ICD10 (I10), ankle fracture is coded as S82.</p>
+
+<p><code>
+DG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||
+</code></p>
+
+<h4 id="rgs---resource-group">RGS - Resource Group</h4>
+<p>This is brief header for the group of resource segments that follow it. Included is the number of the resource group, the action prescribed (here it’s “add”, or ‘A’), and the group ID. This group ID may be used for modifying or rescheduling the resource group at a later date.</p>
+
+<p><code>
+RGS|1|A|094
+</code></p>
+
+<h4 id="ais---appointment-info---service">AIS - Appointment Info. - Service</h4>
+<p>This contains information related to the scheduled service. In this case, it will be an X-Ray for the patient’s ankle. Along with the CPT code for the scheduled service, the segment also contains the time the service is expected to start (may be different from the appointment start time) and the length of time the service will be needed.</p>
+
+<p><code>
+AIS|1||73610^X-RAY ANKLE 3+ VW^CPT|20160515134500|15|min|45|min||
+</code></p>
+
+<h4 id="aip---appointment-info---personnel">AIP - Appointment Info. - Personnel</h4>
+<p>This optional repeating segment identifies personnel needed for the appointment that are not explicitly mentioned anywhere else in the message. For the scheduled appointment, a radiologist (Allan Good) will be needed to perform the X-Ray. Just like the AIS segment, this segment contains the time the radiologist will be needed and for how long, which gives us</p>
+
+<p><code>
+AIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||
+</code></p>
+
+<h3 id="putting-it-all-together">Putting it all together</h3>
+<p>To assemble the SIU message, we string together the message segments following the message structure outlined above:</p>
+
+<p><code>
+MSH|^~\&amp;|EPIC|EPIC|||20160502162033||SIU^S12|538|D|2.3||
+SCH|01928374|57483920|||||||1|hr|1^^^20160515133000|||||||||1173^MATTHEWS^JAMES^A|||||BOOKED
+PID|1||30745109^^^^EPI||FREDERICKS^JANE^I^^MRS.^||19730501|F||Cauc|421 N. BAKER ST^^MADISON^WI^53513^US^^^DN|DN|(608)555-6789|(608)555-4321||S||11396810|321-87-6543||||^^^WI^^
+PV1|||^^^CARE HEALTH SYSTEMS^^^^^||||1173^MATTHEWS^JAMES^A^^^||||||||||||610613||||||||||||||||||||||||||||||||V
+DG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||
+RGS|1|A|094
+AIS|1||73610^X-RAY ANKLE 3+ VW^CPT|20160515134500|15|min|45|min||
+AIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||
+</code></p>
+
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
+
+<p>Looking for further help on integrating an SIU or SRM feed with an EHR? Check out this post: <a href="http://content.catalyze.io/siu-scheduling-integration-help">SIU Integration Help</a></p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

@@ -1,0 +1,401 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HL7 102 - Anatomy of an HL7 message | The Datica Academy</title>
+<meta name="description" content="This deep dive explains HL7 message types, message structure, message segments, codes, fields and the complete anatomy of an HL7 message.">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="HL7 102 - Anatomy of an HL7 message | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HL7">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Mohan Balachandran">
+<meta property="article:published_time" content="March 11, 2016">
+<meta property="og:description" content="This deep dive explains HL7 message types, message structure, message segments, codes, fields and the complete anatomy of an HL7 message.">
+<meta property="og:title" content="HL7 102 - Anatomy of an HL7 message | The Datica Academy">
+<meta itemprop="og:headline" content="HL7 102 - Anatomy of an HL7 message | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="HL7 102 - Anatomy of an HL7 message | The Datica Academy">
+<meta property="twitter:description" content="This deep dive explains HL7 message types, message structure, message segments, codes, fields and the complete anatomy of an HL7 message.">
+
+<meta class="swiftype" name="title" data-type="string" content="HL7 102 - Anatomy of an HL7 message | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="This deep dive explains HL7 message types, message structure, message segments, codes, fields and the complete anatomy of an HL7 message." />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+
+<link rel="canonical" href="https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/hl7-102-anatomy-of-an-hl7-message/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_hl7-102-anatomy-of-an-hl7-message academy_hl7-102-anatomy-of-an-hl7-message_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">HL7 102 - Anatomy of an HL7 message</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/2xzeMZo9aYQQQk6KiqiOsG/133e18144c864de6189daec280c71747/prof-mohan.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mohan Balachandran"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Mohan Balachandran
+        </h4>
+        <p class="person-title">Co-Founder</p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    March 11, 2016
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">HL7</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <p>In the <a href="/academy/hl7-101-a-primer/">previous entry</a>, we gave you a quick introduction to HL7 and its design - message types, segments and code sets. What I’ve come to also appreciate as I delved deeper into HL7 is that for all its perceived faults, it has more than served its purpose of standardization of communication of clinical and administrative data amongst disparate applications.</p>
+
+<p>One can argue about problems arising because of the lack of standardization of code sets and cross-enterprise communication, but one also has to appreciate that this standard is a couple of decades old when inter-enterprise communication was not something at the top of anyone’s mind. Heck, EHR implementations were rare too. Expecting HL7, which was designed and developed by consensus to address something far more tactical, to also  address the challenges of comprehensive interoperability, is asking a lot of HL7.</p>
+
+<p>With that said, in this post, we’ll delve deeper into HL7 so that you can better understand how an HL7 message is constructed.</p>
+
+<h3 id="the-overall-structure-of-an-hl7-message">The overall structure of an HL7 message</h3>
+
+<p>Think of an HL7 message as an envelope. It contains various segments (pieces of data) which are (usually) patient oriented and triggered based on specific events (admits, lab results, procedures, discharge etc.) and communicate relevant information about that triggered event.</p>
+
+<p>There are a lot of message types - 76 in v2.3 and 85 in v2.3.1 and even more now. The key ones to remember were also listed in my <a href="/academy/hl7-101-a-primer/">previous entry</a>. An HL7 message is constructed with:</p>
+
+<ul>
+  <li>
+    <p><strong>One or more segments</strong>: Segments are re-usable sub-parts of a message which contain the pertinent information related to that message type. So for example, an Admit message would contain information on the patient and her demographics, the reason for admission, the attending physician who signed off on the admit etc. And as you can imagine, patient demographics is reused in a lot of places and is a segment. There are a lot of segments (101 in v2.3 and 111 in v2.3.1) to cover almost any use case you can think of - from financial transactions (DFT) to Bed Status Updates (NPU).</p>
+  </li>
+  <li>
+    <p><strong>Fields &amp; Code sets</strong>: Each segment consists of one or more fields of data. Since the message needs to be as short as possible, the fields are encoded using standardized codes (provided by HL7 or other bodies) or user defined (ideally only if HL7 doesn’t recommend any or you need to communicate more than permitted). Message Header becomes MSH, patient demographics becomes PD1 and Male becomes M. There are lot of additional codes to cover all the various kinds of information that need to be communicated - 1691 codes in v2.3 not including any user defined codes.</p>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>and <strong>Control characters</strong>: These are the ASCII characters used to separate data elements (</td>
+          <td>), indicate spaces or new lines (^) and the beginning of the next segment (the CR or carriage return). These are a subset of the control characters but some of the more important ones.</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p>In order to ensure that the receiving system knows how to parse the incoming message, some rules are laid down in that define</p>
+
+<ul>
+  <li>
+    <p><strong>For each message</strong>, the required or optional segments and the number of times a segment could be repeated within. An example from the HL7 v2.3 standard is shown below. (image: samplehl7.png) (<em>source - HL7 v2.3 implementation guide</em>)</p>
+  </li>
+  <li>
+    <p><strong>For each segment</strong>, the sequence (SEQ) in which fields are expected, their length (LEN), the data types (DT), if the fields are required or optional (R/O), if they are repeatable or not and how many times can they be repeated (RP/#) and the table in which the code sets are defined. This is a “mapping table.” An example of which is shown below. (image: hl7chart.png) (<em>source - HL7 v2.3 implementation guide</em>).</p>
+  </li>
+</ul>
+
+<p>Both of these rules are used for validation of any inbound message but the code sets are not. You can now see how the HL7 standard could be bastardized:</p>
+
+<ul>
+  <li>
+    <p>Code set doesn’t cover all my needs: So you add one more to the list that HL7 provides. Now your HL7 standard is not quite a standard and cannot be shared with another entity unless they implement your code set as well</p>
+  </li>
+  <li>
+    <p>Field repetitions allowed is insufficient: I want to send an EKG reading but the standard only allows for 50 repetitions of key value pairs. So I dump the rest into the Z segment and shoot it over that way. Now your HL7 message can be processed by any engine <strong>but</strong> the content inside the Z segment now has to be parsed and managed separately.</p>
+  </li>
+</ul>
+
+<p>A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:
+- No brackets around it - <strong>Required</strong>
+- [] - <strong>Optional</strong>
+- { } - <strong>Repeating</strong>
+- [{ }] - <strong>Optional Repeating</strong></p>
+
+<p>The ORM message structure is as follows.
+<code>
+ORM     General Order Message
+MSH     Message Header
+ [{NTE}]    Notes and Comments (for Header)
+[
+   PID     Patient Identification
+   [PD1]    Additional Patient Identification
+      [{NTE}]  Notes and Comments (for Patient ID)
+   [PV1    Patient Visit
+    [PV2|]   Patient Visit Additional Information
+    [{IN1   Insurance
+      [IN2]   Insurance Additional Info
+   [IN3]   Insurance Additional Info
+    }]
+    [GT1]   Guarantor
+    [{AL1}]   Allergy
+  ]
+]
+ {
+   ORC    Common Order
+  [
+   Order Detail Segment OBR, etc.
+       [{NTE}]  Notes and Comments (for Detail)
+       [{DG1}]  Diagnosis
+       [
+        {
+         OBX   Observation/Result
+              [{NTE}] Notes and Comments (for Results)
+         }
+       ]
+  ]
+  {[CTI]}   Clinical Trial Identification
+ [BLG]    Billing segment
+ }
+</code></p>
+
+<p>Hope that gave you a deeper insight into HL7. In the next post, we’ll take an actual HL7 message - the ADT - and break it down to help you understand how it’s constructed exactly.</p>
+
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="/managed-integration">here</a>.</p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

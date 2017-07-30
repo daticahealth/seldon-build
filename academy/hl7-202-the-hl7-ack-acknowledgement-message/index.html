@@ -1,0 +1,411 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy</title>
+<meta name="description" content="The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HL7">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Mohan Balachandran">
+<meta property="article:published_time" content="March 4, 2014">
+<meta property="og:description" content="The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.">
+<meta property="og:title" content="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy">
+<meta itemprop="og:headline" content="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy">
+<meta property="twitter:description" content="The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.">
+
+<meta class="swiftype" name="title" data-type="string" content="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes." />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+
+<link rel="canonical" href="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_hl7-202-the-hl7-ack-acknowledgement-message academy_hl7-202-the-hl7-ack-acknowledgement-message_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">HL7 202 - The HL7 ACK (Acknowledgement message)</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/2xzeMZo9aYQQQk6KiqiOsG/133e18144c864de6189daec280c71747/prof-mohan.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mohan Balachandran"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Mohan Balachandran
+        </h4>
+        <p class="person-title">Co-Founder</p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    March 4, 2014
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">HL7</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <p>The HL7 acknowledgement message, or ACK, is critical to ensure that ongoing HL7 communication proceeds smoothly. The concept of an <a href="http://en.wikipedia.org/wiki/Acknowledgement_(data_networks)">ACK</a> is commonly used in many data networks protocols, including TCP, so you are likely familiar with it. Although conceptually simple (receiving system acknowledges receipt for specific message sent from sending system), there are a couple of nuances (enhanced mode, rate limiting) with HL7 ACK that make covering this topic worthwhile.</p>
+
+<h2 id="the-structure-of-an-ack-message">The structure of an ACK message</h2>
+<p>Let’s take a quick look at how an ACK message is created.</p>
+
+<p>Let’s say an inbound HL7 ADT (Admit, Discharge, Transfer) message came in with the following MSH (message header).
+    MSH|^~\&amp;|EPICADT|DH|LABADT|DH|201301011226||ADT^A01|HL7MSG00001|P|2.3|</p>
+
+<p>If the message was accepted and acknowledged, then the response ACK message (following original mode) will look like this:</p>
+
+<pre><code>MSH|^~\&amp;|LABADT|DH|EPICADT|DH|201301011228||ACK^A01^ACK |HL7ACK00001|P|2.3
+MSA|AA|HL7MSG00001
+</code></pre>
+
+<p>Note the following:</p>
+
+<ol>
+  <li>The source and destination systems have been switched;</li>
+  <li>MSA segment contains the “AA” value which indicates acceptance; and</li>
+  <li>MSA segment also contains the ID of the original message.</li>
+</ol>
+
+<p>Seems pretty straightforward but as you will see, the rules utilized to come up with this simple message can be pretty complicated.</p>
+
+<h2 id="the-need-for-the-ack-message">The need for the ACK message</h2>
+
+<p>The need for acknowledgements is best understood when we know that:</p>
+
+<ol>
+  <li>HL7 is designed around the concept of trigger events - i.e. someone got admitted, a lab test has to be ordered, lab test results have been received, patient has to be rescheduled etc.</li>
+  <li>Healthcare IT systems are very “specialized” - there are systems (often from different vendors) that focus just on ADT (admission, discharges and transfers), practice management (patient scheduling and billing), labs (lab orders, results capture and communication) etc.</li>
+</ol>
+
+<p>So, if an event happens in one system (patient is admitted), then that event has to be sent to another system (e.g. labs) to communicate information such as internal patient identifiers (otherwise how will the lab know if the incoming order is for a valid patient or not, what identifier to use etc.). Note that these messages are usually unsolicited - i.e. ADT message is sent to all interested systems as soon as it happens without being asked for it. Additionally, as you can imagine, the volumes of messages being received by these systems could get large, hence there is a possibility the message could get dropped. The ACK serves as a confirmation that:</p>
+
+<ol>
+  <li>the message (specified by an identifier) was received;</li>
+  <li>the message is valid based on HL7 processing rules (more on this in a minute); and optionally</li>
+  <li>the message data has been taken into a transient store like a processing queue or permanent store like a database (more on this in a minute as well).</li>
+</ol>
+
+<h2 id="types-of-ack-messages-and-associated-processing-rules">Types of ACK messages and associated processing rules</h2>
+
+<p>As you can see, the ACK message is <strong>not</strong> like the delivery acknowledgement you get when you send an email or text message - it’s not a “I got it” message. One can specify whether original or enhanced processing rules are to be applied to the message. Based on this specification, the inbound message is processed differently and a different kind of ACK message is sent back. The ACK message and the associated processing rules are defined based on the MSH (message header) segment content (more details on the MSH segment was discussed in an <a href="/academy/hl7-201-the-admission-discharge-transfer-adt-message/">earlier post</a>).</p>
+
+<h3 id="original-mode">Original mode</h3>
+<p>Original mode processing is indicated if both the 15th and 16th fields of the MSH segment of the inbound message is null or empty.</p>
+
+<p>Any inbound message with an MSH segment indicating original mode processing will be validated for correct syntax and goes through a two step process:</p>
+
+<h3 id="step-1---protocol-validation">STEP 1 - Protocol validation</h3>
+
+<p>This is used to to assure that:</p>
+
+<ol>
+  <li>the value in message type field (MSH - field #9) is one that is acceptable to the receiver i.e. an ADT^A20 message may be rejected by a billing system;</li>
+  <li>the value in version ID field (MSH-12) is acceptable to the receiver i.e. if the systems expects HL7 v2.3.1 and the field says v2.6, then, in the immortal words from a famous film “what we’ve got here is (a) failure to communicate”;</li>
+  <li>the value in processing ID (MSH-11) is appropriate for the application process handling the message.</li>
+</ol>
+
+<p>If any of these checks fail, the protocol software will reject the message with an ACK message containing “AR” in the acknowledgment code field (MSA-1). If it doesn’t fail, it passes the message to the application.</p>
+
+<h3 id="step-2---application-validation">STEP 2 - Application validation</h3>
+<p>The application validation checks are:</p>
+
+<ol>
+  <li>if the application processes the message successfully, it will generate the functional response message with a value of AA in acknowledgment code (MSA-1);</li>
+  <li>or the application will send an error response, with a value of AE in acknowledgment code (MSA-1);</li>
+  <li>if the application fails to process (reject) the message because of system uptime or other reasons and not for format or validation errors. The response message contains a value of AR in acknowledgment code (MSA-1). The message can sometimes be re-sent later but that is up to the sending system and the implementation to figure out.</li>
+</ol>
+
+<h2 id="enhanced-mode">Enhanced mode</h2>
+<p>Enhanced mode processing is indicated if at least one of the 15th and 16th fields of the MSH segment of the inbound message is not null. Enhanced mode requires that the receiving application take on additional responsibility namely that:</p>
+
+<ol>
+  <li>the inbound message is received and stored;</li>
+  <li>message passes syntax validation;</li>
+  <li>the message type (ADT-A19 can be processed), version is correct (HL7 v2.3.1 and not v2.6 for example) and processing ID is correct - if not a commit reject (CR) message will be sent.</li>
+</ol>
+
+<p>Based on these rules, the receiving system will send</p>
+
+<ol>
+  <li>a commit accept (CA) if all OK;</li>
+  <li>a commit reject (CR) as above; or</li>
+  <li>a commit error (CE) for any other error.</li>
+</ol>
+
+<h3 id="ustom-ack">ustom ACK</h3>
+<p>What is health IT without some customization? Not surprisingly, it is possible to send a Non-HL7/Static String ACK. This is a custom acknowledgement and is simply a text string (rather than an HL7-formatted ACK). These types of ACKs are used when an inbound system is incapable of receiving HL7 formatted messages or creating them.</p>
+
+<h2 id="rate-limiting-with-ack-messages">Rate limiting with ACK messages</h2>
+
+<p>The HL7 standard defines that the sending systems cannot send another message to a system until it has received an ACK in response. Actually, that is not quite correct (thanks for a reader for pointing this out to us). It is not part of the HL7 specification. It is usually the way the HL7 systems are implemented in <em>practice</em> to ensure messages are handled appropriatelt.  This was done, one presumes, to ensure that if messages are rejected due to errors in content, message formats, system downtime etc., they can be corrected either at the source or queued until the destination system comes back up. But as you can immediately see, if the next message won’t be sent until an ACK is received, it is possible to slow down the rate of inbound messages by delaying the sending of the ACK message. Since processing of HL7 messages using open source tools have challenges when inbound message rates become high, this is one of the levers that is available to implementers to ensure messages are received and processed appropriately.</p>
+
+<p>Our resident expert on HL7, <a href="https://twitter.com/markolschesky">Mark Olschesky</a> explains this more as follows. Previous to v2.7, the only ACKs that were “official” were your classic Original Mode and Enhanced Mode ACKs. There was no way that an upstream system to really know within the standard what you were going to do with the message. As such, the only valid assumption was that</p>
+
+<ul>
+  <li>the message was processed without error upon receiving the ACK or</li>
+  <li>was not processed correctly with a NACK or no ACK.</li>
+</ul>
+
+<p>This also makes sense logistically too i.e. it would be dangerous to send/process an update to a patient record if you weren’t able to process the initial event which would seed that patient into your system (or receive an update to a note you didn’t have, etc.). Most of HL7 design is linear and doesn’t have much of a concept of eventual consistency. Note that there were always exceptions around this (notably systems which had no capability to respond with an ACK).</p>
+
+<p>In 2.7, a new field was added to the 15th segment of the MSH segment of the ACK which allows the receiving system to indicate to the sending what it was going to do with the message after it received it. While folks had been doing this tacitly for years beforehand, the intent in design was to accommodate for interface engines which receive a message and then fan it out to a multitude of systems, providing some closure to the sending system as the receiving system cranked along and did its work. This was usually a tacit admonishment in design that the interface engine (and team working on it) was now responsible for troubleshooting vs. the ADT or EHR system which generated the original message type.</p>
+
+<p>Now you know as much as I do about ACKs. Go forth and prosper.</p>
+
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

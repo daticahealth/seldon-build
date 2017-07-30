@@ -1,0 +1,404 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>What is cloud computing? (and why it matters for compliance) | Datica Blog</title>
+<meta name="description" content="What are the essential characteristics of cloud computing? As we work with cloud-based vendors and enterprises in healthcare, we're constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we've learned.">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="What is cloud computing? (and why it matters for compliance) | Datica Blog">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HIPAA, Security, Healthcare Cloud, Cloud Computing">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Travis Good, MD">
+<meta property="article:published_time" content="March 5, 2014">
+<meta property="og:description" content="What are the essential characteristics of cloud computing? As we work with cloud-based vendors and enterprises in healthcare, we're constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we've learned.">
+<meta property="og:title" content="What is cloud computing? (and why it matters for compliance) | Datica Blog">
+<meta itemprop="og:headline" content="What is cloud computing? (and why it matters for compliance) | Datica Blog" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="What is cloud computing? (and why it matters for compliance) | Datica Blog">
+<meta property="twitter:description" content="What are the essential characteristics of cloud computing? As we work with cloud-based vendors and enterprises in healthcare, we're constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we've learned.">
+
+<meta class="swiftype" name="title" data-type="string" content="What is cloud computing? (and why it matters for compliance) | Datica Blog" />
+<meta class="swiftype" name="body" data-type="text" content="What are the essential characteristics of cloud computing? As we work with cloud-based vendors and enterprises in healthcare, we're constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we've learned." />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/" />
+<meta class="swiftype" name="tags" data-type="string" content="HIPAA, Security, Healthcare Cloud, Cloud Computing" />
+
+<link rel="canonical" href="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/">
+    <meta property="og:image" content="https://images.contentful.com/189dvqdsjh46/v8LjxQnv9IAGy2EAMowio/84b7aa4038bb50f13dd18a475ae7391e/what_is_cloud_computing_-_blog_featured_image.jpg?w=640">
+    <meta property="twitter:image" content="https://images.contentful.com/189dvqdsjh46/v8LjxQnv9IAGy2EAMowio/84b7aa4038bb50f13dd18a475ae7391e/what_is_cloud_computing_-_blog_featured_image.jpg?w=640">
+<link rel="canonical" href="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/blog.css" rel="stylesheet" />
+    </head>
+    <body class="blog blog_what-is-cloud-computing-and-why-it-matters-for-compliance blog_what-is-cloud-computing-and-why-it-matters-for-compliance_index">
+        <div class="container-color--dark-alt">
+    <header class="main-header main-header--white">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--white hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button button--light">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="custom-sticky custom-sticky--dark">
+        <div class="row">
+            <div class="columns small-12 medium-12">
+                <ul>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/leadership">Leadership</a></li>
+                    <li><a href="/blog" class="active">Company Blog</a></li>
+                    <li><a href="https://engineering.datica.com/">Engineering Blog</a></li>
+                    <li><a href="/careers">Careers</a></li>
+                    <li><a href="/press">Press</a></li>
+                    <li><a href="/events">Events</a></li>
+                    <li><a href="/open-source">Open Source</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-10 large-8 single-post-title">
+                <div class="section--header-dark-group">
+                    <div class="subhead--spaced headline-6">Datica Blog</div>
+                    <h1 class="headline-1">What is cloud computing? (and why it matters for compliance)</h1>
+                    <span class="blog-date">
+    March 5, 2014
+</span>
+
+                        &nbsp;|&nbsp;         <span class="label label-hollow round">HIPAA</span>
+        <span class="label label-hollow round">Security</span>
+        <span class="label label-hollow round">Healthcare Cloud</span>
+        <span class="label label-hollow round">Cloud Computing</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <ul class="share-icons no-bullet show-for-medium">
+    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="What is cloud computing? (and why it matters for compliance) | Datica Blog" data-hashtags="heathcare" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="What is cloud computing? (and why it matters for compliance) | Datica Blog" data-subject="What is cloud computing? (and why it matters for compliance) | Datica Blog" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+</ul>
+
+            <article class="content-dynamic">
+                    <img class="featured-image" data-interchange="[//images.contentful.com/189dvqdsjh46/v8LjxQnv9IAGy2EAMowio/84b7aa4038bb50f13dd18a475ae7391e/what_is_cloud_computing_-_blog_featured_image.jpg?w=640, small], [//images.contentful.com/189dvqdsjh46/v8LjxQnv9IAGy2EAMowio/84b7aa4038bb50f13dd18a475ae7391e/what_is_cloud_computing_-_blog_featured_image.jpg?w=1200, medium]"  alt="what is cloud computing - blog featured image">
+                    <div class="lead"><p>Writing this <a href="/blog/2014-predictions-growth-of-healthcare-clouds">post</a> on 2014 trends around cloud computing in healthcare got us thinking more about the definition of cloud computing and different options in cloud computing.</p>
+</div>
+                <div class="section--body blog-post-content group">
+                    <p>As we work with cloud-based vendors and enterprises in healthcare, we’re constantly fielding questions related to cloud deployments and models. This is our attempt to summarize what we’ve learned.</p>
+
+<p>I think we all <em>know</em> what cloud computing is, or at least we have certain associations and benefits that come to mind for the term “cloud computing”. NIST has a formal definition of cloud computing. NIST breaks down cloud computing into 5 essential characteristics, 3 service models, and 4 deployment models.</p>
+
+<p>The <strong>Essential Characteristics</strong> of cloud computing include:</p>
+
+<ol>
+  <li><strong>On-demand self-service.</strong> Pretty straightforward. Users of cloud computing are able to provision computing resources (CPU cycles, storage, bandwidth etc) themselves. You can think of the AWS dashboard as the perfect example of this; if you’ve used AWS, you know exactly what I mean.</li>
+  <li><strong>Broad network access.</strong> Cloud computing resources can be utilized by remote clients using standard mechanisms. I think most modern developers think of web apps and APIs for this.</li>
+  <li><strong>Resource pooling.</strong> Computer resources are shared. Models like multi-tenancy and virtual machines are used to achieve this. The idea is that resources are dynamically shared, both up and down, between cloud deployed apps. This can present problems in the case of “noisy neighbor”, where your virtual neighbors are consuming and restricting access to resources. Hosting companies are pretty good at identifying and resolving these issues. But often not, which is why once companies begin to scale to larger volumes, dedicated instances become more interesting.</li>
+  <li><strong>Rapid elasticity.</strong> This is extremely powerful as it enables apps to scale up cloud computing resources as needed, on demand, to support peaks and troughs of usage. Instead of having to build and support high powered services 24/7, those services and resources will scale as needed.</li>
+  <li><strong>Measured service.</strong> Usage is metered, and cloud computing is typically billed on a per use basis. In the case of pure infrastructure, like AWS, you have little to no wasted money because you are only paying for what you consume. Consumption can include bandwidth, CPU cycles, storage, user accounts, API calls, etc.</li>
+</ol>
+
+<p>Most of these you probably knew of intuitively but, for us, it’s helpful to lay them out. We find there is a lot of confusion, especially in healthcare, about what cloud computing is, who’s using it, and why it is appealing relative to other models of computing. Much of the confusion comes into play when people interchange the terms virtualized computing and cloud computing; virtualized computing is often used synonymously with private cloud. Virtualized hosted environments do not typically allow for self service or automated resource pooling, two of the <em>essential</em> characteristics form above.</p>
+
+<p>The next categorization for cloud computing relates to the amount of control of the underlying resources. Which leads us to back to the NIST defined <strong>Service Models</strong>, which are laid out below:</p>
+
+<ol>
+  <li><strong>Software-as-a-Service (SaaS.</strong> SaaS is a model for accessing an hosted application developed by a vendor. Typically access is through a web app, mobile app, or an API. And it is is usually billed by user, API calls, or seats and billing is subscription-based. Subscription-based models have implications for customers because of the low capital expense to get started and implications for SaaS vendors because of the high negative upfront cash flow outlay to grow (more on this in a later post). The classic example of SaaS is Salesforce CRM; Salesforce has moved into PaaS (Force.com) but it started as SaaS and still generates the bulk of its revenue from SaaS. If you’re a mobile developer you likely know Parse, Urban Airship, and Twilio. There are literally tons of other SaaS vendors, several of which we use at Datica - Box (just made the move from another SaaS - Dropbox), Zendesk, MailChimp, Intercom, Mailgun, Moz, and Close.io. This is the most limited, at least in terms of customer control, model of cloud computing.</li>
+  <li><strong>Platform-as-a-Service (PaaS).</strong> PaaS models allow you to deploy and scale your own application to cloud infrastructure without managing servers and/or databases. You may have some control over the infrastructure but it is limited. Users of PaaS typically do not have access to the underlying operating system or network devices. Developers can focus on the application, written in a language of their choice, without worrying about building and maintainer the server to run it. The example most developers would think of is Heroku, which is part of Salesforce. There are others, like CloudFoundry and newer offerings like dotCloud. There is also a super cool compliant PaaS that recently launched that’s called…yes, Datica!</li>
+  <li><strong>Infrastructure-as-a-Service (IaaS).</strong> I think of this as the blank slate of cloud computing that has been the driving disruptive force in computing over the last 15 years. As opposed to SaaS and PaaS, which build layers of abstraction to interact with customers and keep them away from the OS, IaaS vendors provide customers with access to operating system and sometimes network components. You can think of it as a hosted linux prompt. AWS and Rackspace are the prototypes for this. This is usually the cheapest option. It’s a blank slate, and developers can customize down to the OS level. With that control comes more responsibility and ultimately more time spent on infrastructure. The decision that needs to be made in assessing IaaS is whether time and resources should be spent configuring servers and databases, or does it make more sense to spend a little more money on infrastructure but have more resources for your core product and differentiation. Or in other words, should you choose a PaaS offering or stay with IaaS.</li>
+</ol>
+
+<p>In addition to service models, which basically define the level of control customers have over infrastructure, there are also <strong>Deployment Models</strong>, listed below, which define the group to which cloud computing resources are shared.</p>
+
+<ol>
+  <li><strong>Private cloud.</strong> Most often confused with virtualization, private cloud infrastructure is used exclusively by one entity, and can be on or off premise. This is the direction most larger enterprises will move to, including within healthcare. Datica maintains a compliant private cloud. The challenge with most current private cloud deployments is that they provide none of the capabilities that a public cloud (see below) provides such as auto-scaling, API based access to perform a host of tasks etc.</li>
+  <li><strong>Community cloud.</strong> In this deployment, infrastructure is shared with a group, or community, of users. We think of this as a shared private cloud, and it’s usually a community that has something in common. With Datica, we have a HIPAA compliant private cloud in which we host our community of customers; the commonality in our community is that our customers are concerned about compliance, so we’ve painstakingly created a compliant environment with multiple private private networks. Customers get their own private networks within the Datica cloud.</li>
+  <li><strong>Public cloud.</strong> This is the infrastructure that developers know best. In this deployment, the infrastructure is for public use. Pretty simple.</li>
+  <li><strong>Hybrid cloud.</strong> This is where things get interesting. In this deployment, there is a mix of two different models from above. Hopefully using Datica will provide a good example use case. We have a private cloud - Datica manages and maintains the cloud computing resources and it’s exclusive to us. For our customers, we set up private networks within our private cloud, so our private cloud is actually a community cloud for our customers. Additionally, we’re beginning to explore using public cloud resources for certain, non-compliant things such as code sets. In non-compliant deployments, if more resources are needed, such as the case with spikes in usage and/traffic, private clouds will burst into public clouds to gain access to additional cloud computing resources. Key here is to ensure that “post burst”, the additional capacity that was spun up, needs to be powered down else month end bills could be a bit surprising.</li>
+</ol>
+
+<p>The reason we care about cloud computing, including the definition and characteristics of it, is that we firmly believe the benefits of cloud computing have not been realized in healthcare. And we believe much of that relates to a lack of understanding of what cloud computing is, and how cloud computing can be both compliant and secure. Current compliant offerings in healthcare, especially when you look at compliant cloud computing service models, sorely miss the needs of modern app app developers and the industry as a whole; we make the important distinction between PaaS and IaaS, and believe PaaS is the necessary approach to be compliant because of the myriad of compliance requirements beyond dedicated infrastructure. More to come on service models and compliance in a future post.</p>
+
+                    <ul class="share-icons no-bullet hide-for-medium">
+    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="What is cloud computing? (and why it matters for compliance) | Datica Blog" data-hashtags="heathcare" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="What is cloud computing? (and why it matters for compliance) | Datica Blog" data-subject="What is cloud computing? (and why it matters for compliance) | Datica Blog" data-url="https://datica.com/blog/what-is-cloud-computing-and-why-it-matters-for-compliance/"></li>
+</ul>
+
+                </div>
+            </article>
+                        <aside class="callout cta callout--dark" id="cta">
+            <img src="/public/icons/material/ic_email_48px.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Subscribe to our newsletter</h3>
+            <p class="cta--desc">Subscribe to the Datica newsletter today.</p>
+            <a class="button--cta button button--light" href="https://datica.com/go/subscribe">Subscribe to the Datica newsletter  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+            <div class="callout callout--gray-light">
+                <ul class="list-horiz">
+                        <li>
+                            <i class="fa fa-arrow-circle-left"></i> Previous post: <a href="/blog/2014-predictions-meaningful-use-continues-to-challenge-it-departments" title="">2014 Predictions - Meaningful Use Continues to Challenge IT Departments</a></li>
+                        <li>
+                            Next post: <a href="/blog/inheritance-and-ownership-of-compliance-risk" title="">Inheritance and Ownership of Compliance Risk</a> <i class="fa fa-arrow-circle-right"></i></li>
+                </ul>
+            </div>
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <div class="callout--gray-light">
+                <div class="media-object card-person stack-for-small">
+                        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/yDosmOKtaKaeqgYWQoASy/a73851375766f82f4f24922b57e6caf2/prof-travis.jpg" class="avatar avatar--large circle" alt="Travis Good, MD"></div>
+                    <div class="media-object-section main-section align-self-middle">
+                        <h4 class="person-name">Travis Good, MD</h4>
+                        <p class="person-title">Co-founder, CEO & Chief Privacy Officer</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <hr> -->
+            <div class="callout callout--dark-alt blog-subscription">
+    <h4 class="headline-4">Subscribe to email updates</h4>
+    <p>We'll send you an email each time a new blog article is posted.</p>
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+    <script>
+      hbspt.forms.create({
+        css: '',
+        portalId: '1695915',
+        formId: '4e392b8b-084e-4f63-bea7-6bc179b9fdfb',
+        submitButtonClass: 'button button--primary expanded'
+      });
+    </script>
+</div>
+
+            <p>
+                <a href="/blog" title="All blog entries"><i class="fa fa-angle-left"></i> All Blog Posts</a>
+            </p>
+
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

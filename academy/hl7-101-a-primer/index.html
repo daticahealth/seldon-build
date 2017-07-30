@@ -1,0 +1,508 @@
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>HL7 101 - A primer | The Datica Academy</title>
+<meta name="description" content="HL7 is a healthcare industry standard for messaging between applications, for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.">
+<meta name="robots" content="index,follow,noodp">
+<meta name="googlebot" content="index,follow">
+<meta name="topic" content="HL7 101 - A primer | The Datica Academy">
+<meta name="classification" content="website">
+<meta name="url" content="https://datica.com">
+<meta name="keywords" content="heathcare, HL7">
+<meta name="coverage" content="Worldwide">
+<meta name="distribution" content="Global">
+<meta name="author" content="Mohan Balachandran">
+<meta property="article:published_time" content="March 16, 2016">
+<meta property="og:description" content="HL7 is a healthcare industry standard for messaging between applications, for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.">
+<meta property="og:title" content="HL7 101 - A primer | The Datica Academy">
+<meta itemprop="og:headline" content="HL7 101 - A primer | The Datica Academy" />
+    <meta property="og:type" content="article">
+<meta property="og:url" content="https://datica.com/academy/hl7-101-a-primer/">
+<meta property="og:locale" content="en_US">
+<meta property="twitter:card" content="summary">
+<meta property="twitter:site" content="@daticahealth">
+<meta property="twitter:creator" content="@daticahealth">
+<meta property="twitter:title" content="HL7 101 - A primer | The Datica Academy">
+<meta property="twitter:description" content="HL7 is a healthcare industry standard for messaging between applications, for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.">
+
+<meta class="swiftype" name="title" data-type="string" content="HL7 101 - A primer | The Datica Academy" />
+<meta class="swiftype" name="body" data-type="text" content="HL7 is a healthcare industry standard for messaging between applications, for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3." />
+<meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/hl7-101-a-primer/" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+
+<link rel="canonical" href="https://datica.com/academy/hl7-101-a-primer/">
+    <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+    <meta property="twitter:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
+<link rel="canonical" href="https://datica.com/academy/hl7-101-a-primer/">
+<script type='text/javascript'>
+var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
+</script>
+
+        <!-- Icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" type="image/png" href="/touchicon.png">
+
+        <!-- Assets -->
+        <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/innovation.css" rel="stylesheet" />
+    </head>
+    <body class="academy academy_hl7-101-a-primer academy_hl7-101-a-primer_index">
+        <div class="container-color--gray-light">
+    <header class="main-header main-header">
+    <a href="/" class="logo"></a>
+    <nav class="left">
+        <div class="hide-for-large">
+            <div class="group input-nav input-nav--white">
+                <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+            </div>
+            <a href="/contact" class="expanded button button--light">Contact us</a>
+        </div>
+        <a href="/platform" title="Datica's Platform">Platform</a>
+        <a href="/services" title="Datica's Professional Services">Services</a>
+        <a href="/pricing" title="Pricing Information">Pricing</a>
+        <div class="a" id="resourcesDropdown">
+            <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-resources drop dropdown-list--block">
+                <div class="container-color--white">
+                    <a href="/dhsf" title="The Digital Health Success Framework">
+                        <div class="title">Digital Health Success Framework</div>
+                    </a>
+                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
+                        <div class="title">Podcast</div>
+                    </a>
+                    <a href="/academy" title="Full archive of Datica's educational materials">
+                        <div class="title">The Academy</div>
+                    </a>
+                    <hr class="hr">
+                    <div class="list-title">Learn More:</div>
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/ehr-integrations" title="Discover EHR Integrations">EHR Integrations</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">HIPAA Compliance</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/hitrust" title="Discover HITRUST">HITRUST</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="container-color--gray-light alt-nav show-for-large">
+                    <a href="//resources.datica.com" title="Search our documentation for Datica solutions.">Documentation</a>
+                    <a href="//datica.com/support" title="Get help and the support you need.">Support</a>
+                    <a href="http://status.catalyze.io" title="Is it working? Find out here.">System Status</a>
+                </div>
+            </div>
+        </div>
+        <a href="/about" title="Background, Career Openings, Press">Company</a>
+    </nav>
+    <nav class="right">
+        <div class="input-nav input-nav--black hide-for-large-only">
+            <span class="input-nav--icon"><i class="fa fa-search"></i></span>
+<input type="search" class="eng-blog-search" placeholder="Search" autocomplete="yes">
+
+        </div>
+        <a href="//product.datica.com">Sign in</a>
+        <a href="/contact" id="topNavCTA" class="button  success">Contact us</a>
+    </nav>
+    <div class="mobile-menu">
+        <i class="fa fa-bars"></i>
+    </div>
+</header>
+
+    <section class="section-article">
+        <div class="row">
+            <div class="columns small-12 medium-8 featured-post">
+                <h1 class="headline-2">HL7 101 - A primer</h1>
+                    <div class="media-object card-person">
+        <div class="media-object-section"><img src="//images.contentful.com/189dvqdsjh46/2xzeMZo9aYQQQk6KiqiOsG/133e18144c864de6189daec280c71747/prof-mohan.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mohan Balachandran"></div>
+    <div class="media-object-section main-section align-self-middle">
+        <h4 class="person-name">
+                Mohan Balachandran
+        </h4>
+        <p class="person-title">Co-Founder</p>
+    </div>
+</div>
+
+                <p class="lead">
+                    <span class="blog-date">
+    March 16, 2016
+</span>
+
+                        &nbsp;|&nbsp;
+                                <span class="label label-hollow round">HL7</span>
+
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-article container-color--white">
+    <div class="row">
+        <div class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <p>Health Level Seven (HL7) is a standard utilized by the healthcare industry to enable messaging between applications, EHR to PMS (practice management system) for example. It is managed and maintained by <a href="http://hl7.org">Health Level Seven International (HL7)</a> which is a not-for-profit, ANSI-accredited standards developing organization. The HL7 standard is often jokingly referred to as the “non-standard standard.” This is not very fair but it does reflect the fact that almost every hospital, clinic, imaging center, lab, and care facility is “special” in terms of how it implements HL7 (really?, why?). The reason is primarily because there is no such thing as a standard business or clinical process for interacting with patients, clinical data, or related personnel.</p>
+
+<p>The HL7 messaging protocol was designed to facilitate high volumes of pre-defined data to be shared across many applications reliably. The protocol selected to make this happen was a traditional file transfer or a TCP/IP <strong>socket</strong> in both a real-time and batched fashion. HL7 v2 message structure is complex, flat, and delimited. HL7 has obviously evolved over time. The current version of HL7 is v3, however, older versions exist and make up the bulk of the standard used today primarily because of the large number customizations that have been done to each HL7 message.</p>
+
+<h4 id="the-key-differences-between-an-hl7-v2-and-hl7-v3-message-are-as-follows">The key differences between an HL7 v2 and HL7 v3 message are as follows:</h4>
+
+<ol>
+  <li>v2.x was primarily meant for clinical communications - medical orders, patient registration etc. whereas v3.x has additional features for use by informaticists and for government reporting requirements.</li>
+  <li>v2.x was a custom format (barebones text - all coded and separated by a pipe with headers and multiple segments etc.) v2.x looks like this:</li>
+</ol>
+
+<p><img src="//images.contentful.com/189dvqdsjh46/612KI64BeokOUW82m0w0oc/f4b03fd55891221f038ed0e8ad1c1521/academy-hl7protocol.png" alt="academy-hl7protocol" /></p>
+
+<p>whereas an HL7 v3.0 message is an XML format (I’m not sure if that’s an improvement) - very verbose and detailed - like this:</p>
+
+<p><img src="//images.contentful.com/189dvqdsjh46/Ea7Dy1f3CCGWM4uWEwsWK/7ac35d657e029cf8c71aa8dfaa33bef1/academy-hl7syntax.png" alt="academy-hl7syntax" /></p>
+
+<ol>
+  <li>All v2.x formats are backward compatible. v3.x is a wholly separate format and not backwards compatible.</li>
+</ol>
+
+<p>Any technology solution in healthcare has to support both v2.x and v3.x formats. Open source parsing solutions exist to help with processing HL7 (see section below on Parsing HL7 messages). However, in this author’s humble opinion, the 3.x standards are unlikely to be implemented given the investments already made in the 2.x versions. The <a href="http://hl7.org/implement/standards/FHIR-Develop/">FHIR</a> standards, which are still under active development, are more likely to be implemented rather than the v3.0 standards. See this Figure for some data supporting this hypothesis. (source: Corepoint)</p>
+
+<p><img src="//images.contentful.com/189dvqdsjh46/2CnbugFEHqQ0SWymeeEWGK/33f4cac50b16d3845ddaf11f32d0a36c/academy-figure1.png" alt="academy-figure1" /></p>
+
+<h3 id="customization">Customization</h3>
+
+<p>Every conversation that you’ve ever overheard about HL7 usually includes customizations to be accounted for and associated implementation costs. When I was starting in this space, I heard the same things but wasn’t really sure what it meant.</p>
+
+<p>So here’s a summary of what I’ve learned. I will caveat this by saying that I am not an HL7 expert - there are folks out there who have much more extensive experience than I do; <a href="http://motorcycleguy.blogspot.com/">Keith Boone</a> for one, whose blog is worth subscribing to if you have any interest in healthcare standards for one. Given that I’m not an expert, if you see any errors in this document, please let me know (and also let us know if you’re looking for an interesting change in <a href="mailto:jobs@catalyze.io">careers</a>).</p>
+
+<p>More about custom formats… HL7 messages are indeed customized but this does not imply, as an example, that every ADT (admission, discharge, transfer) message is different between different hospitals; ADT is ubiquitous so it’s an HL7 message type you should know. Customization came about when certain message types, like ADT, could not support sending all the data elements that needed to be sent. For example, a message might be able to handle only 50 data elements but an EKG reading might need to send over 200. The extra data elements were then sent over using the notorious Z segment - a miscellaneous segment into which pretty much any key value pair could be jammed in. This custom blob of data in the Z segment would then need to be parsed and mapped etc. for automated processing and use, creating impressive levels of customization in data exchange.</p>
+
+<p>Before you get too excited, the true customization comes in the form of the content of the HL7 message. The HL7 organization has defined code sets to be used to translate the terse codes sent over within the HL7 message. See <a href="https://www.impactportal.info/emrCodeSet.asp?SID=4">here</a> for a listing of some v2.3 code sets or <a href="http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf">here</a> for a more comprehensive listing from the “horse’s mouth.” The purpose of the code sets, as you can imagine, is to codify the content to reduce the size of the message. ANT, as an example, stands for Anterior in the context of body sites and so on. And, by the way, these code sets for HL7 have also evolved / been added to / modified with each version of HL7. However, these code sets, which are released and maintained as part of the standard, aren’t often adhered to. EHRs (usually) and hospitals have defined their own code sets. So the content sent over within the HL7 message needs to be “looked up” against that specific code set before it can be made useful. An Epic code set is unique (although common across Epic deployments) and different from an AllScripts code set. This is the uniqueness that must be addressed by any solution in this space and the reason why HL7 implementations can sometimes be expensive - they need to take into account not only the Z segments and map them to the appropriate data models but the code sets have to be taken into account as well.</p>
+
+<p>So, in practice, HL7 can be perhaps best described as a messaging protocol and format standard in most implementations rather than as a comprehensive messaging standard.</p>
+
+<h3 id="hl7-message-types-most-common">HL7 Message Types (most common)</h3>
+
+<p>There are more than 80 message types, a whole host of segments and codes for pretty much anything you can think of. See <a href="http://www.hl7.org/special/committees/vocab/v26_appendix_a.pdf">this</a> document for a pretty comprehensive listing. But the following are the most common HL7 message types:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Message Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ACK</td>
+      <td>General acknowledgement message. This is the ack sent when a message is received by the destination system. ACKs are automated responses. However, you could use ACKs as a way to modulate the speed at which messages come through as the sending system will not send the next message until the ACK is received</td>
+    </tr>
+    <tr>
+      <td>ADT</td>
+      <td>Admission, Discharge and Transfer message. Created whenever a patient goes through any of those states. There are a whole list of these possible states. See below for a sampling of a few more</td>
+    </tr>
+    <tr>
+      <td>ORM</td>
+      <td>Pharmacy/treatment order message</td>
+    </tr>
+    <tr>
+      <td>ORU</td>
+      <td>Observation message (unsolicited). Unsolicited because the destination systems are not asking for it, it is fired off and the source systems will take it in and process it if needed or discard it if not.</td>
+    </tr>
+    <tr>
+      <td>BAR</td>
+      <td>Add or change the billing account.</td>
+    </tr>
+    <tr>
+      <td>SIU</td>
+      <td>Schedule information (unsolicited) usually patient specific. This is used to create, modify and delete patient appointments and other schedules.</td>
+    </tr>
+    <tr>
+      <td>MDM</td>
+      <td>Medical document management. This often acts as a workhorse. It is meant to handle documents like notes, reports etc. But often is used to capture a whole host of other data for which there is no easy mapping. In which case, the incoming data gets converted into a PDF and pushed into the EHR via this MDM message</td>
+    </tr>
+    <tr>
+      <td>DFT</td>
+      <td>Detailed financial transactions. This data is used to capture the details of procedures etc. so that claims can be generated.</td>
+    </tr>
+    <tr>
+      <td>MFN</td>
+      <td>Master files notification - changes to core data elements are sent through this.</td>
+    </tr>
+    <tr>
+      <td>QRY</td>
+      <td>Query - as the name implies is used to query source systems for data on things like patient demographics etc.</td>
+    </tr>
+    <tr>
+      <td>RAS</td>
+      <td>Pharmacy/treatment administration message</td>
+    </tr>
+    <tr>
+      <td>RDE</td>
+      <td>Pharmacy/treatment encoded order message</td>
+    </tr>
+    <tr>
+      <td>RGV</td>
+      <td>Pharmacy/treatment give message</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>​It should also be noted that each of these message types have different types (sub-types) as well. For example, there are 51 (yep, that’s right) different types of ADT messages that are used for various trigger events. Some of the most commonly used ADT messages include:</p>
+
+<ul>
+  <li>
+    <p>ADT-A01 – patient admit</p>
+  </li>
+  <li>
+    <p>ADT-A02 – patient transfer</p>
+  </li>
+  <li>
+    <p>ADT-A03 – patient discharge</p>
+  </li>
+  <li>
+    <p>ADT-A04 – patient registration</p>
+  </li>
+  <li>
+    <p>ADT-A05 – patient pre-admission</p>
+  </li>
+  <li>
+    <p>ADT-A08 – patient information update</p>
+  </li>
+  <li>
+    <p>ADT-A11 – cancel patient admit</p>
+  </li>
+  <li>
+    <p>ADT-A12 – cancel patient transfer</p>
+  </li>
+  <li>
+    <p>ADT-A13 – cancel patient discharge</p>
+  </li>
+</ul>
+
+<p>The important thing to remember is that the content of the message doesn’t change all that much between all these sub-types. The message is still about the specific patient (PID segment - see segment section below).</p>
+
+<h3 id="hl7-segments">HL7 Segments</h3>
+
+<p>A segment is a group of fields that then contain different types of data. Each segment exists independently and can be utilized in multiple messages, in different sequences. Segments may be required for a particular message or in other cases, they may be optional.</p>
+
+<p>A unique three-character code called the “Segment ID” identifies each segment. Segment ID codes beginning with the letter Z are reserved for the “custom” Z-segments (key value pairs) that are not part of the HL7 standard.</p>
+
+<p>You can remove one or more segments from a message if desired. But because HL7 rules state that unexpected or unused segments should be ignored, most systems will ignore the unexpected segments without issue (therefore, manually removing these segments is unnecessary). Segments should be removed only if one of the receiving systems will not have problems when unexpected segments are received.</p>
+
+<p>These are the most common segment types that will be used across multiple message types.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Segment Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DG1</td>
+      <td>Diagnosis</td>
+    </tr>
+    <tr>
+      <td>EVN</td>
+      <td>Event type</td>
+    </tr>
+    <tr>
+      <td>GT1</td>
+      <td>Guarantor</td>
+    </tr>
+    <tr>
+      <td>IN1</td>
+      <td>&gt;Insurance</td>
+    </tr>
+    <tr>
+      <td>MSH</td>
+      <td>Message header</td>
+    </tr>
+    <tr>
+      <td>NTE</td>
+      <td>Notes and comments</td>
+    </tr>
+    <tr>
+      <td>OBRI</td>
+      <td>Observation Request</td>
+    </tr>
+    <tr>
+      <td>OBXI</td>
+      <td>Observation Result</td>
+    </tr>
+    <tr>
+      <td>ORCI</td>
+      <td>Common Order</td>
+    </tr>
+    <tr>
+      <td>PID</td>
+      <td>Patient Identification</td>
+    </tr>
+    <tr>
+      <td>FT1</td>
+      <td>For DFT messages - Financial transactions</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>At a high level, that’s HL7. Look for further articles delving into more details on HL7 message structures and the common message types.</p>
+
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
+
+            </article>
+                        <aside class="callout cta callout--blue-alt" id="cta">
+            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
+        <div class="cta--body cta--body-right">
+            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
+            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
+            <a class="button--cta button button--light" href="http://content.catalyze.io/hipaa-basics">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
+        </div>
+    </aside>
+
+        </div>
+        <aside class="columns small-12 large-4 section--sidebar">
+            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+        </aside>
+    </div>
+</section>
+
+            <!-- GA -->
+            <script type="text/javascript">
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1695915.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+
+            <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41365040-1', 'auto');
+    if( location.hash ) {
+        ga('send', 'pageview', {
+            'page': location.pathname + location.hash
+        });
+    } else {
+        ga('send', 'pageview');
+    }
+
+</script>
+
+        <footer class="section-article container-color--gray-gradient main-footer">
+    <div class="row small-up-2 medium-up-3 large-up-5">
+            <div class="column group">
+                <h5 class="headline-6">Products & Services</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/platform" title="The cloud enablement layer for all healthcare applications">Datica Platform</a></li>
+                        <li><a class="link--dark" href="/platform/technology" title="The technology support and capabilities of the Datica platform">Technology Overview</a></li>
+                        <li><a class="link--dark" href="/platform/integration" title="The full-stack integration toolset for developers">Data Integration</a></li>
+                        <li><a class="link--dark" href="/platform/compliance" title="Datica is HITRUST CSF Certified">Compliance Story</a></li>
+                        <li><a class="link--dark" href="/platform/success" title="Case studies and customer profiles of success">Customer Success</a></li>
+                        <li><a class="link--dark" href="/services" title="Professional services offered by Datica">Services</a></li>
+                        <li><a class="link--dark" href="/pricing" title="Pricing for the Datica platform">Pricing</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Company</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/about" title="Background on the company">About Us</a></li>
+                        <li><a class="link--dark" href="/leadership" title="The team guiding Datica">Leadership</a></li>
+                        <li><a class="link--dark" href="/blog" title="News and notes from team members at Datica">Company Blog</a></li>
+                        <li><a class="link--dark" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a></li>
+                        <li><a class="link--dark" href="/careers" title="Job opportunities at Datica">Careers</a></li>
+                        <li><a class="link--dark" href="/press" title="Full press background, and information for media outlets">Press</a></li>
+                        <li><a class="link--dark" href="/events" title="Our past and future event attendance">Events</a></li>
+                        <li><a class="link--dark" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Resources</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="/dhsf" title="The framework for teams building digital health products">Digital Health Success Framework</a></li>
+                        <li><a class="link--dark" href="/discover" title="A Curated Collection of Healthcare Technology Topics from Datica">Discover: Healthcare Topics</a></li>
+                        <li><a class="link--dark" href="/academy" title="The definitive resource for those looking to learn about Compliance and Interoperability">The Academy</a></li>
+                        <li><a class="link--dark" href="/innovation" title="How does healthcare innovate?">Healthcare Innovators Podcast</a></li>
+                        <li><a class="link--dark" href="https://medium.com/change-agent" title="Our Medium publication on what it takes to evolve healthcare">Change Agent</a></li>
+                        <li><a class="link--dark" href="/whitepapers" title="A collection of our formal assessment of healthcare topics">White Papers</a></li>
+                        <li><a class="link--dark" href="https://fhir.datica.com" title="Experiment with the FHIR API for free">Mock FHIR API</a></li>
+                        <li><a class="link--dark" href="https://hl7.datica.com" title="Experiment with the HL7 API for free">Mock HL7 API</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Customers</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://product.datica.com" title="Log into your dashboard">Login</a></li>
+                        <li><a class="link--dark" href="https://resources.datica.com" title="Documentation across all Datica products">Documentation</a></li>
+                        <li><a class="link--dark" href="https://datica.zendesk.com/hc/en-us" title="Support for Datica customers">Support</a></li>
+                        <li><a class="link--dark" href="http://status.catalyze.io" title="System up time and alerts">System Status</a></li>
+                </ul>
+            </div>
+            <div class="column group">
+                <h5 class="headline-6">Legal</h5>
+                <ul class="no-bullet">
+                        <li><a class="link--dark" href="https://policy.datica.com" title="Our company policies">Company Policies</a></li>
+                        <li><a class="link--dark" href="https://training.datica.com" title="Our training policies">Compliance Training</a></li>
+                        <li><a class="link--dark" href="https://hipaa.datica.com" title="How we map to HIPAA's rules">HIPAA Mappings</a></li>
+                </ul>
+            </div>
+    </div>
+    <div class="row align-justify">
+        <div class="columns small-12 medium-9 large-10 group">
+            <ul class="list-horiz">
+                    <li><a class="link--dark faded" href="/" title="Datica Health, Inc main page">&copy; Datica Health, Inc.</a></li>
+                    <li><a class="link--dark faded" href="tel:8883773184" title="Tap to call us">(888) 377-3184</a></li>
+                    <li><a class="link--dark faded" href="mailto:hello@datica.com" title="Email us today">hello@datica.com</a></li>
+                    <li><a class="link--dark faded" href="https://www.google.com/maps/place/316+W+Washington+Ave+%23900,+Madison,+WI+53703/@43.0730573,-89.3905378,17z/data=!3m1!4b1!4m5!3m4!1s0x88065339c57a9895:0xe80da136f666e278!8m2!3d43.0730573!4d-89.3883491" title="See our location in Google maps">316 W Washington Ave. Suite 900, Madison, WI 53703</a></li>
+            </ul>
+            <hr class="content">
+            <ul class="list-horiz">
+                <li><img class="logo-size--large" src="/public/img/logo-hitrust-certified.png" alt="HITRUST Certified" />&nbsp;
+                </li>
+                <li><script type='text/javascript' src='https://www.coalfire.com/CMSPages/Coalfire/CertificateSealJS.aspx?cc=248fe0c0-6343-4785-9cb0-0602a6a82a6c'></script>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+        <script src="/public/js/svg-injector.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
+
+</script>
+<script src="/public/js/jquery.js"></script>
+<script src="/public/js/foundation.min.js"></script>
+<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+
+        <!-- Custom JS files -->
+    </body>
+</html>

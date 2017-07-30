@@ -1,0 +1,1 @@
+$(window).on("load",function(){var o=$("#absoluteForm"),h=$("#setHeight"),i=o.height()-100,t=$(window).width();console.log(o.height()),t>640&&h.css({height:i})});

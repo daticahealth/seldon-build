@@ -1,0 +1,36 @@
+@font-face {
+  src: url("/public/fonts/gt-america-light.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 300; }
+@font-face {
+  src: url("/public/fonts/gt-america-lightitalic.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 300;
+  font-style: italic; }
+@font-face {
+  src: url("/public/fonts/gt-america-regular.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 400; }
+@font-face {
+  src: url("/public/fonts/gt-america-regularitalic.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 400;
+  font-style: italic; }
+@font-face {
+  src: url("/public/fonts/gt-america-medium.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 500; }
+@font-face {
+  src: url("/public/fonts/gt-america-mediumitalic.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 500;
+  font-style: italic; }
+@font-face {
+  src: url("/public/fonts/gt-america-bold.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 700; }
+@font-face {
+  src: url("/public/fonts/gt-america-bolditalic.woff") format("woff");
+  font-family: GT-America;
+  font-weight: 700;
+  font-style: italic; }
