@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://datica.com/dhsf/</loc>
-    <lastmod>2017-07-26T10:41:04-07:00</lastmod>
+    <lastmod>2017-08-04T13:40:23-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://datica.com/</loc>
-    <lastmod>2017-07-15T10:32:03-07:00</lastmod>
+    <lastmod>2017-08-04T13:40:23-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -170,13 +170,19 @@
   </url>
   <url>
     <loc>https://datica.com/innovation/heart-of-medicine-report-spring-2017/</loc>
-    <lastmod>2017-07-15T10:32:03-07:00</lastmod>
+    <lastmod>2017-08-04T13:40:23-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/</loc>
     <lastmod>2017-07-25T12:50:49-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/innovation/leadership-gallery/</loc>
+    <lastmod>2017-08-04T13:40:23-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -458,6 +464,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/the-challenge-and-importance-of-medication-adherence-or-americas-other-drug-problem/</loc>
+    <lastmod>2017-07-15T10:32:03-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/why-there-is-up-front-pricing-now/</loc>
     <lastmod>2017-07-15T10:32:03-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

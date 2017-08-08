@@ -7,6 +7,16 @@
     <name>Datica</name>
   </author>
   <entry>
+    <title>Why There is Up Front Pricing Now</title>
+    <link rel="alternate" href="http://datica.com/blog/why-there-is-up-front-pricing-now"/>
+    <published>2017-08-06T17:00:00-07:00</published>
+    <author>
+      <name>Mark Olschesky</name>
+    </author>
+    <content>&lt;p&gt;Almost 3 years ago, I wrote about why there was no listed Datica pricing on our site. Today, I wrote about why we actually DO now have upfront pricing.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Opportunities for Digital Health Vendors in the Pharmaceutical Industry</title>
     <link rel="alternate" href="http://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma"/>
     <published>2017-07-30T17:00:00-07:00</published>
@@ -94,16 +104,6 @@
       <name>Kris Gösser</name>
     </author>
     <content>&lt;p&gt;Private, Public, and Hybrid clouds all exist in healthcare. Hybrid clouds represent the largest area of growth in healthcare organizations.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Healthcare's Shifting Definition of the Cloud</title>
-    <link rel="alternate" href="http://datica.com/blog/healthcares-shifting-definition-of-the-cloud"/>
-    <published>2017-05-09T17:00:00-07:00</published>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <content>&lt;p&gt;This infographic, extracted from the inaugural Spring ‘17 &lt;em&gt;Heart of Medicine&lt;/em&gt; Quarterly Report, describes healthcare’s shifting definition of the cloud.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -60,7 +60,8 @@
                             text: this.getValue('title'),
                             url: this.getValue('url'),
                             hashtags: this.getValue('hashtags'),
-                            via: this.getValue('via')
+                            via: this.getValue('via'),
+                            image: this.getValue('image')
                         }
                     },
                     email: {

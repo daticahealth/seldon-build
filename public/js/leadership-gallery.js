@@ -1,0 +1,1 @@
+$("[data-tabs]").on("change.zf.tabs",function(a,t){$(t).attr("id");$(".lg-nav--item").removeClass("is-first")});
