@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'clearfix'.
-        on line 7 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/nav.scss, in `clearfix'
-        from line 7 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/nav.scss
+        on line 7 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/nav.scss, in `clearfix'
+        from line 7 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/nav.scss
 
 2: .main-header {
 3:     // Could possibly opt for 2rem here
@@ -16,8 +16,8 @@ Error: Undefined mixin 'clearfix'.
 12:         top: rem-calc(26px);
 
 Backtrace:
-/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/nav.scss:7:in `clearfix'
-/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/nav.scss:7
+/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/nav.scss:7:in `clearfix'
+/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/nav.scss:7
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
@@ -138,23 +138,23 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.3.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
 /usr/local/bin/middleman:22:in `load'
 /usr/local/bin/middleman:22:in `<top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `kernel_load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:332:in `exec'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:20:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:11:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:34:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/friendly_errors.rb:100:in `with_friendly_errors'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:26:in `<top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:335:in `exec'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:20:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:11:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:32:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:24:in `<top (required)>'
 /usr/local/bin/bundle:22:in `load'
 /usr/local/bin/bundle:22:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'clearfix'.\A         on line 7 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/nav.scss, in `clearfix'\A         from line 7 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/nav.scss\A \A 2: .main-header {\A 3:     // Could possibly opt for 2rem here\A 4:     padding: rem-calc(30px);\A 5:     position: relative;\A 6:     // Not using flexbox on this nav (at least not right now)\A 7:     @include clearfix;\A 8:     // Define the mobile nav button\A 9:     .mobile-menu {\A 10:         position: absolute;\A 11:         right: 1.875rem;\A 12:         top: rem-calc(26px);"; }
+  content: "Error: Undefined mixin 'clearfix'.\A         on line 7 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/nav.scss, in `clearfix'\A         from line 7 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/nav.scss\A \A 2: .main-header {\A 3:     // Could possibly opt for 2rem here\A 4:     padding: rem-calc(30px);\A 5:     position: relative;\A 6:     // Not using flexbox on this nav (at least not right now)\A 7:     @include clearfix;\A 8:     // Define the mobile nav button\A 9:     .mobile-menu {\A 10:         position: absolute;\A 11:         right: 1.875rem;\A 12:         top: rem-calc(26px);"; }

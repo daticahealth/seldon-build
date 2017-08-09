@@ -1,7 +1,7 @@
 /*
 Error: File to import not found or unreadable: node_modules/foundation-sites/scss/util/util.scss.
-        on line 50 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/settings.scss
-        from line 4 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/seldon.scss
+        on line 50 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/settings.scss
+        from line 4 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/seldon.scss
 
 45: // @include foundation-thumbnail;
 46: @include foundation-title-bar;
@@ -16,8 +16,8 @@ Error: File to import not found or unreadable: node_modules/foundation-sites/scs
 55: 
 
 Backtrace:
-/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/settings.scss:50
-/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/seldon.scss:4
+/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/settings.scss:50
+/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/seldon.scss:4
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -140,23 +140,23 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.3.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
 /usr/local/bin/middleman:22:in `load'
 /usr/local/bin/middleman:22:in `<top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `kernel_load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:332:in `exec'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:20:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:11:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:34:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/friendly_errors.rb:100:in `with_friendly_errors'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:26:in `<top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:335:in `exec'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:20:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:11:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:32:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:24:in `<top (required)>'
 /usr/local/bin/bundle:22:in `load'
 /usr/local/bin/bundle:22:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: node_modules/foundation-sites/scss/util/util.scss.\A         on line 50 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/settings.scss\A         from line 4 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/seldon.scss\A \A 45: // @include foundation-thumbnail;\A 46: @include foundation-title-bar;\A 47: @include foundation-tooltip;\A 48: @include foundation-top-bar;\A 49: @include foundation-visibility-classes;\A 50: @include foundation-float-classes;\A 51: @include foundation-flex-classes;\A 52: \A 53: @include motion-ui-transitions;\A 54: @include motion-ui-animations;\A 55: "; }
+  content: "Error: File to import not found or unreadable: node_modules/foundation-sites/scss/util/util.scss.\A         on line 50 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/settings.scss\A         from line 4 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/seldon.scss\A \A 45: // @include foundation-thumbnail;\A 46: @include foundation-title-bar;\A 47: @include foundation-tooltip;\A 48: @include foundation-top-bar;\A 49: @include foundation-visibility-classes;\A 50: @include foundation-float-classes;\A 51: @include foundation-flex-classes;\A 52: \A 53: @include motion-ui-transitions;\A 54: @include motion-ui-animations;\A 55: "; }

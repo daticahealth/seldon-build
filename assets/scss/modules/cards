@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'hyphens'.
-        on line 27 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/cards.scss, in `hyphens'
-        from line 27 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/cards.scss
+        on line 27 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/cards.scss, in `hyphens'
+        from line 27 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/cards.scss
 
 22:             padding-top: 0;
 23:         }
@@ -16,8 +16,8 @@ Error: Undefined mixin 'hyphens'.
 32:         // box-shadow: 0 1px 1px 0 black(0);
 
 Backtrace:
-/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/cards.scss:27:in `hyphens'
-/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/cards.scss:27
+/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/cards.scss:27:in `hyphens'
+/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/cards.scss:27
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
@@ -160,23 +160,23 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.3.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
 /usr/local/bin/middleman:22:in `load'
 /usr/local/bin/middleman:22:in `<top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `kernel_load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:332:in `exec'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:20:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:11:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:34:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/friendly_errors.rb:100:in `with_friendly_errors'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:26:in `<top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:335:in `exec'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:20:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:11:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:32:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:24:in `<top (required)>'
 /usr/local/bin/bundle:22:in `load'
 /usr/local/bin/bundle:22:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'hyphens'.\A         on line 27 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/cards.scss, in `hyphens'\A         from line 27 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/cards.scss\A \A 22:             padding-top: 0;\A 23:         }\A 24:     }\A 25:     &-section {\A 26:         p, li {\A 27:             @include hyphens (auto);\A 28:         }\A 29:     }\A 30:     &--hover {\A 31:         transition: box-shadow $timing-default * 0.7 linear;\A 32:         // box-shadow: 0 1px 1px 0 black(0);"; }
+  content: "Error: Undefined mixin 'hyphens'.\A         on line 27 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/cards.scss, in `hyphens'\A         from line 27 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/cards.scss\A \A 22:             padding-top: 0;\A 23:         }\A 24:     }\A 25:     &-section {\A 26:         p, li {\A 27:             @include hyphens (auto);\A 28:         }\A 29:     }\A 30:     &--hover {\A 31:         transition: box-shadow $timing-default * 0.7 linear;\A 32:         // box-shadow: 0 1px 1px 0 black(0);"; }
