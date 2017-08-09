@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$font-weight-regular".
-        on line 4 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/links.scss
+        on line 4 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/links.scss
 
 1: // Global link styles
 2: a {
@@ -12,7 +12,7 @@ Error: Undefined variable: "$font-weight-regular".
 8: // for the link--[color] styles, these have moved to overrides.scss, because order-of-ops.
 
 Backtrace:
-/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/links.scss:4
+/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/links.scss:4
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/tree/node.rb:58:in `perform'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -131,23 +131,23 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.3.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
 /usr/local/bin/middleman:22:in `load'
 /usr/local/bin/middleman:22:in `<top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `kernel_load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:335:in `exec'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:20:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:11:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:32:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:24:in `<top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:332:in `exec'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:20:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:11:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:34:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/friendly_errors.rb:100:in `with_friendly_errors'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:26:in `<top (required)>'
 /usr/local/bin/bundle:22:in `load'
 /usr/local/bin/bundle:22:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-weight-regular\".\A         on line 4 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/links.scss\A \A 1: // Global link styles\A 2: a {\A 3:     text-decoration: none;\A 4:     font-weight: $font-weight-regular;\A 5:     &:hover, &:active, &:focus {text-decoration: none; }\A 6:     @include easing($timing-default);\A 7: }\A 8: // for the link--[color] styles, these have moved to overrides.scss, because order-of-ops."; }
+  content: "Error: Undefined variable: \"$font-weight-regular\".\A         on line 4 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/links.scss\A \A 1: // Global link styles\A 2: a {\A 3:     text-decoration: none;\A 4:     font-weight: $font-weight-regular;\A 5:     &:hover, &:active, &:focus {text-decoration: none; }\A 6:     @include easing($timing-default);\A 7: }\A 8: // for the link--[color] styles, these have moved to overrides.scss, because order-of-ops."; }

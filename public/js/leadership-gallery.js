@@ -1,1 +1,1 @@
-function scrollToId(o){document.querySelector(o).scrollIntoView({behavior:"smooth"})}$("[data-tabs]").on("change.zf.tabs",function(o,t){$(t).attr("id");$(".lg-nav--item").removeClass("is-first"),scrollToId("#main-content")});
+$("[data-tabs]").on("change.zf.tabs",function(a,t){$(t).attr("id");$(".lg-nav--item").removeClass("is-first")});

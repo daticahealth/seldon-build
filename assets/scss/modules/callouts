@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'callout'.
-        on line 18 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/callouts.scss, in `callout'
-        from line 18 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/callouts.scss
+        on line 18 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/callouts.scss, in `callout'
+        from line 18 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/callouts.scss
 
 13:     //         padding-top: 0;
 14:     //         margin-left: 1rem;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'callout'.
 23:         margin-bottom: 0; // only callout style to do so
 
 Backtrace:
-/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/callouts.scss:18:in `callout'
-/Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/callouts.scss:18
+/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/callouts.scss:18:in `callout'
+/Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/callouts.scss:18
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:98:in `block in with_mixin'
 /usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
@@ -138,23 +138,23 @@ Backtrace:
 /usr/local/lib/ruby/gems/2.3.0/gems/middleman-cli-4.2.1/bin/middleman:70:in `<top (required)>'
 /usr/local/bin/middleman:22:in `load'
 /usr/local/bin/middleman:22:in `<top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:74:in `kernel_load'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli/exec.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:335:in `exec'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:20:in `dispatch'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/cli.rb:11:in `start'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:32:in `block in <top (required)>'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/lib/bundler/friendly_errors.rb:121:in `with_friendly_errors'
-/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.14.3/exe/bundle:24:in `<top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `kernel_load'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:332:in `exec'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:20:in `dispatch'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:11:in `start'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:34:in `block in <top (required)>'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/friendly_errors.rb:100:in `with_friendly_errors'
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:26:in `<top (required)>'
 /usr/local/bin/bundle:22:in `load'
 /usr/local/bin/bundle:22:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'callout'.\A         on line 18 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/callouts.scss, in `callout'\A         from line 18 of /Users/allanwhite/Repos/catalyze/seldon/source/assets/scss/modules/callouts.scss\A \A 13:     //         padding-top: 0;\A 14:     //         margin-left: 1rem;\A 15:     //     }\A 16:     // }\A 17:     // === size variations - good for tight (small) or prominent (large) spaces\A 18:     @include callout($white);\A 19:     &--trans{\A 20:         @include callout-size(1.5rem);\A 21:         background-color: transparent;\A 22:         border-radius: 0; // tighter radius on small ones\A 23:         margin-bottom: 0; // only callout style to do so"; }
+  content: "Error: Undefined mixin 'callout'.\A         on line 18 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/callouts.scss, in `callout'\A         from line 18 of /Users/ryanSrich/Sites/Datica/Datica_Seldon/source/assets/scss/modules/callouts.scss\A \A 13:     //         padding-top: 0;\A 14:     //         margin-left: 1rem;\A 15:     //     }\A 16:     // }\A 17:     // === size variations - good for tight (small) or prominent (large) spaces\A 18:     @include callout($white);\A 19:     &--trans{\A 20:         @include callout-size(1.5rem);\A 21:         background-color: transparent;\A 22:         border-radius: 0; // tighter radius on small ones\A 23:         margin-bottom: 0; // only callout style to do so"; }
