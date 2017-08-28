@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://datica.com/about/</loc>
-    <lastmod>2017-07-25T08:32:59-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -98,7 +98,7 @@
   </url>
   <url>
     <loc>https://datica.com/dhsf/</loc>
-    <lastmod>2017-08-03T10:58:37-07:00</lastmod>
+    <lastmod>2017-08-08T21:41:25-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://datica.com/</loc>
-    <lastmod>2017-08-03T11:02:43-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -170,25 +170,25 @@
   </url>
   <url>
     <loc>https://datica.com/innovation/heart-of-medicine-report-spring-2017/</loc>
-    <lastmod>2017-08-03T10:58:37-07:00</lastmod>
+    <lastmod>2017-08-08T21:41:25-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/leadership-gallery/</loc>
-    <lastmod>2017-08-08T14:45:01-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/leadership/</loc>
-    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <lastmod>2017-08-19T13:23:36-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -230,7 +230,7 @@
   </url>
   <url>
     <loc>https://datica.com/platform/success/</loc>
-    <lastmod>2017-08-02T17:52:41-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -239,6 +239,12 @@
     <lastmod>2017-07-17T11:28:27-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/podcast/</loc>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/press/all/</loc>
@@ -865,6 +871,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/</loc>
+    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/blog/4-challenges-and-solutions-for-big-data-capturing/</loc>
     <lastmod>2017-07-17T11:28:27-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1232,6 +1244,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/our-journey-to-series-a/</loc>
+    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/announcing-self-service-and-free-trials/</loc>
     <lastmod>2017-07-17T11:28:27-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1778,31 +1796,25 @@
   </url>
   <url>
     <loc>https://datica.com/discover/healthcare-cloud/</loc>
-    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/discover/innovation/</loc>
-    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <lastmod>2017-08-27T23:20:57-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/discover/hipaa-compliance/</loc>
-    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <lastmod>2017-08-27T23:20:57-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/discover/hitrust/</loc>
-    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <lastmod>2017-08-27T23:20:57-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/discover/ehr-integrations/</loc>
-    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <lastmod>2017-08-27T23:20:57-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2132,175 +2144,175 @@
   </url>
   <url>
     <loc>https://datica.com/innovation/dr-sanjeev-arora-improving-rural-access-to-care-the-role-technology-plays/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/jordan-shlain-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/molly-coye-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/chris-belmont/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/alan-portela/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/thomas-graham-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/grahame-grieve-pt3/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/luis-saldana/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/wayne-guerra-md-mba/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/trey-lauderdale/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/charles-jaffe/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/r-ray-wang/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/sue-schade/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/joel-vengco/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/mark-smith-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/joshua-mandel-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/aneesh-chopra/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/grahame-grieve-pt2/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/simon-jones/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/dr-chris-wasden/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/micky-tripathi/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/robert-wachter-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/ida-sim-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/grahame-grieve-pt1/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/dr-mark-braunstein/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/marc-chasin-md/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/joseph-kvedar/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/mark-shapiro/</loc>
-    <lastmod>2017-07-25T12:29:44-07:00</lastmod>
+    <lastmod>2017-08-19T13:25:33-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

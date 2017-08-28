@@ -76,15 +76,12 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
             <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
             <div class="dropdown dropdown-resources drop dropdown-list--block">
                 <div class="container-color--white">
-                    <a href="/dhsf" title="The Digital Health Success Framework">
-                        <div class="title">Digital Health Success Framework</div>
-                    </a>
-                    <a href="/innovation" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">
-                        <div class="title">Podcast</div>
-                    </a>
-                    <a href="/academy" title="Full archive of Datica's educational materials">
-                        <div class="title">The Academy</div>
-                    </a>
+                    <ul class="no-bullet dropdown-group">
+                        <li class="dropdown-group--item no-wrap"><a class="dropdown-item--link" href="/dhsf" title="The Digital Health Success Framework">Digital Health Success Framework</a></li>
+                        <li class="dropdown-group--item"><a class="dropdown-item--link" href="/innovation" title="Datica's premiere collection of insights, reports, ">Healthcare Innovators</a></li>
+                        <li class="dropdown-group--item"><a class="dropdown-item--link" href="/podcast" title="Exploring innovation in healthcare through interviews with the industry's top thinkers and doers.">Podcast</a></li>
+                        <li class="dropdown-group--item"><a class="dropdown-item--link" href="/academy" title="Full archive of Datica's educational materials">The Academy</a></li>
+                    </ul>
                     <hr class="hr">
                     <div class="list-title">Learn More:</div>
                     <ul class="no-bullet dropdown-group">
@@ -100,9 +97,6 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
                             <li class="dropdown-group--item">
                                 <a class="dropdown-item--link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">Healthcare Cloud</a>
                             </li>
-                            <li class="dropdown-group--item">
-                                <a class="dropdown-item--link" href="/discover/innovation" title="Discover Innovation">Innovation</a>
-                            </li>
                     </ul>
                 </div>
                 <div class="container-color--gray-light alt-nav show-for-large">
@@ -112,7 +106,40 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
                 </div>
             </div>
         </div>
-        <a href="/about" title="Background, Career Openings, Press">Company</a>
+
+        <div class="a" id="companyDropdown">
+            <span class="selector">Company <i class="fa fa-caret-down"></i></span>
+            <div class="dropdown dropdown-company drop dropdown-list--block">
+                <div class="container-color--white">
+                    <ul class="no-bullet dropdown-group">
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/about" title="Background on the company">About Us</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/leadership" title="The team guiding Datica">Leadership</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/blog" title="News and notes from team members at Datica">Company Blog</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="https://engineering.datica.com" title="Our engineering team shares bleeding-edge insight on what it takes to build a compliant platform">Engineering Blog</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/careers" title="Job opportunities at Datica">Careers</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/press" title="Full press background, and information for media outlets">Press</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/events" title="Our past and future event attendance">Events</a>
+                            </li>
+                            <li class="dropdown-group--item">
+                                <a class="dropdown-item--link" href="/open-source" title="We believe in the importance of open source">Open Source Contributions</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
     <nav class="right">
         <div class="input-nav input-nav--white hide-for-large-only">
@@ -196,17 +223,20 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
         </div>
     </div>
 </section>
-<section class="section-article container-image--center container-color--gray-light" data-interchange="[https://images.contentful.com/189dvqdsjh46/1jodnmVv0M6mq884U2k66O/2038cf304612e1b9de5a5663801a0569/report-infographic-bg-gradient-large.jpg?w=800&q=40, small], [https://images.contentful.com/189dvqdsjh46/1jodnmVv0M6mq884U2k66O/2038cf304612e1b9de5a5663801a0569/report-infographic-bg-gradient-large.jpg?w=1600&q=50, large]">
-    <div class="row">
-        <div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-6">
-            <div class="callout callout--large drop text-center-for-small">
-                <h2 class="headline-3">The Heart of Medicine: Transformation Through Technology</h2>
-                <p>Follow along as Datica examines how Digital Health can help transform healthcare. Our ongoing series facilitates timely, relevant conversations with healthcare innovators through our podcast, quarterly industry reports, and more.</p>
-                <p class=""><a href="/innovation/heart-of-medicine-report-spring-2017/" title="Get your free industry report" class="button button--primary">Download our latest industry report <i class="fa fa-angle-right"></i></a></p>
-            </div>
+<section id="innovation-gallery" class="section-article section--cta-blue container-image--center" data-interchange="[/public/img/bg/platform-integration-inverted-bg.png, medium]">
+    <div class="row align-middle">
+        <div class="columns small-12 medium-6">
+            <h4 class="subhead--small text--spaced">Leadership Gallery</h4>
+            <h2 class="headline-3">Rethinking Healthcare Technology</h2>
+            <p>Expansive, useful, and original insights from key leaders about the complicated and multi-dimensional effort of digital transformation and innovation in the health care environment.</p>
+            <p><a class="button button--light" href="/innovation/leadership-gallery/" title="Rethinking Healthcare Technology">Read Now</a></p>
+        </div>
+        <div class="columns small-12 medium-6">
+            <script src="https://fast.wistia.com/embed/medias/ckf2qzc1fp.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ckf2qzc1fp seo=false videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
         </div>
     </div>
 </section>
+
 <section class="section-article bg-video--container">
     <video id="vid-dhsf" class="bg-video" poster="https://images.contentful.com/189dvqdsjh46/6KUM2EQZuE0e26qUysGS0e/bb2d24d7d99be25a8e875262e74044d5/dhsf-promo-poster.png" playsinline autoplay muted loop>
         <source src="https://videos.contentful.com/189dvqdsjh46/6BrpQ15XKEQ86qkAQ4mOCW/8e6faf1d60ab2fe2a979155f2f896e0b/dhsf-ad-loop-lo.mp4" type="video/mp4">
@@ -220,6 +250,7 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
         </div>
     </div>
 </section>
+<style media="screen">.bg-video{position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;opacity:0.3;width:auto;height:auto;z-index:-100;transform:translateX(-50%) translateY(-50%);background:url("https://images.contentful.com/189dvqdsjh46/6KUM2EQZuE0e26qUysGS0e/bb2d24d7d99be25a8e875262e74044d5/dhsf-promo-poster.png") no-repeat;background-size:contain;transition:1s opacity}.bg-video--container{position:relative;overflow:hidden}</style>
 <script type="text/javascript">
     var vid = document.getElementById("vid-dhsf");
     if (window.matchMedia('(prefers-reduced-motion)').matches) {
@@ -227,6 +258,19 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
         vid.pause();
     }
 </script>
+
+<section class="section-article container-image--center container-color--gray-light" data-interchange="[https://images.contentful.com/189dvqdsjh46/1jodnmVv0M6mq884U2k66O/2038cf304612e1b9de5a5663801a0569/report-infographic-bg-gradient-large.jpg?w=800&q=40, small], [https://images.contentful.com/189dvqdsjh46/1jodnmVv0M6mq884U2k66O/2038cf304612e1b9de5a5663801a0569/report-infographic-bg-gradient-large.jpg?w=1600&q=50, large]">
+    <div class="row align-right">
+        <div class="columns small-12 medium-8 large-6">
+            <div class="callout callout--large drop text-center-for-small">
+                <h2 class="headline-3">The Heart of Medicine: Transformation Through Technology</h2>
+                <p>Follow along as Datica examines how Digital Health can help transform healthcare. Our ongoing series facilitates timely, relevant conversations with healthcare innovators through our podcast, quarterly industry reports, and more.</p>
+                <p class=""><a href="/innovation/heart-of-medicine-report-spring-2017/" title="Get your free industry report" class="button button--primary">Download our latest industry report <i class="fa fa-angle-right"></i></a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
             <!-- GA -->
             <script type="text/javascript">
