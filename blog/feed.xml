@@ -7,6 +7,16 @@
     <name>Datica</name>
   </author>
   <entry>
+    <title>How can technology improve patient care and reduce costs?</title>
+    <link rel="alternate" href="http://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs"/>
+    <published>2017-08-23T17:00:00-07:00</published>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <content>&lt;p&gt;Our newest publication Rethinking Healthcare Technology includes expansive, useful, and original essays on digital transformation from insightful leaders.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Spear Phishing: Hackers Aiming for Healthcare</title>
     <link rel="alternate" href="http://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare"/>
     <published>2017-08-17T17:00:00-07:00</published>
@@ -94,16 +104,6 @@
       <name>Travis Good, MD</name>
     </author>
     <content>&lt;p&gt;Cybersecurity is top of mind for most CEOs and so it was no surprise that it was a hot topic at this week’s Health IT Summit in Boston.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Onramp to the Healthcare Cloud</title>
-    <link rel="alternate" href="http://datica.com/blog/onramp-to-the-healthcare-cloud"/>
-    <published>2017-06-12T17:00:00-07:00</published>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <content>&lt;p&gt;Most of us imagined the cloud onramp in healthcare to be many years away but it’s happening now as healthcare embraces SaaS-based digital health solutions.&lt;/p&gt;
 </content>
   </entry>
 </feed>

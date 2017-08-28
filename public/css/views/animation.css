@@ -1,1 +1,131 @@
-.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-timing-function:linear;animation-timing-function:linear;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite}@-webkit-keyframes bounce{0%,100%{-webkit-transform:translateY(0)}50%{-webkit-transform:translateY(-.3125rem)}}@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce}.homepage-animation svg polyline{stroke-width:2;opacity:0}.homepage-animation svg polyline.blue{stroke:#1260FF}.homepage-animation svg polyline.magenta{stroke:#E26AFF}.homepage-animation svg polyline.gray{stroke:#6C93B5}.homepage-animation svg polyline.glow-yellow{stroke:#fff870}.homepage-animation svg polyline.glow-green{stroke:#87ff66}.homepage-animation svg polyline.glow-blue{stroke:#29d4ff}.homepage-animation svg .node.blue,.homepage-animation svg .hover-node.blue{fill:#1260FF}.homepage-animation svg .node.magenta,.homepage-animation svg .hover-node.magenta{fill:#E26AFF}.homepage-animation svg .node.gray,.homepage-animation svg .hover-node.gray{fill:#6C93B5}.homepage-animation svg .node.glow-yellow,.homepage-animation svg .hover-node.glow-yellow{fill:#fff870}.homepage-animation svg .node.glow-green,.homepage-animation svg .hover-node.glow-green{fill:#87ff66}.homepage-animation svg .node.glow-blue,.homepage-animation svg .hover-node.glow-blue{fill:#29d4ff}.homepage-animation svg .circle-outline.blue{stroke:#1260FF}.homepage-animation svg .circle-outline.magenta{stroke:#E26AFF}.homepage-animation svg .circle-outline.gray{stroke:#6C93B5}.homepage-animation svg .circle-outline.glow-yellow{stroke:#fff870}.homepage-animation svg .circle-outline.glow-green{stroke:#87ff66}.homepage-animation svg .circle-outline.glow-blue{stroke:#29d4ff}.homepage-animation svg .hover-group .hover{opacity:0;fill:#FFFFFF}.homepage-animation svg .hover-group .content{opacity:0;visibility:hidden}.homepage-animation svg .hover-group .content div{min-width:15.625rem;padding:1rem;background-image:-webkit-linear-gradient(#fff 0%, #E2E9ED 100%);background-image:-o-linear-gradient(#fff 0%, #E2E9ED 100%);background-image:linear-gradient(#fff 0%, #E2E9ED 100%);-moz-box-shadow:0 .375rem 1.0625rem 0 rgba(0,0,0,0.9);-webkit-box-shadow:0 .375rem 1.0625rem 0 rgba(0,0,0,0.9);box-shadow:0 .375rem 1.0625rem 0 rgba(0,0,0,0.9);-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.homepage-animation svg .hover-group .content div img{display:block;max-width:3.125rem;width:100%;height:auto}.homepage-animation svg .hover-group .content div .zipnosis,.homepage-animation svg .hover-group .content div .ukh{max-width:10rem}.homepage-animation svg .hover-group .content div .infra{max-width:6.25rem}.homepage-animation svg .hover-group .content div .va{max-width:8.75rem}.homepage-animation svg .hover-group .content div .jj{max-width:11.875rem}.homepage-animation svg .hover-group .content div .healthloop{max-width:8.75rem}.homepage-animation svg .hover-group .content div .bsc,.homepage-animation svg .hover-group .content div .hurley{max-width:5.625rem}.homepage-animation svg .hover-group .content div h3{margin:0.875rem 0;font-size:1rem;color:#010101;font-weight:500}.homepage-animation svg .hover-group .content div p{color:#4E565D;margin:0;padding:0}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0); }
+  50% {
+    -webkit-transform: translateY(-0.3125rem); } }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-5px); } }
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce; }
+
+.homepage-animation svg polyline {
+  stroke-width: 2;
+  opacity: 0; }
+  .homepage-animation svg polyline.blue {
+    stroke: #1260FF; }
+  .homepage-animation svg polyline.magenta {
+    stroke: #E26AFF; }
+  .homepage-animation svg polyline.gray {
+    stroke: #6C93B5; }
+  .homepage-animation svg polyline.glow-yellow {
+    stroke: #fff870; }
+  .homepage-animation svg polyline.glow-green {
+    stroke: #87ff66; }
+  .homepage-animation svg polyline.glow-blue {
+    stroke: #29d4ff; }
+
+.homepage-animation svg .node.blue,
+.homepage-animation svg .hover-node.blue {
+  fill: #1260FF; }
+
+.homepage-animation svg .node.magenta,
+.homepage-animation svg .hover-node.magenta {
+  fill: #E26AFF; }
+
+.homepage-animation svg .node.gray,
+.homepage-animation svg .hover-node.gray {
+  fill: #6C93B5; }
+
+.homepage-animation svg .node.glow-yellow,
+.homepage-animation svg .hover-node.glow-yellow {
+  fill: #fff870; }
+
+.homepage-animation svg .node.glow-green,
+.homepage-animation svg .hover-node.glow-green {
+  fill: #87ff66; }
+
+.homepage-animation svg .node.glow-blue,
+.homepage-animation svg .hover-node.glow-blue {
+  fill: #29d4ff; }
+
+.homepage-animation svg .circle-outline.blue {
+  stroke: #1260FF; }
+
+.homepage-animation svg .circle-outline.magenta {
+  stroke: #E26AFF; }
+
+.homepage-animation svg .circle-outline.gray {
+  stroke: #6C93B5; }
+
+.homepage-animation svg .circle-outline.glow-yellow {
+  stroke: #fff870; }
+
+.homepage-animation svg .circle-outline.glow-green {
+  stroke: #87ff66; }
+
+.homepage-animation svg .circle-outline.glow-blue {
+  stroke: #29d4ff; }
+
+.homepage-animation svg .hover-group .hover {
+  opacity: 0;
+  fill: #FFFFFF; }
+
+.homepage-animation svg .hover-group .content {
+  opacity: 0;
+  visibility: hidden; }
+  .homepage-animation svg .hover-group .content div {
+    min-width: 15.625rem;
+    padding: 1rem;
+    background-image: -webkit-linear-gradient(#FFFFFF 0%, #E2E9ED 100%);
+    background-image: -o-linear-gradient(#FFFFFF 0%, #E2E9ED 100%);
+    background-image: linear-gradient(#FFFFFF 0%, #E2E9ED 100%);
+    -moz-box-shadow: 0 0.375rem 1.0625rem 0 rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 0.375rem 1.0625rem 0 rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0.375rem 1.0625rem 0 rgba(0, 0, 0, 0.9);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+    .homepage-animation svg .hover-group .content div img {
+      display: block;
+      max-width: 3.125rem;
+      width: 100%;
+      height: auto; }
+    .homepage-animation svg .hover-group .content div .zipnosis,
+    .homepage-animation svg .hover-group .content div .ukh {
+      max-width: 10rem; }
+    .homepage-animation svg .hover-group .content div .infra {
+      max-width: 6.25rem; }
+    .homepage-animation svg .hover-group .content div .va {
+      max-width: 8.75rem; }
+    .homepage-animation svg .hover-group .content div .jj {
+      max-width: 11.875rem; }
+    .homepage-animation svg .hover-group .content div .healthloop {
+      max-width: 8.75rem; }
+    .homepage-animation svg .hover-group .content div .bsc,
+    .homepage-animation svg .hover-group .content div .hurley {
+      max-width: 5.625rem; }
+    .homepage-animation svg .hover-group .content div h3 {
+      margin: 0.875rem 0;
+      font-size: 1rem;
+      color: #010101;
+      font-weight: 500; }
+    .homepage-animation svg .hover-group .content div p {
+      color: #4E565D;
+      margin: 0;
+      padding: 0; }

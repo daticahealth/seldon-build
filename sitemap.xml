@@ -1045,6 +1045,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs/</loc>
+    <lastmod>2017-07-17T11:28:27-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/blog/getting-ready-for-our-second-board-meeting/</loc>
     <lastmod>2017-07-17T11:28:27-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1958,6 +1964,12 @@
   </url>
   <url>
     <loc>https://datica.com/guide/hitrust/</loc>
+    <lastmod>2017-06-01T23:00:44-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/guide/digital-health-success-framework-ebook/</loc>
     <lastmod>2017-06-01T23:00:44-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -1,1 +1,0 @@
-$(document).ready(function(n){$("#light-dark").on("change",function(n){console.log("switch")})});
