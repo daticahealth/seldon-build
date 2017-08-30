@@ -7,6 +7,16 @@
     <name>Datica</name>
   </author>
   <entry>
+    <title>Facing down the largest breaches of 2017 with Datica's open-source policies</title>
+    <link rel="alternate" href="http://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
+    <published>2017-08-29T17:00:00-07:00</published>
+    <author>
+      <name>Mark Olschesky</name>
+    </author>
+    <content>&lt;p&gt;As we roll into the end of 2017, it’s worth looking back on how the industry has been doing protecting PHI against the threat of cyber-intrusions.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>How can technology improve patient care and reduce costs?</title>
     <link rel="alternate" href="http://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs"/>
     <published>2017-08-23T17:00:00-07:00</published>
@@ -94,16 +104,6 @@
       <name>Laleh Hassibi</name>
     </author>
     <content>&lt;p&gt;Datica customers and innovators Cota, Clockwise.MD, and Arcadia Healthcare are making waves in healthcare and we’re excited to share their stories.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Speaking at the Healthcare Informatics Health IT Summit in Boston</title>
-    <link rel="alternate" href="http://datica.com/blog/speaking-at-the-healthcare-informatics-health-it-summit-in-boston"/>
-    <published>2017-06-15T17:00:00-07:00</published>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <content>&lt;p&gt;Cybersecurity is top of mind for most CEOs and so it was no surprise that it was a hot topic at this week’s Health IT Summit in Boston.&lt;/p&gt;
 </content>
   </entry>
 </feed>

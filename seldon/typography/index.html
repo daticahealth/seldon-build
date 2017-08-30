@@ -451,6 +451,58 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
             </div>
                     <div class="group drop">
                         <div class="container-pad--large container-color--gray-dark">
+                            <p class="blog-date">August 30, 2017</p>
+                            <h1 class="headline-2">Facing down the largest breaches of 2017 with Datica's open-source policies</h1>
+                        </div>
+                        <div class="container-pad--large container-color--white">
+                            <article class="content-dynamic">
+                                    <div class="lead"><p>As we roll into the last few months of the year, it’s worth looking back on how the industry has been doing protecting PHI and adapting to the increasingly threatening world of cyber-intrusions. While the big stories generally revolve around the largest amount of lives impacted and the most technically harrowing attacks, it’s worth noting that there are still breaches as simple as someone stealing a laptop with a spreadsheets with thousands of persons worth of PHI on it. In this article, we’re going to go through some of the largest breaches of 2017 and discuss how we address these as a company which we’ve shared in our open-source policies. While it’s impossible to say in retrospect if any breach was 100% preventable, having policies in place to provide “reasonable effort” to prevent exposure is key to minimizing the damage from the unpreventable.</p>
+</div>
+                                <div class="section--body blog-post-content group"><h2 id="ransomware-or-malware">Ransomware or Malware</h2>
+
+<p>At top of mind in 2017 is ransomware and malware, which shut down and exposed multiple hospitals and HIT Vendors thoughout the year. Of those, two were notable:</p>
+
+<ul>
+  <li><a href="http://www.healthcareitnews.com/news/los-angeles-provider-breached-ransomware-attack-over-260000-patients-affected-updated">Pacific Alliance Medical Center attack potentially leaks 260K patients</a></li>
+  <li><a href="https://www.healthcare-informatics.com/news-item/cybersecurity/cyber-attack-update-nuance-still-down-researchers-believe-petya-not">Nuance Impacted for Weeks Due to Malware)</a></li>
+</ul>
+
+<p>The vector of the attack is relatively straightforward: through phishing or infected 3rd party hardware like a thumb drive, hackers gain access to hardware throughout an organization’s network and encrypt data on that hardware. The purpose of ransomware is to extract payment to undo that encryption while other malware like the ones believed to be used in the Nuance attack are wholly irreversible and are just designed to effectively destroy the data.</p>
+
+<p>Preventing something like an attack like this actually hits to the heart of most of our policies, but let’s go for the top 3 references in this article. First, <a href="https://policy.datica.com/#9.5-patch-management-procedures">patch management</a> ensures that you are constantly being vigilant to new security concerns. While it’s not directly stated in our policies, we have one person and a backup who are wholly responsible for managing patches for our system for security concerns. Second, having policies on <a href="https://policy.datica.com/#7.2-access-establishment-and-modification">appropriate system access and by reducing the need for privledged users</a> reduces the risk that if one user’s credentials are compromised all systems could be accessible by an attacker. Third, we run <a href="https://policy.datica.com/#17.4-prevention-of-malware-on-production-systems">OSSEC and Anti-Virus</a> on all production systems to identify any otherwise unknown attacks and to solve any issues brought up from an attack.</p>
+
+<h2 id="unauthorized-access-or-disclosure">Unauthorized Access or Disclosure</h2>
+
+<ul>
+  <li><a href="http://www.healthcareitnews.com/news/indiana-medicaid-warns-patients-health-data-breach">Indiana Medicaid warns patients of health data breach</a></li>
+  <li><a href="http://www.healthcareitnews.com/news/phishing-attack-uc-davis-health-breaches-data-15000-patients">Phishing attack at UC Davis leads to health data breach</a></li>
+</ul>
+
+<p>Other than a vector for malware, <a href="https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare/">phishing</a> can also be used as a method for attackers to simply gain access to systems by getting credentials to a system. Or, a well-meaning dev may accidentally breach patient data by placing it on a public facing web page.</p>
+
+<p>While your mileage may vary, our policies have a few tips to help prevent this. First, we require <a href="https://policy.datica.com/#17.7-production-system-security">two-factor auth</a> on all production systems. While this doesn’t necessarily prevent a system user from giving an attacker their credentials <em>and</em> auth token (sigh), it reduces the risk of unauthorized cross application access and minimizes the window by which an attacker can maintain access to an application. We also require access to all production systems to be <a href="https://policy.datica.com/#7.2-access-establishment-and-modification">managed over a VPN with two-factor auth</a>. We also have an unofficial “All data is potentially PHI” policy for our managed integration services hardware/software. While we may have access to test environments with mock patient data, we assume that we may be sent PHI from any vendor or healthcare organization. As such, we protect all data like PHI as established in our policies.</p>
+
+<h2 id="theft-or-improper-disposal">Theft or Improper Disposal</h2>
+
+<ul>
+  <li><a href="http://www.healthcareitnews.com/news/wsu-hard-drive-theft-potentially-impacts-1-million-people">WSU hard drive theft potentially impacts 1 million people</a></li>
+  <li><a href="http://bismarcktribune.com/news/state-and-regional/state-employee-dumps-medicaid-worksheets-in-dumpster/article_13f36eb4-1fb4-5278-93e1-1d30a00c9f9a.html">State Employee Dumps Medicaid Worksheets in dumpster</a></li>
+</ul>
+
+<p>While hackers and ransomeware are increasingly perilous, <a href="https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf">20% of data breaches reported to the OCR are good old fashioned theft and improper disposal</a>. Someone stealing a laptop from a car or a unencrypted hard drive from an office to cause a breach are a tale as old as HIPAA itself.</p>
+
+<p>We may be biased, but <strong>stop storing PHI on local machines or on paper</strong>. <a href="https://policy.datica.com/#7.13-access-to-ephi">We don’t</a>. We only used <a href="https://policy.datica.com/#20.-approved-tools-policy">approved tools</a> with appropriate access controls and encryption to store and transfer PHI. We also have <a href="https://policy.datica.com/#10.-facility-access-policy">no servers in our offices</a> and BAAs with our cloud providers.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Don’t <a href="https://datica.com/discover/hipaa-compliance/">learn about HIPAA</a> the hard way, either getting beat up by your first 250-question audit or worse: by finding yourself on the OCR’s Wall of Shame. Consult our policies or let us do the lifting for you on our thrice-audited, HITRUST-certified <a href="https://datica.com/platform/">compliant Platform</a>.</p>
+
+</div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="group drop">
+                        <div class="container-pad--large container-color--gray-dark">
                             <p class="blog-date">August 24, 2017</p>
                             <h1 class="headline-2">How can technology improve patient care and reduce costs?</h1>
                         </div>
@@ -558,52 +610,6 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
 </div>
 
 <p>Explore the essays at <a href="https://datica.com/innovation/leadership-gallery/">datica.com/innovation/leadership-gallery</a>.</p>
-</div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="group drop">
-                        <div class="container-pad--large container-color--gray-dark">
-                            <p class="blog-date">August 18, 2017</p>
-                            <h1 class="headline-2">Spear Phishing: Hackers Aiming for Healthcare</h1>
-                        </div>
-                        <div class="container-pad--large container-color--white">
-                            <article class="content-dynamic">
-                                    <div class="lead"><p>At the beginning of August, the BBC reported that a UK-based “prankster” had successfully <a href="http://www.bbc.com/news/world-us-canada-40788080">spoofed the White House.</a> Through spear phishing emails, this bad actor had not only convinced a senior cyber security officer that he was the president’s son-in-law and senior advisor Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus to fool then White House Communications Director Anthony Scaramucci into inflammatory email exchanges. After posting a few of those emails on Twitter, the culprit promised not to do it again and urged the current administration to “tighten up IT policy.” While the jokester later indicated his email spoofing had no harmful intent, the implications go way beyond 1600 Pennsylvania Avenue.</p>
-</div>
-                                <div class="section--body blog-post-content group"><p>Phishing is a widely used form of social engineering where malicious ne’re-do-wells broadcast  disguised emails to a large population in an attempt to steal sensitive information like usernames, passwords, financial and yes, healthcare data. Although not commonly known until 2005, phishing scams first appeared around 1995, with the term first being coined in a Usenet group on January 2, 1996. When America Online (AOL) reigned as king of email communication, scammers regularly masked themselves as banking sites and financial institutions, as well as PayPal and Ebay. These fraudulent emails would often persuade victims to open a link with a malevolent attachment or visit a malicious web site.</p>
-
-<p>Later, these phishing scams bred a more targeted type of phishing called <a href="https://www.wired.com/2015/04/hacker-lexicon-spear-phishing/">“spear phishing.”</a> For this type of hoax, cyber shysters use targeted emails designed to appear as if from someone the victim knows, such as a colleague, business manager or even someone from the human resources department. These tailored emails often contain subject lines or content that capitalize on the victim’s known interests.</p>
-
-<h2 id="is-healthcare-a-spear-phishing-target">Is Healthcare a Spear Phishing Target?</h2>
-
-<p>In the 377 healthcare data breaches last year, the <a href="http://www.prnewswire.com/news-releases/data-breaches-increase-40-percent-in-2016-finds-new-report-from-identity-theft-resource-center-and-cyberscout-300393208.html">Identity Theft Resource Center (ITRC) and CyberScout</a> report shows phishing attacks were among the top data breach causes. Along with hacking and skimming, these three scams made up 55.5 percent of the breaches. Furthermore, spear phishing appears to be the most likely type of scam targeting CEOs. From 2015 to 2016, the numbers for these methods of breaches rose 17.7 percent. In the first part of 2017, phishing has been used to gain access to UC Davis Health, Torrance Memorial Medical and Washington University School of Medicine, according to Healthcare IT News piece titled <a href="http://www.healthcareitnews.com/slideshow/biggest-healthcare-breaches-2017-so-far?page=32">“The biggest healthcare breaches of 2017 (so far).”</a> This upward trend isn’t about to subside until an even more lucrative scam arises. With an average cost of a healthcare data breach at about $380 per record, mitigating spear phishing remains top of mind for Datica and its customers.</p>
-
-<h2 id="spear-phishing-recommendations">Spear Phishing Recommendations</h2>
-
-<p>For insight into this latest trend, I reached out to Datica Security Engineer Brandon Maxwell. He shared the reason for an increase in spear phishing: high success rates — which make it the number one delivery vehicle for ransomware and malware. “They don’t need complex methods of breaking through security walls when they can simply trick someone inside an organization to hand over what they want,” says Maxwell.</p>
-
-<p>Datica, like every other healthcare IT organization, is also vulnerable to this type of encounter. For example, one spear phishing attempt that we recently blocked came from an imposter who cleverly spoofed one of our executive’s email addresses. He or she used that email address to request a wire transfer from the finance department. Trained to spot such deceit, the department head alerted the appropriate person within Datica about the email and its request, and ultimately averted the scam. Datica now uses this spoof example to warn its own customers to such trickery.</p>
-
-<p>Datica’s Director of Compliance Lori Meals touts four ways healthcare organizations can better protect themselves from such attacks. Her recommendations and thoughts, along with Maxwell’s include:</p>
-
-<h3 id="awareness-training-and-testing">Awareness, training and testing</h3>
-
-<p>All employees need to be made aware of what phishing is and the damage that can result from a successful attack. Maxwell outlines the steps he uses to fully inform Datica employees, “Sharing what a spear phishing email looks like, explaining how to evaluate such an email and then confirming that employees know to whom suspicious emails should be forwarded for evaluation are a strategic way to thwart outside intrusions that could breach an organization’s thickest walls.” Meals strongly encourages periodic testing of employees’ knowledge and awareness of fake phishing emails by crafting internal spear phishing lures that can be distributed internally. However, she cautions against doing testing at specific dates. “You don’t want to make testing so regular that on October 1st, every employee expects a fake spear phishing email,” says Meals.</p>
-
-<h3 id="putting-technical-measures-in-place">Putting technical measures in place</h3>
-
-<p>Certain technical steps must be in place as the first line of defense against all phishing scams. “When someone is trying to fake an email and send it to someone in your organization, you should have the technical measures in place that will flag that email as suspicious,” says Maxwell.</p>
-
-<h3 id="measurement-and-management">Measurement and management</h3>
-
-<p>Setting and tracking goals, then managing any steps for failure is a critical part of any good compliance program “Having zero percent of employees click on that test should be the organizational goal,” says Meals. “Anything less than a zero level goal would require remediation steps.”</p>
-
-<p>These compliance concepts run parallel with the concepts found in HITRUST. Datica joins an elite group of healthcare vendors in the United States to achieve <a href="https://datica.com/platform/compliance/">HITRUST CSF Certification</a> status and believes that this gold-standard for security of healthcare data is the best way to protect its customers.</p>
-
-<h2 id="daticas-customer-protections">Datica’s Customer Protections</h2>
-
-<p>Security and compliance are deeply woven into <a href="https://datica.com/">Datica’s company culture</a>. If you’ve ever had to let one of your employees go who had access to your environment on the Datica platform, you have encountered Datica’s billing-based method of double verification. The Datica engineering team works hand in hand with the billing department to quickly verify and make customer requested adjustments for access. Datica utilizes stringent measures for Identity proofing to protect its customers. These steps combined with the recommendations above better protect your organization for a spear phishing attack.</p>
 </div>
                             </article>
                         </div>
