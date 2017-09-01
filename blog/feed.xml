@@ -7,6 +7,16 @@
     <name>Datica</name>
   </author>
   <entry>
+    <title>Taming the Torrent of Patient Generated Healthcare Data</title>
+    <link rel="alternate" href="http://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
+    <published>2017-08-30T17:00:00-07:00</published>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <content>&lt;p&gt;Our Healthcare Innovators podcast continues with an illuminative interview with Aaron Neinstein, MD on tech that tames the deluge of patient generated data.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Facing down the largest breaches of 2017 with Datica's open-source policies</title>
     <link rel="alternate" href="http://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
     <published>2017-08-29T17:00:00-07:00</published>
@@ -94,16 +104,6 @@
       <name>Laleh Hassibi</name>
     </author>
     <content>&lt;p&gt;Complying with HIPAA and proving it are two very different things. Datica is HIPAA compliant AND can prove it with our HITRUST CSF certification.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Shining the Spotlight on Datica Customers</title>
-    <link rel="alternate" href="http://datica.com/blog/shining-the-spotlight-on-datica-customers"/>
-    <published>2017-06-21T17:00:00-07:00</published>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <content>&lt;p&gt;Datica customers and innovators Cota, Clockwise.MD, and Arcadia Healthcare are making waves in healthcare and we’re excited to share their stories.&lt;/p&gt;
 </content>
   </entry>
 </feed>

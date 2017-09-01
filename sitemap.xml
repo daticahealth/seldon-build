@@ -152,7 +152,7 @@
   </url>
   <url>
     <loc>https://datica.com/</loc>
-    <lastmod>2017-08-29T11:09:32-07:00</lastmod>
+    <lastmod>2017-09-01T10:35:49-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1082,6 +1082,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/catalyze-open-source/</loc>
+    <lastmod>2017-08-31T09:23:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data/</loc>
     <lastmod>2017-08-31T09:23:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
