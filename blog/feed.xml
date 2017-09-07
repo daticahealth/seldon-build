@@ -7,6 +7,26 @@
     <name>Datica</name>
   </author>
   <entry>
+    <title>Lifting A Fork for Open Source</title>
+    <link rel="alternate" href="http://datica.com/blog/lifting-a-fork-for-open-source"/>
+    <published>2017-09-06T17:00:00-07:00</published>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <content>&lt;p&gt;This Q&amp;amp;A with Datica’s Chief Data Officer, Mark Olschesky, explores what it means that Datica just passed 200 forks of our open-source policies.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>If It's Possible, We Can Integrate It</title>
+    <link rel="alternate" href="http://datica.com/blog/if-its-possible-we-can-integrate-it"/>
+    <published>2017-09-04T17:00:00-07:00</published>
+    <author>
+      <name>Mark Olschesky</name>
+    </author>
+    <content>&lt;p&gt;There’s much a digital health company needs to know about EHR integrations. Here are 4 essential questions digital health teams should ask their customers.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
     <title>Taming the Torrent of Patient Generated Healthcare Data</title>
     <link rel="alternate" href="http://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
     <published>2017-08-30T17:00:00-07:00</published>
@@ -84,26 +104,6 @@
       <name>Travis Good, MD</name>
     </author>
     <content>&lt;p&gt;Datica has spent extensive time and money on security and organizational policies and procedures specifically to comply with HIPAA and share with our customers.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Saas, Paas, IaaS; What's the Difference?</title>
-    <link rel="alternate" href="http://datica.com/blog/saas-paas-iaas-whats-the-difference"/>
-    <published>2017-07-03T17:00:00-07:00</published>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <content>&lt;p&gt;As healthcare increasingly turns to cloud infrastructure, you might want to get to know the different service delivery models — SaaS, PaaS, and IaaS.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>5 Steps to HITRUST CSF Certification</title>
-    <link rel="alternate" href="http://datica.com/blog/5-steps-to-hitrust-csf-certification"/>
-    <published>2017-06-28T17:00:00-07:00</published>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <content>&lt;p&gt;Complying with HIPAA and proving it are two very different things. Datica is HIPAA compliant AND can prove it with our HITRUST CSF certification.&lt;/p&gt;
 </content>
   </entry>
 </feed>
