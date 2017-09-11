@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Healthcare Innovators Podcast by Datica</title>
+  <id>https://datica.com/podcast/</id>
+  <subtitle>Thoughts from the team behind Healthcare's trusted cloud</subtitle>
+  <link href="https://datica.com/podcast/" rel="self"/>
+  <author>
+    <name>Datica Health, Inc.</name>
+  </author>
+  <icon>https://datica.com/favicon.ico</icon>
+  <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
+  <updated>2017-08-29T17:00:00-07:00</updated>
+  <entry>
+    <title>Aaron Neinstein, MD: Emerging Healthcare Data Challenges from Patient Centric Technologies</title>
+    <link rel="alternate" href="https://datica.com/podcast/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies"/>
+    <id>https://datica.com/podcast/aaron-neinstein-md-emerging-healthcare-data-challenges-from-patient-centric-technologies</id>
+    <published>2017-08-29T17:00:00-07:00</published>
+    <updated>2017-08-29T17:00:00-07:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Never has so much patient-generated data been available. Yet, without a way to organize, digest and make sense of it all, most of these kernels of insight are left untapped. Many digital health companies from coast to coast are working on technologies to remedy that situation. In today’s podcast, we talk to UCSF’s Dr. Aaron Neinstein who gives us a glimpse into some of those promising technologies. He also offers an inside look at the patient-generated data challenges for doctors and what the future may hold for combining this data with what physicians presently can gather in a clinical setting.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;On openness to patient generated data:&lt;/strong&gt; “A big thing is more incentives from the payors, so over the last two years, we’ve seen the introduction of the Medicare chronic care management codes which create the payment opportunity for use of patient-generated health data. What those codes do is allow you to bill on on a monthly ongoing basis for taking care of a patient who has two or more chronic diseases. You could theoretically have a nurse or someone else on your staff managing the patient remotely and be billing for that time.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On empowering consumers to push for change in healthcare:&lt;/strong&gt; “So absolutely, certainly in the diabetes space there has been over the past 5 to 6 years a huge groundswell of people pushing for change in the use of patient-generated health data and in consumer-driven technology.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On other disease communities using diabetes for a model for technology and tech services:&lt;/strong&gt; “One place in particular where we are seeing similarities to diabetes is with asthma. If you think about capturing the action and activity that a patient takes in the normal course of the day. That’s what we are talking about here; these are chronic diseases, where coming in for an office visit three or four times a year allows a narrow snapshot of what’s happening in somebody’s life. The reason we care about patient-generated health data is in theory, because it gives us the opportunity to see what somebody is doing day-to-day, 24/7, 365 in the context of their life, and tweak their treatment regimen or change their behavior to improve the management of their chronic disease.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On how EHRs fit into the future of patient-generated data:&lt;/strong&gt;  “I think one of the things that people don’t think about is how many different categories of patient-generated health data there actually are. If you break it down, you are talking about 7 or 8 categories of things that comprise what we now called PGHD.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On different initiatives that might help with sharing data:&lt;/strong&gt;  “I hate to say it because it’s definitely the buzzword of the year, but I think one of the things that is floating out there that’s a possible way to help this problem over the next 10 years is blockchain. I realize there’s a lot of hype around it and we are still completely unsure of where this is going to end up, but in theory, blockchain allows a centralized ledger for data so that there’s a single source of truth that could be controlled by the person, by the user, by the patient. So, I think there’s a lot of theoretical potential.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Naomi Fried, PhD — How Digital Health Companies Can Help Pharma Innovate Faster</title>
+    <link rel="alternate" href="https://datica.com/podcast/naomi-fried-how-digital-health-companies-can-help-pharma-innovate"/>
+    <id>https://datica.com/podcast/naomi-fried-how-digital-health-companies-can-help-pharma-innovate</id>
+    <published>2017-07-24T17:00:00-07:00</published>
+    <updated>2017-07-24T17:00:00-07:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Few in healthcare have as much innovation experience as does Dr. Naomi Fried. As you listen to this month’s podcast that features a chat between Dr. Fried and host Travis Good, MD, you’ll discover the differences between the way pharma and a hospital system innovates, as well as what digital health may add to pharma in the future.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="dr-fried-responds"&gt;Dr. Fried responds:&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;On how pharma and a hospital might think differently about innovation:&lt;/em&gt; “From a pharma perspective, innovation is actually a core competency for them. Hospitals, on the other hand, see their core business as care delivery, taking care of patients.”
+“I would summarize pharma’s approach to internal non-product innovation as slow and cautious. Culturally, I think there are many in pharma that want to continue to do things the way they’ve been doing them, historically. So, there are some barriers to overcome there.”&lt;/p&gt;
+
+&lt;p&gt;“Compared to pharma providers, [providers] tend to have fewer resources to put toward internal innovation. But I think when it comes to testing and implementing patient-facing innovations, particularly new digital health tools, I think providers generally move more quickly. They are closer to the patient. They have fewer regulatory barriers to navigate around. So they tend to be more likely to jump in and try things. I’d say when it comes to digital health innovation for patients, hospitals are probably actually a bit ahead of pharma.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;On how pharma views internal versus external innovation:&lt;/em&gt; “[Digital health] companies usually have specialized domain knowledge. They’ve built a specific digital health tool and when you look at tech-savvy, entrepreneurial start-ups, they tend to have a consumer bent and typically better at developing the type of user experience and consumer-oriented solution than large pharma companies.”&lt;/p&gt;
+
+&lt;p&gt;“The second real benefit to partnering with external companies around digital health innovation is that these start-up companies tend to be more nimble because they are small in size, much simpler organizationally speaking than large pharma. Digital health startups in small companies generally move more quickly and often develop products in months rather than years, and they can also make changes quickly and respond to feedback they get.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;On benefits for pharma in using digital health companies to innovate faster:&lt;/em&gt; “There’s a whole body of rules for how pharma is permitted to interact with patients, especially stringent rules outside of the U.S., and these rules simply don’t apply to digital health companies. An external digital health vendor can talk freely to a doctor and patient and I think this is beneficial when trying to develop new innovative solutions that’ll touch the patient.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;On benefits for digital health companies who work with pharma companies:&lt;/em&gt; “I think hospitals are good potential customers for some of the digital health startups, but I think pharma actually can do a lot in terms of partnership, beyond the obvious resources like money. I think pharma can help digital health startups by sharing some of the expertise and understanding they have in particular diseases and therapeutic areas.”&lt;/p&gt;
+
+&lt;p&gt;“Digital health startups can leverage and learn from pharma’s well-established processes around health care industry-specific details, and that includes things like CPT coding, thinking about payer reimbursement. I think for start-ups, they don’t have to reinvent the wheel or invest heavily in developing regulatory expertise, but really can look to a pharma partner who can help them leapfrog to where they are going.”&lt;/p&gt;
+
+&lt;p&gt;“Where start-ups lack infrastructure needed to reach customers and have trouble scaling up, this is something that pharmaceutical companies have done well, so I think that teaming with pharmaceutical companies, tapping into their extensive marketing infrastructures and distribution channels can really help digital start-ups get traction, much faster than they could if they were on their own.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;On whether pharma will soon provide medication plus digital health solutions:&lt;/em&gt; “I think in the end, pharma will continue to provide solutions to patients, at the core, there will be a medication or a therapy. But almost all of these medications in the future will be combined with digital health solutions that address a patient’s needs more comprehensively. I think these digital solutions will address side effects; they will help with medication adherence.”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;On examples of medication + digital health solutions:&lt;/em&gt; “In the future, I think we’ll see drugs being offered along with virtual care, platforms and tools. Drugs for congestive heart failure, for example might come with home monitoring, so that it is possible to track the impact of the drug and keep a patient from retaining fluid that might necessitate a trip to the emergency department. You won’t just be getting a drug, but getting a drug plus a service that helps track how you are doing.”&lt;/p&gt;
+
+&lt;p&gt;“I think we’ll also see drugs plus digital therapies for side effects. As an example, multiple sclerosis drugs might come with digital antidepressant, an app or a web-based solution that helps them manage or ideally even treat the depression that is so common in that patient population.”&lt;/p&gt;
+
+&lt;p&gt;“Another example that I think we’ll be seeing are wearables that will help a patient know actually when they need to take their drug. Epileptic drugs might come with a wearable when an attack might be eminent and the patient can get someplace safe and take a drug to hopefully ward off that attack.”&lt;/p&gt;
+
+&lt;p&gt;“I like to call it D and D — drugs and digital. At the core, pharma will still be our source for medications but I think what we think of in terms of patient solutions and value to patients will be much more than just the chemical compound.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Dr. Sanjeev Arora — Improving rural access to care: the role technology plays and the value of telehealth</title>
+    <link rel="alternate" href="https://datica.com/podcast/dr-sanjeev-arora-improving-rural-access-to-care-the-role-technology-plays"/>
+    <id>https://datica.com/podcast/dr-sanjeev-arora-improving-rural-access-to-care-the-role-technology-plays</id>
+    <published>2017-06-29T17:00:00-07:00</published>
+    <updated>2017-06-29T17:00:00-07:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;The &lt;em&gt;Healthcare Innovators Podcast&lt;/em&gt; brings Dr. Sanjeev Arora to you this month to discuss how technology plays a role in improved access to care for rural areas. Dr. Arora  is the Director of &lt;a href="http://echo.unm.edu/" title="Project ECHO online at UNMHSC"&gt;Project ECHO&lt;/a&gt; (Extension for Community Healthcare Outcomes). He  developed the Project ECHO model as a platform for service delivery, education and evaluation. It took off in New Mexico; now it’s going around the globe. Dr. Arora is truly making a difference in healthcare today and we’re delighted he has stopped by to share his thoughts on healthcare access.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="dr-arora-responds"&gt;Dr. Arora responds:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;On the current reach of Project ECHO:&lt;/strong&gt; “We are connected with 120 academic centers that have launched Project ECHO. It is being done for 57 different disease areas; it is a rapidly expanding project. In addition to the 120 or so that have launched, there are also 200 more organizations that have signed collaborative agreements with us to launch Project ECHO.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In order to really change the way the world works for these underserved patients, one has to change the way it is distributed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;On the current state of telehealth:&lt;/strong&gt; “I think [the technologies] are fairly well developed now. They are sort of plug and play and I don’t see that as a technical gap. I think in terms of remote sensing there probably needs to be further progress. And I think this should happen in the next decade or so.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On challenges and progress in telehealth:&lt;/strong&gt; “I think another problem that I see in telehealth is really not a telehealth problem, but it is lack of interoperability of the electronic medical records in the U.S. healthcare system. Essentially, if a patient doesn’t belong to your particular hospital or practice then you can’t really see their electronic health records.”&lt;/p&gt;
+
+&lt;p&gt;“Other areas of progress for the future are big data and really interpreting all these new feeds that are coming in and creating intelligent outputs which are actionable. So there are many areas where I see a lot of progress will occur in the future.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On interoperability:&lt;/strong&gt; “It’s a source of great frustration for all of us who practice medicine… that we can’t get our act together to really develop a common platform where interoperability can offer the ability to see the patient’s data from any point of contact by the patient and their provider. I think that’s a sad thing, because many other systems have already done that. The VA does it; in other countries they’ve done that. I think it leads to bad patient outcome, so I’m hopeful that we can make greater progress in the future.”&lt;/p&gt;
+
+&lt;p&gt;“The problem could be solved in one stroke by law which would say that beyond, let’s say 2020, no healthcare provider or health system would get paid; no electronic medical record could exist unless there was this interoperability. It would get solved instantly, if there was regulation like that.”&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5y-nbc3I9oM?rel=0&amp;amp;showinfo=0" frameborder="0" allowfullscreen=""&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;em&gt;Project ECHO overview, from the GE Developing Health Summit&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On Project ECHO reaching one billion lives by 2025:&lt;/strong&gt; “The reason for the big number like a billion is the fact that we’ve done some research in the United States where we ask the providers a very simple question: &lt;em&gt;Is specialty access an area need for you?&lt;/em&gt; We published this data that showed 4.9 out of 5 providers said yes. Essentially in the United States, where we have more specialists than any other country in the world, they say they can’t access specialty care easily. So in order to really change the way the world works for these underserved patients, one has to change the way it is distributed.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Joshua Mandel, MD — FHIR and barriers to widespread adoption of Clinical Decision Support</title>
+    <link rel="alternate" href="https://datica.com/podcast/joshua-mandel-md"/>
+    <id>https://datica.com/podcast/joshua-mandel-md</id>
+    <published>2017-05-08T17:00:00-07:00</published>
+    <updated>2017-05-08T17:00:00-07:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Our guest in this episode is Joshua Mandel, MD, who is both a physician and software developer. With Mark Olshchesky as host, Dr. Mandel dives into SMART on FHIR and the widespread adoption of Clinical Decision Support. Dr. Mandel shares his experience as a technical architect for the &lt;a href="http://smartplatforms.org/"&gt;SMART project&lt;/a&gt; organized by Harvard Medical School and Boston Children’s Hospital, as well as specific projects that are making a difference to clinicians and healthcare.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="dr-mandel-responds"&gt;Dr. Mandel responds:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;On defining SMART:&lt;/strong&gt; “SMART is an acronym that stands for Substitutable Medical Applications and Reusable Technology. This idea of substitutability was the key focus. The idea, whether it was a patient or a clinician should be able to pick the apps that they want to use and interact with healthcare data using those apps.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On helping developers build SMART-enabled apps:&lt;/strong&gt; “At &lt;a href="http://docs.smarthealth.org"&gt;docs.SMARTHealth.org&lt;/a&gt;, we describe how to get started building  a browser-based app. You could even take a set of sample code that runs right in the browser, tweak it, write some new FHIR queries and get started writing code without having to download or installing packages locally.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the benefits of SMART on FHIR:&lt;/strong&gt; “SMART provides a way to embed these apps directly inside either an EHR or a patient portal, so that when you are in the middle of a clinical workflow, you can pick and choose the tools that you want to use, without having to sign into another system.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On alerts for clinical workflows:&lt;/strong&gt; “Alerts are often incorporated into an EHR as a way to enforce a policy but not necessarily a way of enhancing a clinical workflow or clinical decisions. So, I think that alerts, in general, have a bad rap for good reasons.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the pushing standards forward:&lt;/strong&gt; “The best kind of arrangement that we have to push these standards forward is what I call a triad, where there is a hospital system that is interested in adopting a CDS product in the context of their EHR. If we can get all three of those together, that is by far the best way for us to develop a new feature in a specification like CDS Hooks.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On preparation for CDS:&lt;/strong&gt; “Make an early investment in FHIR and make sure that basic data types like medications, allergies and lab tests are available through a FHIR interface.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On CDS and what it &lt;em&gt;really&lt;/em&gt; means:&lt;/strong&gt; “Clinical decision support is a bit of a jargon-y term. What we really mean is third-party services, such as helpful contextual information, for clinicians while they are going through their daily workflow.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Joseph Kvedar, MD, Author of "The Internet of Healthy Things"</title>
+    <link rel="alternate" href="https://datica.com/podcast/joseph-kvedar"/>
+    <id>https://datica.com/podcast/joseph-kvedar</id>
+    <published>2017-02-19T16:00:00-08:00</published>
+    <updated>2017-02-19T16:00:00-08:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;When we look at a more connected healthcare system, few see it as clearly as Joseph Kvedar, MD, author of &lt;em&gt;The Internet of Healthy Things&lt;/em&gt;. In this podcast, he reveals which pieces of the healthcare industry have embraced connected health and which will have to be dragged to the party. Getting insights from Dr. Kvedar is like Googling the future of healthcare.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;&lt;em&gt;Dr. Kvedar responds:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On connected health and who will be last to board the train:&lt;/strong&gt; “The slowest to come on board from a business model perspective are docs and hospitals because we are used to making a living by taking care of sick people – we haven’t quite figured out how to reward clinicians for keeping you well and how to reward hospitals for keeping you out of hospitals.”&lt;/p&gt;
+
+&lt;p&gt;“As I said earlier, doctors and hospitals are going to be dragged along to the party without question. Health plans, pharmacy, pharmaceuticals, and other industries are getting in ahead of the curve because they have more to gain in the short term. It’s happening – doctors and hospitals are very slow to change.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the current state of digital health:&lt;/strong&gt; “Digital health is now adopted by more than 50% of U.S. citizens or something like that. While we are trying to celebrate the consumerization and the adoption… there is still a very significant chunk of folks — most of them with chronic illness who cost the system a lot of money — who are reticent.”&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://theinternetofhealthythings.com/" title="Kvedar, 'The Internet of Healthy Things' book"&gt;&lt;img class="float-left" width="140" src="//images.contentful.com/189dvqdsjh46/6GIXXP3OdUQa26AOCS4WaI/7905a56020707fd8d2c8496d2fb5fba0/Kvedar___22The_Internet_of_Healthy_Things_22_book_cover.jpg" alt="Kvedar, 'The Internet of Healthy Things' book cover" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the biggest impediments to interoperability:&lt;/strong&gt; “Sadly, it is in no one’s financial best interests.”&lt;/p&gt;
+
+&lt;p&gt;“If you are an IT vendor – almost all of them up and down the stack, whether it’s telecom, database, or even hardware – all of them want to bring you in and upsell you new things. They can only upsell you if they build barriers to others entering their space and that means that they are doing something proprietary to keep you as a customer. Almost always that involves some sort of unique dataset or some sort of unique way of sharing data. On the vendor side, it seems hopeless.”&lt;/p&gt;
+
+&lt;p&gt;“On the hospital side, from a pure business perspective, why would my hospital want to make it easy for patients to take their data to another hospital and get their care done there? To implement interoperability costs a lot of money. You have to build interfaces and interfaces are complicated.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On what will get us to interoperable healthcare:&lt;/strong&gt; “The only way I could conceive of having interoperability become the norm is to have a demand from government purchasers that – if you are going to be a government contract – you have to have a certain set of open standards. I don’t know if that will happen under a Trump administration but they certainly are signaling that they wouldn’t view the world that way. So, I don’t see it happening soon, unfortunately.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On retail and its guiding light to healthcare:&lt;/strong&gt; “Other examples have come up that I think are equally interesting, such as, if you buy an item from J.Crew online and, if you have their app on your phone, go into their mall store, the app will signal you to go to a table that has matching accessories to the thing that you bought online. A very interesting application.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the wearable market downturn:&lt;/strong&gt; “I think one of the reasons we are seeing a slump in the market is that there’s a shiny new toy aspect to any new technology and we’ve gone through that phase with many wearables.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="//images.contentful.com/189dvqdsjh46/2k2LHgR8XaqKusSaUeeE0y/d2248f2baeaaad82c8562c9162c7f5f5/Kvedar___22The_Internet_of_Healthy_Things_22_Symposium_presentation.jpg" alt="Kvedar, 'The Internet of Healthy Things' Symposium presentation" /&gt;&lt;/p&gt;
+
+&lt;p&gt;“[Wearables] largely were designed by engineers for engineers, and by quantitative people for quantitative people. I fell in love with all of them initially. A friend of mine who is not a quantitative person pointed out to me that a big part of our population doesn’t care about numbers. They care about other things. So if you are not a quantitative person, or you are not particularly motivated to change whatever the feedback loop is sending your way, it quickly becomes background noise.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the future of the wearable market:&lt;/strong&gt; “The good news is that there’s a crop of devices coming out now in the wearables space that give insights rather than just numbers… They are all very exciting and we are going to look forward to a rebound in the space because people will be much more responsive to insights rather than just numbers.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On artificial intelligence in healthcare:&lt;/strong&gt; “If you call it decision support, maybe you can sell it. Artificial Intelligence sounds scary. It sounds like you are trying to take my job away from me, so I think it is in how you frame it.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Luis Saldana, MD: on the Evolving Role of the Hospital CMIO in 2017</title>
+    <link rel="alternate" href="https://datica.com/podcast/luis-saldana"/>
+    <id>https://datica.com/podcast/luis-saldana</id>
+    <published>2017-01-15T16:00:00-08:00</published>
+    <updated>2017-01-15T16:00:00-08:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;The role of the hospital chief medical information officer (CMIO) is evolving. As we begin 2017, healthcare organizations nationwide will be tapping their CMIOs to provide strategies around MACRA, MIPS, physician satisfaction and more. In this latest podcast, Texas Health Resources CMIO Luis Saldana, MD shares his top priorities for 2017 and how those will affect the overall healthcare delivery for his organization. Dr. Saldana expands on the CMIO role and how it is expanding.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;On the CMIO role at Texas Health Resources (THR):&lt;/strong&gt; “While [the] EHR platform was our initial impetus for hiring a CMIO, we’ve seen that with digitalization of healthcare that it goes far beyond that. All the systems that touch that platform, or even touch our clinicians are all things that our Chief Medical Information Officer can have influence over.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On gauging physician satisfaction with the EHR:&lt;/strong&gt;  “One of the reasons we were successful is that we went into our electronic health record journey and were thorough about measurement. With that, one of those metrics included physician satisfaction, so annually we survey our physicians, and survey them around satisfaction with informatics.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On optimizing the EHR:&lt;/strong&gt; “When we started we didn’t fully enable the system for its full impact and functionality. We often have to go back to do that and work closely with our vendor and with other organizations to say: How did you do this? I think we don’t have the best answers on all of the optimization, but we have a wealth of connections and a lot of folks that have done good things in different areas.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On how THR approaches MACRA and MIPS:&lt;/strong&gt;  “We treat this much like we treated Meaningful Use in terms of looking at it as “this is a quality program.” It needs to have multi area representation. It’s not all technology; it’s not all clinical. It really involves collaboration, so for that, we put together a steering team and we will probably do the exact same thing for MACRA, as well.”
+“A big part of this is if you’ve done Meaningful Use well, you will be well prepared for MACRA. It’s [determined by] how you organize as to whether you are successful or not.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On whether the CMIO role is more clinical or technical:&lt;/strong&gt;  “I’d say it is bridge between the clinical and the technical. I think one of the things that we see now is that we are in a constant state of change in healthcare, which is obviously disconcerting.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the CMIO role as a gatekeeper:&lt;/strong&gt; “I think there are a million great ideas for technologies but we have to look at it and say, ‘How are our clinicians going to use this technology? Is this something that is going to make them more effective, efficient? Or, is it something that they’re going to have to deal with a tremendous amount of change and that’s just going to overburden them and we don’t need to go there at this point.’”&lt;/p&gt;
+
+&lt;p&gt;“They may not have the change readiness to take that on. It may be a great idea, a great technology; that’s important. Having the organizational, clinical barometer is important for a CMIO. Then you can be the voice on both sides to say whether something is good for our organization or not, in terms of technologies.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the top 2017 priorities for the CMIO role:&lt;/strong&gt; “If we are successful at doing the things in terms of creating the platform that engages our patients and our providers, and deliver the best care for them, that’s the ultimate goal.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Dr. Mark Braunstein: Healthcare in the Age of Interoperability</title>
+    <link rel="alternate" href="https://datica.com/podcast/dr-mark-braunstein"/>
+    <id>https://datica.com/podcast/dr-mark-braunstein</id>
+    <published>2016-11-14T16:00:00-08:00</published>
+    <updated>2016-11-14T16:00:00-08:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Today Healthcare Innovators Podcast has a great conversation about “Healthcare in the Age of Interoperability” with Dr. Mark Braunstein, who teaches healthcare informatics at Georgia Tech. In this episode, Travis Good, MD finds out more about Braunstein and his work at the first US university to have a FHIR server for class work. Listeners will learn more about the FHIR-enabled projects that Georgia Tech master-level students are doing in conjunction with research physician clinicians in the Atlanta area.&lt;/p&gt;
+
+&lt;p&gt;We also prod Braunstein for his personal insight about what is missing in today’s medical education. Listeners can gain deeper insight into this area, by ordering Braunstein’s latest book “&lt;a href="https://www.amazon.com/Practitioners-Guide-Health-Informatics-Braunstein/dp/3319176617"&gt;Practitioner’s Guide to Health Informatics&lt;/a&gt;.”&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;On the latest interest in health information exchange:&lt;/strong&gt; “I’ve been in this field since 1970 and there have been “boomlets” around health information exchange. And they’ve all turned out to be just that – “boomlets.” I may live to eat these words, . . . but it really seems real this time.”&lt;/p&gt;
+
+&lt;p&gt;“I think &lt;a href="/innovation/grahame-grieve-pt1"&gt;Grahame Grieve&lt;/a&gt;’s genius, the author behind FHIR, was to recognize that, to use an expression: &lt;em&gt;Perfect is the enemy of good&lt;/em&gt;. He is developing the standard according to a practical set of guidelines that quite intentionally isn’t going to lead to a standard that solves all problems, but will relatively lead to a standard that solves the most common use cases.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On why FHIR is garnering academic interest:&lt;/strong&gt; “By providing what might be a universal platform, the door is open to innovation. I developed a relatively unique approach to teaching health informatics at Georgia Tech. We’ve created our own FHIR server that stores quite a bit of synthetic or public data sets.”&lt;/p&gt;
+
+&lt;p&gt;“To me, that’s the most exciting thing about interoperability, at least as it creates an open, universal app platform. We’ve needed innovation in this field for a long, long time. I should also mention the fact that it is all based on widely used web technologies. That makes it very attractive to young people.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On patient-generated data and FHIR:&lt;/strong&gt; “I think in time, those data streams are all going to be based in FHIR, but that remains to be seen.”&lt;/p&gt;
+
+&lt;p&gt;“Why can’t a blood pressure cuff emit the appropriate FHIR observation resource? Why can’t a glucometer do the same for glucose levels? I think we are going to get to that in time, although it is going to take time.”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;After listening to today’s podcast, you may want to &lt;a href="/guide/fhir"&gt;learn more about FHIR&lt;/a&gt; from the Catalyze site, then check out Dr. Braunstein’s lectures on Udacity, or &lt;a href="https://www.coursera.org/learn/fhir"&gt;Coursera&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Ida Sim, MD: Physician, Researcher, and Entrepreneur</title>
+    <link rel="alternate" href="https://datica.com/podcast/ida-sim-md"/>
+    <id>https://datica.com/podcast/ida-sim-md</id>
+    <published>2016-10-25T17:00:00-07:00</published>
+    <updated>2016-10-25T17:00:00-07:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Travis Good, MD pulls up a virtual chair with Dr. Ida Sim in this podcast. Listeners get a clinician’s view of the value of patient-generated data, sensor brands, and where all this deluge of data is going. As a primary care doctor, informatics research and entrepreneur, Dr. Sim provides a take on data that no one else can. She explains datasets and what doctors need better than most, so it’s a rare opportunity to interview her and a treat for listeners who want that inside view of the industry from a clinician’s eye. Catalyze supports the &lt;a href="http://www.openmhealth.org/"&gt;Open mHealth&lt;/a&gt; organization and its mission. After listening to this interview learn more by checking the organization out.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;On chronic disease and who is in control:&lt;/strong&gt; “Chronic disease is going to be improved and managed by people themselves; it is not the healthcare system that’s going to help people manage their chronic disease or prevent them. It is people themselves.”&lt;/p&gt;
+
+&lt;p&gt;“Data that gives us a view into people’s daily lives and how they are living their lives and how they can manage their chronic disease – those are the datasets that are going to be incredibly important. That’s a very new dataset for healthcare. We haven’t had that kind of data before.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On Open mHealth:&lt;/strong&gt;  “Open mHealth is aimed to build the kinds of standards and the sort of middleware infrastructure that allows data to flow freely and in a well-described manner that supports an open system for innovation and mobile health that yet maintains very clean and careful description of the data.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On why doctors don’t want your patient-generated data yet:&lt;/strong&gt; “Doctors are rightfully skeptical in getting all your Fitbit data or your AliveCor Data&lt;em&gt;**&lt;/em&gt; or whatnot, because it doesn’t fit the way we generally use data.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On prescribing data collection:&lt;/strong&gt; “I have this notion for data prescription where the patient and the doctor should really get together and do the same thing we always do — talk about what we are trying to achieve together. Talk about what data we need. Come up with a data plan.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On what a doctor might think of your brand of sensor:&lt;/strong&gt; “I don’t want to know what company or what the onboarding mechanism is or how my patient is going to get authorized. I don’t want to deal with any of that. So for mobile health, for example, if I want to know your step count, I just want to order a step count. I don’t want to know if it is a Fitbit or a Jawbone or a Misfit or whatever. It just needs to come back as steps.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On vetting of digital health apps:&lt;/strong&gt; “Obviously as a system, we need to think about which are the right apps and which are the best sensors and how accurate they are and how validated they are and that’s something we need to do as an industry. But for the ordering physician who has very few minutes in front of the patient, we should just order the data, not the sensor and not the app.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On sensor data in the EHR:&lt;/strong&gt; “I think one way to think about the EHR … is that the EHR is two main components. One is the database, and the other is the workflow tool. Certainly, because I’m seeing patients with an EHR, the workflow component of the EHR is absolutely critical. The data from the Fitbit, or whatever does need to come back through the EHR workflow. It needs to show up on my screen, but whether it needs to be in the EHRs database is a separate question entirely.”&lt;/p&gt;
+
+&lt;p&gt;“Why shove all that data in there and then spend billions of dollars pulling it back out when it started outside of the EHR?”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Charles Jaffe, MD: Why Healthcare Should Expand its View of FHIR</title>
+    <link rel="alternate" href="https://datica.com/podcast/charles-jaffe"/>
+    <id>https://datica.com/podcast/charles-jaffe</id>
+    <published>2016-10-17T17:00:00-07:00</published>
+    <updated>2016-10-17T17:00:00-07:00</updated>
+    <author>
+      <name>Mohan Balachandran</name>
+    </author>
+    <summary type="html">&lt;p&gt;Mohan Balachandran chats with HL7 CEO Charles Jaffe, MD in this podcast presentation. From this segment, listeners will discover more about FHIR and learn why developers and hospital systems shouldn’t wait for a fully baked data exchange standard. Healthcare leaders often raise many questions around FHIR and Dr. Jaffe provides clarity around those questions. With standards as a critical component of healthcare innovation, this FHIR-based podcast is a must for those who can’t get enough understanding of FHIR.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;On the origination of FHIR:&lt;/strong&gt; “Five years ago, as part of the HL7 Fresh Look initiative, we developed the FHIR standard. And that standard has evolved so that we are about to emerge as a normative standard in the spring. By normative standard I mean one that has been validated and approved by the American National Standards Institute, or ANSI.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the future promise of FHIR:&lt;/strong&gt; “I think as we move forward, we’ll see more and more applications suited to healthcare literacy, so patients aren’t confronted with their lab results but have access to explanations of their procedures, lab tests, results, diagnosis and the medications they take, all on a convenient single interface.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On leveraging data for precision medicine:&lt;/strong&gt; “No longer will we give the same starting dose of the same drug for every patient that has elevated blood pressure. But they will be able to adjust, not on the dose, but the type of medication specifically for the pathology inherent in the elevation of the blood pressure and the genetic characteristics of the patient that has to take it.”&lt;/p&gt;
+
+&lt;p&gt;[FHIR has] reached a point of adoption where there is enough critical mass to ensure that these APIs that the stability of the standard and the usefulness of the platform can be assured.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On FHIR’s direct impact:&lt;/strong&gt; “FHIR is very fast to develop so the ease with which application development and therefore the cost of application development has been brought down critically.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On groups leveraging FHIR:&lt;/strong&gt; “One of these is the clinical research community. So not only the regulated research community – bio, pharma and small bio-tech, but also the academic research community sees an opportunity to obtain data from multiple sources. But more importantly, bring data from other sources there.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On clinical decision support:&lt;/strong&gt; “I think one of the critical areas that physicians often overlook that leverage the value of electronic health records is clinical decision support. So there is an initiative in support of FHIR called CDS Hooks, which use FHIR to access the many commercial and public databases for clinical decision support.”&lt;/p&gt;
+
+&lt;h3 id="more-on-fhir-the-grahame-grieve-interviews"&gt;More On FHIR: The Grahame Grieve Interviews&lt;/h3&gt;
+
+&lt;p&gt;Dr. Jaffe mentioned Grahame Grieve, “The Father of FHIR”, in this episode. Check out parts &lt;a href="https://catalyze.io/innovation/grahame-grieve-pt1"&gt;one&lt;/a&gt;, &lt;a href="https://catalyze.io/innovation/grahame-grieve-pt2"&gt;two&lt;/a&gt;, and &lt;a href="https://catalyze.io/innovation/grahame-grieve-pt3"&gt;three&lt;/a&gt; of these interviews.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Mark Shapiro, MD, Host of the "Explore the Space" Podcast</title>
+    <link rel="alternate" href="https://datica.com/podcast/mark-shapiro"/>
+    <id>https://datica.com/podcast/mark-shapiro</id>
+    <published>2016-09-30T17:00:00-07:00</published>
+    <updated>2016-09-30T17:00:00-07:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;It’s been a little over a year since we began examining innovation from all its various aspects. We’ve covered every side, except for the physician side, so in today’s episode, Travis Good, MD gets the practicing physician’s stance on technology and how it is being incorporated into practices, or not. Mark Shapiro, MD, a hospitalist and host of Explore the Space podcast discusses the physician’s part in the development of these technologies and where they could play a more leading role. Additionally, Dr. Shapiro’s shares his favorite guest interviews, helping us to see how healthcare can leverage insights from other industries.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;strong&gt;On why his podcasts’ discussion around opioid addiction is important:&lt;/strong&gt; “It’s helped shaped my own perspectives on the issue because when you hear these varying views of a real-time challenge, you can’t help but be affected; you can’t help but think, well what can I do differently when I’m seeing a patient, talking to a friend, watching this stuff being discussed on the news?”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On a clinician’s view of the EHR:&lt;/strong&gt;  “One of the major oversights with the EHR and I think this is now uniformly recognized, that in the rush to implement, with good intentions and maybe not so good, we missed out on the opportunity for these EHRs to communicate. So what we have now is a lack of interoperability.”&lt;/p&gt;
+
+&lt;p&gt;“As we move forward searching for solutions to this interoperability question…on that moment to moment basis as a hospitalist, when I’m in the emergency department and I need to figure out what a patients’ medication lists are, or if [that patient] has completed an advance directive, or what workup they’ve had on a previous hospitalization when they were on a vacation in Miami, I need that data. I will make decisions based on that data. When we have it, it’s incredibly helpful. When we don’t, sometimes we don’t feel as powerful as we could be.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the more useful technologies for doctors:&lt;/strong&gt; “It’s going to be really exciting to decide how to use them, telemedicine being a great example. Telemedicine’s role for the ambulatory patient is unbelievably powerful and we are just figuring that out. Medical groups are moving at light speed to rapidly adopt this for many reasons that are excellent.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the reasons he is not a first adopter:&lt;/strong&gt; “As far as diagnostics goes, I am still in the world of not becoming the first adopter. I’m going to need other people to beta test. One of my earlier guests on my podcasts was Eric Topol. He had written a book talking about a lot of these things, one of them being Theranos. I was pretty cynical about that. For me, I needed it to be a bit more fully vetted before we say that this is the panacea that we all want it to be. I’m even more cynical now than I was.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On how physicians vet technologies:&lt;/strong&gt; “I do want to see peer-reviewed data. That’s how we are trained to think about things. It is imbued in us that this is the way we take things on, something is put into the construct of a study. That study is done in a certain way. The study is then reviewed by peers, who we know what their potential bias is and what any conflicts of interests might be, and then we make decisions. And then we decide, as large groups of people, as the American Board of Internal Medicine, or any of those things helps decide that, yes, this is the way we should do something. I like it to be scalable like that.”&lt;/p&gt;
+
+&lt;p&gt;“How we are going to do that for healthcare technology is a totally novel idea because this is always been around diagnostics and therapeutics in the same model that it has been in many years. When something is coming out of Silicon Valley, we always have to think to ourselves what is the primary motivation behind it and how fast is the hype machine working.”&lt;/p&gt;
+
+&lt;p&gt;“When you have the chance to finally look behind the curtain, it’s not what you’d hoped it would be. We need to make sure we are looking behind the curtain well before it is used on a population level. I do think there will need to be formalized oversight as these technologies continue to evolve, mostly on the issue of patient privacy. These are privately held companies with their own servers and their own data collection and they are asking you to give them your genetic information. You need to make sure that you are well assured that your genetic information will be closely safeguarded.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the missed technology opportunity:&lt;/strong&gt; “We would have never dreamed that peptic ulcer disease was caused by a bacteria, until people went and looked and figured it out. All of the sudden one of the most common surgeries around the world for treatment of peptic ulcer disease is gone. It’s never done any more, and that’s in the span of a decade. The way we manage heart disease, it all changes so fast. That’s great and that’s how we drive progress. That’s how we improve lives. When we can mitigate and moderate, we should not miss those opportunities.”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;On the clinician’s use of wearable data:&lt;/strong&gt; “Many, many people who are in medicine…very, very smart, committed professional people don’t know how to use this stuff. They’ve never been trained. They’ve never looked at some of these things. That is a huge challenge, when the information starts to flow in, how do you collect, interpret, select, disseminate, distribute process and educate. if you don’t even know how the software platform works. That’s the part where the tidal wave will roll in, how are we going to manage that without our shoreline getting absolutely pulverized?”&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;After you listen to today’s podcast, pop over to the wonderful &lt;a href="https://itunes.apple.com/us/podcast/explore-the-space/id993287419?mt=2"&gt;Explore the Space&lt;/a&gt; podcast to subscribe and catch a few of Dr. Shapiro’s latest episodes.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
