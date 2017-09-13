@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-09-06T17:00:00-07:00</updated>
+  <updated>2017-09-11T17:00:00-07:00</updated>
+  <entry>
+    <title>HITRUST CSF Certification Round 3</title>
+    <link rel="alternate" href="https://datica.com/blog/hitrust-csf-certification-round-3"/>
+    <id>https://datica.com/blog/hitrust-csf-certification-round-3</id>
+    <published>2017-09-11T17:00:00-07:00</published>
+    <updated>2017-09-11T17:00:00-07:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;With our 3rd HITRUST CSF certification, the Datica Platform now provides customers greater flexibility with cloud infrastructure choices.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;HIPAA regulations create a barrier for makers of digital health products to adopt the cloud. Whether you are a digital health startup, a health system, payer, or life sciences organization, it takes an enormous amount of work to &lt;a href="https://datica.com/dhsf/"&gt;get your digital health product off the ground&lt;/a&gt; while, at the same time, achieving and maintaining continuous HIPAA compliance.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Lifting A Fork for Open Source</title>
     <link rel="alternate" href="https://datica.com/blog/lifting-a-fork-for-open-source"/>
@@ -142,20 +156,6 @@
     <content type="html">&lt;p&gt;Naomi Fried, PhD is a highly experienced thought leader in healthcare innovation and digital health, with many years of innovation experience. Most recently, as Biogen’s first VP of Innovation, Medical Information, and External Partnerships, she led five functions that catalyzed innovation to support patients and healthcare professionals. She developed the strategy for and led the “innovation beyond the molecule” program to deliver non-pharmacological value to patients and providers.&lt;/p&gt;
 
 &lt;p&gt;In our &lt;a href="https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate/"&gt;July, 2017 podcast&lt;/a&gt; Travis Good, MD interviewed Dr. Fried, resulting in a lively chat about the differences between the way pharma and hospital systems innovate, as well as the advantages digital health vendors can tap when working with pharma. Here were a few key takeaways from the podcast.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>What does it take to be a 100% HIPAA compliant cloud company?</title>
-    <link rel="alternate" href="https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company"/>
-    <id>https://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company</id>
-    <published>2017-07-26T17:00:00-07:00</published>
-    <updated>2017-07-26T17:00:00-07:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Datica has spent extensive time and money on security and organizational policies and procedures specifically to comply with HIPAA and share with our customers.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;The short answer to that question is, not surprisingly, &lt;strong&gt;it takes A LOT of time, energy, and money to be 100% HIPAA compliant&lt;/strong&gt;. At Datica, we’re focused on security and HIPAA compliance. It’s a differentiator and we aren’t reaching when we say &lt;em&gt;&lt;a href="https://datica.com/platform/compliance/"&gt;It’s in our DNA&lt;/a&gt;&lt;/em&gt;, referring to HIPAA compliance. Because of that focus, we have a lot of &lt;a href="https://datica.com/discover/hipaa-compliance/"&gt;resources for compliance&lt;/a&gt;. That translates to a lot of time and money on security and organizational policies and procedures specifically to comply with HIPAA.&lt;/p&gt;
 </content>
   </entry>
 </feed>
