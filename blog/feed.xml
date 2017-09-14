@@ -1,109 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Datica Company Blog</title>
+  <id>https://datica.com/blog/</id>
   <subtitle>Thoughts from the team behind Healthcare's trusted cloud</subtitle>
-  <link href="http://datica.com/blog/"/>
+  <link href="https://datica.com/blog/" rel="self"/>
   <author>
-    <name>Datica</name>
+    <name>Datica Health, Inc.</name>
   </author>
+  <icon>https://datica.com/favicon.ico</icon>
+  <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
+  <updated>2017-09-11T17:00:00-07:00</updated>
+  <entry>
+    <title>HITRUST CSF Certification Round 3</title>
+    <link rel="alternate" href="https://datica.com/blog/hitrust-csf-certification-round-3"/>
+    <id>https://datica.com/blog/hitrust-csf-certification-round-3</id>
+    <published>2017-09-11T17:00:00-07:00</published>
+    <updated>2017-09-11T17:00:00-07:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;With our 3rd HITRUST CSF certification, the Datica Platform now provides customers greater flexibility with cloud infrastructure choices.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;HIPAA regulations create a barrier for makers of digital health products to adopt the cloud. Whether you are a digital health startup, a health system, payer, or life sciences organization, it takes an enormous amount of work to &lt;a href="https://datica.com/dhsf/"&gt;get your digital health product off the ground&lt;/a&gt; while, at the same time, achieving and maintaining continuous HIPAA compliance.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Lifting A Fork for Open Source</title>
-    <link rel="alternate" href="http://datica.com/blog/lifting-a-fork-for-open-source"/>
+    <link rel="alternate" href="https://datica.com/blog/lifting-a-fork-for-open-source"/>
+    <id>https://datica.com/blog/lifting-a-fork-for-open-source</id>
     <published>2017-09-06T17:00:00-07:00</published>
+    <updated>2017-09-06T17:00:00-07:00</updated>
     <author>
       <name>Marcia Noyes</name>
     </author>
-    <content>&lt;p&gt;This Q&amp;amp;A with Datica’s Chief Data Officer, Mark Olschesky, explores what it means that Datica just passed 200 forks of our open-source policies.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;This Q&amp;amp;A with Datica’s Chief Data Officer, Mark Olschesky, explores what it means that Datica just passed 200 forks of our open-source policies.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;A week ago, Chief Data Officer &lt;a href="https://datica.com/about/mark/"&gt;Mark Olschesky&lt;/a&gt; used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When you come to a fork in the road, take it!&lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
   </entry>
   <entry>
     <title>If It's Possible, We Can Integrate It</title>
-    <link rel="alternate" href="http://datica.com/blog/if-its-possible-we-can-integrate-it"/>
+    <link rel="alternate" href="https://datica.com/blog/if-its-possible-we-can-integrate-it"/>
+    <id>https://datica.com/blog/if-its-possible-we-can-integrate-it</id>
     <published>2017-09-04T17:00:00-07:00</published>
+    <updated>2017-09-04T17:00:00-07:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
-    <content>&lt;p&gt;There’s much a digital health company needs to know about EHR integrations. Here are 4 essential questions digital health teams should ask their customers.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;There’s much a digital health company needs to know about EHR integrations. Here are 4 essential questions digital health teams should ask their customers.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;During the past three years, we’ve done &lt;a href="https://datica.com/platform/success/"&gt;a lot of integration work&lt;/a&gt;. We’ve worked on more than 150 integration projects with almost 30 EHR vendors. We’ve done this work with big organizations and vendors to small FQHCs and niche EHR vendors. As a result of all this integration experience, we now have a pretty good grasp on the intricacies of how integration works. We can reasonably estimate how long it takes us to do a project and how that varies with different types of vendors.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Taming the Torrent of Patient Generated Healthcare Data</title>
-    <link rel="alternate" href="http://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
+    <link rel="alternate" href="https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
+    <id>https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data</id>
     <published>2017-08-30T17:00:00-07:00</published>
+    <updated>2017-08-30T17:00:00-07:00</updated>
     <author>
       <name>Laleh Hassibi</name>
     </author>
-    <content>&lt;p&gt;Our Healthcare Innovators podcast continues with an illuminative interview with Aaron Neinstein, MD on tech that tames the deluge of patient generated data.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Our Healthcare Innovators podcast continues with an illuminative interview with Aaron Neinstein, MD on tech that tames the deluge of patient generated data.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;We continue our conversations on the subject of healthcare innovation with an illuminative podcast interview with Aaron Neinstein, MD. &lt;a href="https://aaronneinstein.com/"&gt;UCSF’s Dr. Neinstein&lt;/a&gt; gives us a view into some of the promising technologies emerging to organize, digest, and analyze the massive amounts of patient-generated data we are quickly becoming inundated with. Neinstein also shares his ideas about what we can expect to see in the near future, as clinicians gain access to this data.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Facing down the largest breaches of 2017 with Datica's open-source policies</title>
-    <link rel="alternate" href="http://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
+    <link rel="alternate" href="https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
+    <id>https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies</id>
     <published>2017-08-29T17:00:00-07:00</published>
+    <updated>2017-08-29T17:00:00-07:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
-    <content>&lt;p&gt;As we roll into the end of 2017, it’s worth looking back on how the industry has been doing protecting PHI against the threat of cyber-intrusions.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;As we roll into the end of 2017, it’s worth looking back on how the industry has been doing protecting PHI against the threat of cyber-intrusions.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;As we roll into the last few months of the year, it’s worth looking back on how the industry has been doing protecting PHI and adapting to the increasingly threatening world of cyber-intrusions. While the big stories generally revolve around the largest amount of lives impacted and the most technically harrowing attacks, it’s worth noting that there are still breaches as simple as someone stealing a laptop with a spreadsheets with thousands of persons worth of PHI on it. In this article, we’re going to go through some of the largest breaches of 2017 and discuss how we address these as a company which we’ve shared in our open-source policies. While it’s impossible to say in retrospect if any breach was 100% preventable, having policies in place to provide “reasonable effort” to prevent exposure is key to minimizing the damage from the unpreventable.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>How can technology improve patient care and reduce costs?</title>
-    <link rel="alternate" href="http://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs"/>
+    <link rel="alternate" href="https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs"/>
+    <id>https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs</id>
     <published>2017-08-23T17:00:00-07:00</published>
+    <updated>2017-08-23T17:00:00-07:00</updated>
     <author>
       <name>Travis Good, MD</name>
     </author>
-    <content>&lt;p&gt;Our newest publication Rethinking Healthcare Technology includes expansive, useful, and original essays on digital transformation from insightful leaders.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Our newest publication Rethinking Healthcare Technology includes expansive, useful, and original essays on digital transformation from insightful leaders.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;That’s the most important question clinicians are asking themselves in a post-EHR world where patients have supercomputers in their pockets, and they expect the same high-quality, on-demand experiences the Apples, Googles, Amazons, and Facebooks give them.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Spear Phishing: Hackers Aiming for Healthcare</title>
-    <link rel="alternate" href="http://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare"/>
+    <link rel="alternate" href="https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare"/>
+    <id>https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare</id>
     <published>2017-08-17T17:00:00-07:00</published>
+    <updated>2017-08-17T17:00:00-07:00</updated>
     <author>
       <name>Marcia Noyes</name>
     </author>
-    <content>&lt;p&gt;In the 377 healthcare data breaches last year, phishing attacks were among the top data breach causes. Why is healthcare such a target for spear phishing attacks?&lt;/p&gt;
+    <summary type="html">&lt;p&gt;In the 377 healthcare data breaches last year, phishing attacks were among the top data breach causes. Why is healthcare such a target for spear phishing attacks?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;At the beginning of August, the BBC reported that a UK-based “prankster” had successfully &lt;a href="http://www.bbc.com/news/world-us-canada-40788080"&gt;spoofed the White House.&lt;/a&gt; Through spear phishing emails, this bad actor had not only convinced a senior cyber security officer that he was the president’s son-in-law and senior advisor Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus to fool then White House Communications Director Anthony Scaramucci into inflammatory email exchanges. After posting a few of those emails on Twitter, the culprit promised not to do it again and urged the current administration to “tighten up IT policy.” While the jokester later indicated his email spoofing had no harmful intent, the implications go way beyond 1600 Pennsylvania Avenue.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Announcing Self Service and Free Trials</title>
-    <link rel="alternate" href="http://datica.com/blog/announcing-self-service-and-free-trials"/>
+    <link rel="alternate" href="https://datica.com/blog/announcing-self-service-and-free-trials"/>
+    <id>https://datica.com/blog/announcing-self-service-and-free-trials</id>
     <published>2017-08-16T17:00:00-07:00</published>
+    <updated>2017-08-16T17:00:00-07:00</updated>
     <author>
       <name>Ryan Rich</name>
     </author>
-    <content>&lt;p&gt;Datica has announced the launch of The Platform 3.0 — Compliant Cloud reimagined including a HIPAA compliant &amp;amp; HITRUST CSF certified free trial.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Datica has announced the launch of The Platform 3.0 — Compliant Cloud reimagined including a HIPAA compliant &amp;amp; HITRUST CSF certified free trial.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Successful products are predicated on the concept of balance. Being able to balance what to do, what not to do, and how to do it. It’s all a delicate balance that at any time can tip the wrong way. And, when the scales tip, companies end up delivering sub-par experiences.&lt;/p&gt;
+
+&lt;p&gt;At Datica we’ve spent a considerable amount of time focusing on that balance — when to release new features, where to go in the market, who to talk to — it’s part of what makes a startup a startup. Being able to move quickly, fail fast, and ultimately land in a place that just works.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Why There is Up Front Pricing Now</title>
-    <link rel="alternate" href="http://datica.com/blog/why-there-is-up-front-pricing-now"/>
+    <link rel="alternate" href="https://datica.com/blog/why-there-is-up-front-pricing-now"/>
+    <id>https://datica.com/blog/why-there-is-up-front-pricing-now</id>
     <published>2017-08-06T17:00:00-07:00</published>
+    <updated>2017-08-06T17:00:00-07:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
-    <content>&lt;p&gt;Almost 3 years ago, I wrote about why there was no listed Datica pricing on our site. Today, I wrote about why we actually DO now have upfront pricing.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Almost 3 years ago, I wrote about why there was no listed Datica pricing on our site. Today, I wrote about why we actually DO now have upfront pricing.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Almost three years ago, I wrote a blog post about why &lt;a href="https://datica.com/blog/why-there-is-no-up-front-pricing/"&gt;there was no up front pricing&lt;/a&gt; for the Datica Platform or our integration services. It was as earnest as I could get about how I felt about our sales model at the time: there was no shortage of people who came to our website not understanding why handling some aspects of HIPAA compliance or data integration wasn’t as cheap as a $5 Digital Ocean droplet.&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Opportunities for Digital Health Vendors in the Pharmaceutical Industry</title>
-    <link rel="alternate" href="http://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma"/>
+    <link rel="alternate" href="https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma"/>
+    <id>https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma</id>
     <published>2017-07-30T17:00:00-07:00</published>
+    <updated>2017-07-30T17:00:00-07:00</updated>
     <author>
       <name>Laleh Hassibi</name>
     </author>
-    <content>&lt;p&gt;Dr. Naomi Fried shared her ideas on the differences in innovation between pharma and hospitals, and opportunities for digital health vendors in pharma.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>What does it take to be a 100% HIPAA compliant cloud company?</title>
-    <link rel="alternate" href="http://datica.com/blog/what-does-it-take-to-be-a-100-hipaa-compliant-cloud-company"/>
-    <published>2017-07-26T17:00:00-07:00</published>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <content>&lt;p&gt;Datica has spent extensive time and money on security and organizational policies and procedures specifically to comply with HIPAA and share with our customers.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Dr. Naomi Fried shared her ideas on the differences in innovation between pharma and hospitals, and opportunities for digital health vendors in pharma.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Naomi Fried, PhD is a highly experienced thought leader in healthcare innovation and digital health, with many years of innovation experience. Most recently, as Biogen’s first VP of Innovation, Medical Information, and External Partnerships, she led five functions that catalyzed innovation to support patients and healthcare professionals. She developed the strategy for and led the “innovation beyond the molecule” program to deliver non-pharmacological value to patients and providers.&lt;/p&gt;
+
+&lt;p&gt;In our &lt;a href="https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate/"&gt;July, 2017 podcast&lt;/a&gt; Travis Good, MD interviewed Dr. Fried, resulting in a lively chat about the differences between the way pharma and hospital systems innovate, as well as the advantages digital health vendors can tap when working with pharma. Here were a few key takeaways from the podcast.&lt;/p&gt;
 </content>
   </entry>
 </feed>
