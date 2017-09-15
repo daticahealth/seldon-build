@@ -199,16 +199,16 @@
     </div>
 <section class="section-article">
     <div class="row">
-        <div class="columns small-12 large-8">
-            <ul class="share-icons no-bullet show-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/" data-image="https://images.contentful.com/189dvqdsjh46/5EfEMVImD68O2keyEyekI2/ab85ca60c76a0cc711e8f83bb1cf5119/city_night.jpg?w=640"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-subject="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
+        <div id="blogPost" class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <ul class="share-icons menu show-for-xlarge vertical">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/" data-image="https://images.contentful.com/189dvqdsjh46/5EfEMVImD68O2keyEyekI2/ab85ca60c76a0cc711e8f83bb1cf5119/city_night.jpg?w=640"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-subject="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
 </ul>
 
-            <article class="content-dynamic">
                     <div class="lead"><p>In 2015, the Healthcare Information Systems (HCIS) market accounted for $40.39 billion and is forecasted to reach $70+ billion by 2022. Rising government initiatives, increasing healthcare costs and aging population are some of the factors driving the market growth. Compared to information systems in other industries, HCISs are specific to healthcare. The distinctiveness characterizing the development of HCISs in healthcare is attributed to six elements.</p>
 </div>
                 <div class="section--body blog-post-content group">
@@ -248,14 +248,6 @@ HKUnit *mgPerdL = [HKUnit unitFromString:@"mg/dL"];
 
 <p>Your units should be chosen appropriately for the type of data being collected. For example, you wouldn’t choose grams when measuring temperature and its unlikely you would choose Kelvin when measuring temperature either. The two most appropriate choices for temperature would be either Fahrenheit or Celsius. This choice is up to personal preference as HealthKit does not prefer one or the other. There are a number of APIs within HealthKit that aid in converting units between US standard units and the metric system but those are beyond the scope of this blog post.</p>
 
-                    <ul class="share-icons no-bullet hide-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/" data-image="https://images.contentful.com/189dvqdsjh46/5EfEMVImD68O2keyEyekI2/ab85ca60c76a0cc711e8f83bb1cf5119/city_night.jpg?w=640"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-subject="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
-</ul>
-
                 </div>
             </article>
                         <aside class="callout cta callout--blue-alt" id="cta">
@@ -268,16 +260,37 @@ HKUnit *mgPerdL = [HKUnit unitFromString:@"mg/dL"];
     </aside>
 
             <div class="callout callout--gray-light">
-                <ul class="list-horiz">
-                        <li>
-                            <i class="fa fa-arrow-circle-left"></i> Previous post: <a href="/blog/how-hit-vendors-price-their-solutions" title="">How HIT Vendors Price Their Solutions</a></li>
-                        <li>
-                            Next post: <a href="/blog/the-doctor-app-question-who-will-validate-vet-or-veto" title="">The Doctor App Question: Who will Validate, Vet or Veto?</a> <i class="fa fa-arrow-circle-right"></i></li>
-                </ul>
+                <div class="row row--gutter-small">
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Earlier</p>
+                            <h4 class="headline-5"><a href="/blog/how-hit-vendors-price-their-solutions" title="Read this post">How HIT Vendors Price Their Solutions</a></h4>
+                                <div class="text--small">
+                                    <p>How are HIT vendors pricing their technologies? Why does pricing seem so fluid in contrast to other industry models? Find out here.</p>
+
+                                </div>
+                    </div>
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Next Post</p>
+                            <h4 class="headline-5"><a href="/blog/the-doctor-app-question-who-will-validate-vet-or-veto" title="Read this post">The Doctor App Question: Who will Validate, Vet or Veto?</a></h4>
+                                <div class="text--small">
+                                    <p>FierceHealthcare reporter Susan D. Hall outlined three important challenges for digital health in a recent article.</p>
+
+                                </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <div class="callout callout--dark-alt blog-subscription">
+        <aside class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="xlarge" data-options="anchor: blogPost;">
+                <ul class="share-icons menu align-center hide-for-xlarge">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/" data-image="https://images.contentful.com/189dvqdsjh46/5EfEMVImD68O2keyEyekI2/ab85ca60c76a0cc711e8f83bb1cf5119/city_night.jpg?w=640"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-subject="Why Do Healthcare Information Systems Account For $40+ Billion? | Datica Blog" data-url="https://datica.com/blog/why-do-healthcare-it-systems-account-for-40-billion/"></li>
+</ul>
+
+                <div class="callout callout--dark-alt blog-subscription">
     <h4 class="headline-4">Subscribe to email updates</h4>
     <p>We'll send you an email each time a new blog article is posted.</p>
     <!--[if lte IE 8]>
@@ -294,6 +307,14 @@ HKUnit *mgPerdL = [HKUnit unitFromString:@"mg/dL"];
     </script>
 </div>
 
+                    <h4 class="headline-5 text--spaced text-center">Related Posts</h4>
+                    <ul class="no-bullet content-dynamic">
+                                <li class="">
+                                    <a href="/blog/grahame-grieve-pt3" title="Read this post">Grahame Grieve - the future of healthcare interoperability (part 3)</a>
+                                    <p class="text-smaller">In this episode, Grahame Grieve, Product Director of FHIR for HL7 continues his last interview in a three-part series with Datica. Mark Olschesky, Datica's Chief Data Officer questions Grieve about "The Economics of FHIR and Interoperability" for this last interview. The economics of FHIR is a passionate subject for Grieve for which he recognizes that no pat answers exist. In this interview, Grieve contextualizes the questions and provides possible answers that only time will prove out. </p>
+                                </li>
+                    </ul>
+            </div>
         </aside>
     </div>
 </section>

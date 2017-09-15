@@ -197,16 +197,16 @@
     </div>
 <section class="section-article">
     <div class="row">
-        <div class="columns small-12 large-8">
-            <ul class="share-icons no-bullet show-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/" data-image="https://images.contentful.com/189dvqdsjh46/4lDGSRptzaWgM4oGY24kMA/c3e9355731fac4fc40cbf036dbd161c8/6_Big_Ideas_-_social_share_poster.png?w=640"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-subject="6 Insights on Healthcare Innovation | Datica Blog" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
+        <div id="blogPost" class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <ul class="share-icons menu show-for-xlarge vertical">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/" data-image="https://images.contentful.com/189dvqdsjh46/4lDGSRptzaWgM4oGY24kMA/c3e9355731fac4fc40cbf036dbd161c8/6_Big_Ideas_-_social_share_poster.png?w=640"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-subject="6 Insights on Healthcare Innovation | Datica Blog" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
 </ul>
 
-            <article class="content-dynamic">
                     <div class="lead"><p>Connectedness is the final frontier for healthcare. In many ways, the true breakthrough for innovation will come once interoperability becomes the default instead of the barrier it has been for several decades. With that focus, we recently compiled the six biggest ideas from the 2016 Datica Healthcare Innovation Series into a <a href="https://datica.com/innovation/2016/">third annual report</a>. The report explores the history behind the lack of interoperability, the role EHRs play, and what new data standards, like FHIR, can do ignite true transformation.</p>
 
 <p>Since 2014, this continuing <a href="https://datica.com/innovation/">interview series</a> has sought to understand how innovation happens in healthcare. Nine of the greatest minds in healthcare share their insights about data standards and integration principles in the complete 2016 annual report. These six ideas are a summation of the thoughts in the report.</p>
@@ -262,14 +262,6 @@
 
 <p>We invite you to read the complete report for many more great insights on innovation.</p>
 
-                    <ul class="share-icons no-bullet hide-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/" data-image="https://images.contentful.com/189dvqdsjh46/4lDGSRptzaWgM4oGY24kMA/c3e9355731fac4fc40cbf036dbd161c8/6_Big_Ideas_-_social_share_poster.png?w=640"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-subject="6 Insights on Healthcare Innovation | Datica Blog" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
-</ul>
-
                 </div>
             </article>
                         <aside class="callout cta callout--gray-light drop" id="cta">
@@ -282,16 +274,37 @@
     </aside>
 
             <div class="callout callout--gray-light">
-                <ul class="list-horiz">
-                        <li>
-                            <i class="fa fa-arrow-circle-left"></i> Previous post: <a href="/blog/accelerating-migration-to-the-healthcare-cloud" title="">The Accelerating Migration to the Healthcare Cloud</a></li>
-                        <li>
-                            Next post: <a href="/blog/healthcares-shifting-definition-of-the-cloud" title="">Healthcare's Shifting Definition of the Cloud</a> <i class="fa fa-arrow-circle-right"></i></li>
-                </ul>
+                <div class="row row--gutter-small">
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Earlier</p>
+                            <h4 class="headline-5"><a href="/blog/accelerating-migration-to-the-healthcare-cloud" title="Read this post">The Accelerating Migration to the Healthcare Cloud</a></h4>
+                                <div class="text--small">
+                                    <p>In this article, we explore the migration to cloud computing in healthcare, the benefits of cloud computing in healthcare, and HIPAA cloud compliant hosting.</p>
+
+                                </div>
+                    </div>
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Next Post</p>
+                            <h4 class="headline-5"><a href="/blog/healthcares-shifting-definition-of-the-cloud" title="Read this post">Healthcare's Shifting Definition of the Cloud</a></h4>
+                                <div class="text--small">
+                                    <p>This infographic, extracted from the inaugural Spring ‘17 <em>Heart of Medicine</em> Quarterly Report, describes healthcare’s shifting definition of the cloud.</p>
+
+                                </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <div class="callout callout--dark-alt blog-subscription">
+        <aside class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="xlarge" data-options="anchor: blogPost;">
+                <ul class="share-icons menu align-center hide-for-xlarge">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/" data-image="https://images.contentful.com/189dvqdsjh46/4lDGSRptzaWgM4oGY24kMA/c3e9355731fac4fc40cbf036dbd161c8/6_Big_Ideas_-_social_share_poster.png?w=640"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="6 Insights on Healthcare Innovation | Datica Blog" data-subject="6 Insights on Healthcare Innovation | Datica Blog" data-url="https://datica.com/blog/6-insights-on-healthcare-innovation/"></li>
+</ul>
+
+                <div class="callout callout--dark-alt blog-subscription">
     <h4 class="headline-4">Subscribe to email updates</h4>
     <p>We'll send you an email each time a new blog article is posted.</p>
     <!--[if lte IE 8]>
@@ -308,6 +321,22 @@
     </script>
 </div>
 
+                    <h4 class="headline-5 text--spaced text-center">Related Posts</h4>
+                    <ul class="no-bullet content-dynamic">
+                                <li class="">
+                                    <a href="/blog/why-interoperability" title="Read this post">Why Interoperability?</a>
+                                    <p class="text-smaller">Innovation is critically fundamental to healthcare, helping to improve the quality of patient care and enhance workflows. Despite that, a rudimentary cultural change is needed across the industry to fully embrace innovation. This incorporation will create collaborations to polish present processes with a patient-centric mindset. However, the difficulty of achieving interoperability still remains the bottleneck that is hindering real breakthroughs.</p>
+                                </li>
+                                <li class="">
+                                    <a href="/blog/connected-health-today-and-in-the-future" title="Read this post">Connected Health Today and in the Future</a>
+                                    <p class="text-smaller">Healthcare's version of the Internet of Things is often referred to as connected health. Explore Dr. Joe Kvedar's view on the state of connected health.</p>
+                                </li>
+                                <li class="">
+                                    <a href="/blog/does-healthcare-it-put-the-cart-before-the-horse" title="Read this post">Does Healthcare IT Put the Cart Before the Horse?</a>
+                                    <p class="text-smaller">Industry focus on patient outcomes has never been higher yet some healthcare innovators are focused on technology first and outcomes second. Wonder why?</p>
+                                </li>
+                    </ul>
+            </div>
         </aside>
     </div>
 </section>
