@@ -9,13 +9,29 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-09-11T17:00:00-07:00</updated>
+  <updated>2017-09-14T00:00:00+00:00</updated>
+  <entry>
+    <title>Webinar: What is the Digital Health Success Framework? </title>
+    <link rel="alternate" href="https://datica.com/blog/webinar-what-is-the-digital-health-success-framework"/>
+    <id>https://datica.com/blog/webinar-what-is-the-digital-health-success-framework</id>
+    <published>2017-09-14T00:00:00+00:00</published>
+    <updated>2017-09-14T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;Mark Olschesky will summarize the origins and utility of the Digital Health Success Framework in an upcoming webinar scheduled for Sept. 25th, at 12pm CST.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;When we launched the &lt;a href="https://datica.com/dhsf"&gt;Digital Health Success Framework&lt;/a&gt; (DHSF) this summer, the immediate reaction from the health IT community, and from digital health teams specifically, was immensely positive. It was like getting a high 5 from a stranger every day.&lt;/p&gt;
+
+&lt;p&gt;Since launch, we learned its greatest strength is also its greatest current weakness. Let me explain.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>HITRUST CSF Certification Round 3</title>
     <link rel="alternate" href="https://datica.com/blog/hitrust-csf-certification-round-3"/>
     <id>https://datica.com/blog/hitrust-csf-certification-round-3</id>
-    <published>2017-09-11T17:00:00-07:00</published>
-    <updated>2017-09-11T17:00:00-07:00</updated>
+    <published>2017-09-12T00:00:00+00:00</published>
+    <updated>2017-09-12T00:00:00+00:00</updated>
     <author>
       <name>Laleh Hassibi</name>
     </author>
@@ -28,8 +44,8 @@
     <title>Lifting A Fork for Open Source</title>
     <link rel="alternate" href="https://datica.com/blog/lifting-a-fork-for-open-source"/>
     <id>https://datica.com/blog/lifting-a-fork-for-open-source</id>
-    <published>2017-09-06T17:00:00-07:00</published>
-    <updated>2017-09-06T17:00:00-07:00</updated>
+    <published>2017-09-07T00:00:00+00:00</published>
+    <updated>2017-09-07T00:00:00+00:00</updated>
     <author>
       <name>Marcia Noyes</name>
     </author>
@@ -46,8 +62,8 @@
     <title>If It's Possible, We Can Integrate It</title>
     <link rel="alternate" href="https://datica.com/blog/if-its-possible-we-can-integrate-it"/>
     <id>https://datica.com/blog/if-its-possible-we-can-integrate-it</id>
-    <published>2017-09-04T17:00:00-07:00</published>
-    <updated>2017-09-04T17:00:00-07:00</updated>
+    <published>2017-09-05T00:00:00+00:00</published>
+    <updated>2017-09-05T00:00:00+00:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
@@ -60,8 +76,8 @@
     <title>Taming the Torrent of Patient Generated Healthcare Data</title>
     <link rel="alternate" href="https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
     <id>https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data</id>
-    <published>2017-08-30T17:00:00-07:00</published>
-    <updated>2017-08-30T17:00:00-07:00</updated>
+    <published>2017-08-31T00:00:00+00:00</published>
+    <updated>2017-08-31T00:00:00+00:00</updated>
     <author>
       <name>Laleh Hassibi</name>
     </author>
@@ -74,8 +90,8 @@
     <title>Facing down the largest breaches of 2017 with Datica's open-source policies</title>
     <link rel="alternate" href="https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
     <id>https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies</id>
-    <published>2017-08-29T17:00:00-07:00</published>
-    <updated>2017-08-29T17:00:00-07:00</updated>
+    <published>2017-08-30T00:00:00+00:00</published>
+    <updated>2017-08-30T00:00:00+00:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
@@ -88,8 +104,8 @@
     <title>How can technology improve patient care and reduce costs?</title>
     <link rel="alternate" href="https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs"/>
     <id>https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs</id>
-    <published>2017-08-23T17:00:00-07:00</published>
-    <updated>2017-08-23T17:00:00-07:00</updated>
+    <published>2017-08-24T00:00:00+00:00</published>
+    <updated>2017-08-24T00:00:00+00:00</updated>
     <author>
       <name>Travis Good, MD</name>
     </author>
@@ -102,8 +118,8 @@
     <title>Spear Phishing: Hackers Aiming for Healthcare</title>
     <link rel="alternate" href="https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare"/>
     <id>https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare</id>
-    <published>2017-08-17T17:00:00-07:00</published>
-    <updated>2017-08-17T17:00:00-07:00</updated>
+    <published>2017-08-18T00:00:00+00:00</published>
+    <updated>2017-08-18T00:00:00+00:00</updated>
     <author>
       <name>Marcia Noyes</name>
     </author>
@@ -116,8 +132,8 @@
     <title>Announcing Self Service and Free Trials</title>
     <link rel="alternate" href="https://datica.com/blog/announcing-self-service-and-free-trials"/>
     <id>https://datica.com/blog/announcing-self-service-and-free-trials</id>
-    <published>2017-08-16T17:00:00-07:00</published>
-    <updated>2017-08-16T17:00:00-07:00</updated>
+    <published>2017-08-17T00:00:00+00:00</published>
+    <updated>2017-08-17T00:00:00+00:00</updated>
     <author>
       <name>Ryan Rich</name>
     </author>
@@ -132,30 +148,14 @@
     <title>Why There is Up Front Pricing Now</title>
     <link rel="alternate" href="https://datica.com/blog/why-there-is-up-front-pricing-now"/>
     <id>https://datica.com/blog/why-there-is-up-front-pricing-now</id>
-    <published>2017-08-06T17:00:00-07:00</published>
-    <updated>2017-08-06T17:00:00-07:00</updated>
+    <published>2017-08-07T00:00:00+00:00</published>
+    <updated>2017-08-07T00:00:00+00:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
     <summary type="html">&lt;p&gt;Almost 3 years ago, I wrote about why there was no listed Datica pricing on our site. Today, I wrote about why we actually DO now have upfront pricing.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;Almost three years ago, I wrote a blog post about why &lt;a href="https://datica.com/blog/why-there-is-no-up-front-pricing/"&gt;there was no up front pricing&lt;/a&gt; for the Datica Platform or our integration services. It was as earnest as I could get about how I felt about our sales model at the time: there was no shortage of people who came to our website not understanding why handling some aspects of HIPAA compliance or data integration wasn’t as cheap as a $5 Digital Ocean droplet.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Opportunities for Digital Health Vendors in the Pharmaceutical Industry</title>
-    <link rel="alternate" href="https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma"/>
-    <id>https://datica.com/blog/opportunities-for-digital-health-vendors-in-pharma</id>
-    <published>2017-07-30T17:00:00-07:00</published>
-    <updated>2017-07-30T17:00:00-07:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;Dr. Naomi Fried shared her ideas on the differences in innovation between pharma and hospitals, and opportunities for digital health vendors in pharma.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Naomi Fried, PhD is a highly experienced thought leader in healthcare innovation and digital health, with many years of innovation experience. Most recently, as Biogen’s first VP of Innovation, Medical Information, and External Partnerships, she led five functions that catalyzed innovation to support patients and healthcare professionals. She developed the strategy for and led the “innovation beyond the molecule” program to deliver non-pharmacological value to patients and providers.&lt;/p&gt;
-
-&lt;p&gt;In our &lt;a href="https://datica.com/innovation/naomi-fried-how-digital-health-companies-can-help-pharma-innovate/"&gt;July, 2017 podcast&lt;/a&gt; Travis Good, MD interviewed Dr. Fried, resulting in a lively chat about the differences between the way pharma and hospital systems innovate, as well as the advantages digital health vendors can tap when working with pharma. Here were a few key takeaways from the podcast.&lt;/p&gt;
 </content>
   </entry>
 </feed>
