@@ -233,22 +233,18 @@
 
 <p>Now you need to import all of your Objective-C header files within the <code>#ifndef</code> and <code>#endif</code> tags. Including the Catalyze iOS SDK would make our entire header file look like this</p>
 
-<p>```
+<p><code>
 //
 //  MyAppName-Bridging-Header-File.h
 //  Catalyze
 //
 //  Created by Josh Ault on 2/2/15.
 //  Copyright (c) 2015 Catalyze, Inc. All rights reserved.
-//</p>
-
-<h1 id="ifndef-myappnamebridgingheaderfileh-1">ifndef MyAppName_Bridging_Header_File_h</h1>
-<p>#define MyAppName_Bridging_Header_File_h</p>
-
-<h1 id="import-catalyzeh">import “Catalyze.h”</h1>
-
-<h1 id="endif-1">endif</h1>
-<p>```</p>
+#ifndef MyAppName_Bridging_Header_File_h
+#define MyAppName_Bridging_Header_File_h
+#import "Catalyze.h"
+#endif
+</code></p>
 
 <p>You can add as many Objective-C style import statements as you want to this header file. All of the files and libraries imported will be available throughout nearly all of your Swift project.</p>
 
