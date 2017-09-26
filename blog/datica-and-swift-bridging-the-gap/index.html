@@ -12,8 +12,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Datica and Swift: Bridging The Gap | Datica Blog</title>
 <meta name="description" content="Swift has been gaining a lot of traction lately. Whenever possible, all of our new iOS projects at Datica are written in Swift.">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
 <meta name="topic" content="Datica and Swift: Bridging The Gap | Datica Blog">
 <meta name="classification" content="website">
 <meta name="url" content="https://datica.com">
@@ -43,9 +41,6 @@
     <meta property="og:image" content="https://datica.com/public/img/datica-social-twitter-2x.png">
     <meta property="twitter:image" content="https://datica.com/public/img/datica-social-twitter-2x.png">
 <link rel="canonical" href="https://datica.com/blog/datica-and-swift-bridging-the-gap/">
-<script type='text/javascript'>
-var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
-</script>
 
         <!-- Icons -->
         <link rel="shortcut icon" href="/favicon.ico">
@@ -200,16 +195,16 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
     </div>
 <section class="section-article">
     <div class="row">
-        <div class="columns small-12 large-8">
-            <ul class="share-icons no-bullet show-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/" data-image=""></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-subject="Datica and Swift: Bridging The Gap | Datica Blog" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
+        <div id="blogPost" class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <ul class="share-icons menu show-for-xlarge vertical">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/" data-image=""></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-subject="Datica and Swift: Bridging The Gap | Datica Blog" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
 </ul>
 
-            <article class="content-dynamic">
                     <div class="lead"><p>Swift has been gaining a lot of traction lately. Whenever possible, all of our new iOS projects at Datica are written in Swift. We’re embracing the change and have been enjoying the experience so far! But not all those trusted Objective-C libraries have been ported to Swift yet. Thankfully Swift is backwards compatible with Objective-C. I’ll walk you through how to use the <a href="https://github.com/catalyzeio/catalyze-ios-sdk">Catalyze iOS SDK</a> with a Swift project.</p>
 </div>
                 <div class="section--body blog-post-content group">
@@ -217,41 +212,29 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
 
 <p>First thing you need to do is open up your project and create a new file (<code>⌘+N</code>). Choose a new iOS Header file. We suggest following the naming convention <code>{MyAppName}-Bridging-Header-File.h</code> because you can only have one bridging header file per project. After you create your header file it should look something like this</p>
 
-<p>```
-//
-//  MyAppName-Bridging-Header-File.h
-//  Catalyze
+<pre><code>//  MyAppName-Bridging-Header-File.h
+//  Datica
 //
 //  Created by Josh Ault on 2/2/15.
-//  Copyright (c) 2015 Catalyze, Inc. All rights reserved.
-//</p>
-
-<h1 id="ifndef-myappnamebridgingheaderfileh">ifndef MyAppName_Bridging_Header_File_h</h1>
-<p>#define MyAppName_Bridging_Header_File_h</p>
-
-<h1 id="endif">endif</h1>
-<p>```</p>
+//  Copyright (c) 2015 Datica, Inc. All rights reserved.
+#ifndef MyAppName_Bridging_Header_File_h
+#define MyAppName_Bridging_Header_File_h
+#endif
+</code></pre>
 
 <h3 id="populating-the-bridging-header-file">Populating the Bridging Header File</h3>
 
-<p>Now you need to import all of your Objective-C header files within the <code>#ifndef</code> and <code>#endif</code> tags. Including the Catalyze iOS SDK would make our entire header file look like this</p>
+<p>Now you need to import all of your Objective-C header files within the <code>#ifndef</code> and <code>#endif</code> tags. Including the Datica iOS SDK would make our entire header file look like this</p>
 
-<p>```
-//
-//  MyAppName-Bridging-Header-File.h
-//  Catalyze
-//
+<pre><code>//  MyAppName-Bridging-Header-File.h
+//  Datica
 //  Created by Josh Ault on 2/2/15.
-//  Copyright (c) 2015 Catalyze, Inc. All rights reserved.
-//</p>
-
-<h1 id="ifndef-myappnamebridgingheaderfileh-1">ifndef MyAppName_Bridging_Header_File_h</h1>
-<p>#define MyAppName_Bridging_Header_File_h</p>
-
-<h1 id="import-catalyzeh">import “Catalyze.h”</h1>
-
-<h1 id="endif-1">endif</h1>
-<p>```</p>
+//  Copyright (c) 2015 Datica, Inc. All rights reserved.
+#ifndef MyAppName_Bridging_Header_File_h
+#define MyAppName_Bridging_Header_File_h
+#import "Datica.h"
+#endif
+</code></pre>
 
 <p>You can add as many Objective-C style import statements as you want to this header file. All of the files and libraries imported will be available throughout nearly all of your Swift project.</p>
 
@@ -259,21 +242,12 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
 
 <p>Lastly you need to tell Xcode where your bridging header file is. Click on your project name on the left side in the Project Navigator to open up your project settings. Then click on the <code>Build Settings</code> tab. Do a search for <code>bridging</code> and you should see a result called <code>Objective-C Bridging Header</code>.</p>
 
-<p>We need to fill in this value with the path to our bridging header file we just created. My header file was created in a folder called <code>MyAppName</code> within the root folder of my project. Therefore I need to set the value of the <code>Objective-C Bridging Header</code> to <code>$(SRCROOT)/MyAppName/MyAppName-Bridging-Header-File.h</code>. Now you should be able to use the Catalyze SDK in your Swift project. Try this line in your app delegate</p>
+<p>We need to fill in this value with the path to our bridging header file we just created. My header file was created in a folder called <code>MyAppName</code> within the root folder of my project. Therefore I need to set the value of the <code>Objective-C Bridging Header</code> to <code>$(SRCROOT)/MyAppName/MyAppName-Bridging-Header-File.h</code>. Now you should be able to use the Datica SDK in your Swift project. Try this line in your app delegate</p>
 
-<p><code>
-Catalyze.setApiKey("myApiKey", applicationId: "myAppId")
-</code></p>
+<pre><code>Datica.setApiKey("myApiKey", applicationId: "myAppId")
+</code></pre>
 
-<p>Now you’re all set to go with the Catalyze iOS SDK and your new Swift project. Please <a href="mailto:hello@datica.com">email us</a> if you have any questions about the guide or about getting started with Catalyze and Swift. Happy coding!</p>
-
-                    <ul class="share-icons no-bullet hide-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/" data-image=""></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-subject="Datica and Swift: Bridging The Gap | Datica Blog" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
-</ul>
+<p>Now you’re all set to go with the Datica iOS SDK and your new Swift project. Please <a href="mailto:hello@datica.com">email us</a> if you have any questions about the guide or about getting started with Datica and Swift. Happy coding!</p>
 
                 </div>
             </article>
@@ -282,37 +256,62 @@ Catalyze.setApiKey("myApiKey", applicationId: "myAppId")
         <div class="cta--body cta--body-right">
             <h3 class="headline-3 cta--header">Subscribe to our newsletter</h3>
             <p class="cta--desc">Subscribe to the Datica newsletter today.</p>
-            <a class="button--cta button button--light" href="https://datica.com/go/subscribe">Subscribe to the Datica newsletter  <i class="fa fa-angle-right"></i></a>
+            <a class="button--cta button button--light" href="">Subscribe to the Datica newsletter  <i class="fa fa-angle-right"></i></a>
         </div>
     </aside>
 
             <div class="callout callout--gray-light">
-                <ul class="list-horiz">
-                        <li>
-                            <i class="fa fa-arrow-circle-left"></i> Previous post: <a href="/blog/customers-in-the-news-crossover-health" title="">Customers In The News: Crossover Health</a></li>
-                        <li>
-                            Next post: <a href="/blog/backend-as-a-service-or-platform-as-a-service-which-is-right-for-you" title="">Backend as a Service or Platform as a Service — Which is right for you?</a> <i class="fa fa-arrow-circle-right"></i></li>
-                </ul>
+                <div class="row row--gutter-small">
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Earlier</p>
+                            <h4 class="headline-5"><a href="/blog/customers-in-the-news-crossover-health" title="Read this post">Customers In The News: Crossover Health</a></h4>
+                                <div class="text-smaller">
+                                    <p>Earlier this week Datica customer Crossover Health raised $15 million in new funding lead by Norwest. Crossover is a fantastic company with a smart idea.</p>
+
+                                </div>
+                    </div>
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Next Post</p>
+                            <h4 class="headline-5"><a href="/blog/backend-as-a-service-or-platform-as-a-service-which-is-right-for-you" title="Read this post">Backend as a Service or Platform as a Service — Which is right for you?</a></h4>
+                                <div class="text-smaller">
+                                    <p>Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Software as a Service (SaaS) – what does it all mean?</p>
+
+                                </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <div class="callout callout--dark-alt blog-subscription">
+        <aside class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="xlarge" data-options="anchor: blogPost;">
+                <ul class="share-icons menu align-center hide-for-xlarge">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/" data-image=""></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Datica and Swift: Bridging The Gap | Datica Blog" data-subject="Datica and Swift: Bridging The Gap | Datica Blog" data-url="https://datica.com/blog/datica-and-swift-bridging-the-gap/"></li>
+</ul>
+
+
+                <div class="callout callout--dark-alt blog-subscription">
     <h4 class="headline-4">Subscribe to email updates</h4>
-    <p>We'll send you an email each time a new blog article is posted.</p>
-    <!--[if lte IE 8]>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        css: '',
-        portalId: '1695915',
-        formId: '4e392b8b-084e-4f63-bea7-6bc179b9fdfb',
-        submitButtonClass: 'button button--primary expanded'
-      });
-    </script>
+    <p>We'll send you an email each time a new blog article is posted. </p>
+
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    css: '',
+    portalId: '1695915',
+    formId: '4e392b8b-084e-4f63-bea7-6bc179b9fdfb',
+    submitButtonClass: 'button button--primary expanded'
+  });
+</script>
+
 </div>
 
+            </div>
         </aside>
     </div>
 </section>

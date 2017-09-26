@@ -12,8 +12,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Start Mirth Connect as a Service on Boot | Datica Blog</title>
 <meta name="description" content="You want your Mirth Connect servers to be resilient to arbitrary reboots, but did you know you can start/restart your Mirth engine as a Linux service?">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
 <meta name="topic" content="Start Mirth Connect as a Service on Boot | Datica Blog">
 <meta name="classification" content="website">
 <meta name="url" content="https://datica.com">
@@ -43,9 +41,6 @@
     <meta property="og:image" content="https://datica.com/public/img/datica-social-twitter-2x.png">
     <meta property="twitter:image" content="https://datica.com/public/img/datica-social-twitter-2x.png">
 <link rel="canonical" href="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/">
-<script type='text/javascript'>
-var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{use_existing_jquery:function(){return d},library_tolerance:function(){return c},finish:function(){if(!e){e=!0;var a=f.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return e},load:function(a){var b=f.createElement("script");b.src=a,b.type="text/javascript",b.innerText,b.onerror=function(){_vwo_code.finish()},f.getElementsByTagName("head")[0].appendChild(b)},init:function(){settings_timer=setTimeout("_vwo_code.finish()",b);var c=f.createElement("style"),d="body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}",e=f.getElementsByTagName("head")[0];return c.setAttribute("id","_vis_opt_path_hides"),c.setAttribute("type","text/css"),c.styleSheet?c.styleSheet.cssText=d:c.appendChild(f.createTextNode(d)),e.appendChild(c),this.load("//dev.visualwebsiteoptimizer.com/j.php?a="+a+"&u="+encodeURIComponent(f.URL)+"&r="+Math.random()),settings_timer}}}();_vwo_settings_timer=_vwo_code.init();
-</script>
 
         <!-- Icons -->
         <link rel="shortcut icon" href="/favicon.ico">
@@ -178,7 +173,7 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
                     <div class="subhead--spaced headline-6">Datica Blog</div>
                     <h1 class="headline-2">Start Mirth Connect as a Service on Boot</h1>
                         <div class="media-object card-person">
-        <div class="media-object-section media-object--avatar"><img src="//images.contentful.com/189dvqdsjh46/1DcjPMt1TKSgkIgMaYw2oy/527dde3e0115661f60006026eb0ec9fa/prof-mark.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mark Olschesky"></div>
+        <div class="media-object-section media-object--avatar"><img src="//images.contentful.com/189dvqdsjh46/1DcjPMt1TKSgkIgMaYw2oy/ceca2292f84396a73acce6d1b2dfe6d6/mark_olschesky__avatar_2017.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Mark Olschesky"></div>
     <div class="media-object-section media-object--info main-section align-self-middle">
         <h4 class="person-name">
                 <a href="/about/mark" title="Learn more about Mark Olschesky">
@@ -202,16 +197,16 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
     </div>
 <section class="section-article">
     <div class="row">
-        <div class="columns small-12 large-8">
-            <ul class="share-icons no-bullet show-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/" data-image=""></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-subject="Start Mirth Connect as a Service on Boot | Datica Blog" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
+        <div id="blogPost" class="columns small-12 large-8">
+            <article class="content-dynamic">
+                <ul class="share-icons menu show-for-xlarge vertical">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/" data-image=""></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-subject="Start Mirth Connect as a Service on Boot | Datica Blog" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
 </ul>
 
-            <article class="content-dynamic">
                     <div class="lead"><p>You want total uptime with your Mirth Connect servers. They should be resilient to the problems that usually beleaguer the <a href="https://datica.com/discover/healthcare-cloud/">healthcare cloud</a>. This includes arbitrary reboots. Arbitrary reboots are the currency of the cloud and you should be prepared for them.</p>
 </div>
                 <div class="section--body blog-post-content group">
@@ -230,14 +225,6 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
 <p>This will restart mirth on boot, which on a VM running SSDs usually occurs within seconds. If you have a setup like <a href="https://datica.com/compliant-cloud/">Datica</a> where you have load-balanced, redundant servers ready to receive and process messages to incur a zero downtime outage. Otherwise, this should have you up and running again quickly and painlessly.</p>
 
 
-                    <ul class="share-icons no-bullet hide-for-medium">
-    <li><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/" data-image=""></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
-    <li><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-subject="Start Mirth Connect as a Service on Boot | Datica Blog" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
-</ul>
-
                 </div>
             </article>
                         <aside class="callout cta callout--dark" id="cta">
@@ -245,38 +232,62 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
         <div class="cta--body cta--body-right">
             <h3 class="headline-3 cta--header">Learn how Datica Compliant Cloud can help you</h3>
             <p class="cta--desc">The future of value-based patient care will be powered by HIPAA compliant, scalable, interoperable infrastructure. Datica Compliant Cloud alleviates the burden of compliance so you can focus on the innovations that matter.</p>
-            <a class="button--cta button button--light" href="https://datica.com/compliant-cloud">Explore Datica Compliant Cloud  <i class="fa fa-angle-right"></i></a>
+            <a class="button--cta button button--light" href="">Explore Datica Compliant Cloud  <i class="fa fa-angle-right"></i></a>
         </div>
     </aside>
 
             <div class="callout callout--gray-light">
-                <ul class="list-horiz">
-                        <li>
-                            <i class="fa fa-arrow-circle-left"></i> Previous post: <a href="/blog/we-ask-20-questions-for-healthcare-in-2015" title="">We Ask 20 Questions for Healthcare in 2015</a></li>
-                        <li>
-                            Next post: <a href="/blog/customers-in-the-news-crossover-health" title="">Customers In The News: Crossover Health</a> <i class="fa fa-arrow-circle-right"></i></li>
-                </ul>
+                <div class="row row--gutter-small">
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Earlier</p>
+                            <h4 class="headline-5"><a href="/blog/we-ask-20-questions-for-healthcare-in-2015" title="Read this post">We Ask 20 Questions for Healthcare in 2015</a></h4>
+                                <div class="text-smaller">
+                                    <p>Being fans of yearly predictions, we took Benedict Evans’ approach and applied it to healthcare. Here’s our guesses for 2015.</p>
+
+                                </div>
+                    </div>
+                    <div class="columns small-12 medium-6 large-6">
+                            <p class="blog-date">Next Post</p>
+                            <h4 class="headline-5"><a href="/blog/customers-in-the-news-crossover-health" title="Read this post">Customers In The News: Crossover Health</a></h4>
+                                <div class="text-smaller">
+                                    <p>Earlier this week Datica customer Crossover Health raised $15 million in new funding lead by Norwest. Crossover is a fantastic company with a smart idea.</p>
+
+                                </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <div class="callout callout--dark-alt blog-subscription">
+        <aside class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="xlarge" data-options="anchor: blogPost;">
+                <ul class="share-icons menu align-center hide-for-xlarge">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/" data-image=""></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Start Mirth Connect as a Service on Boot | Datica Blog" data-subject="Start Mirth Connect as a Service on Boot | Datica Blog" data-url="https://datica.com/blog/start-mirth-connect-as-a-service-on-boot/"></li>
+</ul>
+
+
+                <div class="callout callout--dark-alt blog-subscription">
     <h4 class="headline-4">Subscribe to email updates</h4>
-    <p>We'll send you an email each time a new blog article is posted.</p>
-    <!--[if lte IE 8]>
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-    <![endif]-->
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-    <script>
-      hbspt.forms.create({
-        css: '',
-        portalId: '1695915',
-        formId: '4e392b8b-084e-4f63-bea7-6bc179b9fdfb',
-        submitButtonClass: 'button button--primary expanded'
-      });
-    </script>
+    <p>We'll send you an email each time a new blog article is posted. </p>
+
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    css: '',
+    portalId: '1695915',
+    formId: '4e392b8b-084e-4f63-bea7-6bc179b9fdfb',
+    submitButtonClass: 'button button--primary expanded'
+  });
+</script>
+
 </div>
 
-                <div class="callout--article container-color--dark">
+                    <div class="callout--article container-color--dark">
     <a class="callout--article-link" href="/discover/healthcare-cloud" title="Discover Healthcare Cloud">
         <div class="callout--article-content">
             <div class="subheader-small">Discover</div>
@@ -290,6 +301,22 @@ var _vwo_code=function(){var a=290561,b=2e3,c=2500,d=!1,e=!1,f=document;return{u
     </a>
 </div>
 
+                    <h4 class="headline-5 text--spaced text-center">Related Posts</h4>
+                    <ul class="no-bullet content-dynamic">
+                                <li class="">
+                                    <a href="/blog/mirth-connect-and-vulnerability-scanning" title="Read this post">Mirth Connect and Vulnerability Scanning</a>
+                                    <p class="text-smaller">Periodic tips and tricks about Mirth Connect and HL7 integration.</p>
+                                </li>
+                                <li class="">
+                                    <a href="/blog/multi-tenancy-is-a-key-security-design-requirement-our-latest-academy-entry" title="Read this post">Multi tenancy is a key security design requirement — Our latest Academy entry</a>
+                                    <p class="text-smaller">Datica's acadamy article on Hipaa and multi-tenancy is meant to clarify Datica’s security position with tips on best healthcare cloud security practices.</p>
+                                </li>
+                                <li class="">
+                                    <a href="/blog/accelerating-migration-to-the-healthcare-cloud" title="Read this post">The Accelerating Migration to the Healthcare Cloud</a>
+                                    <p class="text-smaller">In this article, we explore the migration to cloud computing in healthcare, the benefits of cloud computing in healthcare, and HIPAA cloud compliant hosting.</p>
+                                </li>
+                    </ul>
+            </div>
         </aside>
     </div>
 </section>
