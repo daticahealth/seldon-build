@@ -214,41 +214,29 @@
 
 <p>First thing you need to do is open up your project and create a new file (<code>⌘+N</code>). Choose a new iOS Header file. We suggest following the naming convention <code>{MyAppName}-Bridging-Header-File.h</code> because you can only have one bridging header file per project. After you create your header file it should look something like this</p>
 
-<p>```
-//
-//  MyAppName-Bridging-Header-File.h
-//  Catalyze
+<pre><code>//  MyAppName-Bridging-Header-File.h
+//  Datica
 //
 //  Created by Josh Ault on 2/2/15.
-//  Copyright (c) 2015 Catalyze, Inc. All rights reserved.
-//</p>
-
-<h1 id="ifndef-myappnamebridgingheaderfileh">ifndef MyAppName_Bridging_Header_File_h</h1>
-<p>#define MyAppName_Bridging_Header_File_h</p>
-
-<h1 id="endif">endif</h1>
-<p>```</p>
+//  Copyright (c) 2015 Datica, Inc. All rights reserved.
+#ifndef MyAppName_Bridging_Header_File_h
+#define MyAppName_Bridging_Header_File_h
+#endif
+</code></pre>
 
 <h3 id="populating-the-bridging-header-file">Populating the Bridging Header File</h3>
 
-<p>Now you need to import all of your Objective-C header files within the <code>#ifndef</code> and <code>#endif</code> tags. Including the Catalyze iOS SDK would make our entire header file look like this</p>
+<p>Now you need to import all of your Objective-C header files within the <code>#ifndef</code> and <code>#endif</code> tags. Including the Datica iOS SDK would make our entire header file look like this</p>
 
-<p>```
-//
-//  MyAppName-Bridging-Header-File.h
-//  Catalyze
-//
+<pre><code>//  MyAppName-Bridging-Header-File.h
+//  Datica
 //  Created by Josh Ault on 2/2/15.
-//  Copyright (c) 2015 Catalyze, Inc. All rights reserved.
-//</p>
-
-<h1 id="ifndef-myappnamebridgingheaderfileh-1">ifndef MyAppName_Bridging_Header_File_h</h1>
-<p>#define MyAppName_Bridging_Header_File_h</p>
-
-<h1 id="import-catalyzeh">import “Catalyze.h”</h1>
-
-<h1 id="endif-1">endif</h1>
-<p>```</p>
+//  Copyright (c) 2015 Datica, Inc. All rights reserved.
+#ifndef MyAppName_Bridging_Header_File_h
+#define MyAppName_Bridging_Header_File_h
+#import "Datica.h"
+#endif
+</code></pre>
 
 <p>You can add as many Objective-C style import statements as you want to this header file. All of the files and libraries imported will be available throughout nearly all of your Swift project.</p>
 
@@ -256,13 +244,12 @@
 
 <p>Lastly you need to tell Xcode where your bridging header file is. Click on your project name on the left side in the Project Navigator to open up your project settings. Then click on the <code>Build Settings</code> tab. Do a search for <code>bridging</code> and you should see a result called <code>Objective-C Bridging Header</code>.</p>
 
-<p>We need to fill in this value with the path to our bridging header file we just created. My header file was created in a folder called <code>MyAppName</code> within the root folder of my project. Therefore I need to set the value of the <code>Objective-C Bridging Header</code> to <code>$(SRCROOT)/MyAppName/MyAppName-Bridging-Header-File.h</code>. Now you should be able to use the Catalyze SDK in your Swift project. Try this line in your app delegate</p>
+<p>We need to fill in this value with the path to our bridging header file we just created. My header file was created in a folder called <code>MyAppName</code> within the root folder of my project. Therefore I need to set the value of the <code>Objective-C Bridging Header</code> to <code>$(SRCROOT)/MyAppName/MyAppName-Bridging-Header-File.h</code>. Now you should be able to use the Datica SDK in your Swift project. Try this line in your app delegate</p>
 
-<p><code>
-Catalyze.setApiKey("myApiKey", applicationId: "myAppId")
-</code></p>
+<pre><code>Datica.setApiKey("myApiKey", applicationId: "myAppId")
+</code></pre>
 
-<p>Now you’re all set to go with the Catalyze iOS SDK and your new Swift project. Please <a href="mailto:hello@datica.com">email us</a> if you have any questions about the guide or about getting started with Catalyze and Swift. Happy coding!</p>
+<p>Now you’re all set to go with the Datica iOS SDK and your new Swift project. Please <a href="mailto:hello@datica.com">email us</a> if you have any questions about the guide or about getting started with Datica and Swift. Happy coding!</p>
 
                 </div>
             </article>
