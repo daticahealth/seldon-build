@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-09-19T00:00:00+00:00</updated>
+  <updated>2017-09-27T00:00:00+00:00</updated>
+  <entry>
+    <title>Looking in the Rearview Mirror at Health 2.0, 2012</title>
+    <link rel="alternate" href="https://datica.com/blog/looking-in-the-rearview-mirror-at-health-2-0-2012"/>
+    <id>https://datica.com/blog/looking-in-the-rearview-mirror-at-health-2-0-2012</id>
+    <published>2017-09-27T00:00:00+00:00</published>
+    <updated>2017-09-27T00:00:00+00:00</updated>
+    <author>
+      <name>Mark Olschesky</name>
+    </author>
+    <summary type="html">&lt;p&gt;Where do the many predictions and technologies from Health 2.0, 2012 stand today? Which products were a hit? What predictions came to be true—or didn’t?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;As we get our booth shipped and bags packed for Health 2.0 this year, I started thinking about when I first attended Health 2.0 five years ago. It was held at the Hilton in Union Square in San Francisco. I was in town for my startup’s interview at Rock Health, which at the time was just a stroll down Geary and a left on Grant through the &lt;a href="https://commons.wikimedia.org/wiki/File:San_Francisco_Dragon_Gate_to_Chinatown.jpg"&gt;Dragon Gate&lt;/a&gt; to the Rock Health offices in Chinatown. It was my first day ever in San Francisco; a place I would soon call home as I spent a chunk of 2012-2013 in the city for Rock Health.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mapping Digital Health: An interview with C-SATS co-founder Derek Streat</title>
     <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat"/>
@@ -140,22 +154,6 @@
     <summary type="html">&lt;p&gt;In the 377 healthcare data breaches last year, phishing attacks were among the top data breach causes. Why is healthcare such a target for spear phishing attacks?&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;At the beginning of August, the BBC reported that a UK-based “prankster” had successfully &lt;a href="http://www.bbc.com/news/world-us-canada-40788080"&gt;spoofed the White House.&lt;/a&gt; Through spear phishing emails, this bad actor had not only convinced a senior cyber security officer that he was the president’s son-in-law and senior advisor Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus to fool then White House Communications Director Anthony Scaramucci into inflammatory email exchanges. After posting a few of those emails on Twitter, the culprit promised not to do it again and urged the current administration to “tighten up IT policy.” While the jokester later indicated his email spoofing had no harmful intent, the implications go way beyond 1600 Pennsylvania Avenue.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Announcing Self Service and Free Trials</title>
-    <link rel="alternate" href="https://datica.com/blog/announcing-self-service-and-free-trials"/>
-    <id>https://datica.com/blog/announcing-self-service-and-free-trials</id>
-    <published>2017-08-17T00:00:00+00:00</published>
-    <updated>2017-08-17T00:00:00+00:00</updated>
-    <author>
-      <name>Ryan Rich</name>
-    </author>
-    <summary type="html">&lt;p&gt;Datica has announced the launch of The Platform 3.0 — Compliant Cloud reimagined including a HIPAA compliant &amp;amp; HITRUST CSF certified free trial.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Successful products are predicated on the concept of balance. Being able to balance what to do, what not to do, and how to do it. It’s all a delicate balance that at any time can tip the wrong way. And, when the scales tip, companies end up delivering sub-par experiences.&lt;/p&gt;
-
-&lt;p&gt;At Datica we’ve spent a considerable amount of time focusing on that balance — when to release new features, where to go in the market, who to talk to — it’s part of what makes a startup a startup. Being able to move quickly, fail fast, and ultimately land in a place that just works.&lt;/p&gt;
 </content>
   </entry>
 </feed>
