@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-09-27T00:00:00+00:00</updated>
+  <updated>2017-09-28T00:00:00+00:00</updated>
+  <entry>
+    <title>Public vs. Private Cloud Computing Examined: Our Latest Quarterly Industry Report</title>
+    <link rel="alternate" href="https://datica.com/blog/public-vs-private-cloud-computing-examined-our-latest-quarterly-industry"/>
+    <id>https://datica.com/blog/public-vs-private-cloud-computing-examined-our-latest-quarterly-industry</id>
+    <published>2017-09-28T00:00:00+00:00</published>
+    <updated>2017-09-28T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;Our latest industry report takes a look at various opinions and definitions on public vs. private cloud computing within healthcare.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Last quarter, we published our first industry report titled &lt;a href="https://datica.com/innovation/heart-of-medicine-report-spring-2017/"&gt;The Heart of Medicine: Transformation Through Technology&lt;/a&gt;. The report took a look at how sentiments have changed the last few years around the topic of “cloud” within enterprise healthcare. Measuring the changes between a 2014 HIMSS study and their 2017 version showed that certain use cases on the cloud have not just taken off, but are commonplace—a good sign for the progress of digital health.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Looking in the Rearview Mirror at Health 2.0, 2012</title>
     <link rel="alternate" href="https://datica.com/blog/looking-in-the-rearview-mirror-at-health-2-0-2012"/>
@@ -140,20 +154,6 @@
     <summary type="html">&lt;p&gt;Our newest publication Rethinking Healthcare Technology includes expansive, useful, and original essays on digital transformation from insightful leaders.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;That’s the most important question clinicians are asking themselves in a post-EHR world where patients have supercomputers in their pockets, and they expect the same high-quality, on-demand experiences the Apples, Googles, Amazons, and Facebooks give them.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Spear Phishing: Hackers Aiming for Healthcare</title>
-    <link rel="alternate" href="https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare"/>
-    <id>https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare</id>
-    <published>2017-08-18T00:00:00+00:00</published>
-    <updated>2017-08-18T00:00:00+00:00</updated>
-    <author>
-      <name>Marcia Noyes</name>
-    </author>
-    <summary type="html">&lt;p&gt;In the 377 healthcare data breaches last year, phishing attacks were among the top data breach causes. Why is healthcare such a target for spear phishing attacks?&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;At the beginning of August, the BBC reported that a UK-based “prankster” had successfully &lt;a href="http://www.bbc.com/news/world-us-canada-40788080"&gt;spoofed the White House.&lt;/a&gt; Through spear phishing emails, this bad actor had not only convinced a senior cyber security officer that he was the president’s son-in-law and senior advisor Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus to fool then White House Communications Director Anthony Scaramucci into inflammatory email exchanges. After posting a few of those emails on Twitter, the culprit promised not to do it again and urged the current administration to “tighten up IT policy.” While the jokester later indicated his email spoofing had no harmful intent, the implications go way beyond 1600 Pennsylvania Avenue.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -140,7 +140,7 @@
   </url>
   <url>
     <loc>https://datica.com/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <lastmod>2017-09-28T14:58:41-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -164,13 +164,19 @@
   </url>
   <url>
     <loc>https://datica.com/innovation/</loc>
-    <lastmod>2017-09-27T20:55:08-07:00</lastmod>
+    <lastmod>2017-09-28T15:00:11-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/innovation/leadership-gallery/</loc>
     <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/</loc>
+    <lastmod>2017-09-28T14:57:16-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -446,6 +452,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/top-ehr-vendors-epic-mckesson-etc-meet-to-determine-interoperability-metrics/</loc>
+    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/public-vs-private-cloud-computing-examined-our-latest-quarterly-industry/</loc>
     <lastmod>2017-09-27T09:52:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
