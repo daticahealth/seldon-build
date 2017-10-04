@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_hl7-203-the-hl7-orm-order-entry-message academy_hl7-203-the-hl7-orm-order-entry-message_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -180,7 +182,7 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content" class="content-dynamic">
                 <p>The Order Entry (ORM) message is one of the most commonly used HL7 message type. ORM messages contain information about an order. This includes placing new orders, canceling existing orders, discontinuation, holding, etc. Orders pertain to either materials (e.g., 1 liter of 0.9% saline) or services (e.g., a blood panel, etc.). Usually this is patient specific. The trigger event for this message is any change to an order i.e. order is created, modified, cancelled, put on hold and so on.</p>
 
 <p>Before we jump into ORM messages, a quick review might be in order. As we’ve discussed <a href="https://catalyze.io/learn/hl7/">before</a>, HL7 has many message types which can be very daunting. It’s not only that there are messages but also that there are types of HL7 messages which are geared towards handling specific events. Admission, Discharge, Transfer (ADT) messages are sent when patient’s are admitted, discharged or otherwise moved around the hospital. Scheduling (SIU) messages schedule and update appointments in clinics. Order Entry (ORM) messages are sent when orders are placed or edited and Order Result (ORU) messages are sent back with results that correspond to the original ORM message. These are the most common HL7 message types; most other workflows, like updating flowsheets or filing visit notes, use some combination of segments from these message types to accomplish their goals. Since we already covered the ADT message in detail <a href="https://catalyze.io/learn/hl7/hl7-201-the-admission-discharge-transfer-adt-message/">here</a>, we thought we could move onto the Order Entry (ORM) message.</p>
@@ -320,6 +322,14 @@ DG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||
 <p>Looking for further help on integrating an ORM (Orders, Procedures) feed with an EHR? Check out <a href="http://content.catalyze.io/orm-orders-procedures-integration-help">ORM Integration Help</a></p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy" data-subject="HL7 203 - The HL7 ORM (Order Entry) message | The Datica Academy" data-url="https://datica.com/academy/hl7-203-the-hl7-orm-order-entry-message/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -330,12 +340,60 @@ DG1||I10|S82^ANKLE FRACTURE^I10|ANKLE FRACTURE||
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="hl7-204-the-hl7-scheduling-messages-siu-and-srm" title="Read this post">HL7 204 - The HL7 Scheduling messages, SIU and SRM</a>
+                                            <div class="text-smaller"><p>The HL7 SIU and HL7 SRM message types are HL7 appointment scheduling messages with date and time, resources, services, location, and more appoint info.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="hl7-202-the-hl7-ack-acknowledgement-message" title="Read this post">HL7 202 - The HL7 ACK (Acknowledgement message)</a>
+                                            <div class="text-smaller"><p>The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -452,10 +510,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

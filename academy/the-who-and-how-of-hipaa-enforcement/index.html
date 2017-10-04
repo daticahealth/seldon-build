@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_the-who-and-how-of-hipaa-enforcement academy_the-who-and-how-of-hipaa-enforcement_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -182,7 +184,7 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content" class="content-dynamic">
                 <p>When people talk or write about HIPAA, it’s always presumed that there’s an enforcement aspect, though enforcement is rarely explicitly discussed. As much as people and organizations value the privacy and security of the personal health information of their customers (patients, members, users/consumers), the fear of HIPAA violation fines and other penalties are the major drivers of compliance and security efforts. Penalties, whether fines or otherwise, are quantifiable and expose organizations to very real financial risk if proper controls, both tech and policy, aren’t put into place and followed.</p>
 
 <p>HHS sets the rules for HIPAA, and enforcement is carried out by The Office of Civil Rights (OCR) within HHS. OCR is tasked with the responsibility of investigating complaints. Based on an investigation, the OCR determines if the covered entity or the business associate of a covered entity was in compliance with the HIPAA security and privacy rule. The investigation branches at whether an organization is in violation of HIPAA rules or not. If the organization is not in violation, the findings are documented and the case is closed. HIPAA is not always prescriptive, and has terms like “reasonable,” so there is some interpretation and gray area at this stage.</p>
@@ -208,6 +210,14 @@
 <p>It’s not always clear who enforces HIPAA compliance and violations. The HIPAA privacy rule is enforced by the OCR, the Department of Justice to a lesser extent, and, recently, the FCC has waded into HIPAA enforcement for the privacy of health data through its mandate to protect consumers. The financial penalties from the FCC are lower than those from the OCR; but, the FCC has the power to require annual privacy audits, as it has done with companies like Google and Facebook, and these audits, over time, have the potential to be very expensive for companies. This move by the FCC is new, and still making its way through the courts, so it’s still uncertain how the FCC will fit with HIPAA enforcement.</p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="The Who and How of HIPAA Enforcement | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/the-who-and-how-of-hipaa-enforcement/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/the-who-and-how-of-hipaa-enforcement/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/the-who-and-how-of-hipaa-enforcement/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="The Who and How of HIPAA Enforcement | The Datica Academy" data-subject="The Who and How of HIPAA Enforcement | The Datica Academy" data-url="https://datica.com/academy/the-who-and-how-of-hipaa-enforcement/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -218,12 +228,60 @@
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="hipaa-subcontractors-and-baas" title="Read this post">HIPAA, Subcontractors, and BAAs</a>
+                                            <div class="text-smaller"><p>The major part of security in healthcare is HIPAA, and the HIPAA rules changed in late 2013 with the new HIPAA Omnibus that adds subcontractors entities.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="proving-hipaa-compliance" title="Read this post">Proving HIPAA Compliance</a>
+                                            <div class="text-smaller"><p>HIPAA attestation is everywhere but are they really compliant? Companies can self-attest to HIPAA compliance because there are no HIPAA certifications.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -340,10 +398,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

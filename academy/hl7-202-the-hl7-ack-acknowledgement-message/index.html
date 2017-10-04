@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_hl7-202-the-hl7-ack-acknowledgement-message academy_hl7-202-the-hl7-ack-acknowledgement-message_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -180,10 +182,10 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
-                <p>The HL7 acknowledgement message, or ACK, is critical to ensure that ongoing HL7 communication proceeds smoothly. The concept of an <a href="http://en.wikipedia.org/wiki/Acknowledgement_(data_networks)">ACK</a> is commonly used in many data networks protocols, including TCP, so you are likely familiar with it. Although conceptually simple (receiving system acknowledges receipt for specific message sent from sending system), there are a couple of nuances (enhanced mode, rate limiting) with HL7 ACK that make covering this topic worthwhile.</p>
-
-<h2 id="the-structure-of-an-ack-message">The structure of an ACK message</h2>
+            <article id="content" class="content-dynamic">
+                    <div class="lead"> <p>The HL7 acknowledgement message, or ACK, is critical to ensure that ongoing HL7 communication proceeds smoothly. The concept of an <a href="http://en.wikipedia.org/wiki/Acknowledgement_(data_networks)">ACK</a> is commonly used in many data networks protocols, including TCP, so you are likely familiar with it. Although conceptually simple (receiving system acknowledges receipt for specific message sent from sending system), there are a couple of nuances (enhanced mode, rate limiting) with HL7 ACK that make covering this topic worthwhile.</p>
+</div>
+                <h2 id="the-structure-of-an-ack-message">The structure of an ACK message</h2>
 <p>Let’s take a quick look at how an ACK message is created.</p>
 
 <p>Let’s say an inbound HL7 ADT (Admit, Discharge, Transfer) message came in with the following MSH (message header).
@@ -227,6 +229,7 @@ MSA|AA|HL7MSG00001
 <p>As you can see, the ACK message is <strong>not</strong> like the delivery acknowledgement you get when you send an email or text message - it’s not a “I got it” message. One can specify whether original or enhanced processing rules are to be applied to the message. Based on this specification, the inbound message is processed differently and a different kind of ACK message is sent back. The ACK message and the associated processing rules are defined based on the MSH (message header) segment content (more details on the MSH segment was discussed in an <a href="/academy/hl7-201-the-admission-discharge-transfer-adt-message/">earlier post</a>).</p>
 
 <h3 id="original-mode">Original mode</h3>
+
 <p>Original mode processing is indicated if both the 15th and 16th fields of the MSH segment of the inbound message is null or empty.</p>
 
 <p>Any inbound message with an MSH segment indicating original mode processing will be validated for correct syntax and goes through a two step process:</p>
@@ -244,6 +247,7 @@ MSA|AA|HL7MSG00001
 <p>If any of these checks fail, the protocol software will reject the message with an ACK message containing “AR” in the acknowledgment code field (MSA-1). If it doesn’t fail, it passes the message to the application.</p>
 
 <h3 id="step-2---application-validation">STEP 2 - Application validation</h3>
+
 <p>The application validation checks are:</p>
 
 <ol>
@@ -253,6 +257,7 @@ MSA|AA|HL7MSG00001
 </ol>
 
 <h2 id="enhanced-mode">Enhanced mode</h2>
+
 <p>Enhanced mode processing is indicated if at least one of the 15th and 16th fields of the MSH segment of the inbound message is not null. Enhanced mode requires that the receiving application take on additional responsibility namely that:</p>
 
 <ol>
@@ -269,29 +274,38 @@ MSA|AA|HL7MSG00001
   <li>a commit error (CE) for any other error.</li>
 </ol>
 
-<h3 id="ustom-ack">ustom ACK</h3>
+<h3 id="custom-ack">Custom ACK</h3>
+
 <p>What is health IT without some customization? Not surprisingly, it is possible to send a Non-HL7/Static String ACK. This is a custom acknowledgement and is simply a text string (rather than an HL7-formatted ACK). These types of ACKs are used when an inbound system is incapable of receiving HL7 formatted messages or creating them.</p>
 
 <h2 id="rate-limiting-with-ack-messages">Rate limiting with ACK messages</h2>
 
 <p>The HL7 standard defines that the sending systems cannot send another message to a system until it has received an ACK in response. Actually, that is not quite correct (thanks for a reader for pointing this out to us). It is not part of the HL7 specification. It is usually the way the HL7 systems are implemented in <em>practice</em> to ensure messages are handled appropriatelt.  This was done, one presumes, to ensure that if messages are rejected due to errors in content, message formats, system downtime etc., they can be corrected either at the source or queued until the destination system comes back up. But as you can immediately see, if the next message won’t be sent until an ACK is received, it is possible to slow down the rate of inbound messages by delaying the sending of the ACK message. Since processing of HL7 messages using open source tools have challenges when inbound message rates become high, this is one of the levers that is available to implementers to ensure messages are received and processed appropriately.</p>
 
-<p>Our resident expert on HL7, <a href="https://twitter.com/markolschesky">Mark Olschesky</a> explains this more as follows. Previous to v2.7, the only ACKs that were “official” were your classic Original Mode and Enhanced Mode ACKs. There was no way that an upstream system to really know within the standard what you were going to do with the message. As such, the only valid assumption was that</p>
+<p>Our resident expert on HL7, <a href="/about/mark/">Mark Olschesky</a> explains this more as follows. Previous to v2.7, the only ACKs that were “official” were your classic Original Mode and Enhanced Mode ACKs. There was no way that an upstream system to really know within the standard what you were going to do with the message. As such, the only valid assumption was that</p>
 
 <ul>
   <li>the message was processed without error upon receiving the ACK or</li>
   <li>was not processed correctly with a NACK or no ACK.</li>
 </ul>
 
-<p>This also makes sense logistically too i.e. it would be dangerous to send/process an update to a patient record if you weren’t able to process the initial event which would seed that patient into your system (or receive an update to a note you didn’t have, etc.). Most of HL7 design is linear and doesn’t have much of a concept of eventual consistency. Note that there were always exceptions around this (notably systems which had no capability to respond with an ACK).</p>
+<p>This also makes sense logistically as well, i.e. it would be dangerous to send/process an update to a patient record if you weren’t able to process the initial event which would seed that patient into your system (or receive an update to a note you didn’t have, etc.). Most of HL7’s design is linear, and doesn’t have much of a concept of eventual consistency. Note that there were always exceptions around this (notably systems which had no capability to respond with an ACK).</p>
 
 <p>In 2.7, a new field was added to the 15th segment of the MSH segment of the ACK which allows the receiving system to indicate to the sending what it was going to do with the message after it received it. While folks had been doing this tacitly for years beforehand, the intent in design was to accommodate for interface engines which receive a message and then fan it out to a multitude of systems, providing some closure to the sending system as the receiving system cranked along and did its work. This was usually a tacit admonishment in design that the interface engine (and team working on it) was now responsible for troubleshooting vs. the ADT or EHR system which generated the original message type.</p>
 
 <p>Now you know as much as I do about ACKs. Go forth and prosper.</p>
 
-<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
+<p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="/platform/integration/">here</a>.</p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy" data-subject="HL7 202 - The HL7 ACK (Acknowledgement message) | The Datica Academy" data-url="https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -302,12 +316,74 @@ MSA|AA|HL7MSG00001
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="hl7-201-the-admission-discharge-transfer-adt-message" title="Read this post">HL7 201 - The Admission, Discharge, Transfer (ADT) Message</a>
+                                            <div class="text-smaller"><p>HL7 ADT message types are the most common HL7 messages. We explain ADT message structure, segments, and event types, including HL7 ADT message examples.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="hl7-203-the-hl7-orm-order-entry-message" title="Read this post">HL7 203 - The HL7 ORM (Order Entry) message</a>
+                                            <div class="text-smaller"><p>The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                    <div class="callout--article container-color--dark">
+    <a class="callout--article-link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">
+        <div class="callout--article-content">
+            <div class="subheader-small">Discover</div>
+            <h3 class="headline-4">HIPAA Compliance <i class="callout--article-action fa fa-arrow-circle-right"></i></h3>
+                <div class="callout--article-body">
+                    <p>HIPAA legislation is ever-evolving and although it may seem complicated and tedious, yet, it is imperative that everyone is in compliance. Here’s everything we know about HIPAA.</p>
+
+                </div>
+        </div>
+            <div class="callout--article-image container-image--center" data-interchange="[//images.contentful.com/189dvqdsjh46/WT9Em4urgA8g0s06Ei2kW/5ae65a8bfdb6386931dc42f7cecea5b6/Doctor__processed.jpg?fit=scale&w=400&h=200&q=35, small], [//images.contentful.com/189dvqdsjh46/WT9Em4urgA8g0s06Ei2kW/5ae65a8bfdb6386931dc42f7cecea5b6/Doctor__processed.jpg?fit=scale&w=600&h=300&q=55, medium]"></div>
+    </a>
+</div>
+
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -424,10 +500,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

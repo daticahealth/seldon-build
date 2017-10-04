@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_hl7-101-a-primer academy_hl7-101-a-primer_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -180,7 +182,7 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content" class="content-dynamic">
                 <p>Health Level Seven (HL7) is a standard utilized by the healthcare industry to enable messaging between applications, EHR to PMS (practice management system) for example. It is managed and maintained by <a href="http://hl7.org">Health Level Seven International (HL7)</a> which is a not-for-profit, ANSI-accredited standards developing organization. The HL7 standard is often jokingly referred to as the “non-standard standard.” This is not very fair but it does reflect the fact that almost every hospital, clinic, imaging center, lab, and care facility is “special” in terms of how it implements HL7 (really?, why?). The reason is primarily because there is no such thing as a standard business or clinical process for interacting with patients, clinical data, or related personnel.</p>
 
 <p>The HL7 messaging protocol was designed to facilitate high volumes of pre-defined data to be shared across many applications reliably. The protocol selected to make this happen was a traditional file transfer or a TCP/IP <strong>socket</strong> in both a real-time and batched fashion. HL7 v2 message structure is complex, flat, and delimited. HL7 has obviously evolved over time. The current version of HL7 is v3, however, older versions exist and make up the bulk of the standard used today primarily because of the large number customizations that have been done to each HL7 message.</p>
@@ -389,6 +391,14 @@
 <p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="https://catalyze.io/hl7/">here</a>.</p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="HL7 101 - A primer | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/hl7-101-a-primer/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/hl7-101-a-primer/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/hl7-101-a-primer/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="HL7 101 - A primer | The Datica Academy" data-subject="HL7 101 - A primer | The Datica Academy" data-url="https://datica.com/academy/hl7-101-a-primer/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -399,12 +409,60 @@
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="hl7-201-the-admission-discharge-transfer-adt-message" title="Read this post">HL7 201 - The Admission, Discharge, Transfer (ADT) Message</a>
+                                            <div class="text-smaller"><p>HL7 ADT message types are the most common HL7 messages. We explain ADT message structure, segments, and event types, including HL7 ADT message examples.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="hl7-102-anatomy-of-an-hl7-message" title="Read this post">HL7 102 - Anatomy of an HL7 message</a>
+                                            <div class="text-smaller"><p>This deep dive explains HL7 message types, message structure, message segments, codes, fields and the complete anatomy of an HL7 message.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -521,10 +579,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

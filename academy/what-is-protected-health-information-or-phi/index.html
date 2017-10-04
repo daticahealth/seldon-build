@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_what-is-protected-health-information-or-phi academy_what-is-protected-health-information-or-phi_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -180,7 +182,7 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content" class="content-dynamic">
                 <p><strong>The acronym</strong>: PHI stands for <strong>P</strong>rotected <strong>H</strong>ealth <strong>I</strong>nformation - not personal health information (although that’s in essense what it implies), not personally identifiable health information (I’ve seen it used although that would technically be PIHI) and I’m sure there are variants of this that you’ve heard as well.</p>
 
 <p><strong>The definition</strong>: Here’s the wikipedia <a href="http://en.wikipedia.org/wiki/Protected_health_information">definition</a>. Protected health information (PHI) is any information about health status, provision of health care, or payment for health care that can be linked to a specific individual. HHS provides an even simpler  of PHI - individually identifiable health information transmitted or maintained in any form or medium by a Covered Entity or its Business Associate; the definition of a “business associate” has been extended with the HIPAA Omnibus rule that went into effect in 2013. This term “information” is interpreted rather broadly and includes any part of a patient’s medical record or payment history. The key here is this phrase “that can be linked to a specific individual”. Which is where the other acronym, PII (Personally Identifiable Information) - here’s the <a href="http://en.wikipedia.org/wiki/Personally_identifiable_information">link</a> to the wikipedia article on that - becomes relevant. The major difference between PHI and PII is that PII is a legal definition - i.e. PII is anything that <strong>could</strong> be used to uniquely identify an individual. PHI is a subset of PII in that a medical record could be used to identify a person - especially if the disease or condition is rare enough.</p>
@@ -326,6 +328,14 @@
 <p>Given the above constraints, it is essential that any application that you design takes these anonymization and/or de-identification requirements into account before any data is shared with any external entity. PHI data can be “shared” with an external entity provided you have BAA (<a href="http://healthcare.partners.org/phsirb/hipaaglos.htm#g7">business associate agreement</a>) in place and the individual has signed the appropriate consent documents. How PHI needs to be managed under HIPAA is a whole topic in itself. Look for a blog post from us shortly describing how we enable HIPAA compliance and simplify adherence to the letter and spirit of the law at <a href="https://datica.com/">Datica</a>.</p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="What is Protected Health Information (PHI)? | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/what-is-protected-health-information-or-phi/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/what-is-protected-health-information-or-phi/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/what-is-protected-health-information-or-phi/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="What is Protected Health Information (PHI)? | The Datica Academy" data-subject="What is Protected Health Information (PHI)? | The Datica Academy" data-url="https://datica.com/academy/what-is-protected-health-information-or-phi/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -336,12 +346,55 @@
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="the-hipaa-privacy-rule" title="Read this post">The HIPAA Privacy Rule</a>
+                                            <div class="text-smaller"><p>The HIPAA Privacy Rule is important to understand because it explains the types of data, covered entities, and uses of data HIPAA is concerned about.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -458,10 +511,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_business-associate-agreements academy_business-associate-agreements_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -182,7 +184,7 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content" class="content-dynamic">
                 <p>The HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and entities that have to follow the HIPAA security and privacy rules. The main categories are clearinghouses, covered entities (CEs) - typically hospitals, payers, and providers, and business associates. Business associates are far away the biggest cohort of cloud computing companies.</p>
 
 <p>Business associates are people or organizations who contract and provide services and/or technology for covered entities. In the process of providing those services or those technologies, business associates handle, process, transmit, or in some way interact with electronic protected health information (ePHI) from those covered entities. With this ePHI access, business associates are required to sign what’s called a business associate agreement (BAA). Below is the actual language from HIPAA 164.308.</p>
@@ -209,6 +211,14 @@
 <p>At a high level, that’s what business associate agreements are and you are expected to have those for all of the various technology and services companies that you work with that might in some way interact, process, store, or have access to ePHI. If you’re a business associate or you’re a covered entity, we happily sign BAAs. And if you’re interested in seeing one of our BAAs, <a href="mailto:legal@datica.com">email us</a> and we’ll walk you through ours and answer any questions you might have about it.</p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Business Associate Agreements | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/business-associate-agreements/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/business-associate-agreements/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/business-associate-agreements/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Business Associate Agreements | The Datica Academy" data-subject="Business Associate Agreements | The Datica Academy" data-url="https://datica.com/academy/business-associate-agreements/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -219,12 +229,60 @@
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="the-hipaa-security-rule" title="Read this post">The HIPAA Security Rule</a>
+                                            <div class="text-smaller"><p>The HIPAA Security Rule describes the ways in which electronic protected health information, or ePHI, needs to be protected.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="proving-hipaa-compliance" title="Read this post">Proving HIPAA Compliance</a>
+                                            <div class="text-smaller"><p>HIPAA attestation is everywhere but are they really compliant? Companies can self-attest to HIPAA compliance because there are no HIPAA certifications.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -341,10 +399,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

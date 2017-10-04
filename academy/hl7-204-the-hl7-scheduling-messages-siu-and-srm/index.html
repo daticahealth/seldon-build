@@ -49,10 +49,12 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_hl7-204-the-hl7-scheduling-messages-siu-and-srm academy_hl7-204-the-hl7-scheduling-messages-siu-and-srm_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #content a {color: #1c1e1e;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -180,7 +182,7 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content" class="content-dynamic">
                 <p>The SIU (Schedule Information Unsolicited) and SRM (Schedule Request Message) messages contain information related to appointment scheduling. SRM messages are used for requesting changes to a health system’s schedule, such as a request for a new appointment booking, appointment rescheduling, modification, cancellation, etc. SIU messages are used to notify auxiliary applications of a change made to the health system’s schedule, such as a notification for the booking of a new appointment, appointment rescheduling, modification, cancellation, etc. Scheduling messages contain information about the appointment date and time, resources, services, location, and any other pertinent information regarding the appointment. The purpose or action prescribed by any scheduling message will depend entirely on the trigger event (See the List of Trigger Events below).</p>
 
 <p>Following the standard HL7 message structure, an SIU or SRM message is made up of segments and groups of segments, each of which may be required, optional, repeatable, or some combination thereof. A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:</p>
@@ -437,6 +439,14 @@ AIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||
 <p>Looking for further help on integrating an SIU or SRM feed with an EHR? Check out this post: <a href="http://content.catalyze.io/siu-scheduling-integration-help">SIU Integration Help</a></p>
 
             </article>
+            <ul class="share-icons menu ">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy" data-subject="HL7 204 - The HL7 Scheduling messages, SIU and SRM | The Datica Academy" data-url="https://datica.com/academy/hl7-204-the-hl7-scheduling-messages-siu-and-srm/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -447,12 +457,65 @@ AIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--gray-light group content-dynamic">
+                    
+                    <div id="article-toc"></div>
+
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="hl7-201-the-admission-discharge-transfer-adt-message" title="Read this post">HL7 201 - The Admission, Discharge, Transfer (ADT) Message</a>
+                                            <div class="text-smaller"><p>HL7 ADT message types are the most common HL7 messages. We explain ADT message structure, segments, and event types, including HL7 ADT message examples.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="hl7-202-the-hl7-ack-acknowledgement-message" title="Read this post">HL7 202 - The HL7 ACK (Acknowledgement message)</a>
+                                            <div class="text-smaller"><p>The HL7 acknowledgement message, HL7 ACK, is critical for smooth, ongoing HL7 communication. Learn the nuances of HL7 ACK messages, segments, and codes.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="hl7-203-the-hl7-orm-order-entry-message" title="Read this post">HL7 203 - The HL7 ORM (Order Entry) message</a>
+                                            <div class="text-smaller"><p>The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders.</p>
+</div>
+                                        </li>
+                        </ul>
+                </aside>
+                
+
+                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // contents.eventEmitter.on('resize', function () {
+        //     console.log('resize');
+        // });
+
+        // contents.eventEmitter.on('scroll', function () {
+        //     console.log('scroll');
+        // });
+
+        // contents.eventProxy.on('change', function () {
+        //     console.log('change');
+        // });
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -569,10 +632,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>
