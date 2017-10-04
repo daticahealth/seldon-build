@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_the-fhir-resource-object-the-core-building-block academy_the-fhir-resource-object-the-core-building-block_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -182,7 +183,9 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>To understand FHIR, you must understand the Resource object. This entry will help explain its origins and intent, then provide links to expand your understanding.</p>
 
 <p>First, a quote from the <a href="http://www.hl7.org/fhir/">FHIR website</a>:</p>
@@ -768,6 +771,7 @@
 
 <p>While the FHIR spec is calcifying, no doubt additions and subtractions are on the horizon. Stay tuned for updates.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -789,10 +793,8 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
                         <ul class="no-bullet">
                                         <li class="">
@@ -806,10 +808,8 @@
 </div>
                                         </li>
                         </ul>
-                </aside>
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -825,7 +825,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

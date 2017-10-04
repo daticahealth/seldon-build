@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_hipaa-auditing-and-logging academy_hipaa-auditing-and-logging_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -184,7 +185,9 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>Auditing and logging are an important part of the HIPAA Security Rule, but there not prescriptive controls defined. According to HIPAA Security Rule - 164.312(b):</p>
 
 <blockquote>
@@ -209,6 +212,7 @@
 
 <p>It’s a very powerful unified logging service, one that’s HIPAA grade and meant for ePHI. The service sits within our environment right next to your application and we combine your log data that we’re already collecting on the servers and network traffic. We pull all that in into one place and give you a managed console for logging. Soon we’ll be enabling customers to set alerts as well. If you’re going through a HIPAA audit or assessment by a compliance office at a hospital or payer, this is a very powerful tool to assure them of the security and integrity of your application.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -230,10 +234,8 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
                         <ul class="no-bullet">
                                         <li class="">
@@ -247,10 +249,8 @@
 </div>
                                         </li>
                         </ul>
-                </aside>
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -266,7 +266,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

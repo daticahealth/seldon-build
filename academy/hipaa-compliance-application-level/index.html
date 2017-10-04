@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_hipaa-compliance-application-level academy_hipaa-compliance-application-level_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -183,11 +184,13 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
                     <div class="lead"> <p>HIPAA Compliance at the infrastructure level is very heavy on technology. Encryption of PHI while in transit, disaster recovery—these are intense technical considerations.</p>
 
 <p>Compliance at the application level is more of a blend of technology and policy. While it’s true major technological considerations exist—for example, don’t store plaintext passwords!–components like Access Control Lists (ACLs) and credentialing are just as important as far as HIPAA goes.</p>
 </div>
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>Here are a few domains to consider related to HIPAA compliance within a digital health application.</p>
 
 <h2 id="credentials-and-provisioning">Credentials and provisioning</h2>
@@ -230,6 +233,7 @@
 <p>In short, the best way to prove compliance at this level is to get your company audited by an independent auditor, who will examine your company in totality, or the app specifically. For more information, check out our blog article discussing <a href="/blog/what-is-the-cost-of-a-hipaa-audit/">the cost of a HIPAA audit</a>.</p>
 
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -251,10 +255,8 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
                         <ul class="no-bullet">
                                         <li class="">
@@ -273,10 +275,8 @@
 </div>
                                         </li>
                         </ul>
-                </aside>
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -292,7 +292,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

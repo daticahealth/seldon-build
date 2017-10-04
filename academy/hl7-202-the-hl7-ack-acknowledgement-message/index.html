@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_hl7-202-the-hl7-ack-acknowledgement-message academy_hl7-202-the-hl7-ack-acknowledgement-message_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -182,9 +183,11 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
                     <div class="lead"> <p>The HL7 acknowledgement message, or ACK, is critical to ensure that ongoing HL7 communication proceeds smoothly. The concept of an <a href="http://en.wikipedia.org/wiki/Acknowledgement_(data_networks)">ACK</a> is commonly used in many data networks protocols, including TCP, so you are likely familiar with it. Although conceptually simple (receiving system acknowledges receipt for specific message sent from sending system), there are a couple of nuances (enhanced mode, rate limiting) with HL7 ACK that make covering this topic worthwhile.</p>
 </div>
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <h2 id="the-structure-of-an-ack-message">The structure of an ACK message</h2>
 <p>Let’s take a quick look at how an ACK message is created.</p>
 
@@ -297,6 +300,7 @@ MSA|AA|HL7MSG00001
 
 <p>If you’re looking to integrate EHR data with your application without becoming an HL7 expert, Datica can help. Learn more about Datica Managed Integration Services for HL7 <a href="/platform/integration/">here</a>.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -318,24 +322,6 @@ MSA|AA|HL7MSG00001
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
-                <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
-                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
-                        <ul class="no-bullet">
-                                        <li class="">
-                                            <a href="/academy/hl7-201-the-admission-discharge-transfer-adt-message" title="Read this post">HL7 201 - The Admission, Discharge, Transfer (ADT) Message</a>
-                                            <div class="text-smaller"><p>HL7 ADT message types are the most common HL7 messages. We explain ADT message structure, segments, and event types, including HL7 ADT message examples.</p>
-</div>
-                                        </li>
-                                        <li class="">
-                                            <a href="/academy/hl7-203-the-hl7-orm-order-entry-message" title="Read this post">HL7 203 - The HL7 ORM (Order Entry) message</a>
-                                            <div class="text-smaller"><p>The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders.</p>
-</div>
-                                        </li>
-                        </ul>
-                </aside>
                     <div class="callout--article container-color--dark">
     <a class="callout--article-link" href="/discover/hipaa-compliance" title="Discover HIPAA Compliance">
         <div class="callout--article-content">
@@ -350,9 +336,23 @@ MSA|AA|HL7MSG00001
     </a>
 </div>
 
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                <hr class="content">
+                <aside class="callout callout--gray-light group content-dynamic">
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="/academy/hl7-201-the-admission-discharge-transfer-adt-message" title="Read this post">HL7 201 - The Admission, Discharge, Transfer (ADT) Message</a>
+                                            <div class="text-smaller"><p>HL7 ADT message types are the most common HL7 messages. We explain ADT message structure, segments, and event types, including HL7 ADT message examples.</p>
+</div>
+                                        </li>
+                                        <li class="">
+                                            <a href="/academy/hl7-203-the-hl7-orm-order-entry-message" title="Read this post">HL7 203 - The HL7 ORM (Order Entry) message</a>
+                                            <div class="text-smaller"><p>The Order Entry (ORM) message is a common HL7 message type. ORM messages contain information about an order, most commonly radiology or lab orders.</p>
+</div>
+                                        </li>
+                        </ul>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -368,7 +368,7 @@ MSA|AA|HL7MSG00001
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

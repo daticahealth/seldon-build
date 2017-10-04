@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_how-to-integrate-with-epic-or-any-ehr academy_how-to-integrate-with-epic-or-any-ehr_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -184,7 +185,9 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>You did it! You made your first big sale to a hospital. Your product is live. You proved your efficacy, and the impact with clinicians and patients is evident. To reduce double documentation or improve your application, your customer wants to receive data from the EHR. You’ll need to work with a project team, sometimes 200-persons large, while mastering a new skillset.</p>
 
 <p>What needs to be done? Lets walk through the names, the players and the timelines of delivering your first integration with Epic Systems EHR (EpicCare) or any other EHR like Cerner or Allscripts.</p>
@@ -258,6 +261,7 @@
 <p>[1] There isn’t always a clean line between Outpatient/Inpatient applications. There may be “outpatient” clinics in a hospital, which may use multiple systems. When in doubt, let the hospital pull in the right people.
 [2] There are many new Epic apps and integrations possible every year. The ones listed are amongst the most common apps and integrations, but the list is not inclusive or wholly complete. If you’re not sure who is responsible for a specific integration, it’s best to lean on your operational owner/project manager who needs to be involved to get something done.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -279,10 +283,8 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
                         <ul class="no-bullet">
                                         <li class="">
@@ -291,10 +293,8 @@
 </div>
                                         </li>
                         </ul>
-                </aside>
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -310,7 +310,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

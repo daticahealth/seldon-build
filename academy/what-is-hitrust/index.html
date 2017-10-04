@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_what-is-hitrust academy_what-is-hitrust_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -184,13 +185,15 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
                     <div class="lead"> <blockquote>
   <p>The reason a lot of people do not recognize opportunity is because it usually goes around wearing overalls looking like hard work. – Thomas A. Edisons</p>
 </blockquote>
 
 <p>The term “HIPAA compliant” gets thrown around a lot—by vendors, consultants, developers, audits, and others. The problem with the free flowing nature of the term is that “HIPAA compliant” is subjective. The only way to <a href="https://catalyze.io/learn/proving-hipaa-compliance">prove</a> compliance is to complete—and pass—an external audit, preferably one conducted by a reputable audit firm with HIPAA experience.</p>
 </div>
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>Because of the subjective nature of HIPAA and variability in audits (as a former info sec auditor I feel qualified in saying that), <a href="https://catalyze.io/learn/the-hipaa-privacy-rule">covered entities</a> have a hard time assessing compliance and security for external vendors as well as internal projects (think innovation groups and research). Oftentimes the result is a re-invention of the wheel every time a vendor sells to a new covered entity and every time a covered entity assesses the security of a new vendor. It’s incredibly inefficient and ripe with opportunities to miss things; missing things with security and compliance expose covered entities to significant risk. Enter HITRUST, an industry-driven effort to standardize on a common, certifiable framework to benefit both vendors and covered entities.</p>
 
 <div class="row">
@@ -284,6 +287,7 @@
 
 <p>If you are considering or have completed a HITRUST assessment, feel free to <a href="mailto:hipaa@datica.com">reach out</a> with questions or feedback.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -305,19 +309,6 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
-                <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
-                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
-                        <ul class="no-bullet">
-                                        <li class="">
-                                            <a href="/academy/hitrust-will-be-a-core-requirement-to-do-business-with-healthcare-enterprises" title="Read this post">HITRUST will be a core requirement to do business with healthcare enterprises</a>
-                                            <div class="text-smaller"><p>Today, November 13, 2015, our very own Travis Good, CEO &amp; Co-founder of Catalyze, is speaking at the Health Industry Third Party Assurance Summit and some industry shaking news has just been announced.</p>
-</div>
-                                        </li>
-                        </ul>
-                </aside>
                     <div class="callout--article container-color--dark">
     <a class="callout--article-link" href="/discover/hitrust" title="Discover HITRUST">
         <div class="callout--article-content">
@@ -332,9 +323,18 @@
     </a>
 </div>
 
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                <hr class="content">
+                <aside class="callout callout--gray-light group content-dynamic">
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                        <li class="">
+                                            <a href="/academy/hitrust-will-be-a-core-requirement-to-do-business-with-healthcare-enterprises" title="Read this post">HITRUST will be a core requirement to do business with healthcare enterprises</a>
+                                            <div class="text-smaller"><p>Today, November 13, 2015, our very own Travis Good, CEO &amp; Co-founder of Catalyze, is speaking at the Health Industry Third Party Assurance Summit and some industry shaking news has just been announced.</p>
+</div>
+                                        </li>
+                        </ul>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -350,7 +350,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_hipaa-risk-assessment-and-management academy_hipaa-risk-assessment-and-management_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -184,7 +185,9 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>Probably the first thing to consider when going down the path of compliance, or really the first thing to think about regarding security holistically, is to perform a risk assessment. A risk assessment is a requirement of HIPAA and it’s really the first thing that should be done. The reason it’s so important is because it frames many of the rest of the decisions you make regarding your security posture.</p>
 
 <p>In the words of HHS - “Conducting a risk analysis is the first step in identifying and implementing safeguards that comply with and carry out the standards and implementation specifications in the Security Rule. Therefore, a risk analysis is foundational…”</p>
@@ -201,6 +204,7 @@
 
 <p>We follow all of the steps above using a spreadsheet with sheets for each step, and we do ours both annually and on an ongoing basis, when there are changes to our core infrastructure. We use NIST standards (<a href="http://csrc.nist.gov/publications/nistpubs/800-30/sp800-30.pdf">NIST800-30</a> and <a href="http://www.nist.org/nist_plugins/content/content.php?content.32">800-26</a>) as the model for our <a href="https://catalyze.io/hipaa#security-management-process---164.308(a)(1)(i)">risk assessment</a> at Datica. We’re more than happy to share the spreadsheets and the steps and processes that we use to do that. If you want to reach out to us we can help you with that process. But that really is the first step that you need to do because that helps you really understand where your major gaps are. And it also helps you understand which things you need to do to implement or mitigate the risk that you have within, and the threats that you have to your infrastructure and to PHI -  that you’re storing a processing or whatever it might be for covered entity.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -222,10 +226,8 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
                         <ul class="no-bullet">
                                         <li class="">
@@ -239,10 +241,8 @@
 </div>
                                         </li>
                         </ul>
-                </aside>
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -258,7 +258,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {

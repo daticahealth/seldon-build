@@ -52,7 +52,8 @@
     </head>
     <body class="academy academy_hipaa-and-data-breaches academy_hipaa-and-data-breaches_index">
         <style type="text/css">
-    #content a {color: #1c1e1e;}
+    #article-body a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
     <header class="main-header main-header">
@@ -184,7 +185,9 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article id="content" class="content-dynamic">
+            <article id="content">
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>One of the most important aspects of HIPAA has nothing to do with technical security like encryption, backup, logging, or any of other requirements for securing data. What’s important is what happens in the case of an unauthorized disclosure of ePHI, or a breach of ePHI. A breach is defined as unauthorized exposure of ePHI or disclosure that’s not authorized or allowed under the HIPAA Privacy Rule. The breach rules were amended in 2013 as part of the HITECH Act.</p>
 
 <p>HITECH Act Sec. 13402(b) Notification of Covered Entity by Business Associate states - A business associate of a covered entity that accesses, maintains, retains, modifies, records, stores, destroys, or otherwise holds, uses, or discloses unsecured protected health information shall, following the discovery of a breach of such information, notify the covered entity of such breach. Such notice shall include the identification of each individual whose unsecured protected health information has been, or is reasonably believed by the business associate to have been, accessed, acquired, or disclosed during such breach.</p>
@@ -201,6 +204,7 @@
 
 <p>At Datica we have <a href="https://catalyze.io/hipaa#hitech-act-and-omnibus-rule:-it-security-provisions">both</a> a breach policy and a breach checklist that we can follow in the case of a breach. We’ve mock tested this policy and checklist to assure it makes sense and all relevant workforce members understand their roles. If you want to learn more about our policies for handling breaches, please just <a href="mailto:hello@catalyze.io">ask</a>.</p>
 
+                </div>
             </article>
             <ul class="share-icons menu ">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
@@ -222,10 +226,8 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
-                    
-                    <div id="article-toc"></div>
-
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
                         <ul class="no-bullet">
                                         <li class="">
@@ -239,10 +241,8 @@
 </div>
                                         </li>
                         </ul>
-                </aside>
-                
-
-                <p><a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
             </div>
         </div>
     </div>
@@ -258,7 +258,7 @@
         });
         eventEmitter = contents.eventEmitter();
 
-        $('#article-toc').append('<h4 class="headline-5 text--spaced text-center">In This Article</h4>');
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
         // contents.eventEmitter.on('resize', function () {
