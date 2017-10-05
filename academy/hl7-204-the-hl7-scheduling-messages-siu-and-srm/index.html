@@ -185,7 +185,7 @@
         <div class="columns small-12 large-8">
             <article id="content">
                 <div id="article-toc" class="group"></div>
-                <div id="article-body" class="content-dynamic group">
+                <div id="article-body" class="content-dynamic">
                 <p>The SIU (Schedule Information Unsolicited) and SRM (Schedule Request Message) messages contain information related to appointment scheduling. SRM messages are used for requesting changes to a health system’s schedule, such as a request for a new appointment booking, appointment rescheduling, modification, cancellation, etc. SIU messages are used to notify auxiliary applications of a change made to the health system’s schedule, such as a notification for the booking of a new appointment, appointment rescheduling, modification, cancellation, etc. Scheduling messages contain information about the appointment date and time, resources, services, location, and any other pertinent information regarding the appointment. The purpose or action prescribed by any scheduling message will depend entirely on the trigger event (See the List of Trigger Events below).</p>
 
 <p>Following the standard HL7 message structure, an SIU or SRM message is made up of segments and groups of segments, each of which may be required, optional, repeatable, or some combination thereof. A quick note on reading HL7 message examples which seem to contain a bunch of [],{} etc. The general rule is as follows:</p>
@@ -508,17 +508,7 @@ AIP|1||1069^GOOD^ALLAN^B|RADIOLOGIST||20160515134500|15|min|45|min||
         $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
-        // contents.eventEmitter.on('resize', function () {
-        //     console.log('resize');
-        // });
-
-        // contents.eventEmitter.on('scroll', function () {
-        //     console.log('scroll');
-        // });
-
-        // contents.eventProxy.on('change', function () {
-        //     console.log('change');
-        // });
+        // $('#article-toc').addClass('group');
     });
 </script>
             <!-- GA -->

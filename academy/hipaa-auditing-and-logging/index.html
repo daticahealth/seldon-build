@@ -187,7 +187,7 @@
         <div class="columns small-12 large-8">
             <article id="content">
                 <div id="article-toc" class="group"></div>
-                <div id="article-body" class="content-dynamic group">
+                <div id="article-body" class="content-dynamic">
                 <p>Auditing and logging are an important part of the HIPAA Security Rule, but there not prescriptive controls defined. According to HIPAA Security Rule - 164.312(b):</p>
 
 <blockquote>
@@ -274,17 +274,7 @@
         $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
-        // contents.eventEmitter.on('resize', function () {
-        //     console.log('resize');
-        // });
-
-        // contents.eventEmitter.on('scroll', function () {
-        //     console.log('scroll');
-        // });
-
-        // contents.eventProxy.on('change', function () {
-        //     console.log('change');
-        // });
+        // $('#article-toc').addClass('group');
     });
 </script>
             <!-- GA -->

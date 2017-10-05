@@ -187,7 +187,7 @@
         <div class="columns small-12 large-8">
             <article id="content">
                 <div id="article-toc" class="group"></div>
-                <div id="article-body" class="content-dynamic group">
+                <div id="article-body" class="content-dynamic">
                 <p>The HIPAA Privacy Rule outlines the types of entities that are covered by HIPAA and entities that have to follow the HIPAA security and privacy rules. The main categories are clearinghouses, covered entities (CEs) - typically hospitals, payers, and providers, and business associates. Business associates are far away the biggest cohort of cloud computing companies.</p>
 
 <p>Business associates are people or organizations who contract and provide services and/or technology for covered entities. In the process of providing those services or those technologies, business associates handle, process, transmit, or in some way interact with electronic protected health information (ePHI) from those covered entities. With this ePHI access, business associates are required to sign what’s called a business associate agreement (BAA). Below is the actual language from HIPAA 164.308.</p>
@@ -275,17 +275,7 @@
         $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
         $('#article-toc').append(contents.list());
         $('#article-toc').append('<hr>');
-        // contents.eventEmitter.on('resize', function () {
-        //     console.log('resize');
-        // });
-
-        // contents.eventEmitter.on('scroll', function () {
-        //     console.log('scroll');
-        // });
-
-        // contents.eventProxy.on('change', function () {
-        //     console.log('change');
-        // });
+        // $('#article-toc').addClass('group');
     });
 </script>
             <!-- GA -->
