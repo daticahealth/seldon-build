@@ -52,7 +52,7 @@
     </head>
     <body class="academy academy_how-to-integrate-with-epic-or-any-ehr academy_how-to-integrate-with-epic-or-any-ehr_index">
         <style type="text/css">
-    #article-body a {color: #252828;}
+    #article-body h2 a, h3 a {color: #252828;}
     #article-body h2 a {font-weight: 400;}
 </style>
 <div class="container-color--gray-light">
@@ -186,13 +186,13 @@
     <div class="row">
         <div class="columns small-12 large-8">
             <article id="content">
-                <div id="article-toc" class="group"></div>
-                <div id="article-body" class="content-dynamic group">
-                <p>You did it! You made your first big sale to a hospital. Your product is live. You proved your efficacy, and the impact with clinicians and patients is evident. To reduce double documentation or improve your application, your customer wants to receive data from the EHR. You’ll need to work with a project team, sometimes 200-persons large, while mastering a new skillset.</p>
+                    <div class="lead"> <p>You did it! You made your first big sale to a hospital. Your product is live. You proved your efficacy, and the impact with clinicians and patients is evident. To reduce double documentation or improve your application, your customer wants to receive data from the EHR. You’ll need to work with a project team, sometimes 200-persons large, while mastering a new skillset.</p>
 
 <p>What needs to be done? Lets walk through the names, the players and the timelines of delivering your first integration with Epic Systems EHR (EpicCare) or any other EHR like Cerner or Allscripts.</p>
-
-<h3 id="the-players">The Players</h3>
+</div>
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic group">
+                <h3 id="the-players">The Players</h3>
 
 <p><strong>Project Manager</strong> - The person responsible for running the project plan and gathering resources. Depending on the integration size or scope, this person might wear multiple hats within IT <em>or</em> might be involved with operations within the healthcare organization itself.</p>
 
@@ -212,11 +212,11 @@
   <li>Outpatient EHR (EpicCare Ambulatory) - Orders, Results, Notes, Flowsheets(discrete data).</li>
   <li>Inpatient EHR (EpicCare Inpatient) - Orders, Results, Notes, Device Integration, Flowsheets(discrete data)</li>
   <li>Scheduling (Cadence) - Scheduling, Patient Demographic Updates</li>
-  <li>Registration (ADT) - Hospital Patient Registration, Admissions, Discharges, Transfers [1]</li>
+  <li>Registration (ADT) - Hospital Patient Registration, Admissions, Discharges, Transfers <a href="#footnote-1">1</a></li>
   <li>Surgery (OpTime) - Scheduling Surgical Cases</li>
   <li>Lab/Radiology/Cardiology LIS/RIS/CVIS (Beaker/Radiant/Cupid) - Scheduling/Registration/Results for Lab/Radiology/Cardiology + Procedure Logs + Results</li>
   <li>EMPI (Identity) - EMPI queries</li>
-  <li>Other - MyChart, Care Everywhere, other Web Services [2]</li>
+  <li>Other - MyChart, Care Everywhere, other Web Services <a href="#footnote-2">2</a></li>
 </ul>
 
 <p>It’s also worth noting that the process of getting data in or out the EHR doesn’t necessary actualize its usefulness. Your Operational Owner should work with the appropriate EHR analysts to ensure that data written into the EHR is displayed in the correct reports and dashboards while ensuring that data that needs to be generated from the EHR receives the proper treatment in terms of decision support and workflow training.</p>
@@ -234,32 +234,21 @@
 <p>Because there is so much more to do. It takes plenty of specialized experience to make your first HL7 project go well, and Datica provides this for you in house. We provide you with:</p>
 
 <ul>
-  <li>
-    <p>A load-balanced, secure, highly-available Interface Engine on scalable cloud infrastructure (5 VMs). We run Mirth Connect, an open-source, KLAS ranked Interface Engine. Our infrastructure has been through two HIPAA audits and one HITRUST audit and is ready to plug into any healthcare organization in the country.</p>
-  </li>
-  <li>
-    <p>A dedicated hardware firewall that will meet the needs and bandwidth for any VPN with any healthcare organization in the United States.</p>
-  </li>
-  <li>
-    <p>Burst onto the scene with instant credibility in HL7: Certified EHR and Networking (CCNA) Professionals with years of experience on hand to guide you through the process of setting up an integration. We’ve worked with most EHR vendors and we’re willing to do whatever it takes it get an integration done.</p>
-  </li>
-  <li>
-    <p>Lean on the tooling we’ve already built for customers and use our standard HL7-to-JSON libraries to get data in a format that’s easier to deal with than pipe-delimited mumbo-jumbo.</p>
-  </li>
-  <li>
-    <p>Best-in-class monitoring and support from an engineering-first company.</p>
-  </li>
-  <li>
-    <p>Straight-forward pricing: Do you know that in 1990 the pitch for HL7 involved pricing for an interface costing less than $10,000? Why are you still paying through the teeth for it now?</p>
-  </li>
+  <li>A load-balanced, secure, highly-available Interface Engine on scalable cloud infrastructure (5 VMs). We run Mirth Connect, an open-source, KLAS ranked Interface Engine. Our infrastructure has been through two HIPAA audits and one HITRUST audit and is ready to plug into any healthcare organization in the country.</li>
+  <li>A dedicated hardware firewall that will meet the needs and bandwidth for any VPN with any healthcare organization in the United States.</li>
+  <li>Burst onto the scene with instant credibility in HL7: Certified EHR and Networking (CCNA) Professionals with years of experience on hand to guide you through the process of setting up an integration. We’ve worked with most EHR vendors and we’re willing to do whatever it takes it get an integration done.</li>
+  <li>Lean on the tooling we’ve already built for customers and use our standard HL7-to-JSON libraries to get data in a format that’s easier to deal with than pipe-delimited mumbo-jumbo.</li>
+  <li>Best-in-class monitoring and support from an engineering-first company.</li>
+  <li>Straight-forward pricing: Do you know that in 1990 the pitch for HL7 involved pricing for an interface costing less than $10,000? Why are you still paying through the teeth for it now?</li>
 </ul>
 
 <h3 id="conclusion">Conclusion</h3>
 
 <p>We want to make interoperability easier for everyone. Look forward to more open-sourced advice and documentation in the future.</p>
 
-<p>[1] There isn’t always a clean line between Outpatient/Inpatient applications. There may be “outpatient” clinics in a hospital, which may use multiple systems. When in doubt, let the hospital pull in the right people.
-[2] There are many new Epic apps and integrations possible every year. The ones listed are amongst the most common apps and integrations, but the list is not inclusive or wholly complete. If you’re not sure who is responsible for a specific integration, it’s best to lean on your operational owner/project manager who needs to be involved to get something done.</p>
+<p>[1]<a id="footnote-1"></a> There isn’t always a clean line between Outpatient/Inpatient applications. There may be “outpatient” clinics in a hospital, which may use multiple systems. When in doubt, let the hospital pull in the right people.</p>
+
+<p>[2]<a id="footnote-2"></a> There are many new Epic apps and integrations possible every year. The ones listed are amongst the most common apps and integrations, but the list is not inclusive or wholly complete. If you’re not sure who is responsible for a specific integration, it’s best to lean on your operational owner/project manager who needs to be involved to get something done.</p>
 
                 </div>
             </article>
@@ -283,6 +272,20 @@
         </div>
         <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
             <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                    <div class="callout--article container-color--dark">
+    <a class="callout--article-link" href="/discover/ehr-integrations" title="Discover EHR Integrations">
+        <div class="callout--article-content">
+            <div class="subheader-small">Discover</div>
+            <h3 class="headline-4">EHR Integrations <i class="callout--article-action fa fa-arrow-circle-right"></i></h3>
+                <div class="callout--article-body">
+                    <p>EHR systems are the hub of clinical data and clinical workflows in healthcare today making EHR integrations an essential driver of healthcare transformation. We break it down for you here.</p>
+
+                </div>
+        </div>
+            <div class="callout--article-image container-image--center" data-interchange="[//images.contentful.com/189dvqdsjh46/4BHvViIL7i6omyyOYy8MK2/66021ad2a771faec3a64db69c1cb7442/sparks_at_night_-_wil-stewart-23385.jpg?fit=scale&w=400&h=200&q=35, small], [//images.contentful.com/189dvqdsjh46/4BHvViIL7i6omyyOYy8MK2/66021ad2a771faec3a64db69c1cb7442/sparks_at_night_-_wil-stewart-23385.jpg?fit=scale&w=600&h=300&q=55, medium]"></div>
+    </a>
+</div>
+
                 <hr class="content">
                 <aside class="callout callout--gray-light group content-dynamic">
                         <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
