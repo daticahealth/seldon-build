@@ -278,7 +278,7 @@
   </url>
   <url>
     <loc>https://datica.com/pricing/</loc>
-    <lastmod>2017-10-05T13:43:19-07:00</lastmod>
+    <lastmod>2017-10-05T13:48:13-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2006,6 +2006,12 @@
   </url>
   <url>
     <loc>https://datica.com/guide/hitrust/</loc>
+    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/guide/total-cost-of-ownership-of-cloud-compliance/</loc>
     <lastmod>2017-09-27T09:52:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
