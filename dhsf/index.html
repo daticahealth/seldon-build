@@ -10,8 +10,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Digital Health Success Framework</title>
 <meta name="description" content="We've simplified the unique complexities of the digital healthcare space with this framework to help you get your digital health products from napkin scribble to market without any hitches.">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
 <meta name="topic" content="Digital Health Success Framework">
 <meta name="classification" content="website">
 <meta name="url" content="https://datica.com">
@@ -173,11 +171,12 @@
             <div class="columns small-12 medium-6 large-5">
                 <p>It purposefully has a narrow scope, giving guidance around five main topics:</p>
                 <ul>
-                    <li><strong>Compliance:</strong> Understanding why HIPAA matters, and how to make it an asset, not a liability.</li>
-                    <li><strong>Infrastructure:</strong> Adopting the cloud in healthcare is uniquely complex but possible.</li>
-                    <li><strong>Application:</strong> How to ensure your app meets the security requirements for healthcare data.</li>
-                    <li><strong>Integration:</strong> Exchanging data with legacy systems is a critical requirement for digital health success. But it’s also a mess. We’ll open the black box and explain how to make sense of it.</li>
-                    <li><strong>Pilots:</strong> B2C is possible, but B2B is the scaling model that usually succeeds. Buyers are often health systems. We’ll talk through the importance of pilots and how to set them up for success.</li>
+                        <li><strong>Compliance</strong>: Understanding why HIPAA matters, and how to make it an asset, not a liability.</li>
+                        <li><strong>Infrastructure</strong>: Adopting, and gaining the advantages of, the cloud in healthcare is uniquely complex but possible.</li>
+                        <li><strong>Application</strong>: How to ensure your application meets the security requirements for healthcare data.</li>
+                        <li><strong>Integration</strong>: Exchanging data with legacy systems is a critical requirement for digital health success. But it's also a mess. We'll open the black box and explain how to make sense of it.</li>
+                        <li><strong>Pilot</strong>: B2C is possible, but B2B is the scaling model that usually succeeds. Buyers are often health systems. We'll talk through the importance of pilots and how to set them up for success.</li>
+                        <li><strong>Evidence</strong>: Evidence is gospel in the practice of medicine. It can take too long for it to reach general practice, but it is the way patient care changes are evaluated and ultimately adopted.</li>
                 </ul>
             </div>
         </div>
@@ -204,7 +203,11 @@
 
         <div class="row df-stage--timeline">
             <div class="columns small-12 medium-2 large-2">
-                <h2 class="headline-4 no-wrap df-phase--title">Compliance</h2>
+                <h2 class="headline-4 no-wrap df-phase--title">
+                    <span data-tooltip aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false"  title="Understanding why HIPAA matters, and how to make it an asset, not a liability.">
+                        Compliance
+                    </span>
+                </h2>
             </div>
             <div class="columns small-12 medium-10 large-10 df-stage--dot-group">
                 <ul class="tabs" data-tabs data-link-class="df-dot" data-active-collapse="true" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="df-stage--timeline-0">
@@ -282,8 +285,8 @@
                                     <h3 class="headline-5">Does HIPAA matter?</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>HIPAA kicks in when a digital health product handles Protected Health Information (PHI). There are several different categories of PHI, like someone’s name, home address, or phone number. When a digital health product stores, processes, or transmits PHI, HIPAA asserts rules to how it should handle a multitude of security, privacy, and policy procedures, called “controls”. Demonstrating that a company and its digital health product meets all those controls is how it can call itself compliant.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>HIPAA kicks in when a digital health product handles Protected Health Information (PHI). There are several different categories of PHI, like someone’s name, home address, or phone number. When a digital health product stores, processes, or transmits PHI, HIPAA asserts rules to how it should handle a multitude of security, privacy, and policy procedures, called “controls”. Demonstrating that a company and its digital health product meets all those controls is how it can call itself compliant.</p>
 
 <p>For a digital health organization, you can organize HIPAA controls into three levels: infrastructure, application, and company.</p>
 
@@ -296,17 +299,20 @@
 <p>A quick note: Some digital health companies set about on a strategy to not use any PHI in an effort to skirt HIPAA entirely. Datica holds a controversial point of view about PHI that many digital health companies don’t want to hear: This story will not fly with Covered Entities, like hospitals or payers, who are the buyers of digital health. Their universal view is that all products they engage with have the possibility that they COULD have PHI, even if accidentally. Therefore if a digital health vendor comes to them and brushes off HIPAA compliance because of a story that they do not plan to handle PHI, the Covered Entity will almost always choose to not work with that vendor. Another way to think about it: There are almost no B2B business models that exist where a digital health product does not handle PHI.</p>
 
 <p>So yes, HIPAA matters. Step one is devising a plan to satisfy all its rules, with the end goal demonstrating credibility that you have met them. <em>That’s</em> compliance.</p>
-
-                                        <div class="callout callout--gray-light">
+</div>
+                                        <div class="group"><div class="callout callout--gray-light">
     <h3 class="headline-4">Helpful Links</h3>
     <ul>
         <li><a href="https://datica.com/discover/hipaa-compliance/">Complete resource on HIPAA Compliance</a>
         <li><a href="https://datica.com/guide/hipaa/">HIPAA Compliance Guide - A condensed guide to HIPAA you can finish in a single coffee break</a></li>
     </ul>
 </div>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -326,16 +332,16 @@
                                     <h3 class="headline-5">Understand BAAs and draft your own</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>A Business Associate Agreement (BAA) is the contract that outlines risk between two healthcare organizations with a relationship. An organization called a Covered Entity, like a hospital or insurance company, might sign a BAA with an organization called a Business Associate, like a telemedicine solution. The BAA signed between the two will delineate who is ultimately responsible for certain parts of HIPAA compliance.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>A Business Associate Agreement (BAA) is the contract that outlines risk between two healthcare organizations with a relationship. An organization called a Covered Entity, like a hospital or insurance company, might sign a BAA with an organization called a Business Associate, like a telemedicine solution. The BAA signed between the two will delineate who is ultimately responsible for certain parts of HIPAA compliance.</p>
 
 <p>It’s funny to think about it this way, but a BAA genuinely is the definition of “compliance”. It outlines who is compliant where, and transfers risk around so that liability is defined should someone fail along the chain of compliance. With more health technologies and data leveraging the cloud and 3rd parties like APIs, BAAs are more relevant today than ever before.</p>
 
 <p>One of the first exercises for a new digital health is to draft their own BAA which will be used when negotiating with customers or partners.</p>
 
 <p>Included in Datica’s open source company policies is our BAA which we use as the foundation of all our customer relationships. The value of our BAA is it was written with cloud-first technology in mind. We were one of the first cloud-only technology firms to develop a BAA in this way that has subsequently been audited and HITRUST CSF Certified. Hundreds of digital health companies have used it as a starting point for their own BAA to great success.</p>
-
-                                        <div class="callout callout--gray-light">
+</div>
+                                        <div class="group"><div class="callout callout--gray-light">
     <h3 class="headline-4">Helpful Links</h3>
     <ul>
         <li><a href="https://datica.com/blog/the-importance-of-business-associate-agreements-baas/">BAA Series on our blog</a></li>
@@ -343,9 +349,12 @@
         <li><a href="https://github.com/catalyzeio/policies">Open source company policies from Datica - including a basic BAA template</a></li>
     </ul>
 </div>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -365,8 +374,8 @@
                                     <h3 class="headline-5">HITRUST</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>HITRUST is an industry-led initiative that defines a common, prescriptive framework, and associated requirements, for HIPAA compliance. The crazy thing about HIPAA is there does not exist an exact definition of what it means to be “compliant”. It’s one entity’s lawyer, or Privacy Officer, arguing with another. As you can imagine, this creates business inefficiencies as buyers (like a hospital) try to ensure that a seller (like a telemedicine solution) are compliant.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>HITRUST is an industry-led initiative that defines a common, prescriptive framework, and associated requirements, for HIPAA compliance. The crazy thing about HIPAA is there does not exist an exact definition of what it means to be “compliant”. It’s one entity’s lawyer, or Privacy Officer, arguing with another. As you can imagine, this creates business inefficiencies as buyers (like a hospital) try to ensure that a seller (like a telemedicine solution) are compliant.</p>
 
 <p>HITRUST aims to fix that. It lists hundreds of controls that map to HIPAA’s rules, as well as standards like NIST, a format they call a Common Security Framework, or CSF. Any company being audited by a third-party auditor, like Coalfire who audits Datica, can request the auditor use the HITRUST CSF as the basis of their audit. Results are then exchanged with the HITRUST Alliance, with the eventual outcome being a HITRUST CSF Certification, good for one year. (Datica has been HITRUST CSF Certified twice.)</p>
 
@@ -375,8 +384,8 @@
 <p>A neat thing about HITRUST is it now supports inheritance. Going back to the three buckets in the previous segment, an organization who wants to be HITRUST CSF Certified who is also a customer of Datica can effectively inherit all the infrastructure-level controls from the Datica platform. Therefore the cost and time requirements for their own HITRUST certification are greatly reduced.</p>
 
 <p>It is important to remember that HITRUST is not a requirement for digital health companies. But, since time is money and digital health organizations are usually short on both, HITRUST can be a critical accelerant to success. Therefore the second step for a compliance strategy is devising a HITRUST story and plan.</p>
-
-                                        <div class="callout callout--gray-light">
+</div>
+                                        <div class="group"><div class="callout callout--gray-light">
     <h3 class="headline-4">Helpful Links</h3>
     <ul>
         <li><a href="https://datica.com/discover/hitrust/">Complete resource hub for HITRUST</a></li>
@@ -384,9 +393,12 @@
         <li><a href="https://datica.com/compliance/">Datica's own case study on our journey towards HITRUST certification</a></li>
     </ul>
 </div>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -406,17 +418,20 @@
                                     <h3 class="headline-5">Demonstrate compliance to the market with a full company audit</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>At some point, you will want to get audited. If you choose not to go down the path of HITRUST Certification, you can choose to have 3rd party auditor test your security and compliance posture against HIPAA. It is the mature way to demonstrate you take compliance seriously to the full extent. Vendors can help with a portion of it, but ultimately for an entire company scope, you must get your own audit done.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>At some point, you will want to get audited. If you choose not to go down the path of HITRUST Certification, you can choose to have 3rd party auditor test your security and compliance posture against HIPAA. It is the mature way to demonstrate you take compliance seriously to the full extent. Vendors can help with a portion of it, but ultimately for an entire company scope, you must get your own audit done.</p>
 
 <p>Be prepared for it to be painful. A typical audit can take around 100 full-time hours.</p>
 
 <p>Direct costs typically hover around $20,000 but we’ve heard from others it get as high as $35,000, depending on your auditor. Gap Assessments can be found for as low as $10,000.</p>
 
 <p>When finished, you’ll have materials to put in front of any relationship to prove your compliance. The one caveat to this is that audits, and 3rd party auditors, are not all created equal so you may find pushback if your audit is not done properly and lacks rigor. This lack of standardization was a driving force behind HITRUST.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -436,17 +451,20 @@
                                     <h3 class="headline-5">Continuous Compliance</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Compliance is never finished, which can be a challenging realization for digital health organizations. Even if you do become audited or HITRUST certified, it’s only good for one year and you must do it again.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Compliance is never finished, which can be a challenging realization for digital health organizations. Even if you do become audited or HITRUST certified, it’s only good for one year and you must do it again.</p>
 
 <p>Plus, risk is a 24/7 notion. For example, let’s say you get audited in February 2017, technically valid for one year. Six months later, in summer 2017, your technology team makes an update to their infrastructure that breaks encryption a certain way, and you get hacked with thousands of patient records stolen. Since encryption of PHI is a HIPAA control that you took on the risk per your BAA with all your customers, you are now not in compliance and liable to be sued.</p>
 
 <p>Compliance is a 24/7/365 requirement. The more risk you take on, the more you are liable any time technology is changed. The last step of a compliance strategy is to understand how to manage compliance in a continuous fashion, along with identifying areas where you can offload risk to trusted partners or vendors.</p>
 
 <p>The easiest starting point for continuous compliance is to develop and implement a process of doing regular risk assessments of your organization and technology. These are a bit like internal audits and ensure you are covering your bases as you org and product evolves. They are also helpful in proving to your customers that you take security and compliance seriously.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -457,7 +475,11 @@
 
         <div class="row df-stage--timeline">
             <div class="columns small-12 medium-2 large-2">
-                <h2 class="headline-4 no-wrap df-phase--title">Infrastructure</h2>
+                <h2 class="headline-4 no-wrap df-phase--title">
+                    <span data-tooltip aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false"  title="Adopting, and gaining the advantages of, the cloud in healthcare is uniquely complex but possible.">
+                        Infrastructure
+                    </span>
+                </h2>
             </div>
             <div class="columns small-12 medium-10 large-10 df-stage--dot-group">
                 <ul class="tabs" data-tabs data-link-class="df-dot" data-active-collapse="true" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="df-stage--timeline-1">
@@ -535,8 +557,8 @@
                                     <h3 class="headline-5">Understand the different requirements once PHI is involved</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>As discussed in the HIPAA overview segment, the world is very different once Protected Health Information, or PHI, is involved.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>As discussed in the HIPAA overview segment, the world is very different once Protected Health Information, or PHI, is involved.</p>
 
 <p>At the highest level, infrastructure-centric HIPAA controls map to these broad topics:</p>
 
@@ -557,9 +579,12 @@
 <p>The first step of a solid infrastructure strategy is to devise a plan on how you will satisfy each of these broad topics generally, and each of HIPAA’s controls specifically.</p>
 
 <p>Utilizing AWS, Microsoft Azure, Heroku, or other infrastructure vendors is standard when PHI is not involved. But once you start managing PHI, know that none of those vendors will satisfy all controls required and it is on your shoulders to fill in the gap.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -579,8 +604,8 @@
                                     <h3 class="headline-5">Understand options: IaaS, BaaS, PaaS, SaaS, MSPs</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Okay, so your product will manage PHI and you’re bought into the importance of complying with HIPAA. What options do you have? Let’s walk through the main service paradigms and how they fit into a digital health product.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Okay, so your product will manage PHI and you’re bought into the importance of complying with HIPAA. What options do you have? Let’s walk through the main service paradigms and how they fit into a digital health product.</p>
 
 <h4 id="infrastructure-as-a-service-iaas">Infrastructure as a Service (IaaS):</h4>
 <p>Amazon Web Services (AWS), Microsoft Azure, IBM SoftLayer, Google Cloud, and Rackspace are example options. These vendors will sign a BAA with you, but will only take on the risk of a small portion of HIPAA’s requirements. Broadly, they take on the risk for the physical safeguards and the firewall. You can absolutely use one of these vendors to host your product, but the rest of the infrastructure controls are your obligation to satisfy.</p>
@@ -603,9 +628,12 @@
 </div>
 
 <p>Picking your service partners is an important step towards an infrastructure strategy because it will inform the types of BAAs you will sign, which in turn will inform your responsibilities, which in turn shape your internal resource distribution.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -625,8 +653,8 @@
                                     <h3 class="headline-5">Security and Privacy</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>There are many objectives at the infrastructure level for any company: Reduce waste and costs, the “abilities” of flexibility, adaptability, scalability, reliability, empowering teams to move quickly, and so on.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>There are many objectives at the infrastructure level for any company: Reduce waste and costs, the “abilities” of flexibility, adaptability, scalability, reliability, empowering teams to move quickly, and so on.</p>
 
 <p>So why call out security and privacy?</p>
 
@@ -638,12 +666,15 @@
   <li>Security, especially consistent and transparent security that aligns with the overall security and compliance posture of the CIOs organization.</li>
 </ol>
 
-<p>The ultimate pressing need for Covered Entities (like hospitals) working with Business Associates (like digital health products) boils down to security. They will not work with anyone they deem to be a potential threat vector. Fears of hacks and ransomware are as high as they have ever been, and for good reason: It’s bad news in healthcare. The things hacked and stolen are people’s medical information—their very lives—that can’t be re-issued like a new credit card. Plus, media outlets don’t write stories if a hospital’s old infrastructure; when was the last time you read an article about inflexible tools for development teams? But the bad press never ends when they are hacked, and that translates to a tarnished brand, in revenue, and firings. A focus on security and privacy have both altruistic and selfish reasons for being priority number one when it comes to assessing external partnerships with digital health companies.</p>
+<p>The ultimate pressing need for Covered Entities (like hospitals) working with Business Associates (like digital health products) boils down to security. They will not work with anyone they deem to be a potential threat vector. Fears of hacks and ransomware are as high as they have ever been, and for good reason: It’s bad news in healthcare. The things hacked and stolen are people’s medical information—their very lives—that can’t be re-issued like a new credit card. Plus, media outlets don’t write stories about a hospital’s old infrastructure; when was the last time you read an article about inflexible tools for development teams? But the bad press never ends when they are hacked, and that translates to a tarnished brand, in revenue, and firings. A focus on security and privacy have both altruistic and selfish reasons for being priority number one when it comes to assessing external partnerships with digital health companies.</p>
 
 <p>This step in an infrastructure strategy is all about highlighting how a digital health organization approaches security and privacy. Be prepared to tell, and prove, your story.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -663,8 +694,8 @@
                                     <h3 class="headline-5">What compliance in the cloud looks like</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>There are many types of environments—physical, virtualized, and cloud—that a service provider might maintain in a compliant fashion. A large portion of service providers today offer their products to customers utilizing the cloud-based deployment model. There are multiple types of cloud environments to which an organization should become familiar. These cloud environments can be a private cloud, community cloud, or public cloud.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>There are many types of environments—physical, virtualized, and cloud—that a service provider might maintain in a compliant fashion. A large portion of service providers today offer their products to customers utilizing the cloud-based deployment model. There are multiple types of cloud environments to which an organization should become familiar. These cloud environments can be a private cloud, community cloud, or public cloud.</p>
 
 <p>In a private cloud, the cloud infrastructure is operated for a single organization. It can be managed by the organization or by a third-party provider and may be on premise or off-premise. In a private cloud, the infrastructure is dedicated to the use of that one identified entity and the organization’s data is physically segmented from all other organizations using the provider.</p>
 
@@ -687,8 +718,8 @@
 <p>As well as additional security provisions within References 13402 of the HITECH Act.</p>
 
 <p>Being on the cloud is critical today, and critical for the future. Cloud-enabled digital health products will be prepared for an interoperable future.</p>
-
-                                        <div class="callout callout--gray-light">
+</div>
+                                        <div class="group"><div class="callout callout--gray-light">
     <h3 class="headline-4">Helpful Links</h3>
     <ul>
         <li><a href="https://datica.com/whitepapers/hipaa-compliance-in-the-cloud/">White Paper: HIPAA Compliance in the Cloud</a></li>
@@ -698,9 +729,12 @@
         <li><a href="https://datica.com/blog/hybrid-cloud-is-now-the-preferred-option-within-healthcare/">Hybrid Cloud is now the preferred option</a></li>
     </ul>
 </div>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -720,8 +754,8 @@
                                     <h3 class="headline-5">Preparing for scale</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group">
 <p>As long as you are cloud-based, the basics of scaling are straight forward: spin up resources as needed; manage projected costs; maintain compliance.</p>
 
 <p>Here are a few orthogonal considerations to contemplate in addition to the basics:</p>
@@ -731,9 +765,12 @@
   <li><strong>As you scale resources, you might be scaling vendors or partners.</strong> With each new relationship comes a new Business Associate Agreement (BAA). Is your organization prepared to manage the complex alignment of multiple BAAs? This can get murky, so bear with us for this example: You may choose to use one vendor for application hosting but another vendor to manage a Hadoop instance. Vendor A managing the app infrastructure is full stack (like Datica). Vendor B managing the Hadoop infrastructure uses another vendor, Vendor C, to manage its logs in a HIPAA compliant way. If Vendor A and B both have a breach notification policy of 4 hours, precisely meeting your hospital customer demands, what if Vendor C managing unique logs has a 24-hour breach notification policy? How do you manage that? The point is each new vendor you take on, the complexity of BAA management intensifies, so as you scale, watch this.</li>
   <li><strong>Health IT is vast and varied.</strong> Inevitably as your product scales, you’ll encounter new technological requirements. Do you have the team expertise to support these new technologies? For example, DevOps for compliant application hosting is one thing; but DevOps for hosting and managing an integration engine like Mirth is truly a different beast with different expertise requirements.</li>
 </ul>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -744,7 +781,11 @@
 
         <div class="row df-stage--timeline">
             <div class="columns small-12 medium-2 large-2">
-                <h2 class="headline-4 no-wrap df-phase--title">Application</h2>
+                <h2 class="headline-4 no-wrap df-phase--title">
+                    <span data-tooltip aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false"  title="How to ensure your application meets the security requirements for healthcare data.">
+                        Application
+                    </span>
+                </h2>
             </div>
             <div class="columns small-12 medium-10 large-10 df-stage--dot-group">
                 <ul class="tabs" data-tabs data-link-class="df-dot" data-active-collapse="true" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="df-stage--timeline-2">
@@ -815,8 +856,8 @@
                                     <h3 class="headline-5">Understand how and where the application will be used, and by whom</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group">
 <h4 id="application-access">Application Access</h4>
 <p>The concept of access or availability to an application can be taken for granted in today’s technology climate. As is the theme throughout, healthcare is not the same as other industries. It’s not as simple as listing an application in the Apple App Store, or one-click installs on Google Play. The interface isn’t necessarily commodity hardware like an iPhone, Sony PlayStation, or Windows home PC. It’s likely legacy, locked-down PCs or specialty consoles. If you are a mobile app, chances are iOS or Android won’t be available; instead, you’ll be dealing with old Java-based middleware, obsolete Blackberries, or Symbian.</p>
 
@@ -831,7 +872,7 @@
 <h5 id="considerations">Considerations</h5>
 <ul>
   <li>How will you onboard new users?</li>
-  <li>Will you send an email? Is that email noncompliant or a security thread vector?</li>
+  <li>Will you send an email? Is that email noncompliant or a security threat vector?</li>
   <li>Will you need to integrate with existing LDAP/SSO systems?</li>
   <li>How often will you require password updates and other changes?</li>
   <li>Will everything be self-service or will you need to work with hospital IT?</li>
@@ -845,7 +886,7 @@
 
 <h5 id="considerations-1">Considerations</h5>
 <ul>
-  <li>Who can see what data? Figure out right balance of ease of use and compliance.</li>
+  <li>Who can see what data? Figure out the right balance of ease of use and compliance.</li>
   <li>Does it change situationally by user role or location?</li>
   <li>Ensure future scenarios are planned out today. It is hard to undo ACLs once the decided approach is set in motion.</li>
 </ul>
@@ -860,9 +901,12 @@
   <li>Are there situations in which you should let someone “break the glass” and access sensitive PHI? If so, indicate these.</li>
   <li>If sensitive information is involved, consider writing reports to track for known unusual behavior.</li>
 </ul>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -882,13 +926,13 @@
                                     <h3 class="headline-5">Alignment with customer processes and needs</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Never forget the customers of digital health are most often behemoth organizations who have instituted endless processes and controls for every anticipated scenario—the definition of bureaucracy. A digital health application will be more successful if it understands how to align with basic processes put upon its users.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Never forget the customers of digital health are most often behemoth organizations who have instituted endless processes and controls for every anticipated scenario—the definition of bureaucracy. A digital health application will be more successful if it understands how to align with basic processes put upon its users.</p>
 
 <h4 id="business-continuity">Business Continuity</h4>
 <p>We spend all this time thinking about what happens when users use our digital health product. What what happens when they don’t or can’t use it?</p>
 
-<p>It’s a provocative thought, but one that enterprises think about. Those processes all wrap up into a “contingency plans”, or more formally what’s called Business Continuity, which is a way of summarizing what happens with the application is unavailable, and the path to take to make it available again. One important consideration with digital health in particular is how to deal with data loss.</p>
+<p>It’s a provocative thought, but one that enterprises think about. Those processes all wrap up into a “contingency plan”, or more formally what’s called Business Continuity, which is a way of summarizing what happens when the application is unavailable, and the path to take to make it available again. One important consideration with digital health in particular is how to deal with data loss.</p>
 
 <h5 id="considerations">Considerations</h5>
 <ul>
@@ -913,9 +957,12 @@
   <li>Consider onboarding data through interfaces, flat files or manual transcription to reduce the burdens on the most complicated patients.</li>
   <li>Run a basic cost benefit analysis on using automated technology vs. humans.</li>
 </ul>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -935,15 +982,18 @@
                                     <h3 class="headline-5">Importance of collecting user and outcomes data</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>“Lock-in” doesn’t happen as much as one would guess with healthcare software. Because of the complexity of landing a deal with a hospital or similar enterprise, the assumption is that once you’re in, you’re in. The truth is software turnover in those settings is quite common. Even EHRs, which can take years to implement and cost upwards of $20 million, have been known to be ripped out and replaced if they expose a critical failure or are deemed too cost inefficient.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>“Lock-in” doesn’t happen as much as one would guess with healthcare software. Because of the complexity of landing a deal with a hospital or similar enterprise, the assumption is that once you’re in, you’re in. The truth is software turnover in those settings is quite common. Even EHRs, which can take years to implement and cost upwards of $20 million, have been known to be ripped out and replaced if they expose a critical failure or are deemed too cost inefficient.</p>
 
 <p>A similar metaphor are sports teams. A common practice is once a new coach is hired, he or she prefers to bring in players that are “his or her” players, often cutting existing athletes from the team. A very common similar scenario exists within healthcare: When a new CIO or CTO is hired at, say, a hospital, it’s common that all old technology is “on watch” since it’s not his or her preferred choice.</p>
 
-<p>Thus, this step of the application strategy is important for continued plan use: collect user data and outcomes data on a continuous basis so it can be demonstrated the successful impact on patient care and successful reduction in costs the product is delivering. If the digital health application is not collecting this data to help tell that story, then it is at risk of being replaced, which is more often than you might think: The average tenure of a CIO at a hospital is around three years.</p>
-
-
+<p>Thus, this step of the application strategy is important for continued plan use: collect user data and outcomes data on a continuous basis so it can be demonstrated that there is successful impact on patient care and successful reduction in costs the product is delivering. If the digital health application is not collecting this data to help tell that story, then it is at risk of being replaced, which is more often than you might think: The average tenure of a CIO at a hospital is around three years.</p>
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -963,17 +1013,20 @@
                                     <h3 class="headline-5">Upgrading: How to update the application after deployed at a customer site</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>If the digital health product is a Software-as-a-Service application where the delivery and access model is wholly owned, then upgrading is simple. In fact, it’s one of the main selling points of SaaS, and a reason SaaS as a paradigm has taken the world by storm.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>If the digital health product is a Software-as-a-Service application where the delivery and access model is wholly owned, then upgrading is simple. In fact, it’s one of the main selling points of SaaS, and a reason SaaS as a paradigm has taken the world by storm.</p>
 
 <p>The bigger concern is if the digital health product is deployed on-premises (“on-prem”) on technology where you, as the owner of the digital health application, don’t have control over its delivery or access. Upgrade cycles become an ongoing issue.</p>
 
-<p>Hardware-based digital health products are another story altogether. Repairs, returns, replacements are all a thing software-only products don’t have to consider. It’s an ongoing concern that is also a cost center: shipping, new parts, and labor for repairs are all unpredictable costs software doesn’t have.</p>
+<p>Hardware-based digital health products are another story altogether. Repairs, returns, replacements are all things software-only products don’t have to consider. It’s an ongoing concern that is also a cost center: shipping, new parts, and labor for repairs are all unpredictable costs software doesn’t have.</p>
 
 <p>The point is understanding how updates and fixes to the digital health product will be administered is the key last step of an application strategy before you are off and running towards market adoption.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -984,7 +1037,11 @@
 
         <div class="row df-stage--timeline">
             <div class="columns small-12 medium-2 large-2">
-                <h2 class="headline-4 no-wrap df-phase--title">Integration</h2>
+                <h2 class="headline-4 no-wrap df-phase--title">
+                    <span data-tooltip aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false"  title="Exchanging data with legacy systems is a critical requirement for digital health success. But it's also a mess. We'll open the black box and explain how to make sense of it.">
+                        Integration
+                    </span>
+                </h2>
             </div>
             <div class="columns small-12 medium-10 large-10 df-stage--dot-group">
                 <ul class="tabs" data-tabs data-link-class="df-dot" data-active-collapse="true" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="df-stage--timeline-3">
@@ -1055,24 +1112,65 @@
                                     <h3 class="headline-5">Your business plan and product workflow dictates needs</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>“Integration” is a broad term. There are many forms and formats of integration. As step one of an integration strategy, the key is to understand what integration needs your business model demands.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>“Integration” is a broad term. There are many forms and formats of integration. As step one of an integration strategy, the key is to understand what integration needs your business model demands.</p>
 
 <p>For example, let’s say you are a telemedicine product, and you desire to integrate into EHRs, like Epic. It is wise to understand where within Epic’s interface your data will exist. Similarly, you’ll want to know the workflows within Epic that your product will fit, which can dictate the types of interfaces you’ll read from and write to.</p>
 
 <p>There is no one-size-fits-all to digital health. Each product, each solution, each idea mixes and matches different requirements for integration. Step one is to ensure you understand what data requirements exist for your business model to be successful.</p>
 
 <p>One additional important business model consideration is how you price your product. If you price it very low per provider or per facility, then the revenue you generate may actually be lower than the cost, in time and technology, to do an integration. We’ve seen this play out with multiple prospects. If integration is a requirement for your product, you need to plan for that with your pricing model. Our biggest recommendation would be to not add integration as a line-item expense. Selling integrations as a line-item expense has two negative impacts: first, it puts a price on an integration which can create an apples to oranges situation in pricing. Second, it doesn’t communicate the value of the integration well. Here’s an example. If a telemedicine or patient portal product wants to roll out e-visits, this is functionality that definitely requires integration. However, selling the e-visits and the integration separately creates a strange product situation in which a customer could not understand that these concepts or the value of this functionality is not mutually exclusive. The value of having e-visits isn’t the integration; it’s the fact that you can now serve patients for non-acute reasons outside your walls. It just so happens that you need integration to make this work. Baking the price of the integration into the “e-visits” module will increase the likelihood of success of selling integrations (and by proxy, your product).</p>
-
-                                        <div class="callout callout--gray-light">
-    <h3 class="headline-4">Helpful Links</h3>
-    <ul>
-        <li><a href="https://datica.com/discover/ehr-integrations/">Everything you need to know about EHR Integrations</a></li>
-    </ul>
+</div>
+                                    <div class="callout--article container-color--dark group">
+    <a class="callout--article-link" href="/discover/ehr-integrations" title="Discover EHR Integrations">
+        <div class="callout--article-content">
+            <div class="subheader-small">Discover</div>
+            <h3 class="headline-4">EHR Integrations <i class="callout--article-action fa fa-arrow-circle-right"></i></h3>
+                <div class="callout--article-body">
+                    <p class="no-margin">EHR systems are the hub of clinical data and clinical workflows in healthcare today making EHR integrations an essential driver of healthcare transformation. We break it down for you here.</p>
+                </div>
+        </div>
+            <div class="callout--article-image container-image--center" data-interchange="[//images.contentful.com/189dvqdsjh46/4BHvViIL7i6omyyOYy8MK2/66021ad2a771faec3a64db69c1cb7442/sparks_at_night_-_wil-stewart-23385.jpg?fit=scale&w=400&h=200&q=35, small], [//images.contentful.com/189dvqdsjh46/4BHvViIL7i6omyyOYy8MK2/66021ad2a771faec3a64db69c1cb7442/sparks_at_night_-_wil-stewart-23385.jpg?fit=scale&w=600&h=300&q=55, medium]"></div>
+    </a>
 </div>
 
+                                        <!-- card-case-study partial -->
+<div class="card drop">
+    <div class="card-divider container-color--blue-alt">
+            <div class="subheader-small">case study</div>
+        <h4 class="headline-5">
+            <a class="link--white" href="/customer/healthfinch" title="healthfinch case study">
+                Build Versus Buy: A Case Study in Accelerated EHR Integrations
+            </a>
+        </h4>
+    </div>
+    <div class="card-section">
+                <blockquote class="quote--serif">
+                    Even if we had spent the money to build in-house, integrating would have taken us three to six months compared to just a week using Datica.
+                </blockquote>
+                <div class="media-object card-person">
+                        <div class="media-object-section media-object--avatar"><img src="//images.contentful.com/189dvqdsjh46/25n5Q9TBT20qsQGoGOg2Ki/c9909917d3a1fd3571cfaa9084df0291/headshot-healthfinch-chris.jpg?f=face&fit=thumb&w=250&q=45" class="avatar avatar--large circle" alt="Chris Tyne"></div>
+                    <div class="media-object-section media-object--info main-section align-self-middle">
+                        <h4 class="person-name">
+                                Chris Tyne
+                        </h4>
+                            <div class="person-title">Vice President of Product</div>
+                        <a href="/customer/healthfinch" title="healthfinch case study">
+                            <img class="logo-size--small" src="/public/img/customer-logos/healthfinch-logo.png" alt="healthfinch Logo"/>
+                        </a>
+                    </div>
+                </div>
+
+                
+    </div>
+
+</div>
 
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1092,31 +1190,34 @@
                                     <h3 class="headline-5">Understand technology landscape: EHRs, workflows, standards, interfaces, VPNs, data storage and backup, security, and compliant infrastructure</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group">
 <p>There are a lot of industry terms of art flying around within the world of interoperability, a.k.a. integration. Let’s walk through them.</p>
 
 <ul>
-  <li><strong>EHRs stand for Electronic Health Records</strong>. Think of these as the a digital version of a paper patient chart of hospitals and health enterprises. EHRs aimed to digitize patient care but were lightly adopted in the 1990s and early 2000s. Then the government mandated, through a mix of carrots and sticks, a program called Meaningful Use, which gave ~$20 billion to clinicians to buy EHRs, thus creating the market maturity we see today. EHRs are a big deal because they are the central data repository of patient care, and are often the main software for customers of digital health products. Reading and writing data with the EHR becomes a critical component to the success of a digital health product.</li>
+  <li><strong>EHRs stand for Electronic Health Records</strong>. Think of these as a digital version of a paper patient chart of hospitals and health enterprises. EHRs aimed to digitize patient care but were lightly adopted in the 1990s and early 2000s. Then the government mandated, through a mix of carrots and sticks, a program called Meaningful Use, which gave ~$20 billion to clinicians to buy EHRs, thus creating the market maturity we see today. EHRs are a big deal because they are the central data repository of patient care, and are often the main software for customers of digital health products. Reading and writing data with the EHR becomes a critical component to the success of a digital health product.</li>
   <li><strong>Workflows</strong> are a term to mean the specific path of patient care a clinician administers. Someone like a hospital technologist or an external consultant will configure innumerable workflows per organization. The crazy thing is often no two workflows are the same: Hospital ABC usually has a custom way to handle a certain workflow because they think that’s the best way while Hospital XYZ will design a different workflow for the same pathway because they believe it to be better. With a lack of workflow standardization, complexity across the industry exponentially increases. This is a major reason that “integrations don’t scale”—a scary truth that digital health organizations tend to ignore. EHR workflows are the central work path for clinical care so integrating into the right workflow can make or break the adoption and scale of digital health.</li>
-  <li><strong>Data standards in healthcare exist but are often lacking or complex.</strong> While industry standards like HL7v2 worked for their initial use cases, their application in the modern era is often lacking. The HL7 version 2 specification was written in 1988, one year before Tim Berners-Lee wrote his proposal for the World Wild Web. It was never designed with the internet, let alone modern programming toolsets and security requirements, in mind. Also, despite indications that healthcare interoperability should be as easy as using the ATM, it’s far more semantically complex. It’s a lot easier to define the balance of a bank account than to define the type of cancer a patient has or to determine which variation and dose of a given medication a patient is taking. Understanding how much you need to understand health data will be crucial; something that seems very simple may in fact be complex.</li>
+  <li><strong>Data standards in healthcare exist but are often lacking or complex.</strong> While industry standards like HL7v2 worked for their initial use cases, their application in the modern era is often lacking. The HL7 version 2 specification was written in 1988, one year before Tim Berners-Lee wrote his proposal for the World Wild Web. It was never designed with the Internet, let alone modern programming toolsets and security requirements, in mind. Also, despite indications that healthcare interoperability should be as easy as using the ATM, it’s far more semantically complex. It’s a lot easier to define the balance of a bank account than to define the type of cancer a patient has or to determine which variation and dose of a given medication a patient is taking. Understanding how much you need to understand health data will be crucial; something that seems very simple may in fact be complex.</li>
   <li><strong>Interfaces are similarly archaic.</strong> For example, HL7 has 18 major message types, like ADT for admissions/discharges/transfers, or ORM for orders. These interfaces are the channel in and out of hospitals and their EHRs. Each interface has its own way of writing vs. reading, so you can think of it as each interface itself has two different ways of doing an integration. Furthermore, interfaces work at the port-level, meaning each interface is a unique integration happening at a unique port. Yet another reason “integrations don’t scale”.</li>
   <li><strong>VPNs, or virtual private networks,</strong> are the most common secure method to communicate with the network at a hospital. While you may have other options (like SFTP or HTTPS), most hospitals use VPNs to explicitly whitelist authorization to endpoints and to manage the encryption of unencrypted data feeds like HL7 TCP feeds. While it would be nice if hospitals could encrypt data using more modern conventions, this is probably a non-negotiable item in how you will exchange health data with them.</li>
   <li><strong>Storage and backup:</strong> Integrations are what we call “transaction-based”, but logging and storing the data from the transactions becomes both a base compliance necessity and a smart business decision.</li>
-  <li><strong>Security with integrations is nebulous.</strong> There is no inherent security protocols or procedures out of the box with typical integrations. It’s up to you to work with your integration provider to ensure a solid security plan exists.</li>
+  <li><strong>Security with integrations is nebulous.</strong> There are no inherent security protocols or procedures out of the box with typical integrations. It’s up to you to work with your integration provider to ensure a solid security plan exists.</li>
   <li><strong>Don’t forget that the transaction of data, the processing of the transactions, and the storing of data are all still governed by HIPAA.</strong> You will need a compliance strategy to support integration as much as you need one to support your application. If you do your own integration work in-house, using an integration engine like Mirth or Iguana, it must be placed somewhere compliant. If you use an integration provider, you must press hard on them to ensure they are compliant.</li>
 </ul>
-
-                                        <div class="callout callout--gray-light">
+</div>
+                                        <div class="group"><div class="callout callout--gray-light">
     <h3 class="headline-4">Helpful Links</h3>
     <ul>
         <li><a href="https://datica.com/guide/how-to-integrate-with-hospitals/">Guide: How to Integrate with Hospitals</li>
         <li><a href="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/">Integration project plan (Google Sheet linked in article)</a></li>
     </ul>
 </div>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1136,19 +1237,22 @@
                                     <h3 class="headline-5">The importance of getting your first integration</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Typically, the hardest problem with integrations is going from 0 to 1. It’s a lot like having your first baby… before the baby’s born you read all the books and think you’re ready. Then the baby’s finally here and you realize that there is a whole lot you truly didn’t know. Just as in parenting, the learning curve in integrations going from 0 to 1 is steep.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Typically, the hardest problem with integrations is going from 0 to 1. It’s a lot like having your first baby… before the baby’s born you read all the books and think you’re ready. Then the baby’s finally here and you realize that there is a whole lot you truly didn’t know. Just as in parenting, the learning curve in integrations going from 0 to 1 is steep.</p>
 
 <p>Going from 0 to 1 is a very different problem than end-game planning. The sole focus of the product should be landing its first integration instead of planning for the future.</p>
 
 <p>A simple data point to paint a story:</p>
 
-<p>Many digital health organizations start out thinking how to scale to hundreds, or thousands, of integrations. But scaling secure connectivity in healthcare is non-trivial, and non-repeating. For example, a Fortune 100 enterprise is one of the smartest companies we’ve met in healthcare. We know they have less than 2,000 total unique secure integrations across all of healthcare, a number that is shocking. What’s more shocking is it’s by far the highest we’ve ever encountered from a non-EHR organization, so for a digital health product team to plan for more than one integration at an early stage is a waste of focus.</p>
+<p>Many digital health organizations start out thinking how to scale to hundreds, or thousands, of integrations. But scaling secure connectivity in healthcare is non-trivial, and non-repeating. For example, a Fortune 100 enterprise is one of the smartest companies we’ve met in healthcare. We know they have less than 2,000 total unique secure integrations across all of healthcare, a number that is shockingly low. What’s more shocking is it’s by far the highest we’ve ever encountered from a non-EHR organization, so for a digital health product team to plan for more than one integration at an early stage is a waste of focus.</p>
 
-<p>Instead, at this stage of an integration strategy, it is all about completing that first integration, going from 0 to 1, to support proving out the product. Throw all your weight behind landing that first deal, or succeeding at your first pilot..</p>
-
-
+<p>Instead, at this stage of an integration strategy, it is all about completing that first integration, going from 0 to 1, to support proving out the product. Throw all your weight behind landing that first deal, or succeeding at your first pilot.</p>
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1168,18 +1272,18 @@
                                     <h3 class="headline-5">How to scale integrations</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Okay, so you’ve gone from 0 to 1, and are now scaling. That’s great! What does scaling integrations look like?</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Okay, so you’ve gone from 0 to 1, and are now scaling. That’s great! What does scaling integrations look like?</p>
 
 <p>Well, it’s not what it seems. Sadly, “integrations don’t scale” is this framework’s drumbeat, and for good reason. Scalability within healthcare is a myth. There is no magic bullet for scale. There is no magic API for EHRs. There is no Easy button.</p>
 
-<p>Instead, since connections are point-to-point, scaling integrations takes on a different meaning. Scaling integrations means making the internal aspects of your infrastructure as repeatable as possible.</p>
+<p>Instead, since connections are point-to-point, scaling integrations takes on a different meaning. Scaling integrations means making the internal aspects of your integration infrastructure as repeatable as possible.</p>
 
 <ul>
   <li>Don’t re-invent the wheel on compliance</li>
   <li>Use an integration engine that can handle the load</li>
   <li>Employ the cloud so new resources are available at the click of a button</li>
-  <li>Work with someone to ensure VPN setup is as streamlined as possible</li>
+  <li>Work with a DevOps engineer to ensure VPN setup is as streamlined as possible</li>
   <li>Test in the same way with every integration</li>
   <li>Pick a partner who has streamlined the human project management side of an integration</li>
 </ul>
@@ -1187,16 +1291,19 @@
 <p>“Scale” of integrations does not mean integrating once to an API and expecting to be plugged into every hospital.</p>
 
 <p>Scaling integrations means ensuring your resources are aligned so the process of an integration can match the speed at which you land and implement new business deals.</p>
-
-                                        <div class="callout callout--gray-light">
+</div>
+                                        <div class="group"><div class="callout callout--gray-light">
     <h3 class="headline-4">Helpful Links</h3>
     <ul>
         <li><a href="https://datica.com/guide/total-cost-of-ownership-of-integrations/">Total Cost of Ownership of Healthcare Integrations</a></li>
     </ul>
 </div>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1207,7 +1314,11 @@
 
         <div class="row df-stage--timeline">
             <div class="columns small-12 medium-2 large-2">
-                <h2 class="headline-4 no-wrap df-phase--title">Pilot</h2>
+                <h2 class="headline-4 no-wrap df-phase--title">
+                    <span data-tooltip aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false"  title="B2C is possible, but B2B is the scaling model that usually succeeds. Buyers are often health systems. We'll talk through the importance of pilots and how to set them up for success.">
+                        Pilot
+                    </span>
+                </h2>
             </div>
             <div class="columns small-12 medium-10 large-10 df-stage--dot-group">
                 <ul class="tabs" data-tabs data-link-class="df-dot" data-active-collapse="true" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="df-stage--timeline-4">
@@ -1285,8 +1396,8 @@
                                     <h3 class="headline-5">How to land a pilot: Demonstrate credibility</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Universal feedback says finding an internal champion is priority number one in order to lend credibility to the product. Without a champion, a pilot probably won’t happen.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Universal feedback says finding an internal champion is priority number one in order to lend credibility to the product. Without a champion, a pilot probably won’t happen.</p>
 
 <p>Everything talked about in the other strategy tracks matter here:</p>
 
@@ -1305,12 +1416,15 @@
 <ol>
   <li>Know the data you require. A digital health organization who requests a pilot but can’t articulate precisely which data they need in order to be successful—and where to find it, how to exchange it, and what you’ll do with it—won’t land the pilot.</li>
   <li>Cyber security is paramount. Information security, network security, user security are all dimensions of cyber security to which you should have a story.</li>
-  <li>Understand how your architecture is compatible with the hospital’s architecture. Are you both operating under similar modern architectural decisions? Is it sustainable or will you need to iterate soon? CIOs don’t want someone who comes in using Cobalt, but they also don’t want someone who is using flavor-of-the-month libraries that need to be yanked out months later.</li>
+  <li>Understand how your architecture is compatible with the hospital’s architecture. Are you both operating under similar modern architectural decisions? Is it sustainable or will you need to iterate soon? CIOs don’t want someone who comes in using COBOL, but they also don’t want someone who is using flavor-of-the-month libraries that need to be yanked out months later.</li>
   <li>Show you are a company who will be around 5 years from now. CIOs HATE to work with companies that fold in a few months time, requiring them to replace or decommission you. Demonstrate the founders are credible, the business has funding and, better yet, the business model is successful.</li>
 </ol>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1330,15 +1444,18 @@
                                     <h3 class="headline-5">Thoughts about pricing a pilot</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Oftentimes, in order to land a pilot, digital health products will be marketed for free or highly reduced prices. While this makes sense in some cases, most healthcare organizations know that there is no such thing as “free”. Even if the product is free, it will take resources to help implement, train, and use the digital health product. Don’t get burned by presenting your pilot as “free” and no cost to your customer. There is always a cost.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Oftentimes, in order to land a pilot, digital health products will be marketed for free or highly reduced prices. While this makes sense in some cases, most healthcare organizations know that there is no such thing as “free”. Even if the product is free, it will take resources to help implement, train, and use the digital health product. Don’t get burned by presenting your pilot as “free” and no cost to your customer. There is always a cost.</p>
 
 <p>Also, if you highly discount your price you run the risk of creating a chasm between the value proposition of your product and the cost somebody has to pay for it. You can quickly lose credibility if this chasm is too wide.</p>
 
 <p>It’s certainly OK and often smart to discount your product to land your first pilot. But, be careful not to devalue your product and don’t devalue the time and resources of your customer.</p>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1358,17 +1475,20 @@
                                     <h3 class="headline-5">4 keys to managing a successful pilot</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group">
 <ol>
   <li>Find a clinical champion. While a basic champion that is a believer in the product is one thing, if that champion isn’t clinical, it’ll likely fail. Operationally, for either short-term use or long-term adoption, a senior clinical champion who is also willing to take time to use the product gives immediate credibility in the eyes of stakeholders.</li>
   <li>IT administrators at hospitals and health systems are not focused on your product. They are busy managing complicated mergers or Meaningful Use, worrying about ransomware or resource distribution, or dealing with bureaucracy. You’ll need deep interfaces into their systems and data to be successful, so getting their attention and buy-in is required.</li>
-  <li>Find a project manager who knows how these things work. The technologists at hospitals won’t push this along. You must project manage it.</li>
+  <li>Find a project manager who knows how these things work. The technologists at hospitals won’t push this along. You must manage the project.</li>
   <li>Success metrics will make or break a pilot. Outline success criteria up front. Here’s a tip: Tell the hospital what success looks like; don’t wait for them to tell you. You take control, and you outline what success looks like defined by some metrics, then work with them to buy into your position. You’ll wither on the vine waiting for a hospital to tell you what success looks like.</li>
 </ol>
-
-
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1388,13 +1508,16 @@
                                     <h3 class="headline-5">Demonstrate outcomes from the pilot</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>Hopefully, you have been collecting data throughout the pilot. Now be prepared to present it to demonstrate the pilot matched the outcomes needed to prove its success.</p>
+                            <div class="df-stage--content" data-columns="false">
+                                <div class="content-dynamic group"><p>Hopefully, you have been collecting data throughout the pilot. Now be prepared to present it to demonstrate the pilot matched the outcomes needed to prove its success.</p>
 
-<p>Don’t get caught in “pilot purgatory” where you bounce from one pilot to the next. That can be death for the product. You need to know if the pilot was successful and there will be a business engagement, or if the prospect will pass. Sometimes metrics are so-so, or buy-in was inflated, and the engagement will be repositioned in another pilot. Be wary!</p>
-
-
+<p>Don’t get caught in “pilot purgatory” where you bounce from one pilot to the next. That can be death for the product. You need to know if the pilot was successful and there will be a business engagement or if the prospect will pass. Sometimes metrics are so-so or buy-in was inflated, and the engagement will be repositioned in another pilot. Be wary!</p>
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1414,17 +1537,370 @@
                                     <h3 class="headline-5">Have a rollout plan ready to go</h3>
                                 </div>
                             </div>
-                            <div class="df-stage--content content-dynamic" data-columns="true">
-                                <p>A rollout plan is more than just scaling technology, although having technical resources available to scale as necessary is important.</p>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>A rollout plan is more than just scaling technology, although having technical resources available to scale as necessary is important.</p>
 
-<p>Often a solid rollout plan more than just scaling servers. It can also mean scaling process, which is even harder once humans get involved.</p>
+<p>Often a solid rollout plan is more than just scaling servers. It can also mean scaling process, which is even harder once humans get involved.</p>
 
 <p>Take training, for example. If the digital health product is a telehealth solution meant to be used by nurses in a certain workflow, training all the nurses in the system on the new tool and new workflow is a critical requirement of transitioning from pilot to go-live.</p>
 
-<p>Or take billing, for example. Perhaps the pilot focused on proving out the design and value of the use case, and it passed with flying colors. But now a mechanism by which the hospital can bill for your product is a requirement to go-live. This is just one example of a potential additional technical requirement you must manage if you plan to transition to adoption.</p>
-
-
+<p>Or, consider billing. Perhaps the pilot focused on proving out the design and value of the use case, and it passed with flying colors. But now a mechanism by which the hospital can bill for your product is a requirement to go-live. This is just one example of a potential additional technical requirement you must manage if you plan to transition to adoption.</p>
+</div>
                             </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="df-evidence-strategy" class="df-phase--section">
+        <!-- <div class="df-phase--section__current"></div> -->
+
+        <div class="row df-stage--timeline">
+            <div class="columns small-12 medium-2 large-2">
+                <h2 class="headline-4 no-wrap df-phase--title">
+                    <span data-tooltip aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false"  title="Evidence is gospel in the practice of medicine. It can take too long for it to reach general practice, but it is the way patient care changes are evaluated and ultimately adopted.">
+                        Evidence
+                    </span>
+                </h2>
+            </div>
+            <div class="columns small-12 medium-10 large-10 df-stage--dot-group">
+                <ul class="tabs" data-tabs data-link-class="df-dot" data-active-collapse="true" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge="500" id="df-stage--timeline-5">
+                        <li class="df-dot" style="left: 2%;">
+                            <a class="df-dot--link" href="#evidence-validating-the-idea">
+                                <span data-tooltip aria-haspopup="true" class="badge df-badge has-tip top" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" tabindex="0" title="Month 1: Validating the idea">
+                                    1
+                                </span>
+                            </a>
+                        </li>
+                        <li class="df-dot" style="left: 6%;">
+                            <a class="df-dot--link" href="#evidence-develop-evidence-roadmap">
+                                <span data-tooltip aria-haspopup="true" class="badge df-badge has-tip top" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" tabindex="1" title="Month 3: Develop an evidence roadmap.">
+                                    3
+                                </span>
+                            </a>
+                        </li>
+                        <li class="df-dot" style="left: 12%;">
+                            <a class="df-dot--link" href="#evidence-create-evidence-collateral">
+                                <span data-tooltip aria-haspopup="true" class="badge df-badge has-tip top" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" tabindex="2" title="Month 6: Create collateral on evidence for your product.">
+                                    6
+                                </span>
+                            </a>
+                        </li>
+                        <li class="df-dot" style="left: 25%;">
+                            <a class="df-dot--link" href="#evidence-applying-healthcare-economics">
+                                <span data-tooltip aria-haspopup="true" class="badge df-badge has-tip top" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" tabindex="3" title="Month 12: Apply healthcare economics to your digital health solution">
+                                    12
+                                </span>
+                            </a>
+                        </li>
+                        <li class="df-dot" style="left: 45%;">
+                            <a class="df-dot--link" href="#evidence-add-credibility-to-evidence">
+                                <span data-tooltip aria-haspopup="true" class="badge df-badge has-tip top" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" tabindex="4" title="Month 22: Add credibility and weight to your evidence">
+                                    22
+                                </span>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <div class="df-stage--timeline__line"></div>
+
+        <div class="row collapse df-series--container show-for-medium ">
+            <div class="columns small-12 medium-10 medium-offset-2 large-10 large-offset-2">
+                <!-- full months list/array -->
+                <ul id="df-evidence-series" class="menu expanded df-series">
+                    <li class="df-series--label">Start</li>
+                    <li class="df-series--label">6 months</li>
+                    <li class="df-series--label">12</li>
+                    <li class="df-series--label">18</li>
+                    <li class="df-series--label">24</li>
+                    <li class="df-series--label">30</li>
+                    <li class="df-series--label">36</li>
+                    <li class="df-series--label">42</li>
+                    <li class="df-series--label">48 months</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="df-evidence-stage-content" class="tabs-content df-stage" data-animate="fade-in fade-out" data-tabs-content="df-stage--timeline-5">
+                <div id="evidence-validating-the-idea" class="tabs-panel df-stage--item">
+                    <div class="row">
+                        <div class="columns small-12 medium-4 large-4">
+                                <div class="subheader-small">Strategy Overview</div>
+                                <div class="lead df-phase--lead" data-columns="false">
+                                    <p>Digital therapeutics, and more broadly digital health, needs to embrace and develop strategies around evidence if it is going to gain widespread adoption amongst clinician users and health delivery systems. While consumers are taking more of a lead around their health data, services, and decisions, care providers and care delivery organizations play a significant role in how digital health is used.</p>
+
+<p>The strategies outlined here will help you gain a better understanding and plan for leveraging evidence in your digital health strategy. This guide attempts to weave a fine line between what is considered medical evidence and what is considered marketing collateral. For the purposes of digital health success and adoption, we view the two distinct bodies of content as largely the same.</p>
+
+                                </div>
+                        </div>
+                        <div class="columns small-12 medium-8 large-8">
+                            <div class="row collapse">
+                                <div class="columns small-12">
+                                    <div class="subheader-small text--blue">Month 1</div>
+                                    <h3 class="headline-5">Validating the idea</h3>
+                                </div>
+                            </div>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>There are a lot of things broken in healthcare and few areas where you can say that care is optimized for patients, let alone providers. The challenge is that there are some strong industry debts, or ingrained impediments, that make some improvements in care unrealistic, especially on aggressive timelines.</p>
+
+<p>Because of this, the first step in a digital health evidence strategy is to engage with an expert, typically a care provider, champion, or administrator. The outcome of this engagement should be either 1) feedback to adjust the idea and assumptions underlying the digital health product or 2) an expert opinion, ideally in the form of a quote that can be used publicly, in support of the digital health product. If feedback is given, adjustments should be made and this process should be repeated in an iterative fashion until you get an expert opinion.</p>
+
+<p>It’s important to note that clinical expert opinions, even in the form of a quote, go a long way to de-risking a technology for a potential healthcare customer. There are companies that have been successful at scaling sales by getting one expert opinion and using that to secure pilots and significant funding. Taking this expert opinion one step further and having an expert agree to participate in marketing events such as webinars is another great result of getting validation and more reason to spend the time upfront.</p>
+
+<p>As future points convey, an expert opinion is the lowest level of medical evidence. But, the purpose of evidence at this early stage is two fold, 1) to validate and refine the idea, making sure there aren’t any major blockers that only users on the ground would know, and 2) to add credibility to secure a <a href="https://datica.com/dhsf/#pilots-demonstrating-credibility">pilot</a>. Both of those purposes can be accomplished with this an expert opinion.</p>
+</div>
+                            </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="evidence-develop-evidence-roadmap" class="tabs-panel df-stage--item">
+                    <div class="row">
+                        <div class="columns small-12 medium-4 large-4">
+                                <div class="subheader-small">Strategy Overview</div>
+                                <div class="lead df-phase--lead" data-columns="false">
+                                    <p>Digital therapeutics, and more broadly digital health, needs to embrace and develop strategies around evidence if it is going to gain widespread adoption amongst clinician users and health delivery systems. While consumers are taking more of a lead around their health data, services, and decisions, care providers and care delivery organizations play a significant role in how digital health is used.</p>
+
+<p>The strategies outlined here will help you gain a better understanding and plan for leveraging evidence in your digital health strategy. This guide attempts to weave a fine line between what is considered medical evidence and what is considered marketing collateral. For the purposes of digital health success and adoption, we view the two distinct bodies of content as largely the same.</p>
+
+                                </div>
+                        </div>
+                        <div class="columns small-12 medium-8 large-8">
+                            <div class="row collapse">
+                                <div class="columns small-12">
+                                    <div class="subheader-small text--blue">Month 3</div>
+                                    <h3 class="headline-5">Develop an evidence roadmap.</h3>
+                                </div>
+                            </div>
+                            <div class="df-stage--content" data-columns="false">
+                                <div class="content-dynamic group"><style>table tr {vertical-align: top;}</style>
+
+<p>There are various kinds of medical evidence. For the purposes of this guide, we’ve mapped traditional marketing collateral into the established rankings, or levels, of medical evidence. The goal here is not to ensure readers can cite what is Level 2c vs Level 3b evidence but to give an appreciation of the breadth of available evidence to ideally inform an evidence roadmap for your digital health product. If you work in healthcare, it’s also not bad to have an informed conversation with a clinician about evidence, whether for your digital health product or not.</p>
+
+<p>Below is a table of two different scoring systems for medical evidence, one from the AMA and one from The Oxford Centre for Evidence-Based Medicine (OCEBM).</p>
+
+<h5 id="table-1-modified-presentation-of-the-oxford-centre-for-evidence-based-medicine-levels-of-evidence">Table 1. Modified presentation of the Oxford Centre for Evidence-Based Medicine levels of evidence.</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Grade of Recommendation</td>
+      <td>Level of Evidence</td>
+      <td>Type of Study</td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>1a</td>
+      <td>SR (with homogeneity) of RCTs and of prospective cohort studies</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>1b</td>
+      <td>Individual RCT with narrow confidence interval, prospective cohort study with good followup</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>1c</td>
+      <td>All or none studies, all or none case series</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>2a</td>
+      <td>SR (with homogeneity) of cohort studies</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>2b</td>
+      <td>Individual cohort study</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>2c</td>
+      <td>Outcomes research, ecological studies</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>3a</td>
+      <td>SR of case control studies, SR of 3b and better studies</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>3b</td>
+      <td>Individual case control study, nonconsecutive cohort study</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>4</td>
+      <td>Case series/case report, poor quality cohort studies</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>5</td>
+      <td>Expert opinion, bench research</td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="table-2-similarities-between-the-sort-and-ocebm-grading-systems">Table 2. Similarities between the SORT and OCEBM grading systems.</h5>
+
+<table>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td><abbr data-tooltip="" aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" title="Strength of Recommendation Taxonomy">SORT</abbr></td>
+      <td><abbr data-tooltip="" aria-haspopup="true" class="" data-fade-in-duration="20" data-fade-out-duration="100" data-allow-html="true" data-disable-hover="false" data-v-offset="20" data-click-open="false" title="Oxford Centre for Evidence Based Medicine">OCEBM</abbr></td>
+    </tr>
+    <tr>
+      <td>A</td>
+      <td>Recommendation based on consistent and good quality patient-oriented evidence</td>
+      <td>Consistent level 1 studies</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>Recommendation based on inconsistent or limited-quality patient oriented evidence</td>
+      <td>Consistent level 2 or 3 studies or extrapolations from level 1 studies</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>Recommendation based on consensus, usual practice, disease-oriented evidence, case series for studies of treatment or screening, and/or opinion</td>
+      <td>Level 4 studies or extrapolations from level 2 or 3 studies</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td> </td>
+      <td>Level 5 evidence or troublingly inconsistent or inconclusive studies of any level</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>Source: <a href="http://journalofethics.ama-assn.org/2011/01/pfor2-1101.html">AMA Journal of Ethics</a></em></p>
+
+<p>Regardless of the type of digital health solution, the path to building a body of evidence is from bottom to top, or lowest level of evidence to the highest level of evidence. The highest levels of evidence take a lot of time and money to achieve, and time and money are at a premium for any digital health offering.</p>
+
+<p>Not all digital health product categories are created equal when it comes to evidence. Digital therapeutics, at one end of the spectrum, has a high bar when it comes to evidence. It’s why we see the most successful digital health therapeutics companies like <a href="https://www.omadahealth.com/">Omada Health</a> and <a href="https://www.propellerhealth.com/">Propeller Health</a> build clinical evidence into the core of what they do. But, telemedicine solutions or other digital health solutions, like those for scheduling, have a lower bar to cross when it comes to evidence.</p>
+
+<p>The important thing to understand at this stage is how the different kinds of evidence apply to you product. If your product is integrated into care, like a digital therapeutic or a care management platform, then moving towards peer reviewed evidence in support of the way your product improves outcomes, is necessary. If your product helps to fill empty slots in schedules, you likely won’t ever need to worry about peer reviewed evidence, but you will need to build a body of evidence from real customer data to support your claims of spots filled or recovering of lost revenue. Getting a pilot with a health system and getting quote from a clinical leader or a case study is a great universal starting point regardless of what your digital health product does.</p>
+
+<p>It’s at this point that you want to roughly map out your evidence roadmap, which is simply a timeline of when you expect, or hope, to have different levels of evidence. Like a product roadmap, it’s going to be goal-oriented in that you need to back into timelines based on your goal delivery dates for different kinds of evidence.</p>
+</div>
+                            </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="evidence-create-evidence-collateral" class="tabs-panel df-stage--item">
+                    <div class="row">
+                        <div class="columns small-12 medium-4 large-4">
+                                <div class="subheader-small">Strategy Overview</div>
+                                <div class="lead df-phase--lead" data-columns="false">
+                                    <p>Digital therapeutics, and more broadly digital health, needs to embrace and develop strategies around evidence if it is going to gain widespread adoption amongst clinician users and health delivery systems. While consumers are taking more of a lead around their health data, services, and decisions, care providers and care delivery organizations play a significant role in how digital health is used.</p>
+
+<p>The strategies outlined here will help you gain a better understanding and plan for leveraging evidence in your digital health strategy. This guide attempts to weave a fine line between what is considered medical evidence and what is considered marketing collateral. For the purposes of digital health success and adoption, we view the two distinct bodies of content as largely the same.</p>
+
+                                </div>
+                        </div>
+                        <div class="columns small-12 medium-8 large-8">
+                            <div class="row collapse">
+                                <div class="columns small-12">
+                                    <div class="subheader-small text--blue">Month 6</div>
+                                    <h3 class="headline-5">Create collateral on evidence for your product.</h3>
+                                </div>
+                            </div>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>It would be nice to have a NEJM or JAMA article in support of your product, but that’s highly unlikely at time: , let alone thistime: mark. The goal at the time: stage in creating collateral is to empower your customer facing teams with clear and concise data about the benefits of your product from real world applications.</p>
+
+<p>At this stage, you should have real market data. This data should be crafted into collateral that is easy to understand, with clarity on the inputs that created the outcomes you’re reporting. Oftentimes companies will document outcomes and data sources that are unclear. What we’ve seen be most successful is to have clear summary outcomes with links back to where and how the data was sourced.</p>
+
+<p>It’s extremely beneficial to have some knowledge of, and application of, statistics. This will be very helpful in thinking about data and visualization of data in support of your digital health product.</p>
+
+<p>One additional thing to consider at this stage is customizing evidence collateral for your intended audiences. Maybe you only have one buyer but it’s likely there are other people involved in the buying process, especially if you’re selling to enterprises. Think about ways you can tailor the data, maybe even just the data you highlight, for different audiences.</p>
+</div>
+                            </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="evidence-applying-healthcare-economics" class="tabs-panel df-stage--item">
+                    <div class="row">
+                        <div class="columns small-12 medium-4 large-4">
+                                <div class="subheader-small">Strategy Overview</div>
+                                <div class="lead df-phase--lead" data-columns="false">
+                                    <p>Digital therapeutics, and more broadly digital health, needs to embrace and develop strategies around evidence if it is going to gain widespread adoption amongst clinician users and health delivery systems. While consumers are taking more of a lead around their health data, services, and decisions, care providers and care delivery organizations play a significant role in how digital health is used.</p>
+
+<p>The strategies outlined here will help you gain a better understanding and plan for leveraging evidence in your digital health strategy. This guide attempts to weave a fine line between what is considered medical evidence and what is considered marketing collateral. For the purposes of digital health success and adoption, we view the two distinct bodies of content as largely the same.</p>
+
+                                </div>
+                        </div>
+                        <div class="columns small-12 medium-8 large-8">
+                            <div class="row collapse">
+                                <div class="columns small-12">
+                                    <div class="subheader-small text--blue">Month 12</div>
+                                    <h3 class="headline-5">Apply healthcare economics to your digital health solution</h3>
+                                </div>
+                            </div>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>Healthcare economics is focused, at a high level, on the efficiency and effectiveness of healthcare—everything from prevention to delivery through collections. <a href="https://en.wikipedia.org/wiki/Health_economics">Wikipedia</a> has a good primer, though you could get a PhD in healthcare economics because it’s that big of a subject. Not to mention healthcare economics is incredibly complex, opaque, and oft-missed by digital health innovators when they consider the broader implications of their products.</p>
+
+<p>The thing that’s hard about healthcare economics is that what seems like a perfectly logical reason to implement a digital health solution, namely because it would result in better care, less expensive overall costs, and clear ROI, doesn’t always make sense.</p>
+
+<p>If you’re selling a digital health solution for say, digestive disorders like Crohn’s disease, and you have good data to show that it reduces the number of visits and complications, that’s a great start. To attach numbers to the example, let’s say you charge $100/year/patient and you have data that shows, controlling for other factors like resources needed to manage your product, you reduce costs for users by $50; that’s a net savings of $50/year/patient. But why would a hospital, one that today still largely operates in a <a href="https://en.wikipedia.org/wiki/Fee-for-service">fee for service</a> world, pay you $100/year/patient when the $50/year/patient savings go to the insurance company and not to the hospital? Sadly the patient is left in the middle.</p>
+
+<p>The above example illustrates the need to understand where and how economic benefits are realized. Many digital health solutions, especially those that target improving outcomes, benefit payors and not health care delivery organizations. This is changing with models that pay for value and not volume, things like readmission penalties and ACOs, but healthcare today largely operates on volume and not value.</p>
+</div>
+                            </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="evidence-add-credibility-to-evidence" class="tabs-panel df-stage--item">
+                    <div class="row">
+                        <div class="columns small-12 medium-4 large-4">
+                                <div class="subheader-small">Strategy Overview</div>
+                                <div class="lead df-phase--lead" data-columns="false">
+                                    <p>Digital therapeutics, and more broadly digital health, needs to embrace and develop strategies around evidence if it is going to gain widespread adoption amongst clinician users and health delivery systems. While consumers are taking more of a lead around their health data, services, and decisions, care providers and care delivery organizations play a significant role in how digital health is used.</p>
+
+<p>The strategies outlined here will help you gain a better understanding and plan for leveraging evidence in your digital health strategy. This guide attempts to weave a fine line between what is considered medical evidence and what is considered marketing collateral. For the purposes of digital health success and adoption, we view the two distinct bodies of content as largely the same.</p>
+
+                                </div>
+                        </div>
+                        <div class="columns small-12 medium-8 large-8">
+                            <div class="row collapse">
+                                <div class="columns small-12">
+                                    <div class="subheader-small text--blue">Month 22</div>
+                                    <h3 class="headline-5">Add credibility and weight to your evidence</h3>
+                                </div>
+                            </div>
+                            <div class="df-stage--content" data-columns="true">
+                                <div class="content-dynamic group"><p>By this time, you should have traction and will be looking to add new customers and implementations for you digital health product. That’s great! It’s been some time since you initially created some collateral specifically about the evidence in support of your product. Now you should be thinking about how to add credibility to that collateral.</p>
+
+<p>The best way is getting something published on your evidence. This doesn’t have to be in a peer reviewed clinical journal but could be an online publication. Think of health management publications like Health Affairs. Or, it could simply be joint collateral with one of your customers.</p>
+
+<p>Healthcare is risk averse, and there are good reasons for this, but frequently health system buyers don’t want to be the first to try something. With some proof from colleagues, those conversations with potential buyers change quickly. There’s an adage in medicine that if you want a physician to change behavior, get their residency director as an advocate. This doesn’t scale but it does speak to the respect clinicians have for the opinions of their trusted colleagues.</p>
+
+<p>If you started with case studies, consider expanding those to be a case series. If you started with a case series, consider how you can expand that to longer timelines and ensure representation across multiple patient populations. The idea is to find ways to increase your level of evidence or <a href="https://www.amazon.com/Cartoon-Introduction-Statistics-Grady-Klein/dp/0809033593">statistical significance</a>.</p>
+</div>
+                            </div>
+                                <div class="row small-up-1 medium-up-2">
+                                    
+                                </div>
+
                         </div>
                     </div>
                 </div>
@@ -1501,17 +1977,19 @@
         </div>
 
     </section>
-    <section id="cta" class="section-article container-image--center container-color--gray-light" data-interchange="[https://images.contentful.com/189dvqdsjh46/1jF8lmsccKawIaG2OcmiQm/7b8aee7095ca2f364c4d2ff1199a1b8b/report-infographic-bg-large.jpg?w=800&q=40, small], [https://images.contentful.com/189dvqdsjh46/1jF8lmsccKawIaG2OcmiQm/7b8aee7095ca2f364c4d2ff1199a1b8b/report-infographic-bg-large.jpg?w=1600&q=50, large]">
-        <div class="row">
-            <div class="columns small-12 medium-8 medium-offset-2 large-6 large-offset-6">
-                <div class="callout callout--large drop text-center-for-small">
-                    <h2 class="headline-3">The Heart of Medicine: Transformation Through Technology</h2>
-                    <p>Follow along as Datica examines how Digital Health can help transform healthcare. Our ongoing series facilitates timely, relevant conversations with healthcare innovators through our podcast, quarterly industry reports, and more.</p>
-                    <p class=""><a href="/innovation/heart-of-medicine-report-spring-2017/" title="Get your free industry report" class="button button--primary">Download our latest industry report <i class="fa fa-angle-right"></i></a></p>
-                </div>
+    <section class="section-article container-image--center container-color--gray-light" data-interchange="[https://images.contentful.com/189dvqdsjh46/7yUgq2CbIsUwMcAam02mG0/522fb00e1543f53765f43e5eafd8b41a/clouds_-_victor-garcia-329401_edit.jpg?fit=crop&w=840&h=420&q=40, small], [https://images.contentful.com/189dvqdsjh46/7yUgq2CbIsUwMcAam02mG0/522fb00e1543f53765f43e5eafd8b41a/clouds_-_victor-garcia-329401_edit.jpg?fit=thumb&w=1200&h=500&q=50, medium], [https://images.contentful.com/189dvqdsjh46/7yUgq2CbIsUwMcAam02mG0/522fb00e1543f53765f43e5eafd8b41a/clouds_-_victor-garcia-329401_edit.jpg?fit=thumb&w=2200&h=800&q=50, large]">
+    <div class="row align-right">
+        <div class="columns small-12 medium-8 large-6">
+            <div class="callout callout--large drop text-center-for-small">
+                <h2 class="headline-3">Public, Private, and Hybrid Cloud Computing in Healthcare</h2>
+                <p>In this issue, we explore the theme of insight and information about the public and private cloud options available to healthcare teams.</p>
+                <p class=""><a href="/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017" title="Get your free industry report" class="button button--primary">Download our latest industry report <i class="fa fa-angle-right"></i></a></p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
 </div>
 
             <!-- GA -->

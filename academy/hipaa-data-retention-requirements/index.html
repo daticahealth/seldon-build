@@ -12,8 +12,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>HIPAA Data Retention Requirements | The Datica Academy</title>
 <meta name="description" content="HIPAA requires that business associates and covered entities retain multiple types of data for at least six years. Learn what data you need to retain.">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
 <meta name="topic" content="HIPAA Data Retention Requirements | The Datica Academy">
 <meta name="classification" content="website">
 <meta name="url" content="https://datica.com">
@@ -51,10 +49,13 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_hipaa-data-retention-requirements academy_hipaa-data-retention-requirements_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #article-body h2 a, h3 a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -184,7 +185,9 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
+            <article id="content">
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
                 <p>HIPAA requires that business associates and covered entities retain the following for at least six years from creation date or last effective date, whichever happens to be later.</p>
 
 <ul>
@@ -201,7 +204,16 @@
 
 <p>In addition to understanding what HIPAA requires for retention, covered entities and business associates must also know their other legal requirements for retention, from state, federal, international and contractual requirements. For example, Connecticut state law requires that medical records, some of which go beyond HIPAA’s definition of PHI, be maintained for 7 years.</p>
 
+                </div>
             </article>
+            <ul class="share-icons menu group">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="HIPAA Data Retention Requirements | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/hipaa-data-retention-requirements/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/hipaa-data-retention-requirements/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/hipaa-data-retention-requirements/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="HIPAA Data Retention Requirements | The Datica Academy" data-subject="HIPAA Data Retention Requirements | The Datica Academy" data-url="https://datica.com/academy/hipaa-data-retention-requirements/"></li>
+</ul>
+
                         <aside class="callout cta callout--blue-alt" id="cta">
             <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
         <div class="cta--body cta--body-right">
@@ -212,12 +224,51 @@
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--dark group group">
+    <h4 class="subheader-small">Documentation &amp; Resources</h3>
+    <a class="link--white" title="Read Documentation and Resources" href="https://resources.datica.com/"><img class="float-right icon-size--medium inject-me svg-color--white" src="https://images.contentful.com/189dvqdsjh46/6KpYffPcSQCeoIMsuGIQa2/c2ae7314f3b7e852b612a2d2e2bfefcc/icon-code.svg"></a>
+    <p class="no-margin">Looking for technical details and guides? <a class="link--white" title="Read Documentation and Resources" href="https://resources.datica.com/">Start here <i class="fa fa-angle-right"></i></a></p>
+</aside>
+                <hr class="content">
+                <aside class="callout callout--gray-light group content-dynamic">
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                <li class="">
+                                    <a href="/academy/how-do-you-do-hipaa-training" title="Read this post">How do you do HIPAA training?</a>
+                                    <div class="text-smaller"><p>HIPAA Security Rule standards include training workforce members. That means all employees and contractors of a business associate or covered entity.</p>
+</div>
+                                </li>
+                                <li class="">
+                                    <a href="/academy/hipaa-and-data-breaches" title="Read this post">HIPAA and Data Breaches</a>
+                                    <div class="text-smaller"><p>Understanding the HIPAA breach policy and having a breach notification checklist can prepare you in case of unauthorized disclosure of ePHI.</p>
+</div>
+                                </li>
+                        </ul>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // $('#article-toc').addClass('group');
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -334,10 +385,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

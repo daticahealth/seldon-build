@@ -12,12 +12,10 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>How to integrate with Epic (or any EHR) | The Datica Academy</title>
 <meta name="description" content="Lets walk through the names, players and timelines for delivering your first HL7 Epic integration or any other EHR integration like Cerner or Allscripts.">
-    <meta name="robots" content="index,follow,noodp">
-    <meta name="googlebot" content="index,follow">
 <meta name="topic" content="How to integrate with Epic (or any EHR) | The Datica Academy">
 <meta name="classification" content="website">
 <meta name="url" content="https://datica.com">
-<meta name="keywords" content="heathcare, HL7">
+<meta name="keywords" content="heathcare, HL7, EHR">
 <meta name="coverage" content="Worldwide">
 <meta name="distribution" content="Global">
 <meta name="author" content="Mark Olschesky">
@@ -37,7 +35,7 @@
 <meta class="swiftype" name="title" data-type="string" content="How to integrate with Epic (or any EHR) | The Datica Academy" />
 <meta class="swiftype" name="body" data-type="text" content="Lets walk through the names, players and timelines for delivering your first HL7 Epic integration or any other EHR integration like Cerner or Allscripts." />
 <meta class="swiftype" name="url" data-type="enum" content="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/" />
-<meta class="swiftype" name="tags" data-type="string" content="HL7" />
+<meta class="swiftype" name="tags" data-type="string" content="HL7, EHR" />
 
 <link rel="canonical" href="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/">
     <meta property="og:image" content="/public/img/share-posters/datica-social-twitter-thumb.png">
@@ -51,10 +49,13 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
-            <link href="/public/css/views/innovation.css" rel="stylesheet" />
     </head>
     <body class="academy academy_how-to-integrate-with-epic-or-any-ehr academy_how-to-integrate-with-epic-or-any-ehr_index">
-        <div class="container-color--gray-light">
+        <style type="text/css">
+    #article-body h2 a, h3 a {color: #252828;}
+    #article-body h2 a {font-weight: 400;}
+</style>
+<div class="container-color--gray-light">
     <header class="main-header main-header">
     <a href="/" class="logo"></a>
     <nav class="left">
@@ -175,6 +176,7 @@
 
                         &nbsp;|&nbsp;
                                 <span class="label label-hollow round">HL7</span>
+        <span class="label label-hollow round">EHR</span>
 
                 </p>
             </div>
@@ -184,12 +186,14 @@
 <section class="section-article container-color--white">
     <div class="row">
         <div class="columns small-12 large-8">
-            <article class="content-dynamic">
-                <p>You did it! You made your first big sale to a hospital. Your product is live. You proved your efficacy, and the impact with clinicians and patients is evident. To reduce double documentation or improve your application, your customer wants to receive data from the EHR. You’ll need to work with a project team, sometimes 200-persons large, while mastering a new skillset.</p>
+            <article id="content">
+                    <div class="lead"> <p>You did it! You made your first big sale to a hospital. Your product is live. You proved your efficacy, and the impact with clinicians and patients is evident. To reduce double documentation or improve your application, your customer wants to receive data from the EHR. You’ll need to work with a project team, sometimes 200-persons large, while mastering a new skillset.</p>
 
 <p>What needs to be done? Lets walk through the names, the players and the timelines of delivering your first integration with Epic Systems EHR (EpicCare) or any other EHR like Cerner or Allscripts.</p>
-
-<h3 id="the-players">The Players</h3>
+</div>
+                <div id="article-toc" class="group"></div>
+                <div id="article-body" class="content-dynamic">
+                <h3 id="the-players">The Players</h3>
 
 <p><strong>Project Manager</strong> - The person responsible for running the project plan and gathering resources. Depending on the integration size or scope, this person might wear multiple hats within IT <em>or</em> might be involved with operations within the healthcare organization itself.</p>
 
@@ -209,11 +213,11 @@
   <li>Outpatient EHR (EpicCare Ambulatory) - Orders, Results, Notes, Flowsheets(discrete data).</li>
   <li>Inpatient EHR (EpicCare Inpatient) - Orders, Results, Notes, Device Integration, Flowsheets(discrete data)</li>
   <li>Scheduling (Cadence) - Scheduling, Patient Demographic Updates</li>
-  <li>Registration (ADT) - Hospital Patient Registration, Admissions, Discharges, Transfers [1]</li>
+  <li>Registration (ADT) - Hospital Patient Registration, Admissions, Discharges, Transfers <a href="#footnote-1">1</a></li>
   <li>Surgery (OpTime) - Scheduling Surgical Cases</li>
   <li>Lab/Radiology/Cardiology LIS/RIS/CVIS (Beaker/Radiant/Cupid) - Scheduling/Registration/Results for Lab/Radiology/Cardiology + Procedure Logs + Results</li>
   <li>EMPI (Identity) - EMPI queries</li>
-  <li>Other - MyChart, Care Everywhere, other Web Services [2]</li>
+  <li>Other - MyChart, Care Everywhere, other Web Services <a href="#footnote-2">2</a></li>
 </ul>
 
 <p>It’s also worth noting that the process of getting data in or out the EHR doesn’t necessary actualize its usefulness. Your Operational Owner should work with the appropriate EHR analysts to ensure that data written into the EHR is displayed in the correct reports and dashboards while ensuring that data that needs to be generated from the EHR receives the proper treatment in terms of decision support and workflow training.</p>
@@ -231,50 +235,107 @@
 <p>Because there is so much more to do. It takes plenty of specialized experience to make your first HL7 project go well, and Datica provides this for you in house. We provide you with:</p>
 
 <ul>
-  <li>
-    <p>A load-balanced, secure, highly-available Interface Engine on scalable cloud infrastructure (5 VMs). We run Mirth Connect, an open-source, KLAS ranked Interface Engine. Our infrastructure has been through two HIPAA audits and one HITRUST audit and is ready to plug into any healthcare organization in the country.</p>
-  </li>
-  <li>
-    <p>A dedicated hardware firewall that will meet the needs and bandwidth for any VPN with any healthcare organization in the United States.</p>
-  </li>
-  <li>
-    <p>Burst onto the scene with instant credibility in HL7: Certified EHR and Networking (CCNA) Professionals with years of experience on hand to guide you through the process of setting up an integration. We’ve worked with most EHR vendors and we’re willing to do whatever it takes it get an integration done.</p>
-  </li>
-  <li>
-    <p>Lean on the tooling we’ve already built for customers and use our standard HL7-to-JSON libraries to get data in a format that’s easier to deal with than pipe-delimited mumbo-jumbo.</p>
-  </li>
-  <li>
-    <p>Best-in-class monitoring and support from an engineering-first company.</p>
-  </li>
-  <li>
-    <p>Straight-forward pricing: Do you know that in 1990 the pitch for HL7 involved pricing for an interface costing less than $10,000? Why are you still paying through the teeth for it now?</p>
-  </li>
+  <li>A load-balanced, secure, highly-available Interface Engine on scalable cloud infrastructure (5 VMs). We run Mirth Connect, an open-source, KLAS ranked Interface Engine. Our infrastructure has been through two HIPAA audits and one HITRUST audit and is ready to plug into any healthcare organization in the country.</li>
+  <li>A dedicated hardware firewall that will meet the needs and bandwidth for any VPN with any healthcare organization in the United States.</li>
+  <li>Burst onto the scene with instant credibility in HL7: Certified EHR and Networking (CCNA) Professionals with years of experience on hand to guide you through the process of setting up an integration. We’ve worked with most EHR vendors and we’re willing to do whatever it takes it get an integration done.</li>
+  <li>Lean on the tooling we’ve already built for customers and use our standard HL7-to-JSON libraries to get data in a format that’s easier to deal with than pipe-delimited mumbo-jumbo.</li>
+  <li>Best-in-class monitoring and support from an engineering-first company.</li>
+  <li>Straight-forward pricing: Do you know that in 1990 the pitch for HL7 involved pricing for an interface costing less than $10,000? Why are you still paying through the teeth for it now?</li>
 </ul>
 
 <h3 id="conclusion">Conclusion</h3>
 
 <p>We want to make interoperability easier for everyone. Look forward to more open-sourced advice and documentation in the future.</p>
 
-<p>[1] There isn’t always a clean line between Outpatient/Inpatient applications. There may be “outpatient” clinics in a hospital, which may use multiple systems. When in doubt, let the hospital pull in the right people.
-[2] There are many new Epic apps and integrations possible every year. The ones listed are amongst the most common apps and integrations, but the list is not inclusive or wholly complete. If you’re not sure who is responsible for a specific integration, it’s best to lean on your operational owner/project manager who needs to be involved to get something done.</p>
+<p>[1]<a id="footnote-1"></a> There isn’t always a clean line between Outpatient/Inpatient applications. There may be “outpatient” clinics in a hospital, which may use multiple systems. When in doubt, let the hospital pull in the right people.</p>
 
+<p>[2]<a id="footnote-2"></a> There are many new Epic apps and integrations possible every year. The ones listed are amongst the most common apps and integrations, but the list is not inclusive or wholly complete. If you’re not sure who is responsible for a specific integration, it’s best to lean on your operational owner/project manager who needs to be involved to get something done.</p>
+
+                </div>
             </article>
-                        <aside class="callout cta callout--blue-alt" id="cta">
-            <img src="/public/icons/brand/icon-large-resource-compliance-blue.svg" alt="icon" class="cta--icon inject-me svg-color--white">
-        <div class="cta--body cta--body-right">
-            <h3 class="headline-3 cta--header">Learn More about HIPAA</h3>
-            <p class="cta--desc">Explore more topics on HIPAA. Visit our Content Archive on the Basics of HIPAA.</p>
-            <a class="button--cta button button--light" href="https://datica.com/discover/hipaa-compliance/">HIPAA Basics  <i class="fa fa-angle-right"></i></a>
-        </div>
+            <ul class="share-icons menu group">
+    <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="How to integrate with Epic (or any EHR) | The Datica Academy" data-hashtags="healthcare" data-url="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/" data-image="/public/img/share-posters/datica-social-twitter-thumb.png"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="How to integrate with Epic (or any EHR) | The Datica Academy" data-subject="How to integrate with Epic (or any EHR) | The Datica Academy" data-url="https://datica.com/academy/how-to-integrate-with-epic-or-any-ehr/"></li>
+</ul>
+
+                    <aside class="cta cta--image" id="cta">
+        <a class="" href="http://content.datica.com/digital-health-success-framework-overview-webinar-sept-25th-2017" title="Sign up for the webinar today">
+            <img src="//images.contentful.com/189dvqdsjh46/25nwYXXQdO0u4IQMUYo044/256ec22be890f530bcf29327badd5225/webinar-dhsf-cta.jpg" alt="Sign up for the webinar today">
+        </a>
     </aside>
 
         </div>
-        <aside class="columns small-12 large-4 section--sidebar">
-            <p><a href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> All Academy Articles</a></p>
-        </aside>
+        <div class="columns small-12 large-4 section--sidebar" data-sticky-container>
+            <div class="sticky" data-sticky data-sticky-on="large" data-options="anchor: content;">
+                <aside class="callout callout--dark group group">
+    <h4 class="subheader-small">Documentation &amp; Resources</h3>
+    <a class="link--white" title="Read Documentation and Resources" href="https://resources.datica.com/"><img class="float-right icon-size--medium inject-me svg-color--white" src="https://images.contentful.com/189dvqdsjh46/6KpYffPcSQCeoIMsuGIQa2/c2ae7314f3b7e852b612a2d2e2bfefcc/icon-code.svg"></a>
+    <p class="no-margin">Looking for technical details and guides? <a class="link--white" title="Read Documentation and Resources" href="https://resources.datica.com/">Start here <i class="fa fa-angle-right"></i></a></p>
+</aside>
+                    <div class="callout--article container-color--dark group">
+    <a class="callout--article-link" href="/discover/ehr-integrations" title="Discover EHR Integrations">
+        <div class="callout--article-content">
+            <div class="subheader-small">Discover</div>
+            <h3 class="headline-4">EHR Integrations <i class="callout--article-action fa fa-arrow-circle-right"></i></h3>
+                <div class="callout--article-body">
+                    <p class="no-margin">EHR systems are the hub of clinical data and clinical workflows in healthcare today making EHR integrations an essential driver of healthcare transformation. We break it down for you here.</p>
+                </div>
+        </div>
+            <div class="callout--article-image container-image--center" data-interchange="[//images.contentful.com/189dvqdsjh46/4BHvViIL7i6omyyOYy8MK2/66021ad2a771faec3a64db69c1cb7442/sparks_at_night_-_wil-stewart-23385.jpg?fit=scale&w=400&h=200&q=35, small], [//images.contentful.com/189dvqdsjh46/4BHvViIL7i6omyyOYy8MK2/66021ad2a771faec3a64db69c1cb7442/sparks_at_night_-_wil-stewart-23385.jpg?fit=scale&w=600&h=300&q=55, medium]"></div>
+    </a>
+</div>
+
+                <hr class="content">
+                <aside class="callout callout--gray-light group content-dynamic">
+                        <h4 class="headline-5 text--spaced text-center">Related Articles</h4>
+                        <ul class="no-bullet">
+                                <li class="">
+                                    <a href="/academy/hl7-101-a-primer" title="Read this post">HL7 101 - A primer</a>
+                                    <div class="text-smaller"><p>HL7 is a healthcare industry standard for messaging between applications, for example from EHR to PMS. Learn HL7 basics, including HL7 v2 and v3.</p>
+</div>
+                                </li>
+                                <li class="">
+                                    <a href="/academy/introduction-to-fhir" title="Read this post">Introduction to FHIR</a>
+                                    <div class="text-smaller"><p>The FHIR acronym stands for Fast Healthcare Interoperability Resources. FHIR is a new open sourced interoperability standard of the HL7 organization.</p>
+</div>
+                                </li>
+                                <li class="">
+                                    <a href="/blog/integrating-with-epic-or-any-ehr" title="Read this post">Integrating with EPIC (or any EHR)</a>
+                                    <div class="text-smaller"><p>Integrating with Epic, Cerner, Allscripts and every other EHR is a process — from security to management — that’s tricky, time consuming, and expensive.</p>
+</div>
+                                </li>
+                                <li class="">
+                                    <a href="/blog/if-its-possible-we-can-integrate-it" title="Read this post">If It's Possible, We Can Integrate It</a>
+                                    <div class="text-smaller"><p>There’s much a digital health company needs to know about EHR integrations. Here are 4 essential questions digital health teams should ask their customers.</p>
+</div>
+                                </li>
+                        </ul>
+                    <a class="button hollow" href="/academy" title="All Academy Articles"><i class="fa fa-angle-left"></i> See all Academy articles</a>
+                </aside>                
+            </div>
+        </div>
     </div>
 </section>
+<script type="text/javascript">
+    // create TOC from content scan
+    document.addEventListener('DOMContentLoaded', function () {
+        var link,
+            contents,
+            eventEmitter;        
+        var contents = gajus.Contents({
+            articles: $('#content').find('h2, h3').get()
+        });
+        eventEmitter = contents.eventEmitter();
 
+        $('#article-toc').append('<hr><p class="subheader-small">In This Article</p>');
+        $('#article-toc').append(contents.list());
+        $('#article-toc').append('<hr>');
+        // $('#article-toc').addClass('group');
+    });
+</script>
             <!-- GA -->
             <script type="text/javascript">
 (function(d,s,i,r) {
@@ -391,10 +452,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 </script>
-<script src="/public/js/jquery.js"></script>
-<script src="/public/js/foundation.min.js"></script>
-<script src="/public/js/nav.js"></script><script src="/public/js/smooth-scroll.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
-
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
+                <script src="/public/js/contents.js"></script>
+                <script src="/public/js/smooth-scroll.js"></script>
     </body>
 </html>

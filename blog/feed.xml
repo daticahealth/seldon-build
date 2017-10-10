@@ -9,13 +9,55 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-09-18T17:00:00-07:00</updated>
+  <updated>2017-10-09T19:00:00-05:00</updated>
+  <entry>
+    <title>Will new identity-proofing NIST standards prove who you say you are?</title>
+    <link rel="alternate" href="https://datica.com/blog/will-new-identity-proofing-nist-standards-prove-who-you-say-you-are"/>
+    <id>https://datica.com/blog/will-new-identity-proofing-nist-standards-prove-who-you-say-you-are</id>
+    <published>2017-10-09T19:00:00-05:00</published>
+    <updated>2017-10-09T19:00:00-05:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;A recent NIST update includes important changes that encourage (out of band authentication methods versus a single source email. Learn how Datica is responding.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Cybersecurity risk management has quickly moved from the “nagging mosquito” kind of problem that every industry must swat to one more likened to a full frontal attack, requiring more arsenal than budgets sometimes allow. Everywhere, from White House hacks into communication emails to security breaches, like the recent one announced by Equifax that has affected 145.5 million Americans, leave cybercriminals more in touch with our private financial and healthcare data than perhaps we are ourselves.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Public vs. Private Cloud Computing Examined: Our Latest Quarterly Industry Report</title>
+    <link rel="alternate" href="https://datica.com/blog/public-vs-private-cloud-computing-examined-our-latest-quarterly-industry"/>
+    <id>https://datica.com/blog/public-vs-private-cloud-computing-examined-our-latest-quarterly-industry</id>
+    <published>2017-09-27T19:00:00-05:00</published>
+    <updated>2017-09-27T19:00:00-05:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;Our latest industry report takes a look at various opinions and definitions on public vs. private cloud computing within healthcare.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Last quarter, we published our first industry report titled &lt;a href="https://datica.com/innovation/heart-of-medicine-report-spring-2017/"&gt;The Heart of Medicine: Transformation Through Technology&lt;/a&gt;. The report took a look at how sentiments have changed the last few years around the topic of “cloud” within enterprise healthcare. Measuring the changes between a 2014 HIMSS study and their 2017 version showed that certain use cases on the cloud have not just taken off, but are commonplace—a good sign for the progress of digital health.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Looking in the Rearview Mirror at Health 2.0, 2012</title>
+    <link rel="alternate" href="https://datica.com/blog/looking-in-the-rearview-mirror-at-health-2-0-2012"/>
+    <id>https://datica.com/blog/looking-in-the-rearview-mirror-at-health-2-0-2012</id>
+    <published>2017-09-26T19:00:00-05:00</published>
+    <updated>2017-09-26T19:00:00-05:00</updated>
+    <author>
+      <name>Mark Olschesky</name>
+    </author>
+    <summary type="html">&lt;p&gt;Where do the many predictions and technologies from Health 2.0, 2012 stand today? Which products were a hit? What predictions came to be true—or didn’t?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;As we get our booth shipped and bags packed for Health 2.0 this year, I started thinking about when I first attended Health 2.0 five years ago. It was held at the Hilton in Union Square in San Francisco. I was in town for my startup’s interview at Rock Health, which at the time was just a stroll down Geary and a left on Grant through the &lt;a href="https://commons.wikimedia.org/wiki/File:San_Francisco_Dragon_Gate_to_Chinatown.jpg"&gt;Dragon Gate&lt;/a&gt; to the Rock Health offices in Chinatown. It was my first day ever in San Francisco; a place I would soon call home as I spent a chunk of 2012-2013 in the city for Rock Health.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mapping Digital Health: An interview with C-SATS co-founder Derek Streat</title>
     <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat"/>
     <id>https://datica.com/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat</id>
-    <published>2017-09-18T17:00:00-07:00</published>
-    <updated>2017-09-18T17:00:00-07:00</updated>
+    <published>2017-09-18T19:00:00-05:00</published>
+    <updated>2017-09-18T19:00:00-05:00</updated>
     <author>
       <name>Kris Gösser</name>
     </author>
@@ -28,8 +70,8 @@
     <title>Webinar: What is the Digital Health Success Framework? </title>
     <link rel="alternate" href="https://datica.com/blog/webinar-what-is-the-digital-health-success-framework"/>
     <id>https://datica.com/blog/webinar-what-is-the-digital-health-success-framework</id>
-    <published>2017-09-13T17:00:00-07:00</published>
-    <updated>2017-09-13T17:00:00-07:00</updated>
+    <published>2017-09-13T19:00:00-05:00</published>
+    <updated>2017-09-13T19:00:00-05:00</updated>
     <author>
       <name>Kris Gösser</name>
     </author>
@@ -44,8 +86,8 @@
     <title>HITRUST CSF Certification Round 3</title>
     <link rel="alternate" href="https://datica.com/blog/hitrust-csf-certification-round-3"/>
     <id>https://datica.com/blog/hitrust-csf-certification-round-3</id>
-    <published>2017-09-11T17:00:00-07:00</published>
-    <updated>2017-09-11T17:00:00-07:00</updated>
+    <published>2017-09-11T19:00:00-05:00</published>
+    <updated>2017-09-11T19:00:00-05:00</updated>
     <author>
       <name>Laleh Hassibi</name>
     </author>
@@ -58,8 +100,8 @@
     <title>Lifting A Fork for Open Source</title>
     <link rel="alternate" href="https://datica.com/blog/lifting-a-fork-for-open-source"/>
     <id>https://datica.com/blog/lifting-a-fork-for-open-source</id>
-    <published>2017-09-06T17:00:00-07:00</published>
-    <updated>2017-09-06T17:00:00-07:00</updated>
+    <published>2017-09-06T19:00:00-05:00</published>
+    <updated>2017-09-06T19:00:00-05:00</updated>
     <author>
       <name>Marcia Noyes</name>
     </author>
@@ -76,8 +118,8 @@
     <title>If It's Possible, We Can Integrate It</title>
     <link rel="alternate" href="https://datica.com/blog/if-its-possible-we-can-integrate-it"/>
     <id>https://datica.com/blog/if-its-possible-we-can-integrate-it</id>
-    <published>2017-09-04T17:00:00-07:00</published>
-    <updated>2017-09-04T17:00:00-07:00</updated>
+    <published>2017-09-04T19:00:00-05:00</published>
+    <updated>2017-09-04T19:00:00-05:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
@@ -90,8 +132,8 @@
     <title>Taming the Torrent of Patient Generated Healthcare Data</title>
     <link rel="alternate" href="https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
     <id>https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data</id>
-    <published>2017-08-30T17:00:00-07:00</published>
-    <updated>2017-08-30T17:00:00-07:00</updated>
+    <published>2017-08-30T19:00:00-05:00</published>
+    <updated>2017-08-30T19:00:00-05:00</updated>
     <author>
       <name>Laleh Hassibi</name>
     </author>
@@ -104,58 +146,14 @@
     <title>Facing down the largest breaches of 2017 with Datica's open-source policies</title>
     <link rel="alternate" href="https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
     <id>https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies</id>
-    <published>2017-08-29T17:00:00-07:00</published>
-    <updated>2017-08-29T17:00:00-07:00</updated>
+    <published>2017-08-29T19:00:00-05:00</published>
+    <updated>2017-08-29T19:00:00-05:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
     <summary type="html">&lt;p&gt;As we roll into the end of 2017, it’s worth looking back on how the industry has been doing protecting PHI against the threat of cyber-intrusions.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;As we roll into the last few months of the year, it’s worth looking back on how the industry has been doing protecting PHI and adapting to the increasingly threatening world of cyber-intrusions. While the big stories generally revolve around the largest amount of lives impacted and the most technically harrowing attacks, it’s worth noting that there are still breaches as simple as someone stealing a laptop with a spreadsheets with thousands of persons worth of PHI on it. In this article, we’re going to go through some of the largest breaches of 2017 and discuss how we address these as a company which we’ve shared in our open-source policies. While it’s impossible to say in retrospect if any breach was 100% preventable, having policies in place to provide “reasonable effort” to prevent exposure is key to minimizing the damage from the unpreventable.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How can technology improve patient care and reduce costs?</title>
-    <link rel="alternate" href="https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs"/>
-    <id>https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs</id>
-    <published>2017-08-23T17:00:00-07:00</published>
-    <updated>2017-08-23T17:00:00-07:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Our newest publication Rethinking Healthcare Technology includes expansive, useful, and original essays on digital transformation from insightful leaders.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;That’s the most important question clinicians are asking themselves in a post-EHR world where patients have supercomputers in their pockets, and they expect the same high-quality, on-demand experiences the Apples, Googles, Amazons, and Facebooks give them.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Spear Phishing: Hackers Aiming for Healthcare</title>
-    <link rel="alternate" href="https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare"/>
-    <id>https://datica.com/blog/spear-phishing-hackers-aiming-for-healthcare</id>
-    <published>2017-08-17T17:00:00-07:00</published>
-    <updated>2017-08-17T17:00:00-07:00</updated>
-    <author>
-      <name>Marcia Noyes</name>
-    </author>
-    <summary type="html">&lt;p&gt;In the 377 healthcare data breaches last year, phishing attacks were among the top data breach causes. Why is healthcare such a target for spear phishing attacks?&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;At the beginning of August, the BBC reported that a UK-based “prankster” had successfully &lt;a href="http://www.bbc.com/news/world-us-canada-40788080"&gt;spoofed the White House.&lt;/a&gt; Through spear phishing emails, this bad actor had not only convinced a senior cyber security officer that he was the president’s son-in-law and senior advisor Jared Kushner, but also veiled himself as the former Chief of Staff Reince Priebus to fool then White House Communications Director Anthony Scaramucci into inflammatory email exchanges. After posting a few of those emails on Twitter, the culprit promised not to do it again and urged the current administration to “tighten up IT policy.” While the jokester later indicated his email spoofing had no harmful intent, the implications go way beyond 1600 Pennsylvania Avenue.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Announcing Self Service and Free Trials</title>
-    <link rel="alternate" href="https://datica.com/blog/announcing-self-service-and-free-trials"/>
-    <id>https://datica.com/blog/announcing-self-service-and-free-trials</id>
-    <published>2017-08-16T17:00:00-07:00</published>
-    <updated>2017-08-16T17:00:00-07:00</updated>
-    <author>
-      <name>Ryan Rich</name>
-    </author>
-    <summary type="html">&lt;p&gt;Datica has announced the launch of The Platform 3.0 — Compliant Cloud reimagined including a HIPAA compliant &amp;amp; HITRUST CSF certified free trial.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Successful products are predicated on the concept of balance. Being able to balance what to do, what not to do, and how to do it. It’s all a delicate balance that at any time can tip the wrong way. And, when the scales tip, companies end up delivering sub-par experiences.&lt;/p&gt;
-
-&lt;p&gt;At Datica we’ve spent a considerable amount of time focusing on that balance — when to release new features, where to go in the market, who to talk to — it’s part of what makes a startup a startup. Being able to move quickly, fail fast, and ultimately land in a place that just works.&lt;/p&gt;
 </content>
   </entry>
 </feed>
