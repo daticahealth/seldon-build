@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-10-10T00:00:00+00:00</updated>
+  <updated>2017-10-17T00:00:00+00:00</updated>
+  <entry>
+    <title>Mapping Digital Health: An interview with Strata Health Executive VP Peter Smith</title>
+    <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-interview-with-strata-health-vp-peter-smith"/>
+    <id>https://datica.com/blog/mapping-digital-health-interview-with-strata-health-vp-peter-smith</id>
+    <published>2017-10-17T00:00:00+00:00</published>
+    <updated>2017-10-17T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;This second interview of our “Mapping the Digital Health Landscape” series, highlights innovation at Strata Health in the U.S. and beyond.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;This second interview of our “Mapping the Digital Health Landscape” series, highlights the digital health innovation of Strata Health within the United States, and beyond. Operational in North America, the UK, France, and Australia, Strata Health is a privately held Canadian corporation of professionals with empathy for those who need care and intense respect for those who devote themselves to caring for others.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Will new identity-proofing NIST standards prove who you say you are?</title>
     <link rel="alternate" href="https://datica.com/blog/will-new-identity-proofing-nist-standards-prove-who-you-say-you-are"/>
@@ -140,20 +154,6 @@
     <summary type="html">&lt;p&gt;Our Healthcare Innovators podcast continues with an illuminative interview with Aaron Neinstein, MD on tech that tames the deluge of patient generated data.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;We continue our conversations on the subject of healthcare innovation with an illuminative podcast interview with Aaron Neinstein, MD. &lt;a href="https://aaronneinstein.com/"&gt;UCSF’s Dr. Neinstein&lt;/a&gt; gives us a view into some of the promising technologies emerging to organize, digest, and analyze the massive amounts of patient-generated data we are quickly becoming inundated with. Neinstein also shares his ideas about what we can expect to see in the near future, as clinicians gain access to this data.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Facing down the largest breaches of 2017 with Datica's open-source policies</title>
-    <link rel="alternate" href="https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies"/>
-    <id>https://datica.com/blog/facing-down-the-largest-breaches-of-2017-with-daticas-open-source-policies</id>
-    <published>2017-08-30T00:00:00+00:00</published>
-    <updated>2017-08-30T00:00:00+00:00</updated>
-    <author>
-      <name>Mark Olschesky</name>
-    </author>
-    <summary type="html">&lt;p&gt;As we roll into the end of 2017, it’s worth looking back on how the industry has been doing protecting PHI against the threat of cyber-intrusions.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;As we roll into the last few months of the year, it’s worth looking back on how the industry has been doing protecting PHI and adapting to the increasingly threatening world of cyber-intrusions. While the big stories generally revolve around the largest amount of lives impacted and the most technically harrowing attacks, it’s worth noting that there are still breaches as simple as someone stealing a laptop with a spreadsheets with thousands of persons worth of PHI on it. In this article, we’re going to go through some of the largest breaches of 2017 and discuss how we address these as a company which we’ve shared in our open-source policies. While it’s impossible to say in retrospect if any breach was 100% preventable, having policies in place to provide “reasonable effort” to prevent exposure is key to minimizing the damage from the unpreventable.&lt;/p&gt;
 </content>
   </entry>
 </feed>
