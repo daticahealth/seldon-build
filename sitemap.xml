@@ -1861,6 +1861,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/discover/aws-datica/</loc>
+    <lastmod>2017-10-05T13:41:43-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/discover/hipaa-compliance/</loc>
     <lastmod>2017-10-05T13:41:43-07:00</lastmod>
     <changefreq>monthly</changefreq>
