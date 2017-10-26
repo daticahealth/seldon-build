@@ -9,7 +9,25 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-10-17T00:00:00+00:00</updated>
+  <updated>2017-10-25T00:00:00+00:00</updated>
+  <entry>
+    <title>Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files</title>
+    <link rel="alternate" href="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files"/>
+    <id>https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files</id>
+    <published>2017-10-25T00:00:00+00:00</published>
+    <updated>2017-10-25T00:00:00+00:00</updated>
+    <author>
+      <name>Eric Richards</name>
+    </author>
+    <summary type="html">&lt;p&gt;The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h2 id="why-is-encryption-important"&gt;Why is encryption important?&lt;/h2&gt;
+
+&lt;p&gt;HIPAA compliance has requirements for the transfer and storage of &lt;a href="https://datica.com/academy/what-is-protected-health-information-or-phi/"&gt;Protected Health Information (PHI)&lt;/a&gt;. Standard SSH file transfer can securely transfer data onto the &lt;a href="https://datica.com/platform/"&gt;Datica Platform&lt;/a&gt;. However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.&lt;/p&gt;
+
+&lt;p&gt;While you can manage part of your encryption for transfer yourself, you still need to have a method for encrypting storage volumes, containers, and the data transferred between those services. Datica’s platform meets those requirements for everything, once the data makes it onto the platform (HITRUST-audited policy 17.9).&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mapping Digital Health: An interview with Strata Health Executive VP Peter Smith</title>
     <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-interview-with-strata-health-vp-peter-smith"/>
@@ -140,20 +158,6 @@
     <summary type="html">&lt;p&gt;There’s much a digital health company needs to know about EHR integrations. Here are 4 essential questions digital health teams should ask their customers.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;During the past three years, we’ve done &lt;a href="https://datica.com/platform/success/"&gt;a lot of integration work&lt;/a&gt;. We’ve worked on more than 150 integration projects with almost 30 EHR vendors. We’ve done this work with big organizations and vendors to small FQHCs and niche EHR vendors. As a result of all this integration experience, we now have a pretty good grasp on the intricacies of how integration works. We can reasonably estimate how long it takes us to do a project and how that varies with different types of vendors.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Taming the Torrent of Patient Generated Healthcare Data</title>
-    <link rel="alternate" href="https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data"/>
-    <id>https://datica.com/blog/taming-the-torrent-of-patient-generated-healthcare-data</id>
-    <published>2017-08-31T00:00:00+00:00</published>
-    <updated>2017-08-31T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;Our Healthcare Innovators podcast continues with an illuminative interview with Aaron Neinstein, MD on tech that tames the deluge of patient generated data.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;We continue our conversations on the subject of healthcare innovation with an illuminative podcast interview with Aaron Neinstein, MD. &lt;a href="https://aaronneinstein.com/"&gt;UCSF’s Dr. Neinstein&lt;/a&gt; gives us a view into some of the promising technologies emerging to organize, digest, and analyze the massive amounts of patient-generated data we are quickly becoming inundated with. Neinstein also shares his ideas about what we can expect to see in the near future, as clinicians gain access to this data.&lt;/p&gt;
 </content>
   </entry>
 </feed>
