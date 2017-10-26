@@ -11,7 +11,7 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog</title>
-<meta name="description" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files. ">
+<meta name="description" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files.">
 <meta name="topic" content="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog">
 <meta name="classification" content="website">
 <meta name="url" content="https://datica.com">
@@ -20,7 +20,7 @@
 <meta name="distribution" content="Global">
 <meta name="author" content="Eric Richards">
 <meta property="article:published_time" content="October 25, 2017">
-<meta property="og:description" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files. ">
+<meta property="og:description" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files.">
 <meta property="og:title" content="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog">
 <meta itemprop="og:headline" content="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" />
     <meta property="og:type" content="article">
@@ -30,16 +30,16 @@
 <meta property="twitter:site" content="@daticahealth">
 <meta property="twitter:creator" content="@daticahealth">
 <meta property="twitter:title" content="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog">
-<meta property="twitter:description" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files. ">
+<meta property="twitter:description" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files.">
 
 <meta class="swiftype" name="title" data-type="string" content="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" />
-<meta class="swiftype" name="body" data-type="text" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files. " />
+<meta class="swiftype" name="body" data-type="text" content="The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files." />
 <meta class="swiftype" name="url" data-type="enum" content="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/" />
 <meta class="swiftype" name="tags" data-type="string" content="integration, Security" />
 
 <link rel="canonical" href="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/">
-    <meta property="og:image" content="https://images.contentful.com/189dvqdsjh46/3gflDVmPuoecamYsY6OOSI/90c46d15b8af71129e3612ac010c0574/city_blurry_bokeh_chuttersnap-179223.jpg?w=640">
-    <meta property="twitter:image" content="https://images.contentful.com/189dvqdsjh46/3gflDVmPuoecamYsY6OOSI/90c46d15b8af71129e3612ac010c0574/city_blurry_bokeh_chuttersnap-179223.jpg?w=640">
+    <meta property="og:image" content="https://images.contentful.com/189dvqdsjh46/4uJkVvYWNWCYkOKmSAowkK/6d6126ded1f18e9ed23ea67d9af199a2/blog-eng-sftp-decrypt.jpg?w=640">
+    <meta property="twitter:image" content="https://images.contentful.com/189dvqdsjh46/4uJkVvYWNWCYkOKmSAowkK/6d6126ded1f18e9ed23ea67d9af199a2/blog-eng-sftp-decrypt.jpg?w=640">
 <link rel="canonical" href="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/">
 
         <!-- Icons -->
@@ -67,6 +67,7 @@
         <a href="/platform" title="Datica's Platform">Platform</a>
         <a href="/services" title="Datica's Professional Services">Services</a>
         <a href="/pricing" title="Pricing Information">Pricing</a>
+        <a href="/dhsf" title="The Digital Health Success Framework: for teams building digital products">DHSF</a>
         <div class="a" id="resourcesDropdown">
             <span class="selector">Resources <i class="fa fa-caret-down"></i></span>
             <div class="dropdown dropdown-resources drop dropdown-list--block">
@@ -169,7 +170,7 @@
             </div>
         </div>
     </section>
-        <div class="container-image--center" data-interchange="[https://images.contentful.com/189dvqdsjh46/3gflDVmPuoecamYsY6OOSI/90c46d15b8af71129e3612ac010c0574/city_blurry_bokeh_chuttersnap-179223.jpg?fit=crop&w=840&h=420&q=40, small], [https://images.contentful.com/189dvqdsjh46/3gflDVmPuoecamYsY6OOSI/90c46d15b8af71129e3612ac010c0574/city_blurry_bokeh_chuttersnap-179223.jpg?fit=thumb&w=2200&h=800&q=50, medium]"  alt="Datica Blog">
+        <div class="container-image--center" data-interchange="[https://images.contentful.com/189dvqdsjh46/4aNPSOpqyAU0Syou80WOMC/589d667df6bb2e34db46cca3cb05637b/Bankok_balcony_-_jakob-owens-251442.jpg?fit=crop&w=840&h=420&fm=jpg&q=40, small], [https://images.contentful.com/189dvqdsjh46/4aNPSOpqyAU0Syou80WOMC/589d667df6bb2e34db46cca3cb05637b/Bankok_balcony_-_jakob-owens-251442.jpg?fit=thumb&w=2200&h=800&fm=jpg&q=60, medium]">
         <section class="section-article container-color--tint-50">
             <div class="row">
                 <div class="columns small-12 large-10 featured-post link--white-parent">
@@ -203,7 +204,7 @@
             <article class="content-dynamic">
                 <ul class="share-icons menu show-for-xlarge vertical">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/" data-image="https://images.contentful.com/189dvqdsjh46/3gflDVmPuoecamYsY6OOSI/90c46d15b8af71129e3612ac010c0574/city_blurry_bokeh_chuttersnap-179223.jpg?w=640"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/" data-image="https://images.contentful.com/189dvqdsjh46/4uJkVvYWNWCYkOKmSAowkK/6d6126ded1f18e9ed23ea67d9af199a2/blog-eng-sftp-decrypt.jpg?w=640"></li>
     <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/"></li>
     <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/"></li>
     <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-subject="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/"></li>
@@ -232,7 +233,8 @@
   <li>GPG keys will have two parts if you generate them yourself — public and private. If you’re importing one provided by another party, you will likely only have the public half of the key.</li>
 </ul>
 
-<p><code>
+<pre>
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 ...
 ...
@@ -243,7 +245,8 @@
 ...
 ...
 ----END PGP PRIVATE KEY BLOCK-----
-</code></p>
+
+</pre>
 
 <h3 id="using-a-key-to-encrypt-and-decrypt-files">Using a key to encrypt and decrypt files</h3>
 
@@ -258,14 +261,15 @@
 <p>Example situation:  you have an SFTP endpoint where another party will be dropping encrypted files. You provide them with the public half of your <a href="https://futureboy.us/pgp.html">GPG</a> with which to encrypt files, and then you set up your private key alongside your SFTP receiver to decrypt the files later on. You won’t want to do this manually, so just set up a scheduled task to handle this for you.</p>
 
 <ul>
-  <li>Drop location for inbound, encrypted file:  /foo/inbox/file.gpg</li>
-  <li>Adding your GPG key file password (optional):  /foo/gpg/password.txt</li>
-  <li>Drop location for decrypted file:  /foo/outbox/decryptedfile</li>
-  <li>Drop location for already processed inbox file:  /foo/recycling/file.gpg</li>
+  <li>Drop location for inbound, encrypted file:  <code>/foo/inbox/file.gpg</code></li>
+  <li>Adding your GPG key file password (optional):  <code>/foo/gpg/password.txt</code></li>
+  <li>Drop location for decrypted file:  <code>/foo/outbox/decryptedfile</code></li>
+  <li>Drop location for already processed inbox file:  <code>/foo/recycling/file.gpg</code></li>
   <li>Build a script to pick up the encrypted file and use the GPG key and password to decrypt the file again.</li>
 </ul>
 
-<p><code>
+<pre>
+
 #!/bin/bash
 cd /foo/inbox
 for FILE in ./*.gpg; do
@@ -275,10 +279,10 @@ for FILE in ./*.gpg; do
     mv --backup=numbered "$FILE" "../recycling"
     mv --backup=numbered "${FILE%.gpg}" "../outbox/"
 done
-</code></p>
+
+</pre>
 
 <p>Then, all that’s left is to set up a Cron schedule for this script to run periodically.</p>
-
 
                 </div>
             </article>
@@ -311,7 +315,7 @@ done
             <div class="sticky" data-sticky data-sticky-on="xlarge" data-options="anchor: blogPost;">
                 <ul class="share-icons menu align-center hide-for-xlarge">
     <li class="share--item"><img class="share--icon-top" src="/public/icons/social/icon-share.svg" alt="icon-share"></li>
-    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/" data-image="https://images.contentful.com/189dvqdsjh46/3gflDVmPuoecamYsY6OOSI/90c46d15b8af71129e3612ac010c0574/city_blurry_bokeh_chuttersnap-179223.jpg?w=640"></li>
+    <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-twitter.svg" alt="icon-share" data-sharer="twitter" data-title="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-hashtags="healthcare" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/" data-image="https://images.contentful.com/189dvqdsjh46/4uJkVvYWNWCYkOKmSAowkK/6d6126ded1f18e9ed23ea67d9af199a2/blog-eng-sftp-decrypt.jpg?w=640"></li>
     <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-linkedin.svg" alt="icon-linkedin" data-sharer="linkedin" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/"></li>
     <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-facebook.svg" alt="icon-facebook" data-sharer="facebook" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/"></li>
     <li class="share--item"><img class="share--icon sharer" src="/public/icons/social/icon-email.svg" alt="icon-email" data-sharer="email" data-title="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-subject="Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files | Datica Blog" data-url="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/"></li>
@@ -350,24 +354,6 @@ done
     </a>
 </div>
 
-                    <h4 class="headline-5 text--spaced text-center">Related Posts</h4>
-                    <ul class="no-bullet content-dynamic">
-                                <li class="">
-                                    <a href="/blog/if-its-possible-we-can-integrate-it" title="Read this post">If It's Possible, We Can Integrate It</a>
-                                    <div class="text-smaller"><p>There’s much a digital health company needs to know about EHR integrations. Here are 4 essential questions digital health teams should ask their customers.</p>
-</div>
-                                </li>
-                                <li class="">
-                                    <a href="/blog/start-mirth-connect-as-a-service-on-boot" title="Read this post">Start Mirth Connect as a Service on Boot</a>
-                                    <div class="text-smaller"><p>You want your Mirth Connect servers to be resilient to arbitrary reboots, but did you know you can start/restart your Mirth engine as a Linux service?</p>
-</div>
-                                </li>
-                                <li class="">
-                                    <a href="/blog/mirth-connect-and-vulnerability-scanning" title="Read this post">Mirth Connect and Vulnerability Scanning</a>
-                                    <div class="text-smaller"><p>Periodic tips and tricks about Mirth Connect and HL7 integration.</p>
-</div>
-                                </li>
-                    </ul>
             </div>
         </aside>
     </div>

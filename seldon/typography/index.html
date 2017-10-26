@@ -475,7 +475,8 @@
   <li>GPG keys will have two parts if you generate them yourself — public and private. If you’re importing one provided by another party, you will likely only have the public half of the key.</li>
 </ul>
 
-<p><code>
+<pre>
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 ...
 ...
@@ -486,7 +487,8 @@
 ...
 ...
 ----END PGP PRIVATE KEY BLOCK-----
-</code></p>
+
+</pre>
 
 <h3 id="using-a-key-to-encrypt-and-decrypt-files">Using a key to encrypt and decrypt files</h3>
 
@@ -501,14 +503,15 @@
 <p>Example situation:  you have an SFTP endpoint where another party will be dropping encrypted files. You provide them with the public half of your <a href="https://futureboy.us/pgp.html">GPG</a> with which to encrypt files, and then you set up your private key alongside your SFTP receiver to decrypt the files later on. You won’t want to do this manually, so just set up a scheduled task to handle this for you.</p>
 
 <ul>
-  <li>Drop location for inbound, encrypted file:  /foo/inbox/file.gpg</li>
-  <li>Adding your GPG key file password (optional):  /foo/gpg/password.txt</li>
-  <li>Drop location for decrypted file:  /foo/outbox/decryptedfile</li>
-  <li>Drop location for already processed inbox file:  /foo/recycling/file.gpg</li>
+  <li>Drop location for inbound, encrypted file:  <code>/foo/inbox/file.gpg</code></li>
+  <li>Adding your GPG key file password (optional):  <code>/foo/gpg/password.txt</code></li>
+  <li>Drop location for decrypted file:  <code>/foo/outbox/decryptedfile</code></li>
+  <li>Drop location for already processed inbox file:  <code>/foo/recycling/file.gpg</code></li>
   <li>Build a script to pick up the encrypted file and use the GPG key and password to decrypt the file again.</li>
 </ul>
 
-<p><code>
+<pre>
+
 #!/bin/bash
 cd /foo/inbox
 for FILE in ./*.gpg; do
@@ -518,10 +521,10 @@ for FILE in ./*.gpg; do
     mv --backup=numbered "$FILE" "../recycling"
     mv --backup=numbered "${FILE%.gpg}" "../outbox/"
 done
-</code></p>
+
+</pre>
 
 <p>Then, all that’s left is to set up a Cron schedule for this script to run periodically.</p>
-
 </div>
                             </article>
                         </div>
