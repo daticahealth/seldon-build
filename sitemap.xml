@@ -206,7 +206,7 @@
   </url>
   <url>
     <loc>https://datica.com/platform/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <lastmod>2017-10-27T10:42:48-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -1070,6 +1070,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/how-can-technology-improve-patient-care-and-reduce-costs/</loc>
+    <lastmod>2017-10-25T16:29:17-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product/</loc>
     <lastmod>2017-10-25T16:29:17-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
