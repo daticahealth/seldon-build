@@ -9,7 +9,22 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-10-27T00:00:00+00:00</updated>
+  <updated>2017-10-30T00:00:00+00:00</updated>
+  <entry>
+    <title>Health 2.0 Lunch &amp; Learn Recap: What does the success of digital health look like?</title>
+    <link rel="alternate" href="https://datica.com/blog/health-2-0-lunch-and-learn-recap-what-digital-health-success-look-like"/>
+    <id>https://datica.com/blog/health-2-0-lunch-and-learn-recap-what-digital-health-success-look-like</id>
+    <published>2017-10-30T00:00:00+00:00</published>
+    <updated>2017-10-30T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;At Health 2.0 2017, a panel of leaders who have worked in the trenches discussed the most important
+factors for the success of digital health products.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Recent news tells us that digital health startups drew record investments in the first half of 2017. Sadly, according to research by Accenture, more than half of those digital health startups are likely to fail within two years following launch. How do digital health teams launch products that succeed?&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Do you Have $360K to Build Compliance into your Digital Health Product Yourself?</title>
     <link rel="alternate" href="https://datica.com/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product"/>
@@ -140,24 +155,6 @@
     <summary type="html">&lt;p&gt;With our 3rd HITRUST CSF certification, the Datica Platform now provides customers greater flexibility with cloud infrastructure choices.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;HIPAA regulations create a barrier for makers of digital health products to adopt the cloud. Whether you are a digital health startup, a health system, payer, or life sciences organization, it takes an enormous amount of work to &lt;a href="https://datica.com/dhsf/"&gt;get your digital health product off the ground&lt;/a&gt; while, at the same time, achieving and maintaining continuous HIPAA compliance.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Lifting A Fork for Open Source</title>
-    <link rel="alternate" href="https://datica.com/blog/lifting-a-fork-for-open-source"/>
-    <id>https://datica.com/blog/lifting-a-fork-for-open-source</id>
-    <published>2017-09-07T00:00:00+00:00</published>
-    <updated>2017-09-07T00:00:00+00:00</updated>
-    <author>
-      <name>Marcia Noyes</name>
-    </author>
-    <summary type="html">&lt;p&gt;This Q&amp;amp;A with Datica’s Chief Data Officer, Mark Olschesky, explores what it means that Datica just passed 200 forks of our open-source policies.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;A week ago, Chief Data Officer &lt;a href="https://datica.com/about/mark/"&gt;Mark Olschesky&lt;/a&gt; used Slack to announce that Datica had just passed 200 forks of our open-source policies. Of course, the company wise-crackers quickly posted the obligatory Yogi Berra response:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When you come to a fork in the road, take it!&lt;/p&gt;
-&lt;/blockquote&gt;
 </content>
   </entry>
 </feed>
