@@ -511,92 +511,6 @@
     </div>
 </section>
 
-    <div class="medium reveal tier-standard" id="tierstandardModal" data-reveal data-options="closeOnEsc: true; animationSpeed: 150; animationIn: bounce-in">
-        <div class="card">
-            <div class="card-divider container-gray-11 text-center">
-                <img class="inject-me svg-color--black icon-size--xlarge" src="https://images.contentful.com/189dvqdsjh46/2WudExVDDiaEkQGqieCiqC/55e5f88adbaf2bbbbc184df96c8809e9/icon-hosting.svg">
-                <h3 class="headline-4 text-light">I want to <strong>deploy an application.</strong></h3>
-            </div>
-            <div class="card-section content-dynamic">
-                <h3 id="technical-requirements">Technical Requirements</h3>
-
-<p>Datica abstracts away all the things you used to do with on-premise or IaaS providers, like manage web servers, VMs and hardware.</p>
-
-<p>The only thing you need to worry about is how much computing power and data storage resources you need in order to efficiently run your application. You do this by mapping dedicated RAM to individual services. Here’s a typical digital health application stack:</p>
-
-<table>
-  <tbody>
-    <tr>
-      <td>Code service backend, like Java</td>
-      <td>1x 2GB RAM</td>
-    </tr>
-    <tr>
-      <td>Database service, like Postgres</td>
-      <td>1x 2GB RAM</td>
-    </tr>
-    <tr>
-      <td>Redis for caching</td>
-      <td>1x 1GB RAM</td>
-    </tr>
-    <tr>
-      <td>Total required:</td>
-      <td>5GB RAM</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>This build fits nicely in the <a href="https://product.datica.com/account/register">Standard plan</a>. Should you need additional resources for other services as you grow, adding more RAM is as simple as clicking a button. Extra RAM is $100/GB.</p>
-
-<h3 id="service-requirements">Service Requirements</h3>
-
-<p>Beyond infrastructure, consider your support and service needs. Tech support, SLAs, and compliance extras are determined by the plan you select.</p>
-
-            </div>
-            <div class="card-divider card-divider--flush">
-                <!-- <a href="https://datica.com/platform" class="float-left-on-large button button-group hollow secondary nomargin">Learn about compliance</a> -->
-                <a href="https://product.datica.com/account/register" class="button button--neat nomargin">Start Free Standard Trial or Professional Plan <i class="fa fa-angle-right"></i></a>
-            </div>
-        </div>
-        <button class="close-button" data-close aria-label="Close panel" type="button">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-    <div class="medium reveal tier-pro" id="tierproModal" data-reveal data-options="closeOnEsc: true; animationSpeed: 150; animationIn: bounce-in">
-        <div class="card">
-            <div class="card-divider container-gray-11 text-center">
-                <img class="inject-me svg-color--black icon-size--xlarge" src="https://images.contentful.com/189dvqdsjh46/1j6yIG0EUKWQoGKA2Ams8k/76ce2b0473cc497093d236dc3a2bfc21/icon-integration.svg">
-                <h3 class="headline-4 text-light">I want to <strong>integrate with EHRs</strong></h3>
-            </div>
-            <div class="card-section content-dynamic">
-                <h3 id="integration-environment">Integration Environment</h3>
-
-<p>You can purchase a one-click-install integration environment, which has all the technology components necessary to handle EHR integration: Highly-Available configured Mirth, load balancers, Postgres backups, and VPN management.</p>
-
-<p>The environment takes a minimum of 8GB of RAM but also requires VPNs, which means the Professional Plan is the right place to start.</p>
-
-<h3 id="vpns">VPNs</h3>
-
-<p>Since each integration requires a VPN into the specific site, you will work with the Datica team to help set up each VPN. We charge a $1,500/year/VPN connection maintenance fee to ensure they are in a 24/7 Keep-Alive status.</p>
-
-<h3 id="professional-services">Professional Services</h3>
-
-<p>Since each integration is its own journey where you integrate into a hospital’s private network, you may need the occasional help. Datica offers a blend of optional professional services should you need it.</p>
-
-<p><strong>Per-site go-live management:</strong> We take on the entire process of a specific site’s integration from start to finish. $6,000 one-time.</p>
-
-<p><strong>Integration Engineering Assistance:</strong> We can help with any extra ad hoc help with integration tasks at an hour rate.</p>
-
-            </div>
-            <div class="card-divider card-divider--flush">
-                <!-- <a href="https://datica.com/services" class="float-left-on-large button button-group hollow secondary nomargin">Learn about integration</a> -->
-                <a href="https://product.datica.com/account/register" class="button button--neat nomargin">Start with the Professional plan to integrate with EHRs <i class="fa fa-angle-right"></i></a>
-            </div>
-        </div>
-        <button class="close-button" data-close aria-label="Close panel" type="button">
-            <span aria-hidden="true">&times;</span>
-        </button>
-    </div>
-
 <section id="pricing-types" class="section-article container-gray-10">
     <div class="row align-center">
         <div class="columns small-12 large-8 text-center group">
@@ -605,34 +519,17 @@
     </div>
     <div class="row align-center row--card-grid">
             <div class="columns small-12 medium-6">
-                <a class="button large secondary expanded text-center" data-toggle="tierstandardModal">
+                <a class="button large secondary expanded text-center" title="click to learn more about how to deploy an application." data-toggle="tierstandardModal">
                     <img class="inject-me svg-color--white icon-size--large" src="https://images.contentful.com/189dvqdsjh46/2WudExVDDiaEkQGqieCiqC/55e5f88adbaf2bbbbc184df96c8809e9/icon-hosting.svg">
                     <h3 class="headline-4 text-light">I want to <strong>deploy an application.</strong></h3>
                 </a>
-<!--                 <div class="card drop">
-                    <div class="card-divider container-gray-3">
-                        <img class="inject-me svg-color--white float-left-on-large icon-size--xlarge" src="https://images.contentful.com/189dvqdsjh46/2WudExVDDiaEkQGqieCiqC/55e5f88adbaf2bbbbc184df96c8809e9/icon-hosting.svg">
-                         <h3 class="headline-4 text-light">I want to <strong>deploy an application.</strong></h3>
-                    </div>
-                   
-                </div> -->
-
             </div>
             <div class="columns small-12 medium-6">
-                <a class="button large secondary expanded text-center" data-toggle="tierproModal">
+                <a class="button large secondary expanded text-center" title="click to learn more about how to integrate with EHRs" data-toggle="tierproModal">
                     <img class="inject-me svg-color--white icon-size--large" src="https://images.contentful.com/189dvqdsjh46/1j6yIG0EUKWQoGKA2Ams8k/76ce2b0473cc497093d236dc3a2bfc21/icon-integration.svg">
                     <h3 class="headline-4 text-light">I want to <strong>integrate with EHRs</strong></h3>
                 </a>
-<!--                 <div class="card drop">
-                    <div class="card-divider container-gray-3">
-                        <img class="inject-me svg-color--white float-left-on-large icon-size--xlarge" src="https://images.contentful.com/189dvqdsjh46/1j6yIG0EUKWQoGKA2Ams8k/76ce2b0473cc497093d236dc3a2bfc21/icon-integration.svg">
-                         <h3 class="headline-4 text-light">I want to <strong>integrate with EHRs</strong></h3>
-                    </div>
-                   
-                </div> -->
-
             </div>
-        
     </div>
 </section>
 
@@ -698,6 +595,92 @@
         </div>
     </div>
 </section>
+
+    <div class="medium reveal" id="tierstandardModal" data-reveal data-options="closeOnEsc: true; animationSpeed: 150; animationIn: bounce-in">
+        <div class="card">
+            <div class="card-divider container-gray-11 text-center">
+                <img class="inject-me svg-color--black icon-size--xlarge" src="https://images.contentful.com/189dvqdsjh46/2WudExVDDiaEkQGqieCiqC/55e5f88adbaf2bbbbc184df96c8809e9/icon-hosting.svg">
+                <h3 class="headline-4 text-light">I want to <strong>deploy an application.</strong></h3>
+            </div>
+            <div class="card-section content-dynamic">
+                <h3 id="technical-requirements">Technical Requirements</h3>
+
+<p>Datica abstracts away all the things you used to do with on-premise or IaaS providers, like manage web servers, VMs and hardware.</p>
+
+<p>The only thing you need to worry about is how much computing power and data storage resources you need in order to efficiently run your application. You do this by mapping dedicated RAM to individual services. Here’s a typical digital health application stack:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Code service backend, like Java</td>
+      <td>1x 2GB RAM</td>
+    </tr>
+    <tr>
+      <td>Database service, like Postgres</td>
+      <td>1x 2GB RAM</td>
+    </tr>
+    <tr>
+      <td>Redis for caching</td>
+      <td>1x 1GB RAM</td>
+    </tr>
+    <tr>
+      <td>Total required:</td>
+      <td>5GB RAM</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This build fits nicely in the <a href="https://product.datica.com/account/register">Standard plan</a>. Should you need additional resources for other services as you grow, adding more RAM is as simple as clicking a button. Extra RAM is $100/GB.</p>
+
+<h3 id="service-requirements">Service Requirements</h3>
+
+<p>Beyond infrastructure, consider your support and service needs. Tech support, SLAs, and compliance extras are determined by the plan you select.</p>
+
+            </div>
+            <div class="card-divider container-gray-3 text-center">
+                <h4 class="headline-4 text-light nomargin">Start with a free trial of the <strong>Standard Plan</strong> or choose the <strong>Professional Plan</strong></h4>
+                <!-- <a href="https://product.datica.com/account/register" class="button button--neat nomargin">Start with a free trial of the <strong>Standard Plan</strong> or choose the <strong>Professional Plan</strong> <i class="fa fa-angle-right"></i></a> -->
+            </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close panel" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="medium reveal" id="tierproModal" data-reveal data-options="closeOnEsc: true; animationSpeed: 150; animationIn: bounce-in">
+        <div class="card">
+            <div class="card-divider container-gray-11 text-center">
+                <img class="inject-me svg-color--black icon-size--xlarge" src="https://images.contentful.com/189dvqdsjh46/1j6yIG0EUKWQoGKA2Ams8k/76ce2b0473cc497093d236dc3a2bfc21/icon-integration.svg">
+                <h3 class="headline-4 text-light">I want to <strong>integrate with EHRs</strong></h3>
+            </div>
+            <div class="card-section content-dynamic">
+                <h3 id="integration-environment">Integration Environment</h3>
+
+<p>You can purchase a one-click-install integration environment, which has all the technology components necessary to handle EHR integration: Highly-Available configured Mirth, load balancers, Postgres backups, and VPN management.</p>
+
+<p>The environment takes a minimum of 8GB of RAM but also requires VPNs, which means the Professional Plan is the right place to start.</p>
+
+<h3 id="vpns">VPNs</h3>
+
+<p>Since each integration requires a VPN into the specific site, you will work with the Datica team to help set up each VPN. We charge a $1,500/year/VPN connection maintenance fee to ensure they are in a 24/7 Keep-Alive status.</p>
+
+<h3 id="professional-services">Professional Services</h3>
+
+<p>Since each integration is its own journey where you integrate into a hospital’s private network, you may need the occasional help. Datica offers a blend of optional professional services should you need it.</p>
+
+<p><strong>Per-site go-live management:</strong> We take on the entire process of a specific site’s integration from start to finish. $6,000 one-time.</p>
+
+<p><strong>Integration Engineering Assistance:</strong> We can help with any extra ad hoc help with integration tasks at an hour rate.</p>
+
+            </div>
+            <div class="card-divider container-gray-3 text-center">
+                <h4 class="headline-4 text-light nomargin">Start with the <strong>Professional Plan</strong> to integrate with EHRs</h4>
+                <!-- <a href="https://product.datica.com/account/register" class="button button--neat nomargin">Start with the <strong>Professional Plan</strong> to integrate with EHRs <i class="fa fa-angle-right"></i></a> -->
+            </div>
+        </div>
+        <button class="close-button" data-close aria-label="Close panel" type="button">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
 
             <!-- GA -->
             <script type="text/javascript">
