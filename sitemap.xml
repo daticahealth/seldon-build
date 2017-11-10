@@ -1213,6 +1213,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/blog/new-section-of-the-dhsf-shines-a-light-on-evidence/</loc>
+    <lastmod>2017-10-25T16:29:17-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/blog/configuration-management-2-commanding-your-minions-with-salt/</loc>
     <lastmod>2017-10-25T16:29:17-07:00</lastmod>
     <changefreq>monthly</changefreq>
