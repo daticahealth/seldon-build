@@ -1,5 +1,7 @@
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
-<!-- Sparse Layout Template - Datica, 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<!-- Basic Layout Template - Datica, 2016 - 2017 -->
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 <!DOCTYPE html>
 <html lang="en">
@@ -47,6 +49,7 @@
 
         <!-- Assets -->
         <link href="/public/css/seldon.css" rel="stylesheet" />
+            <link href="/public/css/views/platform.css" rel="stylesheet" />
     </head>
     <body class="services services_index">
         <div class="container-color--dark-alt">
@@ -152,116 +155,325 @@
 </header>
 
 </div>
-<section class="section-article">
+
+<section id="service_benefits" class="section-article" data-magellan-target="service_benefits">
     <div class="row align-center">
-        <div class="columns small-12 medium-10 large-7 text-center">
-            <h1 class="headline-3"><strong>Expert help,</strong> <br>delivered results&mdash;when you need it</h1>
+        <div class="columns small-12 large-8 text-center">
+            <h1 class="headline-2 text-center">Datica Services</h1>
+            <h2 class="headline-3">Expert help, <strong>delivered results</strong>&mdash;when you need it</h2>
             <p>Health IT is a team sport. Datica is a partner to customers beyond being a technology provider by offering services aimed at achieving a single goal: enable digital health success today and for the long haul.</p>
             <a href="#cta" title="Datica Services" class="button button--neat">Get started <i class="fa fa-icon fa-angle-down"></i></a>
         </div>
     </div>
 </section>
+<div id="serviceNav" class="show-for-large" data-sticky-container>
+    <nav class="sticky sticky-nav sticky-nav--secondary container-color--gray-light-border-top-bottom text-center full-width" data-sticky data-options="marginTop:0; topAnchor:serviceNav; btmAnchor:cta;">
+        <ul class="menu horizontal align-center" data-magellan data-options="activeClass:is-current; offset: 75">
+            <li class="menu-item"><a class="menu-item--link" href="#service_benefits" title="Datica Services">Benefits</a></li>
+                <li class="menu-item">
+                    <a class="menu-item--link" href="#service_data_migration" title="Data Migration" class="menu-item--link">
+                        Data Migration
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item--link" href="#service_integration" title="Integration & Consulting" class="menu-item--link">
+                        Integration & Consulting
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item--link" href="#service_solutions_architecting" title="Solutions Architecting" class="menu-item--link">
+                        Solutions Architecting
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-item--link" href="#service_compliance" title="Compliance" class="menu-item--link">
+                        Compliance
+                    </a>
+                </li>
+            <li class="menu-item menu-item--cta">
+                <a class="button button--primary small" href="#cta" title="Start today">Start free consultation <i class="fa fa-angle-down icon-after"></i></a>
+            </li>
+        </ul>
+    </nav>
+</div>
 <section class="section-article container-color--gray-light">
-    <div id="usecaseInt" class="row align-center">
-        <div class="columns small-12 large-8 text-center">
-            <h3 class="headline-3">Featured Use Cases</h3>
-        </div>
-    </div>
     <div class="row align-center">
-        <div class="columns small-12 medium-6 large-4">
-            <h4 class="headline-5">Managed Integrations: Integration is a process, not an API</h4>
-            <p class="">Our team of in-house integration experts work with customers on a site-by-site basis to help bring an integration project from possibility to completed, live connection.</p>
-            <ul>
-                <li>Workflow mapping expertise</li>
-                <li>Experience with every data standard, every EHR</li>
-                <li>VPN management on your behalf</li>
-                <li>Project management through successful completion of integration</li>
-            </ul>
-        </div>
-        <div class="columns small-12 medium-6 large-4">
-            <h4 class="headline-5">EHR Data Lakes: Pooling together disparate datasets</h4>
-            <p class="">Companies who need to combine multiple datasets spread across several locations turn to Datica's services team to develop a solution that secure, compliant, and reliable.</p>
-            <ul>
-                <li>Multiple integration instances</li>
-                <li>Secure data storage</li>
-                <li>Identification reconciliation</li>
-                <li>Utility belt of data processing tools</li>
-                <li>HIPAA compliant infrastructure</li>
-                <li>Access control</li>
-            </ul>
-        </div>
-    </div>
-    <hr class="divider-narrow">
-    <div id="benefits" class="row align-center">
         <div class="columns small-12 large-8 text-center group">
             <h3 class="headline-3">Tactical support, strategic benefits</h3>
         </div>
     </div>
-    <div class="row align-center collapse">
-        <div class="columns small-12 large-8">
-            <div class="row small-up-2 align-center">
-                <div class="column">
-                    <h4 class="headline-5">Faster ROI</h4>
-                    <p>Get to market adoption faster by accelerating integration projects or compliance audits using our assistence.</p>
-                </div>
 
-                <div class="column">
-                    <h4 class="headline-5">Custom solutions</h4>
-                    <p>There is no one-size-fits-all for digital health. Datica's services are tailored made to your use case.</p>
-                </div>
+    <div class="row small-up-1 medium-up-2 large-up-4 align-center">
+        <div class="column">
+            <h4 class="headline-5">Faster ROI</h4>
+            <p>Get to market adoption faster by accelerating integration projects or compliance audits using our assistence.</p>
+        </div>
 
-                <div class="column">
-                    <h4 class="headline-5">Easy access to rare expertise</h4>
-                    <p>The amount of standards and concepts to understand in health IT is staggering. Lean on us for expert help at lower costs to you.</p>
-                </div>
+        <div class="column">
+            <h4 class="headline-5">Custom solutions</h4>
+            <p>There is no one-size-fits-all for digital health. Datica's services are tailored made to your use case.</p>
+        </div>
 
-                <div class="column">
-                    <h4 class="headline-5">Long-term focus</h4>
-                    <p>Datica cares about one thing: Your continued success. Services are built with the long-view in mind, and not meant to exploit short term problems and leave you hanging like consultants do.</p>
-                </div>
-            </div>
+        <div class="column">
+            <h4 class="headline-5">Easy access to rare expertise</h4>
+            <p>The amount of standards and concepts to understand in health IT is staggering. Lean on us for expert help at lower costs to you.</p>
+        </div>
+
+        <div class="column">
+            <h4 class="headline-5">Long-term focus</h4>
+            <p>Datica cares about one thing: Your continued success. Services are built with the long-view in mind, and not meant to exploit short term problems and leave you hanging like consultants do.</p>
         </div>
     </div>
+
 </section>
 <!-- interstitial cta -->
-<section id="ctaBottom" class="section-article section--cta-blue">
-<!-- <section id="ctaBottom" class="section-article container-image--center container-gray-12" data-interchange="[/public/img/bg/blur-colored-bg-4.jpg, small]"> -->
+<section id="ctaMid" class="section-article section--cta-blue container-image--center image-overlay image-overlay--grad" data-interchange="[//images.contentful.com/189dvqdsjh46/2bmjuoMNKcCem4EK4MCswy/f05614393417bd998365138d457f449d/Art-Basel-arc-building-wide.jpg?w=768, small], [//images.contentful.com/189dvqdsjh46/2bmjuoMNKcCem4EK4MCswy/f05614393417bd998365138d457f449d/Art-Basel-arc-building-wide.jpg?fit=thumb&w=2400&h=600&q=50, large]">
+    
     <div class="row align-center">
         <div class="columns small-12 large-8">
             <aside class="text-center">
-                    <h3 class="headline-3">Contact us today for project scoping and pricing</h3>
-                    <a class="button button--light" href="#cta" title="Request information"> Request information <i class="fa fa-angle-down"></i></a>
+                <h3 class="headline-3">Contact us today for project scoping and pricing</h3>
+                <a class="button button--light" href="#cta" title="Request information"> Request information <i class="fa fa-angle-down"></i></a>
             </aside>
         </div>
     </div>
 </section>
-<section class="section-article" id="servicesAll">
-    <div class="row align-center">
-        <div class="columns small-12 medium-10 large-8">
-            <h2 class="headline-3 text-center">Full list of services</h2>
-            <dl class="">
-                <dt>Integration Project Management</dt>
-                <dd>Integration is a process, not an API. If you need help along the journey, Datica's in-house integrations team will help see you through to a successfully completed integration by project managing the entire process. We’ve helped manage hundreds of live integrations this way.</dd>
-                <dt>Workflow Solutioning & Integration Engineering</dt>
-                <dd>Knowing HL7 is only half the battle. Successful integrations require an understanding of where to fit the solution within an existing workflow inside the EHR or other clinical system. Datica's team of in-house integration experts can guide you through the process of nailing the right workflow fit.</dd>
-                <dt>Integration Sales Support</dt>
-                <dd>If you are a digital health solutions provider selling into hospitals or health systems, integration can sometimes be a hard sell. Companies without the sales expertise or resources turn to Datica to help train their sales teams on how to properly sell integrations, and are available on an on-going basis.</dd>
-                <dt>Full-stack Integrations</dt>
-                <dd>Some customers look for the full suite of integration assistence. If you need something done—anything done—for your integration project, we can do it, from setting up and managing VPN configurations to building complex workflows to managing integration engines, and more.</dd>
-                <dt>Managed Infrastructure</dt>
-                <dd>Large and small organizations looking to migrate to the cloud from a co-lo or on-premesis facility turn to Datica's team of cloud experts to manage the complexity of the migration. Custom solutions centered on compliance and security can meet both the simplest and most complex use cases.</dd>
-                <dt>Custom Solutions Architecting</dt>
-                <dd>Technical teams with unique artichture requirements turn to Datica to help optimize their configurations for compliant deployment on the cloud. </dd>
-                <dt>Custom Development</dt>
-                <dd>Projects in need of extra application design or development aid use Datica's expertise in healthcare to break through with ideas that work. Johnson & Johnson recently turned to Datica to help them develop an innovative new digital health application within the life sciences industry.</dd>
-                <dt>Compliance Audit Support</dt>
-                <dd>Inevitably you will be audited by your customers, especially if your customers are Covered Entities like hospitals or health systems. Datica has successfully helped our customers go over 1,000 of these independent audits, all passed with flying colors.</dd>
-                <dt>White-glove On-boarding & Product Training</dt>
-                <dd>Need help getting up to speed with the Datica platform? We’re here to help with our custom tailored product training suited for companies of any size.</dd>
-            </dl>
+
+    <section id="service_data_migration" class="section-article" data-magellan-target="service_data_migration">
+        <div class="row">
+            <div class="columns small-12 text-center">
+                <img class="inject-me icon-size--xlarge svg-color--blue" src="//images.contentful.com/189dvqdsjh46/3ndgal68CkcCMye4s0ucsA/fcbec30a17deb6e218dd338b3ce00d17/icon-cubes-data.svg"></img>
+                <h3 class="headline-3">Data Migration</h3>
+            </div>
         </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                <div class="lead text-center"><p>Legacy databases are a common stumbling block to liberating your apps and services. Datica is here to help your team migrate your data to the modern cloud.</p>
+</div>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                        <div class="group text-center">
+                            
+                                <div class="group">
+                                    
+<div class="person-card--vertical  ">
+        <img class="avatar--large-mid circle" src="//images.contentful.com/189dvqdsjh46/7rIGE2x6zSQqqK0CsKaoQ/4d5c4a23339417bd8052c0f3337b7372/010418d.jpg?f=face&fit=thumb&w=250&fm=jpg&q=80" alt="Dr. Gregory Ator">
+    <div class="person-card--caption">
+        <div class="person-name">
+                Dr. Gregory Ator
+        </div>
+            <div class="person-title">CMIO</div>
     </div>
-</section>
+</div>
+
+                                    <img class="logo-size--small-mid" src="/public/img/customer-logos/sm/university-of-kansas-hospital-logo.png" alt="University of Kansas Hospital Logo"/>            
+                                </div>
+                            <blockquote class="quote-center quote-center--medium">
+                                    The team at Datica understands the rapid changes affecting healthcare. They were able to help us identify data integration strategies to create efficiencies, cost savings, and foster our culture of innovation. They help me navigate the crowded digital health landscape.
+                            </blockquote>
+                             <!-- <hr class="narrow">                   -->
+                        </div>
+                <p class="text-center group"><a class="button hollow small spaced-out" href="/services#cta" title="Start your services project today">Ask about Data Migration <i class="fa fa-icon fa-angle-down"></i></a></p>
+            </div>
+        </div>
+    </section>
+    <section id="service_integration" class="section-article" data-magellan-target="service_integration">
+        <div class="row">
+            <div class="columns small-12 text-center">
+                <img class="inject-me icon-size--xlarge svg-color--blue" src="//images.contentful.com/189dvqdsjh46/706VN4Yeeki2y2mmkYUo4O/5c9aa71f85886a71b193789650daf3b9/icon-integration-puzzle.svg"></img>
+                <h3 class="headline-3">Integration & Consulting</h3>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                <div class="lead text-center"><p>Healthcare integration projects can have many hidden pitfalls and unexpected challenges. Datica can help your team <a href="/dhsf">visualize the way forward</a>, refine project scope, and bring our deep knowledge of health systems to bear by making our experts available to help you work with all the players involved.</p>
+</div>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                    <div class="group content-dynamic"><ul>
+  <li>Building, configuring, testing, and troubleshooting VPNs</li>
+  <li>Building HL7-to-JSON channels</li>
+  <li>Building FHIR &amp; JSON transforms</li>
+  <li>Designing &amp; building custom interfaces</li>
+  <li>Building &amp; testing nginx configuration files</li>
+  <li>Building &amp; testing SFTP connections</li>
+  <li>24/7 support for Mirth &amp; VPNs</li>
+  <li>Pair-coding in Mirth for custom interfaces</li>
+  <li>Project management and implementation</li>
+  <li>Preparing project plans</li>
+</ul>
+
+                    </div>
+                        <div class="group text-center">
+                            
+                                <div class="group">
+                                    
+<div class="person-card--vertical  ">
+        <img class="avatar--large-mid circle" src="//images.contentful.com/189dvqdsjh46/25n5Q9TBT20qsQGoGOg2Ki/c9909917d3a1fd3571cfaa9084df0291/headshot-healthfinch-chris.jpg?f=face&fit=thumb&w=250&fm=jpg&q=80" alt="Chris Tyne">
+    <div class="person-card--caption">
+        <div class="person-name">
+                Chris Tyne
+        </div>
+            <div class="person-title">Vice President of Product</div>
+    </div>
+</div>
+
+                                    <img class="logo-size--small-mid" src="/public/img/customer-logos/sm/healthfinch-logo.png" alt="healthfinch Logo"/>            
+                                </div>
+                            <blockquote class="quote-center quote-center--medium">
+                                    Helping clinicians to work ‘top-of-license’ by leveraging the power of the electronic medical record (EMR) to improve physician workflows and the work lives of doctors is where the company can make the greatest impact upon healthcare.
+                            </blockquote>
+                                <p><a class="text-center text-small" href="/customer/healthfinch" title="healthfinch profile">Read the Case Study <i class="fa fa-icon fa-angle-right"></i></a></p>
+                             <!-- <hr class="narrow">                   -->
+                        </div>
+                <p class="text-center group"><a class="button hollow small spaced-out" href="/services#cta" title="Start your services project today">Ask about Integration & Consulting <i class="fa fa-icon fa-angle-down"></i></a></p>
+            </div>
+        </div>
+    </section>
+    <section id="service_solutions_architecting" class="section-article" data-magellan-target="service_solutions_architecting">
+        <div class="row">
+            <div class="columns small-12 text-center">
+                <img class="inject-me icon-size--xlarge svg-color--blue" src="//images.contentful.com/189dvqdsjh46/5MzX5F4mm4cWuCg0GsIi6o/0e0c202106f5f9f7bfd83d7a42f8bded/icon-consulting-compass.svg"></img>
+                <h3 class="headline-3">Solutions Architecting</h3>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                <div class="lead text-center"><p>Datica helps enterprise teams move their legacy applications into modern, platforms-as-a-service. Solutions Architecting from Datica takes on this challenge for you. Our team of cloud engineers will containerize and configure a customers application to run smoothly on the Datica Platform.</p>
+</div>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                    <div class="group content-dynamic"><h4 id="initial-investigation">Initial Investigation</h4>
+
+<p>To begin the solutions architecture process, a Datica cloud engineer conducts an initial investigation to fully understand the business requirements. We generate a scope of work and estimated timeframe.</p>
+
+<h4 id="architecture-diagraming">Architecture Diagraming</h4>
+
+<p>A Datica cloud engineer generates architecture diagrams to visualize the work required.</p>
+
+<h4 id="development">Development</h4>
+
+<p>Datica cloud engineers do whatever is needed to port or create the application: containerizing applications, configuration, code engineering, and more. You may work with Datica sales associates, business analysts, our product team, or other engineers.</p>
+
+                    </div>
+                        <div class="group text-center">
+                            
+                                <div class="group">
+                                    
+<div class="person-card--vertical  ">
+        <img class="avatar--large-mid circle" src="//images.contentful.com/189dvqdsjh46/5OFA1wUZqgKWMKOU2C0IEO/42c8b04cff24c4a65d56e63244c76cbe/roebuck-and-petit.jpg?f=face&fit=thumb&w=250&fm=jpg&q=80" alt="Dr. Michael Roebuck">
+    <div class="person-card--caption">
+        <div class="person-name">
+                Dr. Michael Roebuck
+        </div>
+            <div class="person-title">CMIO</div>
+    </div>
+</div>
+
+                                    <img class="logo-size--small-mid" src="/public/img/customer-logos/sm/hurley-medical-center-logo.png" alt="Hurley Medical Center Logo"/>            
+                                </div>
+                            <blockquote class="quote-center quote-center--medium">
+                                    Datica helps me remain agile as healthcare is pressured to change to value based, consumer-focused care. They are an invaluable partner.
+                            </blockquote>
+                             <!-- <hr class="narrow">                   -->
+                        </div>
+                <p class="text-center group"><a class="button hollow small spaced-out" href="/services#cta" title="Start your services project today">Ask about Solutions Architecting <i class="fa fa-icon fa-angle-down"></i></a></p>
+            </div>
+        </div>
+    </section>
+    <section id="service_compliance" class="section-article" data-magellan-target="service_compliance">
+        <div class="row">
+            <div class="columns small-12 text-center">
+                <img class="inject-me icon-size--xlarge svg-color--blue" src="//images.contentful.com/189dvqdsjh46/4raZazzgYUMYUSgSImMOm4/8f14c7fe78c2560985df0e09e966e2db/icon-compliance-checklist.svg"></img>
+                <h3 class="headline-3">Compliance</h3>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12 large-8">
+                <div class="lead text-center"><p>The Datica platform enables you to focus on building and securing your app by managing all compliance and security obligations on the cloud.</p>
+</div>
+            </div>
+        </div>
+        <div class="row align-center">
+            <div class="columns small-12">
+                    <div class="group content-dynamic multicol-3"><h4 id="security-questionnaire-management">Security Questionnaire Management</h4>
+
+<p>Datica’s compliance team will assist customers in filling out security questionnaires as a requirement of our customers prospective customer (typically a health system).</p>
+
+<h4 id="risk-assessments-vendors">Risk Assessments: Vendors</h4>
+
+<p>We will offer a service that trains customers on how and when to do security assessments on their vendors. This will likely be a part of a larger Risk Assessment package.</p>
+
+<h4 id="risk-assessments-development-process">Risk Assessments: Development Process</h4>
+
+<p>As part of the larger Risk Assessment package, Datica will train customers on how to assess and track risk with each code change that reaches production.</p>
+
+<h4 id="risk-assessments-events">Risk Assessments: Events</h4>
+
+<p>As part of the larger Risk Assessment package, Datica will train your team how to assess and track risk with each major event that takes place within your organization.</p>
+
+<h4 id="risk-assessment-vendors">Risk Assessment: Vendors</h4>
+
+<p>Datica will review vendors for you, and then provide documentation and feedback for reporting.</p>
+
+<h4 id="risk-assessments-development-process-1">Risk Assessments: Development Process</h4>
+
+<p>Datica will provide a service to review a customer’s code, and then provide testing and security related documentation.</p>
+
+<h4 id="quality-measures-data-point-analysis">Quality Measures Data Point Analysis</h4>
+
+<p>Datica will help you identify which data sets they need to send back to an EHR  system in order to support risk-adjusted and shared savings programs.</p>
+
+<h4 id="introduction-to-compliance-standards">Introduction to Compliance Standards</h4>
+
+<p>Datica will train your team on the different types of compliance that may be applicable to them by doing a discovery of their business  and technologies.</p>
+
+<h4 id="phishing-testing">Phishing Testing</h4>
+
+<p>Datica’s security team will test your employees on their ability to identify suspicious emails and phone calls.</p>
+
+<h4 id="sales-assistance">Sales Assistance</h4>
+
+<p>Datica will provide sales team training on how to offer compliance and integration as a core part of their offering.</p>
+
+<h4 id="penetration-testing--security-qa">Penetration Testing / Security QA</h4>
+
+<p>Datica will run a Red team-Blue team exercise on your technology stack.</p>
+
+                    </div>
+                        <div class="group text-center">
+                            
+                                <div class="group">
+                                    
+<div class="person-card--vertical  ">
+        <img class="avatar--large-mid circle" src="//images.contentful.com/189dvqdsjh46/2cl8tFI5vOIqQoYOwwAW0C/544a56cf44cf6a9c2b4381f2d7e0752f/headshot-cordata.jpg?f=face&fit=thumb&w=250&fm=jpg&q=80" alt="Gary Winzenread">
+    <div class="person-card--caption">
+        <div class="person-name">
+                Gary Winzenread
+        </div>
+            <div class="person-title">CEO and President</div>
+    </div>
+</div>
+
+                                    <img class="logo-size--small-mid" src="/public/img/customer-logos/sm/cordata-logo.png" alt="Cordata Logo"/>            
+                                </div>
+                            <blockquote class="quote-center quote-center--medium">
+                                    We are seeking to build confidence with many stakeholders. When I mention Datica, I get nods of recognition and no more questions asked about infrastructure.
+                            </blockquote>
+                                <p><a class="text-center text-small" href="/customer/cordata" title="Cordata profile">Read the Case Study <i class="fa fa-icon fa-angle-right"></i></a></p>
+                             <!-- <hr class="narrow">                   -->
+                        </div>
+                <p class="text-center group"><a class="button hollow small spaced-out" href="/services#cta" title="Start your services project today">Ask about Compliance <i class="fa fa-icon fa-angle-down"></i></a></p>
+            </div>
+        </div>
+    </section>
+        
 <section class="section-article container-color--blue-alt">
     <div class="row align-center">
         <div class="columns small-12 large-8 group">
@@ -293,6 +505,7 @@
                             <img class="logo-size--medium" src="/public/img/customer-logos/sm/healthloop-logo.png" alt="Healthloop Logo"/>
                         </div>
                     </div>
+                    <a class="button" href="healthloop" title="Healthloop profile">Read the Healthloop Case Study</a>
                 </div>
             </div>
             <div class="column">
@@ -319,6 +532,7 @@
                             <img class="logo-size--medium" src="/public/img/customer-logos/sm/hurley-medical-center-logo.png" alt="Hurley Medical Center Logo"/>
                         </div>
                     </div>
+                    <a class="button" href="hurley-medical-center" title="Hurley Medical Center profile">Read the Hurley Medical Center Case Study</a>
                 </div>
             </div>
             <div class="column">
@@ -345,6 +559,7 @@
                             <img class="logo-size--medium" src="/public/img/customer-logos/sm/zipnosis-logo.png" alt="Zipnosis Logo"/>
                         </div>
                     </div>
+                    <a class="button" href="zipnosis" title="Zipnosis profile">Read the Zipnosis Case Study</a>
                 </div>
             </div>
             <div class="column">
@@ -371,6 +586,7 @@
                             <img class="logo-size--medium" src="/public/img/customer-logos/sm/propeller-logo.png" alt="Propeller Health Logo"/>
                         </div>
                     </div>
+                    <a class="button" href="propeller" title="Propeller Health profile">Read the Propeller Health Case Study</a>
                 </div>
             </div>
             <div class="column">
@@ -397,6 +613,7 @@
                             <img class="logo-size--medium" src="/public/img/customer-logos/sm/healthfinch-logo.png" alt="healthfinch Logo"/>
                         </div>
                     </div>
+                    <a class="button" href="healthfinch" title="healthfinch profile">Read the healthfinch Case Study</a>
                 </div>
             </div>
             <div class="column">
@@ -423,6 +640,7 @@
                             <img class="logo-size--medium" src="/public/img/customer-logos/sm/docbookmd-logo.png" alt="DocBookMD Logo"/>
                         </div>
                     </div>
+                    <a class="button" href="docbookmd" title="DocBookMD profile">Read the DocBookMD Case Study</a>
                 </div>
             </div>
     </div>
@@ -575,16 +793,23 @@
 </footer>
 
         <script src="/public/js/svg-injector.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function(event) {
-                var mySVGsToInject = document.querySelectorAll('img.inject-me');
-                SVGInjector(mySVGsToInject);
-            });
-        </script>
-        <script src="/public/js/jquery.js"></script>
-        <script src="/public/js/foundation.min.js"></script>
-        <script src="/public/js/nav.js"></script><script src="/public/js/cookie.js"></script><script src="/public/js/sharer.js"></script><script src="/public/js/all.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    // console.log("DOM fully loaded and parsed");
+    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+    // Elements to inject - needs to happen as early as possible in ops
+    var mySVGsToInject = document.querySelectorAll('img.inject-me');
+    SVGInjector(mySVGsToInject);
+    // console.log("SVG injected");
+});
 
+</script>
+<script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
+<script defer src="/public/js/nav.js"></script>
+<script defer src="/public/js/smooth-scroll.js"></script>
+<script async src="/public/js/cookie.js"></script>
+<script async src="/public/js/sharer.js"></script>
+<script src="/public/js/all.js"></script>
         <!-- Custom JS files -->
     </body>
 </html>
