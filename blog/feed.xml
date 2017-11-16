@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-11-10T00:00:00+00:00</updated>
+  <updated>2017-11-15T00:00:00+00:00</updated>
+  <entry>
+    <title>What makes HITRUST? Understanding the superset nature of HITRUST</title>
+    <link rel="alternate" href="https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust"/>
+    <id>https://datica.com/blog/what-makes-hitrust-understanding-the-superset-nature-of-hitrust</id>
+    <published>2017-11-15T00:00:00+00:00</published>
+    <updated>2017-11-15T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;HITRUST is a superset security framework and understanding both the advantages and disadvantages of this will help you wield HITRUST successfully.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;One big reason HITRUST is taken so seriously is how it is composed of a long list of other security and risk management frameworks. HITRUST is a superset security framework and understanding both the advantages and disadvantages of this point goes a long way in understanding how to wield HITRUST successfully.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Digital Health Success Framework: Building a Body of Evidence to Support Your Strategy</title>
     <link rel="alternate" href="https://datica.com/blog/dhsf-building-a-body-of-evidence-to-support-your-strategy-roadmap"/>
@@ -143,20 +157,6 @@ factors for the success of digital health products.&lt;/p&gt;
     <summary type="html">&lt;p&gt;Where do the many predictions and technologies from Health 2.0, 2012 stand today? Which products were a hit? What predictions came to be true—or didn’t?&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;As we get our booth shipped and bags packed for Health 2.0 this year, I started thinking about when I first attended Health 2.0 five years ago. It was held at the Hilton in Union Square in San Francisco. I was in town for my startup’s interview at Rock Health, which at the time was just a stroll down Geary and a left on Grant through the &lt;a href="https://commons.wikimedia.org/wiki/File:San_Francisco_Dragon_Gate_to_Chinatown.jpg"&gt;Dragon Gate&lt;/a&gt; to the Rock Health offices in Chinatown. It was my first day ever in San Francisco; a place I would soon call home as I spent a chunk of 2012-2013 in the city for Rock Health.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mapping Digital Health: An interview with C-SATS co-founder Derek Streat</title>
-    <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat"/>
-    <id>https://datica.com/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat</id>
-    <published>2017-09-19T00:00:00+00:00</published>
-    <updated>2017-09-19T00:00:00+00:00</updated>
-    <author>
-      <name>Kris Gösser</name>
-    </author>
-    <summary type="html">&lt;p&gt;Datica is excited every day about the emerging digital health landscape. We know there are many other entrepreneurs who, like us, use technology to help healthcare organizations better serve their patients. That is why we created an ongoing series called “Mapping the Digital Health Landscape,” highlighting the great work pursued by fellow digital health innovators.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Datica is excited every day about the emerging digital health landscape. We know there are many other entrepreneurs who, like us, use technology to help healthcare organizations better serve their patients. That is why we have created the ongoing series called “Mapping the Digital Health Landscape,” highlighting the great work pursued by fellow digital health innovators.&lt;/p&gt;
 </content>
   </entry>
 </feed>
