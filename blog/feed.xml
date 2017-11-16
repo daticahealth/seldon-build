@@ -9,19 +9,19 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-11-16T00:00:00+00:00</updated>
+  <updated>2017-11-17T00:00:00+00:00</updated>
   <entry>
     <title>Announcing one-click installations of Mirth Connect and Open-Source Connectors</title>
     <link rel="alternate" href="https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source"/>
     <id>https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source</id>
-    <published>2017-11-16T00:00:00+00:00</published>
-    <updated>2017-11-16T00:00:00+00:00</updated>
+    <published>2017-11-17T00:00:00+00:00</published>
+    <updated>2017-11-17T00:00:00+00:00</updated>
     <author>
       <name>Mark Olschesky</name>
     </author>
     <summary type="html">&lt;p&gt;Today we are launching one-click installations of Mirth Connect combined with Open-Source Connectors for the Datica Platform.&lt;/p&gt;
 </summary>
-    <content type="html">&lt;p&gt;Today we are launching one-click installations of Mirth Connect combined with Open-Source Connectors for the Datica Platform. It is the next evolution of how we help solve the problem of healthcare data integration. The switch to a more open solution is a testament to our continual commitment to helping customers with integration in the best way possible.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Today we are launching one-click installations of &lt;a href="https://www.mirth.com/"&gt;Mirth Connect&lt;/a&gt; combined with Open-Source Connectors. It is the next evolution of how we help solve the problem of healthcare data integration. The switch to a more open solution is a testament to our enduring commitment to helping customers with integration in the best way possible.&lt;/p&gt;
 </content>
   </entry>
   <entry>
