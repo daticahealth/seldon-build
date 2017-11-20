@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://datica.com/dhsf/</loc>
+    <lastmod>2017-10-13T12:19:49-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/customers/</loc>
     <lastmod>2017-10-13T12:19:49-07:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -50,6 +56,42 @@
   </url>
   <url>
     <loc>https://datica.com/blog/archives/</loc>
+    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/pricing/</loc>
+    <lastmod>2017-11-18T02:02:33-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/pricing/growth/</loc>
+    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/pricing/enterprise/</loc>
+    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/pricing/developer/</loc>
+    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/press-release/</loc>
+    <lastmod>2017-11-17T13:08:20-08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/press/mediakit/</loc>
     <lastmod>2017-09-27T09:52:08-07:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -110,7 +152,7 @@
   </url>
   <url>
     <loc>https://datica.com/open-source/</loc>
-    <lastmod>2017-11-17T14:45:06-08:00</lastmod>
+    <lastmod>2017-11-20T00:18:45-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -251,48 +293,6 @@
     <lastmod>2017-11-17T13:08:20-08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/pricing/</loc>
-    <lastmod>2017-11-17T15:31:45-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/pricing/growth/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/pricing/enterprise/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/pricing/developer/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/press-release/</loc>
-    <lastmod>2017-11-17T13:08:20-08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/press/mediakit/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://datica.com/dhsf/</loc>
-    <lastmod>2017-10-13T12:19:49-07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://datica.com/blog/vue15-catalyze-ceo-talks-mhealth-history-at-voaltes-first-user-conference/</loc>
