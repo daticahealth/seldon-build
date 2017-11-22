@@ -9,7 +9,23 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-11-20T00:00:00+00:00</updated>
+  <updated>2017-11-21T00:00:00+00:00</updated>
+  <entry>
+    <title>The AWS re:Invent Ultimate Guide for Makers of Digital Health Products</title>
+    <link rel="alternate" href="https://datica.com/blog/aws-reinvent-ultimate-guide-for-makers-of-digital-health-products"/>
+    <id>https://datica.com/blog/aws-reinvent-ultimate-guide-for-makers-of-digital-health-products</id>
+    <published>2017-11-21T00:00:00+00:00</published>
+    <updated>2017-11-21T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;With 1,000 sessions to choose from, we offer a bit of help to our friends out there in the healthcare industry who might be attending &lt;em&gt;AWS re:Invent&lt;/em&gt; next week.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;With more than a thousand possible sessions to choose from and so many parties to attend, we thought we’d offer a bit of help to our friends out there in the healthcare industry who might be attending &lt;em&gt;AWS re:Invent&lt;/em&gt; next week. In addition to presenting and exhibiting, many of our own people will be at the following sessions, chalk talks, panel discussions, and, of course, at the healthcare happy hour. Don’t forget to stop by the Datica booth #519 while you’re there. See you next week!&lt;/p&gt;
+
+&lt;p&gt;See the entire session list &lt;a href="https://www.portal.reinvent.awsevents.com/connect/search.ww"&gt;here&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mapping Digital Health: An interview with John Moore, CEO and Founder Twine Health</title>
     <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-an-interview-with-john-moore-ceo-and-founder-twine"/>
@@ -143,20 +159,6 @@ factors for the success of digital health products.&lt;/p&gt;
     <summary type="html">&lt;p&gt;This second interview of our “Mapping the Digital Health Landscape” series, highlights innovation at Strata Health in the U.S. and beyond.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;This second interview of our “Mapping the Digital Health Landscape” series, highlights the digital health innovation of Strata Health within the United States, and beyond. Operational in North America, the UK, France, and Australia, Strata Health is a privately held Canadian corporation of professionals with empathy for those who need care and intense respect for those who devote themselves to caring for others.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Will new identity-proofing NIST standards prove who you say you are?</title>
-    <link rel="alternate" href="https://datica.com/blog/will-new-identity-proofing-nist-standards-prove-who-you-say-you-are"/>
-    <id>https://datica.com/blog/will-new-identity-proofing-nist-standards-prove-who-you-say-you-are</id>
-    <published>2017-10-10T00:00:00+00:00</published>
-    <updated>2017-10-10T00:00:00+00:00</updated>
-    <author>
-      <name>Marcia Noyes</name>
-    </author>
-    <summary type="html">&lt;p&gt;A recent NIST update includes important changes that encourage out of band authentication methods versus a single source email. Learn how Datica is responding.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Cybersecurity risk management has quickly moved from the “nagging mosquito” kind of problem that every industry must swat to one more likened to a full frontal attack, requiring more arsenal than budgets sometimes allow. Everywhere, from White House hacks into communication emails to security breaches, like the recent one announced by Equifax that has affected 145.5 million Americans, leave cybercriminals more in touch with our private financial and healthcare data than perhaps we are ourselves.&lt;/p&gt;
 </content>
   </entry>
 </feed>
