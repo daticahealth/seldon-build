@@ -9,7 +9,25 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-11-21T00:00:00+00:00</updated>
+  <updated>2017-11-27T00:00:00+00:00</updated>
+  <entry>
+    <title>How a major Health System got onto AWS: Recapping the featured session today at AWS re:Invent</title>
+    <link rel="alternate" href="https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today"/>
+    <id>https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today</id>
+    <published>2017-11-27T00:00:00+00:00</published>
+    <updated>2017-11-27T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;Adam Leko and David Deas discussed how the Datica Platform helped Memphis Le Bonheur (MLH) health system get onto AWS through removing the burden of DevOps and security in a HITRUST CSF Certified way.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;David Deas and Memphis Le Bonheur (MLH) have a mandate to improve patient care, improve the lives of clinicians, and save the organization money in the process.&lt;/p&gt;
+
+&lt;p&gt;As a 20+ year veteran of healthcare and a computer scientist by trade, David knows a thing or two about how to get work done within the confines of healthcare’s regulations or internal IT politics. He was the leader in implementing Cerner at MLH in the 90s. Now, in his role as head of innovation at MLH, he’s charged with faster-paced objectives where speed-to-market is imperative.&lt;/p&gt;
+
+&lt;p&gt;Internal IT has been less than helpful. On stage today, David spoke about the “Ticket Hell” he has to go through to provision any technical resources for his team.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The AWS re:Invent Ultimate Guide for Makers of Digital Health Products</title>
     <link rel="alternate" href="https://datica.com/blog/aws-reinvent-ultimate-guide-for-makers-of-digital-health-products"/>
@@ -19,7 +37,7 @@
     <author>
       <name>Laleh Hassibi</name>
     </author>
-    <summary type="html">&lt;p&gt;With 1,000 sessions to choose from, we offer a bit of help to our friends out there in the healthcare industry who might be attending &lt;em&gt;AWS re:Invent&lt;/em&gt; next week.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;With 1,000 sessions to choose from, we offer a bit of help to our friends out there in the healthcare industry who might be attending AWS re:Invent next week.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;With more than a thousand possible sessions to choose from and so many parties to attend, we thought we’d offer a bit of help to our friends out there in the healthcare industry who might be attending &lt;em&gt;AWS re:Invent&lt;/em&gt; next week. In addition to presenting and exhibiting, many of our own people will be at the following sessions, chalk talks, panel discussions, and, of course, at the healthcare happy hour. Don’t forget to stop by the Datica booth #519 while you’re there. See you next week!&lt;/p&gt;
 
@@ -145,20 +163,6 @@ factors for the success of digital health products.&lt;/p&gt;
 &lt;p&gt;HIPAA compliance has requirements for the transfer and storage of &lt;a href="https://datica.com/academy/what-is-protected-health-information-or-phi/"&gt;Protected Health Information (PHI)&lt;/a&gt;. Standard SSH file transfer can securely transfer data onto the &lt;a href="https://datica.com/platform/"&gt;Datica Platform&lt;/a&gt;. However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.&lt;/p&gt;
 
 &lt;p&gt;While you can manage part of your encryption for transfer yourself, you still need to have a method for encrypting storage volumes, containers, and the data transferred between those services. Datica’s platform meets those requirements for everything, once the data makes it onto the platform (HITRUST-audited policy 17.9).&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mapping Digital Health: An interview with Strata Health Executive VP Peter Smith</title>
-    <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-interview-with-strata-health-vp-peter-smith"/>
-    <id>https://datica.com/blog/mapping-digital-health-interview-with-strata-health-vp-peter-smith</id>
-    <published>2017-10-17T00:00:00+00:00</published>
-    <updated>2017-10-17T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;This second interview of our “Mapping the Digital Health Landscape” series, highlights innovation at Strata Health in the U.S. and beyond.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;This second interview of our “Mapping the Digital Health Landscape” series, highlights the digital health innovation of Strata Health within the United States, and beyond. Operational in North America, the UK, France, and Australia, Strata Health is a privately held Canadian corporation of professionals with empathy for those who need care and intense respect for those who devote themselves to caring for others.&lt;/p&gt;
 </content>
   </entry>
 </feed>
