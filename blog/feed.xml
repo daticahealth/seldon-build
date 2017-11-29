@@ -9,7 +9,27 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-11-28T00:00:00+00:00</updated>
+  <updated>2017-11-29T00:00:00+00:00</updated>
+  <entry>
+    <title>AWS Fargate and HIPAA Compliant Containers</title>
+    <link rel="alternate" href="https://datica.com/blog/aws-fargate-and-hipaa-compliant-containers"/>
+    <id>https://datica.com/blog/aws-fargate-and-hipaa-compliant-containers</id>
+    <published>2017-11-29T00:00:00+00:00</published>
+    <updated>2017-11-29T00:00:00+00:00</updated>
+    <author>
+      <name>Ryan Rich</name>
+    </author>
+    <summary type="html">&lt;p&gt;Day 3 of AWS re:Invent kicked off with AWS CEO, Andy Jassy, announcing AWS Fargate among a slew of new AWS services. Can you tell we’re excited about Fargate?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;The third day of AWS re:Invent was kicked off this morning with Andy Jassy, CEO of Amazon Web Services, announcing a slew of &lt;a href="https://aws.amazon.com/new/reinvent/"&gt;new AWS services&lt;/a&gt;. One such service that has us excited is &lt;a href="https://aws.amazon.com/blogs/aws/aws-fargate/"&gt;AWS Fargate&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;AWS Fargate is an easy way to deploy your containers on AWS. To put it simply, Fargate is like EC2 but instead of giving you a virtual machine you get a container. It’s a technology that allows you to use containers as a fundamental compute primitive without having to manage the underlying instances.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;https://aws.amazon.com/blogs/aws/aws-fargate/&lt;/em&gt;&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>re:Invent Day #2 — Looking toward the future</title>
     <link rel="alternate" href="https://datica.com/blog/re-invent-day-2-looking-toward-the-future"/>
@@ -145,20 +165,6 @@
 factors for the success of digital health products.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;Recent news tells us that digital health startups drew record investments in the first half of 2017. Sadly, according to research by Accenture, more than half of those digital health startups are likely to fail within two years following launch. How do digital health teams launch products that succeed?&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Do you Have $360K to Build Compliance into your Digital Health Product Yourself?</title>
-    <link rel="alternate" href="https://datica.com/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product"/>
-    <id>https://datica.com/blog/do-you-have-360k-to-build-compliance-into-your-digital-health-product</id>
-    <published>2017-10-27T00:00:00+00:00</published>
-    <updated>2017-10-27T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;$360,000! The cost for a maker of digital health products to design, implement, deploy and prove HIPAA compliance all on their own. Get the breakdown.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;$360,000! That’s how much it will cost a typical maker of digital health products to design, implement, deploy, and prove HIPAA compliance all on their own. That cost doesn’t even include their basic cloud subscription or the cost of developing the technology for their own application. We often hear early-stage developers say they’ve got compliance covered since they’re using AWS. That’s when the steep education process begins to help them understand they’re just at the beginning of the compliance journey with AWS and there’s so much more to consider to build a compliant application in the cloud.&lt;/p&gt;
 </content>
   </entry>
 </feed>
