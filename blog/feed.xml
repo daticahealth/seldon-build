@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-11-27T00:00:00+00:00</updated>
+  <updated>2017-11-28T00:00:00+00:00</updated>
+  <entry>
+    <title>re:Invent Day #2 — Looking toward the future</title>
+    <link rel="alternate" href="https://datica.com/blog/re-invent-day-2-looking-toward-the-future"/>
+    <id>https://datica.com/blog/re-invent-day-2-looking-toward-the-future</id>
+    <published>2017-11-28T00:00:00+00:00</published>
+    <updated>2017-11-28T00:00:00+00:00</updated>
+    <author>
+      <name>Ryan Rich</name>
+    </author>
+    <summary type="html">&lt;p&gt;It’s the second day of AWS re:Invent and sessions are in full swing. I was able to attend several healthcare track sessions yesterday (including Datica’s) and the future looks bright. Healthcare is poised to fully embrace the cloud in 2018.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;It’s the second day of &lt;a href="https://reinvent.awsevents.com/"&gt;AWS re:Invent&lt;/a&gt; and sessions are in full swing. I was able to attend several healthcare track sessions yesterday (&lt;a href="https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/" title="Datica's AWS presentation"&gt;including Datica’s&lt;/a&gt;) and the future looks bright. Healthcare is poised to fully embrace the cloud in 2018. The sentiment in the market has changed and it truly feels like we’re on the edge of a major shift in the approach healthcare organizations are taking when building and hosting their software.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>How a major Health System got onto AWS: Recapping the featured session today at AWS re:Invent</title>
     <link rel="alternate" href="https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today"/>
@@ -145,24 +159,6 @@ factors for the success of digital health products.&lt;/p&gt;
     <summary type="html">&lt;p&gt;$360,000! The cost for a maker of digital health products to design, implement, deploy and prove HIPAA compliance all on their own. Get the breakdown.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;$360,000! That’s how much it will cost a typical maker of digital health products to design, implement, deploy, and prove HIPAA compliance all on their own. That cost doesn’t even include their basic cloud subscription or the cost of developing the technology for their own application. We often hear early-stage developers say they’ve got compliance covered since they’re using AWS. That’s when the steep education process begins to help them understand they’re just at the beginning of the compliance journey with AWS and there’s so much more to consider to build a compliant application in the cloud.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Using GNU Privacy Guard and OpenPGP to Automatically Decrypt SFTP Files</title>
-    <link rel="alternate" href="https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files"/>
-    <id>https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files</id>
-    <published>2017-10-25T00:00:00+00:00</published>
-    <updated>2017-10-25T00:00:00+00:00</updated>
-    <author>
-      <name>Eric Richards</name>
-    </author>
-    <summary type="html">&lt;p&gt;The GnuPG is a free implementation of OpenPGP — the most widely used email encryption standard. Learn how to use GnuPG and OpenPG to automatically decrypt encrypted SFTP files.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;h2 id="why-is-encryption-important"&gt;Why is encryption important?&lt;/h2&gt;
-
-&lt;p&gt;HIPAA compliance has requirements for the transfer and storage of &lt;a href="https://datica.com/academy/what-is-protected-health-information-or-phi/"&gt;Protected Health Information (PHI)&lt;/a&gt;. Standard SSH file transfer can securely transfer data onto the &lt;a href="https://datica.com/platform/"&gt;Datica Platform&lt;/a&gt;. However, the files need to be encrypted at rest on the SSH sender’s storage volume before being doubly encrypted/decrypted during the SSH transfer.&lt;/p&gt;
-
-&lt;p&gt;While you can manage part of your encryption for transfer yourself, you still need to have a method for encrypting storage volumes, containers, and the data transferred between those services. Datica’s platform meets those requirements for everything, once the data makes it onto the platform (HITRUST-audited policy 17.9).&lt;/p&gt;
 </content>
   </entry>
 </feed>
