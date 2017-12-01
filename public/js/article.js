@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(i){$("article.content-dynamic iframe").wrap("<div class='responsive-embed widescreen'></div>"),$(".content-dynamic img.tofigure").wrap('<figure class="img-caption"></figure>'),$("figure.img-caption").children("img").each(function(){var i;i=$(this).attr("alt"),$(this).after('<figcaption class="caption">'+i+"</figcaption>")})});
