@@ -448,6 +448,24 @@
             </div>
                     <div class="group drop">
                         <div class="container-pad--large container-color--gray-dark">
+                            <p class="blog-date">December 8, 2017</p>
+                            <h1 class="headline-2">Why Let's Encrypt is our favorite open source project this year</h1>
+                        </div>
+                        <div class="container-pad--large container-color--white">
+                            <article class="content-dynamic">
+                                    <div class="lead"><p>We highly value open-source technology at Datica. We’re not only contributors to the open source community, but <a href="https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/">open source users</a> and <a href="https://datica.com/open-source/">producers</a> as well.</p>
+
+<p>One such open source project that we’re absolutely thrilled to be using is <a href="https://letsencrypt.org/">Let’s Encrypt</a>. <em>Let’s Encrypt</em> is a completely free and open source certificate authority. Developers can use <em>Let’s Encrypt</em> to obtain a free SSL/TLS certificate for their websites and applications. This allows them to enable a secure connection for their users via HTTPS.</p>
+</div>
+                                <div class="section--body blog-post-content group"><p>This summer we <a href="https://datica.zendesk.com/hc/en-us/articles/115005338623-Datica-Platform-3-0-Release-Notes">announced</a> that all new customers would receive free <em>Let’s Encrypt</em> SSL certificates for their Datica Platform environments. Additionally, any customers wanting to renew or upgrade their existing certs can also receive a free <em>Let’s Encrypt</em> certificate. This feature has been amazing for our customers. Not only are these certs provided to users completely free from <em>Let’s Encrypt</em>, but they’re also super easy to obtain via the <a href="https://resources.datica.com/compliant-cloud/cli-reference/#certs">Datica CLI</a>. In addition, these certificates also automatically renew each year.</p>
+
+<p>We’re proud to <a href="https://letsencrypt.org/donate/">support Let’s Encrypt</a> in their mission to make the internet more secure. If you’re looking to support an open source project this Holiday season, we couldn’t think of a more worthy candidate than <em>Let’s Encrypt.</em></p>
+</div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="group drop">
+                        <div class="container-pad--large container-color--gray-dark">
                             <p class="blog-date">December 4, 2017</p>
                             <h1 class="headline-2">Privacy Shield: Know the ropes before pulling data back across the pond</h1>
                         </div>
@@ -491,38 +509,6 @@
 <p><em>Lori:</em> The rules and regulations have become more stringent upon U.S. companies involved with cross border data transfers. Abiding by the European requirements is imperative for staying out of hot legal waters.</p>
 
 <p>Datica exists to help make digital health companies successful whether they work solely with U.S. citizen data or if they dip a toe into the commercial waters between countries. We live in a thriving, global digital economy today. When everyone follows the rules, we increase the chances of digital health success and decrease the chances of getting our hands and wallets slapped in court.</p>
-
-</div>
-                            </article>
-                        </div>
-                    </div>
-                    <div class="group drop">
-                        <div class="container-pad--large container-color--gray-dark">
-                            <p class="blog-date">November 29, 2017</p>
-                            <h1 class="headline-2">AWS Fargate and HIPAA Compliant Containers</h1>
-                        </div>
-                        <div class="container-pad--large container-color--white">
-                            <article class="content-dynamic">
-                                    <div class="lead"><p>The third day of AWS re:Invent was kicked off this morning with Andy Jassy, CEO of Amazon Web Services, announcing a slew of <a href="https://aws.amazon.com/new/reinvent/">new AWS services</a>. One such service that has us excited is Fargate.</p>
-</div>
-                                <div class="section--body blog-post-content group"><p>As Randall Hunt put it in a <a href="https://aws.amazon.com/blogs/aws/aws-fargate/">company blog post</a> announcing the new service:</p>
-
-<blockquote>
-  <p>AWS Fargate is an easy way to deploy your containers on AWS. To put it simply, Fargate is like EC2 but instead of giving you a virtual machine you get a container. It’s a technology that allows you to use containers as a fundamental compute primitive without having to manage the underlying instances.”</p>
-</blockquote>
-
-<p>We’ve seen an incredible increase in container adoption over the last couple of years. Datica has been a huge proponent of containerization technology since our founding. We use Docker in production on a daily basis to deliver HIPAA compliant environments to thousands of users. We even built our own orchestration layer in 2014, one year before <a href="https://cloudplatform.googleblog.com/2015/07/Kubernetes-V1-Released.html">Kubernetes 1.0</a> was released. To say we’re bought into the concept of containers would be a massive understatement.</p>
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">No longer any need to manage servers and clusters for your containers - AWS Fargate - Run ECS and EKS without managing servers <a href="https://twitter.com/hashtag/reInvent?src=hash&amp;ref_src=twsrc%5Etfw">#reInvent</a> <a href="https://t.co/oPsXdvrSAL">https://t.co/oPsXdvrSAL</a> <a href="https://t.co/lZnS558CXV">pic.twitter.com/lZnS558CXV</a></p>&mdash; AWS re:Invent (@AWSreInvent) <a href="https://twitter.com/AWSreInvent/status/935910336212844544?ref_src=twsrc%5Etfw">November 29, 2017</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>It’s because of our long history of containerization support that we’re excited about AWS Fargate. However, that excitement isn’t without reservation. As is the case with most new technology, compliance and security pose great barriers to adoption. We’re deeply aware of these barriers at Datica. <a href="https://datica.com/platform/">The Datica Platform</a> was designed to address the complexities of compliance and security specific to the healthcare industry. The fact is, understanding compliance is difficult enough. That difficulty is exasperated exponentially when it comes time to not only implement that understanding through policy, but prove compliance beyond a reasonable doubt to auditors.</p>
-
-<p>Our primary reservation with Fargate is that it currently is not eligible for <a href="https://datica.com/discover/hipaa-compliance/">HIPAA compliance</a>. Because we <a href="https://datica.com/blog/3-common-misconceptions-about-business-associate-agreements/">sign a BAA</a> with both AWS and our customers, we cannot guarantee full-stack compliance against a service that is not scoped within the BAA that we sign with AWS. This means our customers in the healthcare industry cannot take advantage of such a service.</p>
-
-<p>Luckily, we’ve been working on a Docker-based deployment feature for the better part of the last quarter. By working directly with our customers on improving our deployment process, we’re approaching a limited release of Datica BYOD (bring your own docker). BYOD will give users the ability to deploy docker containers directly on the platform. No longer will deployments be restricted to the <code>git push</code> model. In the future—once it becomes HIPAA eligible—we plan to take complete advantage of AWS Fargate. Until then, we’re confident BYOD will provide an excellent deployment experience for our customers.</p>
-
-<p>BYOD will be released into limited availability in December, 2017. We’re selectively working with existing customers to test these new features. If you’re interested in participating, please reach out to me at <a href="mailto:ryan@datica.com">ryan@datica.com</a>, and if you’re at AWS re:Invent stop by booth #519 to chat with us about Fargate and containerization!</p>
 
 </div>
                             </article>
