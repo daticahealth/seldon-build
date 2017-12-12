@@ -67,6 +67,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/contentful_templates/report/</loc>
+    <lastmod>2017-12-12T09:29:44-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/contact/thanks/</loc>
     <lastmod>2017-09-27T09:52:08-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,7 +170,7 @@
   </url>
   <url>
     <loc>https://datica.com/innovation/public-vs-private-cloud-computing-within-healthcare-summer-2017/</loc>
-    <lastmod>2017-10-25T12:04:48-07:00</lastmod>
+    <lastmod>2017-12-12T09:29:37-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -182,7 +188,7 @@
   </url>
   <url>
     <loc>https://datica.com/innovation/heart-of-medicine-report-spring-2017/</loc>
-    <lastmod>2017-09-27T09:52:08-07:00</lastmod>
+    <lastmod>2017-12-12T09:29:37-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -284,7 +290,7 @@
   </url>
   <url>
     <loc>https://datica.com/academy/</loc>
-    <lastmod>2017-12-06T13:13:06-08:00</lastmod>
+    <lastmod>2017-12-11T14:51:28-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1160,6 +1166,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/three-hipaa-omnibus-rule-essentials-for-it-security/</loc>
+    <lastmod>2017-12-06T14:58:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/how-does-gdpr-compare-to-hipaa/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
