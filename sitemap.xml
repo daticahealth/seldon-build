@@ -146,7 +146,13 @@
   </url>
   <url>
     <loc>https://datica.com/leadership/</loc>
-    <lastmod>2017-12-14T15:25:51-08:00</lastmod>
+    <lastmod>2017-12-21T12:08:17-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/leadership/</loc>
+    <lastmod>2017-12-18T22:19:22-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -595,7 +601,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://datica.com/blog/metabahn-and-healthloop-chose-datica-but-why/</loc>
+    <loc>https://datica.com/blog/metabahn-and-healthloop-chose-catalyze-but-why/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -637,7 +643,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://datica.com/blog/datica-partners-with-salesforce-microsoft-azure/</loc>
+    <loc>https://datica.com/blog/catalyze-partners-with-salesforce-microsoft-azure/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -775,7 +781,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://datica.com/blog/datica-and-swift-bridging-the-gap/</loc>
+    <loc>https://datica.com/blog/catalyze-and-swift-bridging-the-gap/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1729,7 +1735,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://datica.com/blog/daticas-new-fhir-documentation-is-your-trusted-fhir-resource/</loc>
+    <loc>https://datica.com/blog/catalyzes-new-fhir-documentation-is-your-trusted-fhir-resource/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -2067,6 +2073,96 @@
   <url>
     <loc>https://datica.com/discover/ehr-integrations/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/rick-wattras/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/maggie-ostrowski/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/travis/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/chuck-mckenzie/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/ryan-rich/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/bill-sims/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/kris-gosser/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/mark/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/laleh-hassibi/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/scott-stillema/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/marcia-noyes/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/kevin/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/lori-meals/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/doug-arent/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/adam/</loc>
+    <lastmod>2017-12-21T12:29:27-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
