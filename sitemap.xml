@@ -92,7 +92,13 @@
   </url>
   <url>
     <loc>https://datica.com/events/</loc>
-    <lastmod>2017-11-30T21:03:11-08:00</lastmod>
+    <lastmod>2018-01-05T14:07:41-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events-old/</loc>
+    <lastmod>2018-01-03T20:32:54-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2067,6 +2073,108 @@
   <url>
     <loc>https://datica.com/discover/ehr-integrations/</loc>
     <lastmod>2017-12-06T14:58:27-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/digital-health-success-framework-how-organizations-are-transforming-healthcare/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/vue-2016-panel-integrating-the-ehr-with-your-mobile-communication-strategy/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/aws-reinvent-2017/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/hl7-value-based-care-fhir-summit/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/value-based-care-summit/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/aws-re-invent-2016/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/himss-2017/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/health-2-0-10th-annual-conference/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/connected-health-conference/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/healthxl-global-gathering/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/big-data-and-health-analytics-forum/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/beckers-hospital-review-3rd-annual-health-it-revenue-cycle-conference/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/hitrust-third-party-assurance-summit/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/hitrust-2017-conference/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/ibm-cloud-innovation-tour/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/fhir-applications-roundtable/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/health-2-0-panel-what-does-the-success-of-digital-health-look-like/</loc>
+    <lastmod>2018-01-05T14:07:01-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
