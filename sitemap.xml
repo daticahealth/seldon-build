@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://datica.com/events/</loc>
-    <lastmod>2018-01-05T17:26:31-08:00</lastmod>
+    <lastmod>2018-01-08T15:58:21-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2131,7 +2131,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/events/sxsw-2015/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/himss-2014/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/events/himss-2017/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/ahima-conference-2013/</loc>
     <lastmod>2018-01-05T16:53:48-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -2161,7 +2179,19 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/events/mhealth-summit-2014/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/events/healthxl-global-gathering/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/digital-health-summer-summit/</loc>
     <lastmod>2018-01-05T16:53:48-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -2191,7 +2221,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/events/mhealth-summit-2013/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/open-mhealth-san-francisco-summit-2015/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/events/vue15/</loc>
+    <lastmod>2018-01-05T16:53:48-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/events/himss-2015/</loc>
     <lastmod>2018-01-05T16:53:48-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
