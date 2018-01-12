@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-12-13T00:00:00+00:00</updated>
+  <updated>2018-01-10T00:00:00+00:00</updated>
+  <entry>
+    <title>10 Most-Read Articles of 2017</title>
+    <link rel="alternate" href="https://datica.com/blog/10-most-read-articles-of-2017"/>
+    <id>https://datica.com/blog/10-most-read-articles-of-2017</id>
+    <published>2018-01-10T00:00:00+00:00</published>
+    <updated>2018-01-10T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;What was healthcare reading to stay on top of their technology game in 2017? Our top 10 blogs show cloud and compliance as top of mind for many of you.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;What were healthcare developers and leaders reading to stay on top of their technology game in 2017? If the following list of top articles from the Datica blog is any indication, cloud and compliance were top of mind for many of you.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Q4 Industry Report: Shadow IT's positives and negatives within healthcare</title>
     <link rel="alternate" href="https://datica.com/blog/q4-industry-report-shadow-its-positives-and-negatives-within-healthcare"/>
@@ -142,20 +156,6 @@
     <summary type="html">&lt;p&gt;What does a breakdancing eye surgeon have to say about patient engagement? Find out in the 3rd issue of “Mapping Digital Health” with Dr. John Moore of Twine Health.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;What does a breakdancing eye surgeon have to say about healthcare today? As the third in our &lt;a href="/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat/"&gt;Mapping Digital Health&lt;/a&gt; series of interviews, we asked &lt;a href="https://www.twinehealth.com/john-moore"&gt;Dr. John Moore&lt;/a&gt;, CEO and Founder of Twine Health, about the status of patient engagement in healthcare. Moore’s entrepreneurial career had an unusual start when, as an undergrad at Boston University, he founded a breakdancing club. As he completed medical school and trained to become a specialized eye surgeon, he recognized a major break in communication between patients and their doctors once they left their doctor’s offices. Moore founded &lt;a href="https://www.twinehealth.com"&gt;Twine Health&lt;/a&gt; in order to create technology that really reaches patients.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Announcing one-click installations of Mirth Connect and Open-Source Connectors</title>
-    <link rel="alternate" href="https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source"/>
-    <id>https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source</id>
-    <published>2017-11-17T00:00:00+00:00</published>
-    <updated>2017-11-17T00:00:00+00:00</updated>
-    <author>
-      <name>Mark Olschesky</name>
-    </author>
-    <summary type="html">&lt;p&gt;Today we are launching one-click installations of Mirth Connect combined with Open-Source Connectors for the Datica Platform.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Today we are launching one-click installations of &lt;a href="https://www.mirth.com/"&gt;Mirth Connect&lt;/a&gt; combined with Open-Source Connectors. It is the next evolution of how we help solve the problem of healthcare data integration. The switch to a more open solution is a testament to our enduring commitment to helping customers with integration in the best way possible.&lt;/p&gt;
 </content>
   </entry>
 </feed>

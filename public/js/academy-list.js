@@ -1,0 +1,1 @@
+var searchOptions={valueNames:["title","tag"]},articlelist=new List("articles",searchOptions);
