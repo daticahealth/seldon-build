@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-01-10T00:00:00+00:00</updated>
+  <updated>2018-01-15T00:00:00+00:00</updated>
+  <entry>
+    <title>6 Healthcare Trends to Watch in 2018</title>
+    <link rel="alternate" href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018"/>
+    <id>https://datica.com/blog/6-healthcare-trends-to-watch-in-2018</id>
+    <published>2018-01-15T00:00:00+00:00</published>
+    <updated>2018-01-15T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Government, individuals, and private sector will continue a push for change in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;It’s 2018, and the world looks much different &lt;a href="https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/"&gt;than it did a year ago&lt;/a&gt;. Go &lt;a href="https://datica.com/blog/5-predictions-for-digital-health-in-2016/"&gt;back even further&lt;/a&gt; and the differences are even more stark. No place is that more evident than in healthcare. As the largest industry in the world, healthcare has  weathered the most significant political waves of the last fifteen years. As the costs of healthcare increased unchecked, politicians took notice.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>10 Most-Read Articles of 2017</title>
     <link rel="alternate" href="https://datica.com/blog/10-most-read-articles-of-2017"/>
@@ -142,20 +156,6 @@
     <content type="html">&lt;p&gt;With more than a thousand possible sessions to choose from and so many parties to attend, we thought we’d offer a bit of help to our friends out there in the healthcare industry who might be attending &lt;em&gt;AWS re:Invent&lt;/em&gt; next week. In addition to presenting and exhibiting, many of our own people will be at the following sessions, chalk talks, panel discussions, and, of course, at the healthcare happy hour. Don’t forget to stop by the Datica booth #519 while you’re there. See you next week!&lt;/p&gt;
 
 &lt;p&gt;See the entire session list &lt;a href="https://www.portal.reinvent.awsevents.com/connect/search.ww"&gt;here&lt;/a&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Mapping Digital Health: An interview with John Moore, CEO and Founder Twine Health</title>
-    <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-an-interview-with-john-moore-ceo-and-founder-twine"/>
-    <id>https://datica.com/blog/mapping-digital-health-an-interview-with-john-moore-ceo-and-founder-twine</id>
-    <published>2017-11-20T00:00:00+00:00</published>
-    <updated>2017-11-20T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;What does a breakdancing eye surgeon have to say about patient engagement? Find out in the 3rd issue of “Mapping Digital Health” with Dr. John Moore of Twine Health.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;What does a breakdancing eye surgeon have to say about healthcare today? As the third in our &lt;a href="/blog/mapping-digital-health-an-interview-with-c-sats-co-founder-derek-streat/"&gt;Mapping Digital Health&lt;/a&gt; series of interviews, we asked &lt;a href="https://www.twinehealth.com/john-moore"&gt;Dr. John Moore&lt;/a&gt;, CEO and Founder of Twine Health, about the status of patient engagement in healthcare. Moore’s entrepreneurial career had an unusual start when, as an undergrad at Boston University, he founded a breakdancing club. As he completed medical school and trained to become a specialized eye surgeon, he recognized a major break in communication between patients and their doctors once they left their doctor’s offices. Moore founded &lt;a href="https://www.twinehealth.com"&gt;Twine Health&lt;/a&gt; in order to create technology that really reaches patients.&lt;/p&gt;
 </content>
   </entry>
 </feed>
