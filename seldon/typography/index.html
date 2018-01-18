@@ -46,7 +46,7 @@
 
       <!-- Assets -->
       <link href="/public/css/seldon-5417802b.css" rel="stylesheet" />
-          <link href="/public/css/views/styleguide-ddd69a36.css" rel="stylesheet" />
+          <link href="/public/css/views/styleguide-d3082901.css" rel="stylesheet" />
   </head>
   <body class="seldon seldon_typography seldon_typography_index">
     <div class="off-canvas position-right container-gray-2" id="offCanvasRight" data-off-canvas>
@@ -88,6 +88,11 @@
                   <li>
                       <a href="/seldon/forms/" title="Form styling, based on Foundation's form page" class="link--white">
                           Forms
+                      </a>
+                  </li>
+                  <li>
+                      <a href="/seldon/recent-entries/" title="Some recent content for emails and social campaigns. Copy content or take screenshots to create graphics." class="link--white">
+                          Recent Entries
                       </a>
                   </li>
                   <li>
@@ -576,25 +581,25 @@ Naomi Fried, PhD is a highly experienced thought leader in healthcare innovation
                 </div>
             </div>
     </div>
-    <!-- Please leave these commented bits in place; when JS compiling is working properly we'll use them. -AW -->
     <script src="/public/js/svg-injector.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function(event) {
-    // console.log("DOM fully loaded and parsed");
-    // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
-    // Elements to inject - needs to happen as early as possible in ops
-    var mySVGsToInject = document.querySelectorAll('img.inject-me');
-    SVGInjector(mySVGsToInject);
-    // console.log("SVG injected");
-});
+    <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        // console.log("DOM fully loaded and parsed");
+        // SVG Injector: turns linked SVGs into inline ones, where they can be styled with CSS> https://www.npmjs.com/package/svg-injector
+        // Elements to inject - needs to happen as early as possible in ops
+        var mySVGsToInject = document.querySelectorAll('img.inject-me');
+        SVGInjector(mySVGsToInject);
+        // console.log("SVG injected");
+    });
 
-</script>
+    </script>
 <script src="/public/js/jquery.js"></script><script src="/public/js/foundation.min.js"></script>
-<script defer src="/public/js/nav.js"></script>
-<script defer src="/public/js/smooth-scroll.js"></script>
-<script async src="/public/js/cookie.js"></script>
-<script async src="/public/js/sharer.js"></script>
-<script src="/public/js/all.js"></script>
+<script type="text/javascript">
+$("document").ready(function(){
+    // init foundation stuff - interchange, close box, etc.
+    $(document).foundation();
+});
+</script>
     <!-- Custom JS files -->
   </body>
 </html>
