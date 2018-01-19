@@ -427,6 +427,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/academy/gdpr-fines-and-penalties/</loc>
+    <lastmod>2018-01-09T10:46:39-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/academy/hl7-202-the-hl7-ack-acknowledgement-message/</loc>
     <lastmod>2018-01-09T10:46:39-08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1628,6 +1634,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/2014-predictions-growth-of-healthcare-clouds/</loc>
+    <lastmod>2018-01-09T17:06:42-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/the-trusted-exchange-framework/</loc>
     <lastmod>2018-01-09T17:06:42-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
