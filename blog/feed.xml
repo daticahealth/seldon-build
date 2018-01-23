@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-01-19T00:00:00+00:00</updated>
+  <updated>2018-01-22T00:00:00+00:00</updated>
+  <entry>
+    <title>The U.S. Healthcare System is like a Casino says Dan Munroe</title>
+    <link rel="alternate" href="https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munroe"/>
+    <id>https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munroe</id>
+    <published>2018-01-22T00:00:00+00:00</published>
+    <updated>2018-01-22T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;Author Dan Munro thinks the US Healthcare system is like a casino. Learn why in these highlights from that enlightening Healthcare Innovators Podcast.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Dan Munro is the author of the book &lt;a href="http://dan-munro.com/book/"&gt;Casino Healthcare: The Health of a Nation: America’s Biggest Gamble&lt;/a&gt;. Though the book was published in 2016, not much has changed. Travis Good interviewed Munro for Datica’s &lt;a href="https://datica.com/innovation/dan-munro-healthcares-technology-gamble/"&gt;Healthcare Innovators Podcast&lt;/a&gt; on September 29, 2017. A few highlights of that enlightening conversation follow below, but make sure to listen to the recorded podcast to hear it all.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Trusted Exchange Framework and the Pursuit of Interoperability</title>
     <link rel="alternate" href="https://datica.com/blog/the-trusted-exchange-framework"/>
@@ -136,24 +150,6 @@
     <summary type="html">&lt;p&gt;It’s the second day of AWS re:Invent and sessions are in full swing. I was able to attend several healthcare track sessions yesterday (including Datica’s) and the future looks bright. Healthcare is poised to fully embrace the cloud in 2018.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;It’s the second day of &lt;a href="https://reinvent.awsevents.com/"&gt;AWS re:Invent&lt;/a&gt; and sessions are in full swing. I was able to attend several healthcare track sessions yesterday (&lt;a href="https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/" title="Datica's AWS presentation"&gt;including Datica’s&lt;/a&gt;) and the future looks bright. Healthcare is poised to fully embrace the cloud in 2018. The sentiment in the market has changed and it truly feels like we’re on the edge of a major shift in the approach healthcare organizations are taking when building and hosting their software.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How a major Health System got onto AWS: Recapping the featured session today at AWS re:Invent</title>
-    <link rel="alternate" href="https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today"/>
-    <id>https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today</id>
-    <published>2017-11-27T00:00:00+00:00</published>
-    <updated>2017-11-27T00:00:00+00:00</updated>
-    <author>
-      <name>Kris Gösser</name>
-    </author>
-    <summary type="html">&lt;p&gt;Adam Leko and David Deas discussed how the Datica Platform helped Memphis Le Bonheur (MLH) health system get onto AWS through removing the burden of DevOps and security in a HITRUST CSF Certified way.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;David Deas and Memphis Le Bonheur (MLH) have a mandate to improve patient care, improve the lives of clinicians, and save the organization money in the process.&lt;/p&gt;
-
-&lt;p&gt;As a 20+ year veteran of healthcare and a computer scientist by trade, David knows a thing or two about how to get work done within the confines of healthcare’s regulations or internal IT politics. He was the leader in implementing Cerner at MLH in the 90s. Now, in his role as head of innovation at MLH, he’s charged with faster-paced objectives where speed-to-market is imperative.&lt;/p&gt;
-
-&lt;p&gt;Internal IT has been less than helpful. On stage today, David spoke about the “Ticket Hell” he has to go through to provision any technical resources for his team.&lt;/p&gt;
 </content>
   </entry>
 </feed>
