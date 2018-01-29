@@ -9,7 +9,23 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-01-22T00:00:00+00:00</updated>
+  <updated>2018-01-26T00:00:00+00:00</updated>
+  <entry>
+    <title> HIPAA Enforcement in 2017: Key learnings from others’ mistakes</title>
+    <link rel="alternate" href="https://datica.com/blog/hipaa-enforcement-in-2017"/>
+    <id>https://datica.com/blog/hipaa-enforcement-in-2017</id>
+    <published>2018-01-26T00:00:00+00:00</published>
+    <updated>2018-01-26T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;One thing is certain: healthcare still has a security problem. Out of 295 breaches reported so far for 2017, 132 are hacking/IT incident breaches.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;The US Department of Health and Human Services’ (HHS) Office for Civil Rights (OCR) investigates reports of data breaches involving health information. The breach reports are publicly available and searchable with a tool called the &lt;a href="https://www.hhs.gov/about/news/2017/07/25/hhs-unveils-improved-web-tool-highlight-recent-breaches-health-information.html"&gt;HIPAA Breach Reporting Tool&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Because entities have 60 days beyond the date a breach occurs to report it, complete results for 2017 will not be available until March 2018. However, a look at what has been reported so far, along with any general trends, may be instructive as we all prepare for the more stringent &lt;a href="https://datica.com/academy/gdpr-fines-and-penalties/"&gt;penalties of GDPR&lt;/a&gt; coming in May of 2018.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The U.S. Healthcare System is like a Casino says Dan Munro</title>
     <link rel="alternate" href="https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munro"/>
@@ -136,20 +152,6 @@
     <summary type="html">&lt;p&gt;Day 3 of re:Invent kicked off with AWS CEO, Andy Jassy, announcing Fargate among a slew of new AWS services. Can you tell we’re excited about Fargate?&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;The third day of AWS re:Invent was kicked off this morning with Andy Jassy, CEO of Amazon Web Services, announcing a slew of &lt;a href="https://aws.amazon.com/new/reinvent/"&gt;new AWS services&lt;/a&gt;. One such service that has us excited is Fargate.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>re:Invent Day #2 — Looking toward the future</title>
-    <link rel="alternate" href="https://datica.com/blog/re-invent-day-2-looking-toward-the-future"/>
-    <id>https://datica.com/blog/re-invent-day-2-looking-toward-the-future</id>
-    <published>2017-11-28T00:00:00+00:00</published>
-    <updated>2017-11-28T00:00:00+00:00</updated>
-    <author>
-      <name>Ryan Rich</name>
-    </author>
-    <summary type="html">&lt;p&gt;It’s the second day of AWS re:Invent and sessions are in full swing. I was able to attend several healthcare track sessions yesterday (including Datica’s) and the future looks bright. Healthcare is poised to fully embrace the cloud in 2018.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;It’s the second day of &lt;a href="https://reinvent.awsevents.com/"&gt;AWS re:Invent&lt;/a&gt; and sessions are in full swing. I was able to attend several healthcare track sessions yesterday (&lt;a href="https://datica.com/blog/how-a-major-health-system-got-onto-aws-recapping-the-featured-session-today/" title="Datica's AWS presentation"&gt;including Datica’s&lt;/a&gt;) and the future looks bright. Healthcare is poised to fully embrace the cloud in 2018. The sentiment in the market has changed and it truly feels like we’re on the edge of a major shift in the approach healthcare organizations are taking when building and hosting their software.&lt;/p&gt;
 </content>
   </entry>
 </feed>
