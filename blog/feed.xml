@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-01-30T00:00:00+00:00</updated>
+  <updated>2018-01-31T00:00:00+00:00</updated>
+  <entry>
+    <title>Women in Cloud: New Support for Female Entrepreneurs</title>
+    <link rel="alternate" href="https://datica.com/blog/women-in-cloud-new-support-for-female-entrepreneurs"/>
+    <id>https://datica.com/blog/women-in-cloud-new-support-for-female-entrepreneurs</id>
+    <published>2018-01-31T00:00:00+00:00</published>
+    <updated>2018-01-31T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;Though women have made strides on issues around equality, gender diversity in the workplace remains an unattained goal. Nowhere is this more true than in tech.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;It seems that you can’t read today’s news without finding another story about women speaking out about gender injustices. Though women have made major strides forward on issues around equality, gender diversity in the workplace — especially at the top — remains an unattained goal. Women start out their careers just behind men in terms of everything from position to salary. As the chart below shows, that gap begins to widen as they’re up for their first promotion to manager, giving men an early head start in the race to leadership positions. They’re also less likely to be hired directly into leadership positions or to start their own businesses.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title> 2018 Healthcare Trends Part 2: Cash-Pay Practices will Grow</title>
     <link rel="alternate" href="https://datica.com/blog/2018-trends-cash-pay-practices-will-grow"/>
@@ -138,20 +152,6 @@
     <content type="html">&lt;p&gt;We highly value open-source technology at Datica. We’re not only contributors to the open source community, but &lt;a href="https://datica.com/blog/announcing-one-click-installations-of-mirth-connect-and-open-source/"&gt;open source users&lt;/a&gt; and &lt;a href="https://datica.com/open-source/"&gt;producers&lt;/a&gt; as well.&lt;/p&gt;
 
 &lt;p&gt;One such open source project that we’re absolutely thrilled to be using is &lt;a href="https://letsencrypt.org/"&gt;Let’s Encrypt&lt;/a&gt;. &lt;em&gt;Let’s Encrypt&lt;/em&gt; is a completely free and open source certificate authority. Developers can use &lt;em&gt;Let’s Encrypt&lt;/em&gt; to obtain a free SSL/TLS certificate for their websites and applications. This allows them to enable a secure connection for their users via HTTPS.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Privacy Shield: Know the ropes before pulling data back across the pond</title>
-    <link rel="alternate" href="https://datica.com/blog/privacy-shield-know-the-ropes-before-pulling-data-back-across-the-pond"/>
-    <id>https://datica.com/blog/privacy-shield-know-the-ropes-before-pulling-data-back-across-the-pond</id>
-    <published>2017-12-04T00:00:00+00:00</published>
-    <updated>2017-12-04T00:00:00+00:00</updated>
-    <author>
-      <name>Marcia Noyes</name>
-    </author>
-    <summary type="html">&lt;p&gt;If your U.S. company plans to bring health data from the European Union back to the states, you must address EU-U.S. Privacy Shield — an additional privacy requirement laid out by the European Court of Justice.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;If your U.S. company plans to bring health data from the European Union back to the states, you must address an additional privacy requirement laid out by the European Court of Justice. The &lt;a href="https://www.privacyshield.gov/welcome"&gt;EU-U.S. Privacy Shield&lt;/a&gt;, which replaced the previous Safe Harbour Framework, levies a stronger obligation on U.S. companies today. To comply, companies must either self-certify for the EU-U.S. Privacy Shield or obtain a third-party assessment. This &lt;a href="https://www.privacyshield.gov/article?id=How-to-Join-Privacy-Shield-part-1"&gt;self-certification&lt;/a&gt; or assessment confirms that your company meets the Privacy Shield Framework requirements that help protect the personal data of Europeans.&lt;/p&gt;
 </content>
   </entry>
 </feed>
