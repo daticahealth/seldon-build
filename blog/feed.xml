@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-06T00:00:00+00:00</updated>
+  <updated>2018-02-13T00:00:00+00:00</updated>
+  <entry>
+    <title>Digital Health Apps Could Save the US $7 Billion</title>
+    <link rel="alternate" href="https://datica.com/blog/digital-health-apps-could-save-7-billion"/>
+    <id>https://datica.com/blog/digital-health-apps-could-save-7-billion</id>
+    <published>2018-02-13T00:00:00+00:00</published>
+    <updated>2018-02-13T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Digital health apps have been accompanied by plenty of hype, but a new report shows that the hype may be justified with $7 billion/year potential.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Digital health apps have been around for a few years, and have been accompanied by plenty of hype, but a new report shows that the hype may be justified — not because of innovation, but because such apps have the potential to save the US healthcare system as much as $7 billion annually.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Introducing Container Services: Deploy Custom Docker Images onto Datica</title>
     <link rel="alternate" href="https://datica.com/blog/introducing-container-services-deploy-custom-docker-images"/>
@@ -137,20 +151,6 @@
     <summary type="html">&lt;p&gt;Datica’s Winter 2017 quarterly industry report examines the paradox of shadow IT in healthcare. Is it a security threat or enabler for innovation?&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;&lt;a href="https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives"&gt;The Winter installment of Datica’s quarterly industry report is now available&lt;/a&gt;. The report examines shadow IT as both a growing security threat to health IT, but also as a unique and unrivaled enabler for innovation when managed appropriately. Shadow IT as a topic is quite the paradox—this report tries to help make sense of it.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How does GDPR compare to HIPAA?</title>
-    <link rel="alternate" href="https://datica.com/blog/how-does-gdpr-compare-to-hipaa"/>
-    <id>https://datica.com/blog/how-does-gdpr-compare-to-hipaa</id>
-    <published>2017-12-11T00:00:00+00:00</published>
-    <updated>2017-12-11T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Though different in who they apply to and how you prove compliance, HIPAA and GDPR are both about having security as a core tenet of operations.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;At the AWS re:Invent conference earlier this month, GDPR was a major area of interest from attendees though AWS has little content coverage for GDPR. GDPR, which stands for General Data Protection Regulation, is the acronym for the much anticipated new EU security and privacy framework that goes into effect in May of 2018. GDPR leaves some discretion to EU member states but, as a general rule, and the reason it is getting so much attention, is that it applies across all EU Member States. The purpose of this post is to introduce those familiar with healthcare privacy and security in the United States, namely those concerned with HIPAA, to GDPR. This post doesn’t get into technical requirements, or even security requirements more generally, but instead focuses on the broader principles and privacy guidelines for health data under GDPR.&lt;/p&gt;
 </content>
   </entry>
 </feed>
