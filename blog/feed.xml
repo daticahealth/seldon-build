@@ -9,7 +9,22 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-13T00:00:00+00:00</updated>
+  <updated>2018-02-15T00:00:00+00:00</updated>
+  <entry>
+    <title>What Exactly is a Digital Health Application?</title>
+    <link rel="alternate" href="https://datica.com/blog/what-exactly-is-a-digital-health-application"/>
+    <id>https://datica.com/blog/what-exactly-is-a-digital-health-application</id>
+    <published>2018-02-15T00:00:00+00:00</published>
+    <updated>2018-02-15T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;Are digital health apps consumer-facing, or used in a clinical setting? How are they improving patient outcomes? How are digital health apps integrated into clinicians’ workflows?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Digital health is something of a buzzword in the industry right now, but evidence is emerging that digital health apps have the potential to both improve patient outcomes and &lt;a href="https://datica.com/blog/digital-health-apps-could-save-7-billion/"&gt;save money across the healthcare system&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+  </entry>
   <entry>
     <title>Digital Health Apps Could Save the US $7 Billion</title>
     <link rel="alternate" href="https://datica.com/blog/digital-health-apps-could-save-7-billion"/>
@@ -137,20 +152,6 @@
     <summary type="html">&lt;p&gt;What was healthcare reading to stay on top of their technology game in 2017? Our top 10 blogs show cloud and compliance as top of mind for many of you.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;What were healthcare developers and leaders reading to stay on top of their technology game in 2017? If the following list of top articles from the Datica blog is any indication, cloud and compliance were top of mind for many of you.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Q4 Industry Report: Shadow IT's positives and negatives within healthcare</title>
-    <link rel="alternate" href="https://datica.com/blog/q4-industry-report-shadow-its-positives-and-negatives-within-healthcare"/>
-    <id>https://datica.com/blog/q4-industry-report-shadow-its-positives-and-negatives-within-healthcare</id>
-    <published>2017-12-13T00:00:00+00:00</published>
-    <updated>2017-12-13T00:00:00+00:00</updated>
-    <author>
-      <name>Kris Gösser</name>
-    </author>
-    <summary type="html">&lt;p&gt;Datica’s Winter 2017 quarterly industry report examines the paradox of shadow IT in healthcare. Is it a security threat or enabler for innovation?&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;a href="https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives"&gt;The Winter installment of Datica’s quarterly industry report is now available&lt;/a&gt;. The report examines shadow IT as both a growing security threat to health IT, but also as a unique and unrivaled enabler for innovation when managed appropriately. Shadow IT as a topic is quite the paradox—this report tries to help make sense of it.&lt;/p&gt;
 </content>
   </entry>
 </feed>
