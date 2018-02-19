@@ -9,7 +9,32 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2017-09-28T00:00:00+00:00</updated>
+  <updated>2018-02-20T00:00:00+00:00</updated>
+  <entry>
+    <title>Datica Welcomes Former HealthGrades Executive as New Chief Technology and Security Officer</title>
+    <link rel="alternate" href="https://datica.com/press-release/datica-welcomes-christopher-gerg-healthgrades-executive-as-new-cto-and-cso"/>
+    <id>https://datica.com/press-release/datica-welcomes-christopher-gerg-healthgrades-executive-as-new-cto-and-cso</id>
+    <published>2018-02-20T00:00:00+00:00</published>
+    <updated>2018-02-20T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Industry veteran Christopher Gerg joins Datica to evolve the security and compliance posture for the cloud.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;em&gt;Madison, WI - (February 20, 2018)&lt;/em&gt; Datica™, creator of the HIPAA compliant and HITRUST CSF Certified Platform trusted by those who deploy cloud-native applications and integrate with EHRs, today welcomed &lt;a href="/about/christopher-gerg"&gt;Christopher Gerg&lt;/a&gt; as its Chief Technology and Security Officer. Gerg will lead the engineering and security team to help Datica address the exploding adoption of the cloud by healthcare’s trillion dollar industry.&lt;/p&gt;
+
+&lt;p&gt;Cloud is an important paradigm for all industries today, and healthcare has yet to adopt it in numbers seen in other market segments. “The blockers for healthcare are compliance and security. Datica has the best platform to address those industry hurdles,” said Travis Good, MD, CEO of Datica. “We are honored to have Christopher Gerg guide Datica’s Platform toward relieving the many burdens for healthcare’s adoption of the cloud.”&lt;/p&gt;
+
+&lt;p&gt;As CTO and CSO, Gerg will leverage his most recent experience as an industry consultant and also his experience gained as Chief Information Security Officer and VP of Infrastructure &amp;amp; Engineering for HealthGrades. Gerg’s deep industry knowledge has been well documented, including his authorship of an important O’Reilly Media book,  “Managing Security with Snort &amp;amp; IDS Tools: Intrusion Detection with Open Source Tools.” Today, the book is still being used as a training tool for its primer on TCP/IP networking and attack methodology.&lt;/p&gt;
+
+&lt;p&gt;Even though firmly entrenched in his own consulting company, Gerg said he jumped at the chance to join the Datica team. Knowing that organizations often look for a magic plug-in product for their networks to address security concerns, Gerg understands that secure networks are based on the foundational piece first.  “Tools are just components used to meet foundational needs; if you don’t address the foundation, tools hold zero value,” said Gerg. With Datica’s platform and services, customers can deploy their technology in a reliable security environment, with the side benefit of compliance, as well as having a platform that meets the stringent requirements of the healthcare industry.&lt;/p&gt;
+
+&lt;p&gt;“Working with a talented team developing a technology that allows an organization to deliver on their core competency while meeting compliance and regulatory obligations is an exciting prospect,” said Gerg.&lt;/p&gt;
+
+&lt;h3 id="about-datica"&gt;About Datica&lt;/h3&gt;
+&lt;p&gt;Datica is the platform for digital health success. We solve the problem of HIPAA compliance in the cloud, and enable secure data exchange between digital health and EHRs. Customers and partners across healthcare trust Datica to ensure the barriers for digital health are removed so innovation can happen faster. For more information please visit &lt;a href="https://datica.com"&gt;Datica.com&lt;/a&gt;.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Datica to Host Panel Discussing Digital Health Success at Health 2.0</title>
     <link rel="alternate" href="https://datica.com/press-release/datica-to-host-panel-discussing-digital-health-success-at-health-2-0"/>
@@ -281,36 +306,6 @@ Before joining Catalyze, Lindstrom previously held the role of Chief Financial O
 
 &lt;p&gt;The HITRUST Common Security Framework provides an efficient and prescriptive guideline for managing the security requirements found within HIPAA and one for which Catalyze customers have found great value. “The time, effort and expertise required for compliance is often more than our customers want to tackle themselves,” explained Catalyze President Mohan Balachandran. “A majority of our customers already use AWS as their cloud infrastructure of choice, so the extension of our HITRUST CSF Certification to include AWS workloads is beneficial for them.”&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Catalyze Extends Trust, Security and Privacy Commitment with Second HITRUST CSF Certification Assessment</title>
-    <link rel="alternate" href="https://datica.com/press-release/catalyze-extends-trust-security-and-privacy-commitment-with-second-hitrust"/>
-    <id>https://datica.com/press-release/catalyze-extends-trust-security-and-privacy-commitment-with-second-hitrust</id>
-    <published>2016-06-09T00:00:00+00:00</published>
-    <updated>2016-06-09T00:00:00+00:00</updated>
-    <author>
-      <name>Marcia Noyes</name>
-    </author>
-    <summary type="html">&lt;p&gt;Catalyze, Inc., announced today that the company has gained the Health Information Trust Alliance (HITRUST) stamp of approval on its second and interim Common Security Framework (CSF) assessment.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;h3 id="digital-health-company-broadens-hitrust-certification-to-include-each-of-its-four-cloud-infrastructure-partners"&gt;Digital health company broadens HITRUST Certification to include each of its four cloud infrastructure partners.&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Madison, Wis. (PRWEB) June 09, 2016&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Catalyze, Inc., the healthcare industry’s trusted and mature platform for healthcare IT development teams, announced today that the company has gained the Health Information Trust Alliance (HITRUST) stamp of approval on its second and interim Common Security Framework (CSF) assessment. This HITRUST status expands the scope of HITRUST CSF Certification to include additional cloud providers for Stratum, Catalyze’s hosting platform, as well as for Redpoint, their integration product. In addition to Rackspace®, Catalyze’s original infrastructure partner, the expanded certification includes AWS (Amazon), Azure™ (Microsoft) and SoftLayer® (IBM) cloud offerings.&lt;/p&gt;
-
-&lt;p&gt;Compliance continues to increase in complexity. As technologies evolve to store and transfer increasing amounts of healthcare data, providers face an overwhelming task of managing security requirements from federal and state agencies, as well as other third parties. That encompassing concern heightens by the rise in healthcare data breaches. Accordingly, the HITRUST Alliance developed a clear, secure and efficient system to clarify the complexities and often vague language found within the Health Information Portability and Accountability Act (HIPAA).&lt;/p&gt;
-
-&lt;p&gt;Organizations that meet the stringent HITRUST CSF control requirements are more suitably prepped to secure confidential data and manage healthcare’s convoluted regulatory environments. Catalyze CTO &amp;amp; Security Officer Adam Leko said it also speaks to “the breadth of Catalyze’s compliance approach.” Beyond meeting HIPAA’s generic requirements, the HITRUST CSF Certification is “a security framework with great detail and depth that is spreading wider in terms of industry adoption,” according to Leko.&lt;/p&gt;
-
-&lt;p&gt;Digital health company HealthLoop, a Catalyze customer, shared similar thoughts about the importance of HITRUST CSF Certification. “Many vendors and cloud companies tout compliance, but since HIPAA regulations do not provide specific standards, health systems have to spend a lot of time evaluating the level of standards being met. A HIPAA-compliant vendor that only minimally meets standards could be a huge exposure risk,” explained Mayank Thanawala, HealthLoop’s CTO.&lt;/p&gt;
-
-&lt;p&gt;In June 2015, the HITRUST Alliance announced that five of the largest U.S. healthcare payers would make HITRUST CSF Certification mandatory from business associates (BAs) within the coming 24 months. Meeting and ensuring HIPAA security rule mandates, ultimately lessens the payers’ compliance burdens.&lt;/p&gt;
-
-&lt;p&gt;Leko shared that HITRUST CSF Certification and the subsequent recertification of all of the company’s cloud infrastructure partners are a substantial competitive checkpoint to reach. “The third-party verification shows that Catalyze continues to perform exceptionally well, both in meeting the core requirements for HITRUST and in general with securing patient information. Gaining industry verification for our processes, procedures and policies makes the time and effort in obtaining the certification a worthwhile investment.”&lt;/p&gt;
-
-&lt;p&gt;Compared to the roughly year-long process to gain initial HITRUST CSF Certification, recertification moved along more rapidly with completion in three and a half months. Leko stated, “While I credit our auditor Coalfire℠ for their thoroughness and hard work, I’m especially pleased with how quickly HITRUST turned around our assessment evaluation and approval.”&lt;/p&gt;
 </content>
   </entry>
 </feed>
