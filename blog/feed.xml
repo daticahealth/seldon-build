@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-15T00:00:00+00:00</updated>
+  <updated>2018-02-20T00:00:00+00:00</updated>
+  <entry>
+    <title>Getting to Know Datica’s New Chief Technology and Security Officer — Christopher Gerg</title>
+    <link rel="alternate" href="https://datica.com/blog/getting-to-know-daticas-cto-and-cso-chris-gerg"/>
+    <id>https://datica.com/blog/getting-to-know-daticas-cto-and-cso-chris-gerg</id>
+    <published>2018-02-20T00:00:00+00:00</published>
+    <updated>2018-02-20T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;The path toward becoming Datica’s new Chief Technology Officer and Chief Security Officer involved many twists and turns for Christopher Gerg.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;The path toward Chief Technology Officer and even Chief Security Officer involves many twists and turns for those selected. As we see below, Christopher Gerg’s path also fits this winding route that leads some individuals to pursue one or more of the most important roles within a healthcare technology company. We’re honored that Chris has chosen Datica and wanted to share a small peek into his vast and interesting background.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>What Exactly is a Digital Health Application?</title>
     <link rel="alternate" href="https://datica.com/blog/what-exactly-is-a-digital-health-application"/>
@@ -138,20 +152,6 @@
     <summary type="html">&lt;p&gt;Government, individuals, and private sector will continue a push for change in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;It’s 2018, and the world looks much different &lt;a href="https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/"&gt;than it did a year ago&lt;/a&gt;. Go &lt;a href="https://datica.com/blog/5-predictions-for-digital-health-in-2016/"&gt;back even further&lt;/a&gt; and the differences are even more stark. No place is that more evident than in healthcare. As the largest industry in the world, healthcare has  weathered the most significant political waves of the last fifteen years. As the costs of healthcare increased unchecked, politicians took notice.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>10 Most-Read Articles of 2017</title>
-    <link rel="alternate" href="https://datica.com/blog/10-most-read-articles-of-2017"/>
-    <id>https://datica.com/blog/10-most-read-articles-of-2017</id>
-    <published>2018-01-10T00:00:00+00:00</published>
-    <updated>2018-01-10T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;What was healthcare reading to stay on top of their technology game in 2017? Our top 10 blogs show cloud and compliance as top of mind for many of you.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;What were healthcare developers and leaders reading to stay on top of their technology game in 2017? If the following list of top articles from the Datica blog is any indication, cloud and compliance were top of mind for many of you.&lt;/p&gt;
 </content>
   </entry>
 </feed>
