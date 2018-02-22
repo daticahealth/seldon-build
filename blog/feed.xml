@@ -9,7 +9,23 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-20T00:00:00+00:00</updated>
+  <updated>2018-02-21T00:00:00+00:00</updated>
+  <entry>
+    <title>2018 Healthcare Trends Part 3 — 6 Predictions for the Post-EHR World</title>
+    <link rel="alternate" href="https://datica.com/blog/2018-trends-6-predictions-post-ehr-world"/>
+    <id>https://datica.com/blog/2018-trends-6-predictions-post-ehr-world</id>
+    <published>2018-02-21T00:00:00+00:00</published>
+    <updated>2018-02-21T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;In this 3rd part of our 2018 Healthcare Trends series, Travis Good MD, CEO of Datica, offers a deep look at what we can expect to see in a post-EHR world.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Sadly, the biggest winners in our post-health reform world (post-HITECH and ACA) are neither patients nor providers; the big winners are electronic health record (EHR) companies and the cottage industry of consultants and services who support them. This isn’t an indictment of EHRs, though I don’t think EHRs have delivered on the promise of the triple aim. It’s merely a sad observation of the outcome of billions of dollars spent to improve healthcare. Regardless, we are here in 2018, and EHRs play a central role in the daily lives of providers and, by extension, patients.&lt;/p&gt;
+
+&lt;p&gt;In this third part of our &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;2018 Healthcare Trends&lt;/a&gt; series, I offer predictions of what we can expect to see in a post-EHR world.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Getting to Know Datica’s New Chief Technology and Security Officer — Christopher Gerg</title>
     <link rel="alternate" href="https://datica.com/blog/getting-to-know-daticas-cto-and-cso-chris-gerg"/>
@@ -138,20 +154,6 @@
     <summary type="html">&lt;p&gt;The January, 2018 draft of the Trusted Exchange Framework is the first real step toward interoperability since the Cures Act was passed.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;One of the biggest obstacles to using electronic health data to the fullest potential is the lack of interoperability. At every level of healthcare, the lack of interoperability causes problems: patients cannot easily access their own health data, providers have problems accessing the health information of new patients, researchers cannot access the data necessary to identify trends that would improve population health, and technology companies struggle to compete in a closed marketplace.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>6 Healthcare Trends to Watch in 2018</title>
-    <link rel="alternate" href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018"/>
-    <id>https://datica.com/blog/6-healthcare-trends-to-watch-in-2018</id>
-    <published>2018-01-15T00:00:00+00:00</published>
-    <updated>2018-01-15T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Government, individuals, and private sector will continue a push for change in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;It’s 2018, and the world looks much different &lt;a href="https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/"&gt;than it did a year ago&lt;/a&gt;. Go &lt;a href="https://datica.com/blog/5-predictions-for-digital-health-in-2016/"&gt;back even further&lt;/a&gt; and the differences are even more stark. No place is that more evident than in healthcare. As the largest industry in the world, healthcare has  weathered the most significant political waves of the last fifteen years. As the costs of healthcare increased unchecked, politicians took notice.&lt;/p&gt;
 </content>
   </entry>
 </feed>
