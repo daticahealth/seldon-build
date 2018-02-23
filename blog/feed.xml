@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-21T00:00:00+00:00</updated>
+  <updated>2018-02-22T00:00:00+00:00</updated>
+  <entry>
+    <title>The Role of Transformation in Healthcare with Dr. Richard Milani</title>
+    <link rel="alternate" href="https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani"/>
+    <id>https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani</id>
+    <published>2018-02-22T00:00:00+00:00</published>
+    <updated>2018-02-22T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;On transformation in healthcare, Dr. Richard Milani likens healthcare systems to ocean liners that can’t turn on a dime. Read more about healthcare transformation.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Dr. Richard Milani is the Chief Clinical Transformation Officer and Vice-Chairman of the Department of Cardiology at Ocshner Health System, and the author of the soon-to-be-released book &lt;a href="https://www.amazon.com/Death-Dollars-Solving-Epidemic-Chronic/dp/1683505875"&gt;Death and Dollars: Solving the Epidemic of Chronic Disease&lt;/a&gt;. Dr. Milani was a guest on the &lt;a href="https://datica.com/innovation/richard-milani-md-how-innovators-can-improve-the-clinical-experience-for-patients/"&gt;Datica Healthcare Innovators Podcast&lt;/a&gt; on January 19, 2018, and discussed the role of transformation in healthcare with Datica’s Chief Data Officer, Mark Olschesky.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>2018 Healthcare Trends Part 3 — 6 Predictions for the Post-EHR World</title>
     <link rel="alternate" href="https://datica.com/blog/2018-trends-6-predictions-post-ehr-world"/>
@@ -140,20 +154,6 @@
     <summary type="html">&lt;p&gt;Author Dan Munro thinks the US Healthcare system is like a casino. Learn why in these highlights from that enlightening Healthcare Innovators Podcast.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;Dan Munro is the author of the book &lt;a href="http://dan-munro.com/book/"&gt;Casino Healthcare: The Health of a Nation: America’s Biggest Gamble&lt;/a&gt;. Though the book was published in 2016, not much has changed. Travis Good interviewed Munro for Datica’s &lt;a href="https://datica.com/innovation/dan-munro-healthcares-technology-gamble/"&gt;Healthcare Innovators Podcast&lt;/a&gt; on September 29, 2017. A few highlights of that enlightening conversation follow below, but make sure to listen to the recorded podcast to hear it all.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Trusted Exchange Framework and the Pursuit of Interoperability</title>
-    <link rel="alternate" href="https://datica.com/blog/the-trusted-exchange-framework"/>
-    <id>https://datica.com/blog/the-trusted-exchange-framework</id>
-    <published>2018-01-19T00:00:00+00:00</published>
-    <updated>2018-01-19T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;The January, 2018 draft of the Trusted Exchange Framework is the first real step toward interoperability since the Cures Act was passed.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;One of the biggest obstacles to using electronic health data to the fullest potential is the lack of interoperability. At every level of healthcare, the lack of interoperability causes problems: patients cannot easily access their own health data, providers have problems accessing the health information of new patients, researchers cannot access the data necessary to identify trends that would improve population health, and technology companies struggle to compete in a closed marketplace.&lt;/p&gt;
 </content>
   </entry>
 </feed>
