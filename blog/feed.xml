@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-22T00:00:00+00:00</updated>
+  <updated>2018-02-23T00:00:00+00:00</updated>
+  <entry>
+    <title>The FDA Digital Health PreCertification Program</title>
+    <link rel="alternate" href="https://datica.com/blog/fda-digital-health-precertification-program"/>
+    <id>https://datica.com/blog/fda-digital-health-precertification-program</id>
+    <published>2018-02-23T00:00:00+00:00</published>
+    <updated>2018-02-23T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;The FDA has announced a new program for digital health software developers as part of a larger effort to develop a new regulatory framework. Should you care?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;The US Food and Drug Administration (FDA) has announced a new program for digital health software developers as part of a larger effort to develop a new regulatory framework. For any company that designs and develops software that is considered a medical device, this is important news.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The Role of Transformation in Healthcare with Dr. Richard Milani</title>
     <link rel="alternate" href="https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani"/>
@@ -140,20 +154,6 @@
     <content type="html">&lt;p&gt;The US Department of Health and Human Services’ (HHS) Office for Civil Rights (OCR) investigates reports of data breaches involving health information. The breach reports are publicly available and searchable with a tool called the &lt;a href="https://www.hhs.gov/about/news/2017/07/25/hhs-unveils-improved-web-tool-highlight-recent-breaches-health-information.html"&gt;HIPAA Breach Reporting Tool&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Because entities have 60 days beyond the date a breach occurs to report it, complete results for 2017 will not be available until March 2018. However, a look at what has been reported so far, along with any general trends, may be instructive as we all prepare for the more stringent &lt;a href="https://datica.com/academy/gdpr-fines-and-penalties/"&gt;penalties of GDPR&lt;/a&gt; coming in May of 2018.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The U.S. Healthcare System is like a Casino says Dan Munro</title>
-    <link rel="alternate" href="https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munro"/>
-    <id>https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munro</id>
-    <published>2018-01-22T00:00:00+00:00</published>
-    <updated>2018-01-22T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;Author Dan Munro thinks the US Healthcare system is like a casino. Learn why in these highlights from that enlightening Healthcare Innovators Podcast.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Dan Munro is the author of the book &lt;a href="http://dan-munro.com/book/"&gt;Casino Healthcare: The Health of a Nation: America’s Biggest Gamble&lt;/a&gt;. Though the book was published in 2016, not much has changed. Travis Good interviewed Munro for Datica’s &lt;a href="https://datica.com/innovation/dan-munro-healthcares-technology-gamble/"&gt;Healthcare Innovators Podcast&lt;/a&gt; on September 29, 2017. A few highlights of that enlightening conversation follow below, but make sure to listen to the recorded podcast to hear it all.&lt;/p&gt;
 </content>
   </entry>
 </feed>
