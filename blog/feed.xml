@@ -9,7 +9,23 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-23T00:00:00+00:00</updated>
+  <updated>2018-02-26T00:00:00+00:00</updated>
+  <entry>
+    <title>HITRUST on AWS is possible! Find out how at HIMSS18</title>
+    <link rel="alternate" href="https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18"/>
+    <id>https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18</id>
+    <published>2018-02-26T00:00:00+00:00</published>
+    <updated>2018-02-26T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625 at 11:00am.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625.&lt;/p&gt;
+
+&lt;p&gt;AWS asked us to share our knowledge of HITRUST with their customers, or those organizations interested in being AWS customers, in a special 20-minute session held at 11:00 am. We are excited for the opportunity to break down the fundamentals of HITRUST on AWS, and then give advice to attendees on their own journey towards HITRUST certification.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>The FDA Digital Health PreCertification Program</title>
     <link rel="alternate" href="https://datica.com/blog/fda-digital-health-precertification-program"/>
@@ -138,22 +154,6 @@
     <summary type="html">&lt;p&gt;Whether you call it cash pay, subscription medicine, direct primary care, or concierge medicine, cutting out the payors is 1 of 6 2018 trends Datica predicts.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;Where is healthcare going in 2018? In the first article in this series, I outlined &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;six trends for 2018&lt;/a&gt; I predict we’ll see as the government, individuals, and private sector demand change this year. The first of those trends is an increase in cash-pay practices. Whether you call it cash pay, subscription medicine, direct primary care, or concierge medicine, the underlying commonality is cutting out the payors.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title> HIPAA Enforcement in 2017: Key learnings from others’ mistakes</title>
-    <link rel="alternate" href="https://datica.com/blog/hipaa-enforcement-in-2017"/>
-    <id>https://datica.com/blog/hipaa-enforcement-in-2017</id>
-    <published>2018-01-26T00:00:00+00:00</published>
-    <updated>2018-01-26T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;One thing is certain: healthcare still has a security problem. Out of 295 breaches reported so far for 2017, 132 are hacking/IT incident breaches.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;The US Department of Health and Human Services’ (HHS) Office for Civil Rights (OCR) investigates reports of data breaches involving health information. The breach reports are publicly available and searchable with a tool called the &lt;a href="https://www.hhs.gov/about/news/2017/07/25/hhs-unveils-improved-web-tool-highlight-recent-breaches-health-information.html"&gt;HIPAA Breach Reporting Tool&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Because entities have 60 days beyond the date a breach occurs to report it, complete results for 2017 will not be available until March 2018. However, a look at what has been reported so far, along with any general trends, may be instructive as we all prepare for the more stringent &lt;a href="https://datica.com/academy/gdpr-fines-and-penalties/"&gt;penalties of GDPR&lt;/a&gt; coming in May of 2018.&lt;/p&gt;
 </content>
   </entry>
 </feed>
