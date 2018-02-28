@@ -9,7 +9,23 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-26T00:00:00+00:00</updated>
+  <updated>2018-02-28T00:00:00+00:00</updated>
+  <entry>
+    <title>The Good Guide to Surviving HIMSS 2018</title>
+    <link rel="alternate" href="https://datica.com/blog/good-guide-surviving-himss"/>
+    <id>https://datica.com/blog/good-guide-surviving-himss</id>
+    <published>2018-02-28T00:00:00+00:00</published>
+    <updated>2018-02-28T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Travis Good, MD, Co-founder, CEO &amp;amp; Chief Privacy Officer of Datica and 9-time HIMSS attendee shares his advice to surviving and staying sane at HIMSS18.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;HIMSS is my most exhausting week of the year. I think this is my 9th HIMSS. Today, with 40,000+ attendees, it’s a logistical nightmare from start to finish. Everything from transportation to coffee is a challenge. Events go late into the night, and I always seem to have an early coffee or breakfast meeting, so sleep isn’t plentiful. I’m not sure if I prefer Las Vegas to Orlando as the location for HIMSS. Both have pros and cons.&lt;/p&gt;
+
+&lt;p&gt;Below is my personal HIMSS survival guide. Hopefully, I can remember these things and keep my sanity next week.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>HITRUST on AWS is possible! Find out how at HIMSS18</title>
     <link rel="alternate" href="https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18"/>
@@ -140,20 +156,6 @@
 </summary>
     <content type="html">&lt;p&gt;Women and men all over the world are rising to the challenge of changing the male-dominated technology landscape. Just last week in Stockholm, the &lt;a href="https://www.womenintech.se/"&gt;Women in Tech 2018&lt;/a&gt; conference sold out completely in just two minutes after tickets went on sale. It seems that you can’t read today’s news without finding another story about women speaking out about gender injustices. Though women have made major strides forward on issues around equality, gender diversity in the workplace — especially at the top — remains an unattained goal.&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title> 2018 Healthcare Trends Part 2: Cash-Pay Practices will Grow</title>
-    <link rel="alternate" href="https://datica.com/blog/2018-trends-cash-pay-practices-will-grow"/>
-    <id>https://datica.com/blog/2018-trends-cash-pay-practices-will-grow</id>
-    <published>2018-01-30T00:00:00+00:00</published>
-    <updated>2018-01-30T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Whether you call it cash pay, subscription medicine, direct primary care, or concierge medicine, cutting out the payors is 1 of 6 2018 trends Datica predicts.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Where is healthcare going in 2018? In the first article in this series, I outlined &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;six trends for 2018&lt;/a&gt; I predict we’ll see as the government, individuals, and private sector demand change this year. The first of those trends is an increase in cash-pay practices. Whether you call it cash pay, subscription medicine, direct primary care, or concierge medicine, the underlying commonality is cutting out the payors.&lt;/p&gt;
 </content>
   </entry>
 </feed>
