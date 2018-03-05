@@ -9,7 +9,142 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-06T00:00:00+00:00</updated>
+  <updated>2018-03-02T00:00:00+00:00</updated>
+  <entry>
+    <title>2018 Healthcare Trends Part 4: Clinicians as Developers</title>
+    <link rel="alternate" href="https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers"/>
+    <id>https://datica.com/blog/2018-healthcare-trends-part-4-clinicians-as-developers</id>
+    <published>2018-03-02T00:00:00+00:00</published>
+    <updated>2018-03-02T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;In this fourth part of our 2018 Healthcare Trends series, Travis Good, MD explores what we can expect to see as clinicians broaden their skillsets into digital health.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Clinicians, in particular physicians, have always played a significant role in healthcare. Some call it an outsized role with an outsized voice; but, the last 20 years have seen a significant decline in physician autonomy as payors have stepped in to more closely oversee and dictate, via reimbursements, how clinicians practice and provide care while more and more health system has employed physicians and taken them out of independent practices. These are just the trends. There are market forces creating and sustaining these trends.&lt;/p&gt;
+
+&lt;p&gt;In this fourth part of our &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;2018 Healthcare Trends&lt;/a&gt; series, I explore what we can expect to see as clinicians broaden their skillsets into digital health.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Good Guide to Surviving HIMSS 2018</title>
+    <link rel="alternate" href="https://datica.com/blog/good-guide-surviving-himss"/>
+    <id>https://datica.com/blog/good-guide-surviving-himss</id>
+    <published>2018-02-28T00:00:00+00:00</published>
+    <updated>2018-02-28T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Travis Good, MD, Co-founder, CEO &amp;amp; Chief Privacy Officer of Datica and 9-time HIMSS attendee shares his advice to surviving and staying sane at HIMSS18.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;HIMSS is my most exhausting week of the year. I think this is my 9th HIMSS. Today, with 40,000+ attendees, it’s a logistical nightmare from start to finish. Everything from transportation to coffee is a challenge. Events go late into the night, and I always seem to have an early coffee or breakfast meeting, so sleep isn’t plentiful. I’m not sure if I prefer Las Vegas to Orlando as the location for HIMSS. Both have pros and cons.&lt;/p&gt;
+
+&lt;p&gt;Below is my personal HIMSS survival guide. Hopefully, I can remember these things and keep my sanity next week.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>HITRUST on AWS is possible! Find out how at HIMSS18</title>
+    <link rel="alternate" href="https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18"/>
+    <id>https://datica.com/blog/hitrust-on-aws-is-possible-find-out-how-at-himss18</id>
+    <published>2018-02-26T00:00:00+00:00</published>
+    <updated>2018-02-26T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625 at 11:00am.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;HIMSS is only a week away! On Tuesday, March 6th, Datica is presenting on the topic of HITRUST in the AWS booth #1625.&lt;/p&gt;
+
+&lt;p&gt;AWS asked us to share our knowledge of HITRUST with their customers, or those organizations interested in being AWS customers, in a special 20-minute session held at 11:00 am. We are excited for the opportunity to break down the fundamentals of HITRUST on AWS, and then give advice to attendees on their own journey towards HITRUST certification.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The FDA Digital Health PreCertification Program</title>
+    <link rel="alternate" href="https://datica.com/blog/fda-digital-health-precertification-program"/>
+    <id>https://datica.com/blog/fda-digital-health-precertification-program</id>
+    <published>2018-02-23T00:00:00+00:00</published>
+    <updated>2018-02-23T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;The FDA has announced a new program for digital health software developers as part of a larger effort to develop a new regulatory framework. Should you care?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;The US Food and Drug Administration (FDA) has announced a new program for digital health software developers as part of a larger effort to develop a new regulatory framework. For any company that designs and develops software that is considered a medical device, this is important news.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>The Role of Transformation in Healthcare with Dr. Richard Milani</title>
+    <link rel="alternate" href="https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani"/>
+    <id>https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani</id>
+    <published>2018-02-22T00:00:00+00:00</published>
+    <updated>2018-02-22T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;On transformation in healthcare, Dr. Richard Milani likens healthcare systems to ocean liners that can’t turn on a dime. Read more about healthcare transformation.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Dr. Richard Milani is the Chief Clinical Transformation Officer and Vice-Chairman of the Department of Cardiology at Ocshner Health System, and the author of the soon-to-be-released book &lt;a href="https://www.amazon.com/Death-Dollars-Solving-Epidemic-Chronic/dp/1683505875"&gt;Death and Dollars: Solving the Epidemic of Chronic Disease&lt;/a&gt;. Dr. Milani was a guest on the &lt;a href="https://datica.com/innovation/richard-milani-md-how-innovators-can-improve-the-clinical-experience-for-patients/"&gt;Datica Healthcare Innovators Podcast&lt;/a&gt; on January 19, 2018, and discussed the role of transformation in healthcare with Datica’s Chief Data Officer, Mark Olschesky.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>2018 Healthcare Trends Part 3 — 6 Predictions for the Post-EHR World</title>
+    <link rel="alternate" href="https://datica.com/blog/2018-trends-6-predictions-post-ehr-world"/>
+    <id>https://datica.com/blog/2018-trends-6-predictions-post-ehr-world</id>
+    <published>2018-02-21T00:00:00+00:00</published>
+    <updated>2018-02-21T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;In this 3rd part of our 2018 Healthcare Trends series, Travis Good MD, CEO of Datica, offers a deep look at what we can expect to see in a post-EHR world.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Sadly, the biggest winners in our post-health reform world (post-HITECH and ACA) are neither patients nor providers; the big winners are electronic health record (EHR) companies and the cottage industry of consultants and services who support them. This isn’t an indictment of EHRs, though I don’t think EHRs have delivered on the promise of the triple aim. It’s merely a sad observation of the outcome of billions of dollars spent to improve healthcare. Regardless, we are here in 2018, and EHRs play a central role in the daily lives of providers and, by extension, patients.&lt;/p&gt;
+
+&lt;p&gt;In this third part of our &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;2018 Healthcare Trends&lt;/a&gt; series, I offer predictions of what we can expect to see in a post-EHR world.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Getting to Know Datica’s New Chief Technology and Security Officer — Christopher Gerg</title>
+    <link rel="alternate" href="https://datica.com/blog/getting-to-know-daticas-cto-and-cso-chris-gerg"/>
+    <id>https://datica.com/blog/getting-to-know-daticas-cto-and-cso-chris-gerg</id>
+    <published>2018-02-20T00:00:00+00:00</published>
+    <updated>2018-02-20T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;The path toward becoming Datica’s new Chief Technology Officer and Chief Security Officer involved many twists and turns for Christopher Gerg.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;The path toward Chief Technology Officer and even Chief Security Officer involves many twists and turns for those selected. As we see below, Christopher Gerg’s path also fits this winding route that leads some individuals to pursue one or more of the most important roles within a healthcare technology company. We’re honored that Chris has chosen Datica and wanted to share a small peek into his vast and interesting background.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>What Exactly is a Digital Health Application?</title>
+    <link rel="alternate" href="https://datica.com/blog/what-exactly-is-a-digital-health-application"/>
+    <id>https://datica.com/blog/what-exactly-is-a-digital-health-application</id>
+    <published>2018-02-15T00:00:00+00:00</published>
+    <updated>2018-02-15T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;Are digital health apps consumer-facing, or used in a clinical setting? How are they improving patient outcomes? How are digital health apps integrated into clinicians’ workflows?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Digital health is something of a buzzword in the industry right now, but evidence is emerging that digital health apps have the potential to both improve patient outcomes and &lt;a href="https://datica.com/blog/digital-health-apps-could-save-7-billion/"&gt;save money across the healthcare system&lt;/a&gt;.&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Digital Health Apps Could Save the US $7 Billion</title>
+    <link rel="alternate" href="https://datica.com/blog/digital-health-apps-could-save-7-billion"/>
+    <id>https://datica.com/blog/digital-health-apps-could-save-7-billion</id>
+    <published>2018-02-13T00:00:00+00:00</published>
+    <updated>2018-02-13T00:00:00+00:00</updated>
+    <author>
+      <name>Travis Good, MD</name>
+    </author>
+    <summary type="html">&lt;p&gt;Digital health apps have been accompanied by plenty of hype, but a new report shows that the hype may be justified with $7 billion/year potential.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Digital health apps have been around for a few years, and have been accompanied by plenty of hype, but a new report shows that the hype may be justified — not because of innovation, but because such apps have the potential to save the US healthcare system as much as $7 billion annually.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Introducing Container Services: Deploy Custom Docker Images onto Datica</title>
     <link rel="alternate" href="https://datica.com/blog/introducing-container-services-deploy-custom-docker-images"/>
@@ -22,135 +157,6 @@
     <summary type="html">&lt;p&gt;New! Customers deploy custom Docker images onto Datica to increase their productivity and make it much easier to debug their own applications.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;It’s nearly impossible to be a part of a conversation among application or cloud developers today without somebody mentioning Docker or containers. Datica was an early adopter of Docker containers and, in fact, the Datica Platform has always been based on running Docker containers. Historically, use of Docker has been restricted to our “git push” model in which customers would push their code to Datica directly from their git repository and rely on our automated build process to build the code that would package that application for them.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Women in Cloud: New Support for Female Entrepreneurs</title>
-    <link rel="alternate" href="https://datica.com/blog/women-in-cloud-new-support-for-female-entrepreneurs"/>
-    <id>https://datica.com/blog/women-in-cloud-new-support-for-female-entrepreneurs</id>
-    <published>2018-01-31T00:00:00+00:00</published>
-    <updated>2018-01-31T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;Women and men all over the world are rising to the challenge of changing the male-dominated technology landscape. Just last week in Stockholm, the Women in Tech 2018 conference sold out completely in just two minutes after tickets went on sale.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Women and men all over the world are rising to the challenge of changing the male-dominated technology landscape. Just last week in Stockholm, the &lt;a href="https://www.womenintech.se/"&gt;Women in Tech 2018&lt;/a&gt; conference sold out completely in just two minutes after tickets went on sale. It seems that you can’t read today’s news without finding another story about women speaking out about gender injustices. Though women have made major strides forward on issues around equality, gender diversity in the workplace — especially at the top — remains an unattained goal.&lt;/p&gt;
-
-</content>
-  </entry>
-  <entry>
-    <title> 2018 Healthcare Trends Part 2: Cash-Pay Practices will Grow</title>
-    <link rel="alternate" href="https://datica.com/blog/2018-trends-cash-pay-practices-will-grow"/>
-    <id>https://datica.com/blog/2018-trends-cash-pay-practices-will-grow</id>
-    <published>2018-01-30T00:00:00+00:00</published>
-    <updated>2018-01-30T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Whether you call it cash pay, subscription medicine, direct primary care, or concierge medicine, cutting out the payors is 1 of 6 2018 trends Datica predicts.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Where is healthcare going in 2018? In the first article in this series, I outlined &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;six trends for 2018&lt;/a&gt; I predict we’ll see as the government, individuals, and private sector demand change this year. The first of those trends is an increase in cash-pay practices. Whether you call it cash pay, subscription medicine, direct primary care, or concierge medicine, the underlying commonality is cutting out the payors.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title> HIPAA Enforcement in 2017: Key learnings from others’ mistakes</title>
-    <link rel="alternate" href="https://datica.com/blog/hipaa-enforcement-in-2017"/>
-    <id>https://datica.com/blog/hipaa-enforcement-in-2017</id>
-    <published>2018-01-26T00:00:00+00:00</published>
-    <updated>2018-01-26T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;One thing is certain: healthcare still has a security problem. Out of 295 breaches reported so far for 2017, 132 are hacking/IT incident breaches.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;The US Department of Health and Human Services’ (HHS) Office for Civil Rights (OCR) investigates reports of data breaches involving health information. The breach reports are publicly available and searchable with a tool called the &lt;a href="https://www.hhs.gov/about/news/2017/07/25/hhs-unveils-improved-web-tool-highlight-recent-breaches-health-information.html"&gt;HIPAA Breach Reporting Tool&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Because entities have 60 days beyond the date a breach occurs to report it, complete results for 2017 will not be available until March 2018. However, a look at what has been reported so far, along with any general trends, may be instructive as we all prepare for the more stringent &lt;a href="https://datica.com/academy/gdpr-fines-and-penalties/"&gt;penalties of GDPR&lt;/a&gt; coming in May of 2018.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The U.S. Healthcare System is like a Casino says Dan Munro</title>
-    <link rel="alternate" href="https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munro"/>
-    <id>https://datica.com/blog/us-healthcare-is-like-a-casino-says-dan-munro</id>
-    <published>2018-01-22T00:00:00+00:00</published>
-    <updated>2018-01-22T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;Author Dan Munro thinks the US Healthcare system is like a casino. Learn why in these highlights from that enlightening Healthcare Innovators Podcast.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Dan Munro is the author of the book &lt;a href="http://dan-munro.com/book/"&gt;Casino Healthcare: The Health of a Nation: America’s Biggest Gamble&lt;/a&gt;. Though the book was published in 2016, not much has changed. Travis Good interviewed Munro for Datica’s &lt;a href="https://datica.com/innovation/dan-munro-healthcares-technology-gamble/"&gt;Healthcare Innovators Podcast&lt;/a&gt; on September 29, 2017. A few highlights of that enlightening conversation follow below, but make sure to listen to the recorded podcast to hear it all.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Trusted Exchange Framework and the Pursuit of Interoperability</title>
-    <link rel="alternate" href="https://datica.com/blog/the-trusted-exchange-framework"/>
-    <id>https://datica.com/blog/the-trusted-exchange-framework</id>
-    <published>2018-01-19T00:00:00+00:00</published>
-    <updated>2018-01-19T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;The January, 2018 draft of the Trusted Exchange Framework is the first real step toward interoperability since the Cures Act was passed.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;One of the biggest obstacles to using electronic health data to the fullest potential is the lack of interoperability. At every level of healthcare, the lack of interoperability causes problems: patients cannot easily access their own health data, providers have problems accessing the health information of new patients, researchers cannot access the data necessary to identify trends that would improve population health, and technology companies struggle to compete in a closed marketplace.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>6 Healthcare Trends to Watch in 2018</title>
-    <link rel="alternate" href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018"/>
-    <id>https://datica.com/blog/6-healthcare-trends-to-watch-in-2018</id>
-    <published>2018-01-15T00:00:00+00:00</published>
-    <updated>2018-01-15T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Government, individuals, and private sector will continue a push for change in 2018. Dr. Travis Good predicts 6 major healthcare trends for the new year.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;It’s 2018, and the world looks much different &lt;a href="https://datica.com/blog/2017-healthcare-trends-part-1-the-rise-of-patient-as-consumer/"&gt;than it did a year ago&lt;/a&gt;. Go &lt;a href="https://datica.com/blog/5-predictions-for-digital-health-in-2016/"&gt;back even further&lt;/a&gt; and the differences are even more stark. No place is that more evident than in healthcare. As the largest industry in the world, healthcare has  weathered the most significant political waves of the last fifteen years. As the costs of healthcare increased unchecked, politicians took notice.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>10 Most-Read Articles of 2017</title>
-    <link rel="alternate" href="https://datica.com/blog/10-most-read-articles-of-2017"/>
-    <id>https://datica.com/blog/10-most-read-articles-of-2017</id>
-    <published>2018-01-10T00:00:00+00:00</published>
-    <updated>2018-01-10T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;What was healthcare reading to stay on top of their technology game in 2017? Our top 10 blogs show cloud and compliance as top of mind for many of you.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;What were healthcare developers and leaders reading to stay on top of their technology game in 2017? If the following list of top articles from the Datica blog is any indication, cloud and compliance were top of mind for many of you.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Q4 Industry Report: Shadow IT's positives and negatives within healthcare</title>
-    <link rel="alternate" href="https://datica.com/blog/q4-industry-report-shadow-its-positives-and-negatives-within-healthcare"/>
-    <id>https://datica.com/blog/q4-industry-report-shadow-its-positives-and-negatives-within-healthcare</id>
-    <published>2017-12-13T00:00:00+00:00</published>
-    <updated>2017-12-13T00:00:00+00:00</updated>
-    <author>
-      <name>Kris Gösser</name>
-    </author>
-    <summary type="html">&lt;p&gt;Datica’s Winter 2017 quarterly industry report examines the paradox of shadow IT in healthcare. Is it a security threat or enabler for innovation?&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;&lt;a href="https://datica.com/innovation/shadow-it-in-healthcare-cloud-cover-for-innovation-initiatives"&gt;The Winter installment of Datica’s quarterly industry report is now available&lt;/a&gt;. The report examines shadow IT as both a growing security threat to health IT, but also as a unique and unrivaled enabler for innovation when managed appropriately. Shadow IT as a topic is quite the paradox—this report tries to help make sense of it.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>How does GDPR compare to HIPAA?</title>
-    <link rel="alternate" href="https://datica.com/blog/how-does-gdpr-compare-to-hipaa"/>
-    <id>https://datica.com/blog/how-does-gdpr-compare-to-hipaa</id>
-    <published>2017-12-11T00:00:00+00:00</published>
-    <updated>2017-12-11T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Though different in who they apply to and how you prove compliance, HIPAA and GDPR are both about having security as a core tenet of operations.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;At the AWS re:Invent conference earlier this month, GDPR was a major area of interest from attendees though AWS has little content coverage for GDPR. GDPR, which stands for General Data Protection Regulation, is the acronym for the much anticipated new EU security and privacy framework that goes into effect in May of 2018. GDPR leaves some discretion to EU member states but, as a general rule, and the reason it is getting so much attention, is that it applies across all EU Member States. The purpose of this post is to introduce those familiar with healthcare privacy and security in the United States, namely those concerned with HIPAA, to GDPR. This post doesn’t get into technical requirements, or even security requirements more generally, but instead focuses on the broader principles and privacy guidelines for health data under GDPR.&lt;/p&gt;
 </content>
   </entry>
 </feed>
