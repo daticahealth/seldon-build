@@ -9,7 +9,40 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-02-20T00:00:00+00:00</updated>
+  <updated>2018-03-05T00:00:00+00:00</updated>
+  <entry>
+    <title>Datica Launches Kubernetes-enabled Platform to Extend AWS and Cloud Accounts for Customers</title>
+    <link rel="alternate" href="https://datica.com/press-release/datica-launches-kubernetes-enabled-platform"/>
+    <id>https://datica.com/press-release/datica-launches-kubernetes-enabled-platform</id>
+    <published>2018-03-05T00:00:00+00:00</published>
+    <updated>2018-03-05T00:00:00+00:00</updated>
+    <author>
+      <name>Datica Health, Inc.</name>
+    </author>
+    <summary type="html">&lt;p&gt;The next evolution of the company’s licensed Platform grants compliance coverage for HITRUST, GxP, GDPR, SOC 2 and HIPAA.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;&lt;a href="https://datica.com" title="Datica"&gt;Datica&lt;/a&gt;, the leading cloud platform for digital health since 2013, today announced its next-generation platform to manage HIPAA compliance on top of AWS and Microsoft Azure. The evolved version of the Datica Platform extends security and compliance expertise in three critical ways to better serve healthcare organizations:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The &lt;a href="https://datica.com/platform" title="Platform"&gt;Platform&lt;/a&gt; now uses Kubernetes as its underlying container orchestration, granting customers greater technical flexibility.&lt;/li&gt;
+  &lt;li&gt;The move will also allow customers to install the Platform on their own AWS or Azure cloud accounts.&lt;/li&gt;
+  &lt;li&gt;Compliance coverage is extended to include GxP, GDPR, and SOC 2.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Kubernetes is now the fundamental technical management layer for the platform. Since 2015, Kubernetes has become the industry standard for container management, lending the best tools for workload deployment on public clouds.&lt;/p&gt;
+
+&lt;p&gt;“Making Kubernetes the central workhorse for the next version of the Datica Platform left no debate,” said Travis Good, MD, CEO. “Kubernetes helps healthcare teams adopt modern technology while bridging to existing architectures. Basing the new Datica Platform on Kubernetes will provide stronger support for Windows architectures, better service extensibility, and more self-serve tooling,” Good said.&lt;/p&gt;
+
+&lt;p&gt;The move to Kubernetes opens up the ability for customers to deploy a licensed version of the Datica Platform on top of their own AWS or Azure cloud accounts. Previously customers deployed their workloads onto Datica’s hosted cloud. Now, the new Kubernetes-enabled Platform allows customers to gain the same security and compliance assurances, but in their own cloud accounts. There, they can retain maximum flexibility and control.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://datica.com/platform/compliance" title="Compliance"&gt;Compliance&lt;/a&gt; postures have also been strengthened. The new platform version extends support beyond HIPAA and HITRUST. To date, Datica has obtained three HITRUST CSF Certifications while its hosted customers have passed more than 1,000 audits and risk assessments while on the platform. The new platform will also be GxP and GDPR compliant, making it a strong option for Life Science technology teams, or healthcare teams who do business in Europe.&lt;/p&gt;
+
+&lt;p&gt;Available April 2018, the new Kubernetes-enabled platform offers a license starting at $40,000 per year. Contact Datica at datica.com or visit HIMSS18 booth #5077 to obtain more details for your organization.&lt;/p&gt;
+
+&lt;h4 id="about-datica"&gt;About Datica&lt;/h4&gt;
+&lt;p&gt;The Datica Platform manages all ongoing compliance and security burdens not covered by AWS and Microsoft Azure. Through the Platform, customers deploy cloud-native applications and integrate with EHRs. Datica is HITRUST CSF Certified, and services all who handle PHI in the cloud, from startups to the Fortune 100. For more information, go to Datica.com.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Datica Welcomes Former HealthGrades Executive as New Chief Technology and Security Officer</title>
     <link rel="alternate" href="https://datica.com/press-release/datica-welcomes-christopher-gerg-healthgrades-executive-as-new-cto-and-cso"/>
@@ -306,6 +339,314 @@ Before joining Catalyze, Lindstrom previously held the role of Chief Financial O
 
 &lt;p&gt;The HITRUST Common Security Framework provides an efficient and prescriptive guideline for managing the security requirements found within HIPAA and one for which Catalyze customers have found great value. “The time, effort and expertise required for compliance is often more than our customers want to tackle themselves,” explained Catalyze President Mohan Balachandran. “A majority of our customers already use AWS as their cloud infrastructure of choice, so the extension of our HITRUST CSF Certification to include AWS workloads is beneficial for them.”&lt;/p&gt;
 
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze Extends Trust, Security and Privacy Commitment with Second HITRUST CSF Certification Assessment</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-extends-trust-security-and-privacy-commitment-with-second-hitrust"/>
+    <id>https://datica.com/press-release/catalyze-extends-trust-security-and-privacy-commitment-with-second-hitrust</id>
+    <published>2016-06-09T00:00:00+00:00</published>
+    <updated>2016-06-09T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze, Inc., announced today that the company has gained the Health Information Trust Alliance (HITRUST) stamp of approval on its second and interim Common Security Framework (CSF) assessment.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="digital-health-company-broadens-hitrust-certification-to-include-each-of-its-four-cloud-infrastructure-partners"&gt;Digital health company broadens HITRUST Certification to include each of its four cloud infrastructure partners.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Madison, Wis. (PRWEB) June 09, 2016&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Catalyze, Inc., the healthcare industry’s trusted and mature platform for healthcare IT development teams, announced today that the company has gained the Health Information Trust Alliance (HITRUST) stamp of approval on its second and interim Common Security Framework (CSF) assessment. This HITRUST status expands the scope of HITRUST CSF Certification to include additional cloud providers for Stratum, Catalyze’s hosting platform, as well as for Redpoint, their integration product. In addition to Rackspace®, Catalyze’s original infrastructure partner, the expanded certification includes AWS (Amazon), Azure™ (Microsoft) and SoftLayer® (IBM) cloud offerings.&lt;/p&gt;
+
+&lt;p&gt;Compliance continues to increase in complexity. As technologies evolve to store and transfer increasing amounts of healthcare data, providers face an overwhelming task of managing security requirements from federal and state agencies, as well as other third parties. That encompassing concern heightens by the rise in healthcare data breaches. Accordingly, the HITRUST Alliance developed a clear, secure and efficient system to clarify the complexities and often vague language found within the Health Information Portability and Accountability Act (HIPAA).&lt;/p&gt;
+
+&lt;p&gt;Organizations that meet the stringent HITRUST CSF control requirements are more suitably prepped to secure confidential data and manage healthcare’s convoluted regulatory environments. Catalyze CTO &amp;amp; Security Officer Adam Leko said it also speaks to “the breadth of Catalyze’s compliance approach.” Beyond meeting HIPAA’s generic requirements, the HITRUST CSF Certification is “a security framework with great detail and depth that is spreading wider in terms of industry adoption,” according to Leko.&lt;/p&gt;
+
+&lt;p&gt;Digital health company HealthLoop, a Catalyze customer, shared similar thoughts about the importance of HITRUST CSF Certification. “Many vendors and cloud companies tout compliance, but since HIPAA regulations do not provide specific standards, health systems have to spend a lot of time evaluating the level of standards being met. A HIPAA-compliant vendor that only minimally meets standards could be a huge exposure risk,” explained Mayank Thanawala, HealthLoop’s CTO.&lt;/p&gt;
+
+&lt;p&gt;In June 2015, the HITRUST Alliance announced that five of the largest U.S. healthcare payers would make HITRUST CSF Certification mandatory from business associates (BAs) within the coming 24 months. Meeting and ensuring HIPAA security rule mandates, ultimately lessens the payers’ compliance burdens.&lt;/p&gt;
+
+&lt;p&gt;Leko shared that HITRUST CSF Certification and the subsequent recertification of all of the company’s cloud infrastructure partners are a substantial competitive checkpoint to reach. “The third-party verification shows that Catalyze continues to perform exceptionally well, both in meeting the core requirements for HITRUST and in general with securing patient information. Gaining industry verification for our processes, procedures and policies makes the time and effort in obtaining the certification a worthwhile investment.”&lt;/p&gt;
+
+&lt;p&gt;Compared to the roughly year-long process to gain initial HITRUST CSF Certification, recertification moved along more rapidly with completion in three and a half months. Leko stated, “While I credit our auditor Coalfire℠ for their thoroughness and hard work, I’m especially pleased with how quickly HITRUST turned around our assessment evaluation and approval.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze and HOSTING Partner to Support Rapidly Expanding Healthcare IT Market</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-and-hosting-partner-to-support-rapidly-expanding-healthcare-it-market"/>
+    <id>https://datica.com/press-release/catalyze-and-hosting-partner-to-support-rapidly-expanding-healthcare-it-market</id>
+    <published>2016-04-13T00:00:00+00:00</published>
+    <updated>2016-04-13T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze and HOSTING Partner to Support Rapidly Expanding Healthcare IT Market&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="two-industry-leaders-conflate-cloud-offerings-to-provide-clients-with-broader-service-delivery-options"&gt;Two industry leaders conflate cloud offerings to provide clients with broader service delivery options.&lt;/h3&gt;
+
+&lt;p&gt;Catalyze, healthcare’s leading HITRUST CSF Certified Platform-as-a-Service (PaaS) and integration firm, today announced a partnership with HOSTING, the leading provider of managed cloud services. This partnership will offer 24x7 managed hosting services to the growing and maturing clients of Catalyze. Official details about the partnership will be announced at the HOSTING Customer Summit in Denver, April 13-15.&lt;/p&gt;
+
+&lt;p&gt;“We are proud to partner with HOSTING and leverage its Unified Cloud approach. Both firms specialize in delivering an amazing user experience, regardless of which clouds a customer chooses to run its application on,” said Catalyze Chief Strategy Officer Casey Bryson. “The relationship gives us the ability to work with a single support partner across multiple cloud service providers.”&lt;/p&gt;
+
+&lt;p&gt;“Catalyze is a leading innovator in healthcare IT, a cornerstone industry for the compliance capabilities at HOSTING,” said Andrew Schroepfer, chief strategy officer at HOSTING. “We are excited to bring our best-in-class support to the great customers and prospects at Catalyze in the short-term and to expand the innovations on securing Docker/containers running on the best cloud platforms in the years to come.”&lt;/p&gt;
+
+&lt;p&gt;Catalyze and HOSTING share a similar customer demographic in the healthcare IT landscape. Consequently, this trusted partnership allows each company to focus on its core competency, leveraging the other for its specific expertise.&lt;/p&gt;
+
+&lt;p&gt;“Trusted partnerships allow each company to focus on what they do best, creating an additional outlet for both of us,” explained Bryson. “At Catalyze, for example, integrating vendor applications with a health systems’ EHRs is an area of expertise and HOSTING has been a great reference for us when their existing clients are looking for an integration partner to solve sales roadblocks, increase staff bandwidth, or seek a fixed cost solution from one project to the next.”&lt;/p&gt;
+
+&lt;p&gt;Catalyze has played an ongoing role in the 2016 coast-to-coast HOSTING event series named MILESTONE. In February, Catalyze CEO and co-founder Travis Good, MD presented a keynote address, Excitement in Healthcare Regulation, for the kick off event in Las Vegas. Today, Bryson will present on how Redpoint™, Catalyze’s end-to-end integration solution, aligns with the event theme “Center of the (Cloud) Universe.”&lt;/p&gt;
+
+&lt;p&gt;Following the HOSTING Annual Customer Summit event in Denver, two more MILESTONE events are scheduled for the remainder of the series:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;July 27-29 - HOSTINGpartnerSUMMIT.com - 2nd Annual HOSTING Partner Event&lt;/li&gt;
+  &lt;li&gt;September - HOSTING Pre-Holiday PCI - Compliance Party in Boston and NYC&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id="about-catalyze-inc"&gt;About Catalyze, Inc.&lt;/h4&gt;
+
+&lt;p&gt;Catalyze provides an innovative HIPAA compliant, HITRUST Certified platform with a complete set of modules to handle, store and transmit PHI securely in the cloud. Scalable, HIPAA compliant and interoperable infrastructure is powering the future of healthcare, so Catalyze has built the platform upon which an enterprise can hasten healthcare innovation without the need to become an overnight expert in compliance. For more information, please visit http://www.catalyze.io.&lt;/p&gt;
+
+&lt;h4 id="about-hosting"&gt;About HOSTING&lt;/h4&gt;
+
+&lt;p&gt;HOSTING delivers secure and compliant managed services on the industry’s leading cloud platforms to empower enterprises to increase revenue, reduce costs and manage risk. Headquartered in Denver, Colorado, HOSTING owns and operates six data centers under an ITIL-based control environment validated for compliance against HIPAA, PCI DSS and SOC (formerly SAS 70) frameworks. For more information, please visit http://www.HOSTING.com.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Travis Good, MD, Selected to the HITRUST Business Associate Council</title>
+    <link rel="alternate" href="https://datica.com/press-release/travis-good-md-selected-to-the-hitrust-business-associate-council"/>
+    <id>https://datica.com/press-release/travis-good-md-selected-to-the-hitrust-business-associate-council</id>
+    <published>2016-04-06T00:00:00+00:00</published>
+    <updated>2016-04-06T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Travis Good, MD, Selected to the HITRUST Business Associate Council&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="catalyzes-extensive-compliance-and-privacy-expertise-earns-its-ceo-and-chief-privacy-officer-travis-good-md-a-spot-as-a-founding-member-of-the-hitrust-business-associate-council"&gt;Catalyze’s extensive compliance and privacy expertise earns its CEO and Chief Privacy Officer Travis Good, MD a spot as a founding member of the HITRUST Business Associate Council&lt;/h3&gt;
+
+&lt;p&gt;MADISON, WI (PRWEB) APRIL 06, 2016&lt;/p&gt;
+
+&lt;p&gt;Travis Good, MD, CEO and chief privacy officer of Catalyze, Inc., has been selected as a founding member to the Health Information Trust Alliance (HITRUST) Business Associate Council (BA Council). The BA Council is composed of members who will serve as an advocacy group for the healthcare industry’s business associates, specifically focused on the &lt;a href="https://catalyze.io/hitrust"&gt;value of HITRUST&lt;/a&gt; in third-party information security assurance. The 17 members of the BA Council were selected from a pool of industry leaders and experts in technology, security, risk compliance and audits.&lt;/p&gt;
+
+&lt;p&gt;The HITRUST Alliance will lean on this council to help shape HITRUST’s approach for business associates at an important time in the industry. A growing number of HIPAA-covered entities, including health insurers Anthem, Inc., Health Care Services Corp., and Highmark, Inc. have recently announced a requirement that their business associates become certified as compliant with HITRUST’s Common Security Framework within 24 months.&lt;/p&gt;
+
+&lt;p&gt;Catalyze has taken a lead in understanding not just HITRUST, but the value of HITRUST for business associates in the marketplace. “This appointment validates our leadership and expertise in compliance, and particularly HITRUST, which is such a big trend in the industry,” said Dr. Good. “I think that experience and knowledge, as well as the things Catalyze has done in the industry can contribute significantly to translating the value of HITRUST and its rigorous approach to information security for business associates.”&lt;/p&gt;
+
+&lt;p&gt;The HITRUST BA Council will carry the value torch of certification to the industry through leaders like Dr. Good and the other council members. Healthcare organizations that create, access, store, manage, or exchange personal health information (PHI) will find HITRUST CSF to be a common risk and compliance management framework designed to ensure a solid security strategy.&lt;/p&gt;
+
+&lt;p&gt;“As providers and health plans continue to lean heavily on Business Associates to provide an increasingly wide range of services, it’s really important to hear the voices on the front lines, to understand the views of the BAs, to determine how best to engage BAs in activities that are equally important and relevant to both BAs and Covered Entities. Getting appropriate BA representation with the broadest view is important. HITRUST is thrilled to have Catalyze join the other thought leaders in these efforts,” said HITRUST Senior Advisor of Public Policy, David Muntz.&lt;/p&gt;
+
+&lt;p&gt;The first meeting of the HITRUST BA Council will occur at the HITRUST 2016 Annual Summit, April 25-28 in Dallas/Fort Worth at the Gaylord Texan Resort. At that summit, Dr. Good will share his company’s journey to HITRUST CSF Certification, on Thursday, April 27 in a panel that also includes Coalfire, a leading HITRUST CSF Assessor used by Catalyze.&lt;/p&gt;
+
+&lt;p&gt;For more information on the Catalyze journey to HITRUST CSF Certification, please download the Case Study: &lt;a href="https://catalyze.io/compliance/hitrust"&gt;https://catalyze.io/compliance/hitrust&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze Extends Salesforce Health Cloud Data Capabilities as Trusted Integration Partner with EHRs</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-extends-salesforce-health-cloud-data-capabilities-as-trusted-integration-partner-with-ehrs"/>
+    <id>https://datica.com/press-release/catalyze-extends-salesforce-health-cloud-data-capabilities-as-trusted-integration-partner-with-ehrs</id>
+    <published>2016-02-29T00:00:00+00:00</published>
+    <updated>2016-02-29T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze Extends Salesforce Health Cloud Data Capabilities as Trusted Integration Partner with EHRs&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="catalyze-participates-as-salesforce-health-cloud-launch-partner-empowering-healthcare-organizations-to-build-stronger-patient-relationships-while-providing-secure-and-trusted-integrations"&gt;Catalyze participates as Salesforce Health Cloud launch partner, empowering healthcare organizations to build stronger patient relationships while providing secure and trusted integrations&lt;/h3&gt;
+
+&lt;p&gt;LAS VEGAS, NV (PRWEB) FEBRUARY 29, 2016&lt;/p&gt;
+
+&lt;p&gt;Catalyze, Inc., an innovative healthcare IT firm that offers a HIPAA compliant HITRUST CSF Certified platform today announced it will be providing live use case demonstrations of the capabilities of Salesforce Health Cloud at the Healthcare Information and Management Systems Society (HIMSS16) Conference taking place Feb. 29 to March 4, 2016, in Las Vegas.&lt;/p&gt;
+
+&lt;p&gt;Catalyze provides a unique and trusted approach to data integration with Salesforce Health Cloud by providing functionality which manages the entire process of an integration. Catalyze’s lauded commitment to the entire process of an integration—from start to finish—means Health Cloud customers can more quickly complete integration projects, all the while receiving Catalyze’s HITRUST CSF Certified approach to data security and integrity.&lt;/p&gt;
+
+&lt;p&gt;HIMSS attendees will receive an intimate and tangible view of Salesforce Health Cloud and the way it can be utilized to improve patient and healthcare organization connectivity. Catalyze will demo a use case from client Propeller Health, the leading digital health platform in respiratory medicine. The use case illustrates how Catalyze used Health Cloud for integration of Propeller’s digital platform at a West Coast children’s hospital. Salesforce Health Cloud is available for purchase today, giving healthcare providers new ways to make smarter care decisions, engage with patients across their caregiver networks and manage patient data. Salesforce announced Catalyze as one of its launch partners for Health Cloud at HIMSS16.&lt;/p&gt;
+
+&lt;p&gt;As a mature consultative integration partner for healthcare vendors, Catalyze recently put its stake in the ground by releasing Redpoint, which offers an all-encompassing approach to &lt;a href="https://catalyze.io/redpoint"&gt;healthcare integrations&lt;/a&gt;. This approach will also be used as a Health Cloud partner.&lt;/p&gt;
+
+&lt;p&gt;Catalyze Integration Solution Key Features:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HIPAA Compliant, HITRUST CSF Certified – Catalyze is a secure and reliable platform partner, processing more than a million messages a day.&lt;/li&gt;
+  &lt;li&gt;Healthcare experienced, healthcare-only integrations – Catalyze can quickly connect a vendor’s solution to a hospital’s EMR.&lt;/li&gt;
+  &lt;li&gt;Live working use-case demo for immediate viewing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Live use case demos will be held at the HIMSS16 Salesforce Lounge at the Clyde Ballroom, SLS Hotel during the Catalyze presentation on Thursday, March 3 at 1:00pm and after.&lt;/p&gt;
+
+&lt;h4 id="comments-on-the-news"&gt;Comments on the News&lt;/h4&gt;
+
+&lt;p&gt;“The Propeller client demo is exciting because many pediatric hospitals in the country use Epic,” explained Catalyze Chief Data Officer Mark Olschesky. “We helped Propeller and its client understand how to make the workflows work so the hospital could use the information flowing in and identify which patients to enroll in Propeller’s asthma and COPD studies, as well as ensuring that individuals are indeed enrolled.”&lt;/p&gt;
+
+&lt;p&gt;“We live in the age of the customer, and patients now expect personalized and engaging experiences with their healthcare providers,” said Joshua Newman, MD, Chief Medical Officer, GM, Salesforce Healthcare and Life Sciences. “Health Cloud is all about building stronger patient relationships, and Catalyze is a valuable part of our journey towards creating a modern healthcare platform for patients, doctors, and everyone else involved in care.”&lt;/p&gt;
+
+&lt;p&gt;Catalyze President and Co-founder Mohan Balachandran agrees. “This announcement is exciting, and with Propeller, offers new opportunities around prescribing behavioral change for patients. It’s great to see a company like Salesforce that has impacted so many other verticals now step into the healthcare market with the launch of Health Cloud.”&lt;/p&gt;
+
+&lt;h4 id="about-catalyze-inc"&gt;About Catalyze, Inc.&lt;/h4&gt;
+
+&lt;p&gt;Catalyze provides an innovative HIPAA compliant HITRUST Certified platform with a complete set of modules to handle, store and transmit PHI in the cloud. Scalable, HIPAA compliant and interoperable infrastructure is powering the future of healthcare, so Catalyze has built the platform upon which development teams can hasten healthcare innovation without becoming an overnight expert in compliance. For more information, please visit http://www.catalyze.io.&lt;/p&gt;
+
+&lt;h4 id="about-salesforce-health-cloud"&gt;About Salesforce Health Cloud&lt;/h4&gt;
+
+&lt;p&gt;Salesforce Health Cloud is a cloud-based patient relationship management solution that enables providers to gain a complete view of the patient with integrated data from electronic medical records (EMRs), wearables and more; make smarter care decisions; engage with patients across their caregiver networks; and safely and securely manage patient data.&lt;/p&gt;
+
+&lt;h4 id="about-propeller-health"&gt;About Propeller Health&lt;/h4&gt;
+
+&lt;p&gt;Founded in 2010, Propeller is the leading provider of an FDA-cleared digital health platform that helps reduce the cost of care while delivering better quality of life for individuals with chronic respiratory disease. Propeller provides better engagement, communication, and more insightful and personalized care. Backed by Safeguard Scientifics, Social Capital, California HealthCare Foundation, Kapor Capital and other investors, Propeller has been used by patients with asthma or COPD in over 35 commercial programs across the US at major healthcare systems, payers, employers and other commercial partners. Company recognition includes TEDMED Innovation Showcase, White House Champion of Change, and Bluetooth Breakthrough Product awards. Visit &lt;a href="http://propellerhealth.com/contact/"&gt;http://propellerhealth.com/contact/&lt;/a&gt; to request more information.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze brings HIPAA Compliance, New Product Offering to Microsoft Azure</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-brings-hipaa-compliance-new-product-offering-to-microsoft-azure"/>
+    <id>https://datica.com/press-release/catalyze-brings-hipaa-compliance-new-product-offering-to-microsoft-azure</id>
+    <published>2016-02-26T00:00:00+00:00</published>
+    <updated>2016-02-26T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze brings HIPAA Compliance, New Product Offering to Microsoft Azure&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="microsoft-azure-customers-will-now-have-access-to-the-catalyze-hitrust-csf-certified-platform"&gt;Microsoft Azure customers will now have access to the Catalyze HITRUST CSF Certified platform&lt;/h3&gt;
+
+&lt;p&gt;MADISON, WI (PRWEB) FEBRUARY 26, 2016&lt;/p&gt;
+
+&lt;p&gt;Catalyze, Inc., a HITRUST CSF Certified cloud for healthcare, today announced plans to add support for Microsoft Azure to its growing cloud-based platform as a service. Existing Azure customers now have the option to utilize Catalyze’s specialized and respected approach to HIPAA compliance.&lt;/p&gt;
+
+&lt;p&gt;Catalyze automates much of the compliance burden put on technical teams. With a single Business Associate Agreement (BAA), healthcare customers of Azure can cover the infrastructure obligations of HIPAA, freeing them to focus on their core competencies.&lt;/p&gt;
+
+&lt;p&gt;“Microsoft Azure is one of the strongest cloud providers available, and will only grow in importance. We are excited to bring our trusted approach to HIPAA compliance and HITRUST certification to its customers,” said Mohan Balachandran, co-founder and president of Catalyze. “A collaboration between Microsoft Azure and Catalyze will be a mature option for even the most complex of enterprise healthcare organizations. In addition, we look forward to working with the entire Microsoft Azure ecosystem.”&lt;/p&gt;
+
+&lt;p&gt;Catalyze provides two HITRUST CSF Certified products.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stratum, a compliant hosting solution, alleviates difficult technology obligations, such as encryption in transit and at rest, vulnerability scanning and intrusion detection, and backup and disaster recovery.&lt;/li&gt;
+  &lt;li&gt;Redpoint, an integration solution, guides customers through the journey of a typical healthcare integration by automating secure connectivity like VPN setups, or utilizing intelligent workflows for different digital health use cases.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“Healthcare is undergoing massive technological transformation. Catalyze’s approach to HIPAA compliance means Microsoft Azure customers can utilize trusted solutions to privacy and data security which meet the highest levels of healthcare standards,” said Nicole Herskowitz, senior director of product marketing, Microsoft Azure, Microsoft Corp. “We’re excited to offer a HITRUST Certified platform such as Catalyze in the Azure ecosystem.”&lt;/p&gt;
+
+&lt;p&gt;Healthcare companies large or small, whether existing Azure customers or those interested in switching to Azure, can explore Catalyze as a compliance partner starting today. To learn more, visit http://www.catalyze.io.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze CEO Travis Good, MD to Keynote at 2016 HOSTING MILESTONE</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-ceo-travis-good-md-to-keynote-at-2016-hosting-milestone"/>
+    <id>https://datica.com/press-release/catalyze-ceo-travis-good-md-to-keynote-at-2016-hosting-milestone</id>
+    <published>2016-02-01T00:00:00+00:00</published>
+    <updated>2016-02-01T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze CEO Travis Good, MD to Keynote at 2016 HOSTING MILESTONE&lt;/p&gt;
+</summary>
+    <content type="html">
+&lt;h3 id="dr-good-provides-latest-regulation-updates-and-their-impact-on-the-massive-market-of-healthcare"&gt;Dr. Good provides latest regulation updates and their impact on the massive market of healthcare.&lt;/h3&gt;
+
+&lt;p&gt;MADISON, WI (PRWEB) FEBRUARY 01, 2016&lt;/p&gt;
+
+&lt;p&gt;Catalyze, healthcare’s leading HITRUST Certified cloud provider, announced today that CEO and Co-founder Travis Good, MD will present a keynote address at the 2016 HOSTING MILESTONE Summit Series on Thursday, Feb. 4, from 10:15 to 11:00 a.m. at the Bellagio Hotel &amp;amp; Casino in Las Vegas.&lt;/p&gt;
+
+&lt;p&gt;Dr. Good will deliver “Excitement in Healthcare Regulation” — an important and informative talk about compliance in the regulated market of healthcare. In this 45-minute session, Good will discuss the state of this massive market, the expansion and re-definition of “healthcare data,” share what’s going right and where improvements are needed, as well as how consumers of healthcare and providers in this crucial sector can benefit.&lt;/p&gt;
+
+&lt;p&gt;“Dr. Good’s understanding of healthcare compliance developed from multiple angles, so he provides our audience with rare perspective and expertise,” explained HOSTING Chief Strategy Officer Andrew Shroepfer. “Healthcare is a cornerstone industry at HOSTING such that our partnership with Catalyze extends well beyond our 2016 events and into the fabric of our Unified Cloud strategy and ‘Center of the Universe’ theme for 2016 with leading enterprises in regulated industries.”&lt;/p&gt;
+
+&lt;p&gt;The event series named MILESTONE, created by HOSTING™, engages enterprise firms embracing a managed service partner for their access to Amazon AWS, Microsoft Azure, and other key cloud platforms. In addition to Catalyze, sponsors of the event series include ScienceLogic, NetApp, Kovarus, SolidFire, Avtex, and Exceda. The MILESTONE events in 2016 are for businesses interested in HOSTING making them compliant in the cloud. The events include:&lt;/p&gt;
+
+&lt;p&gt;Feb 3-5th - Vegas.HOSTING.com - Regulation in Unregulated Industries
+April 13-15 - HOSTINGcustomerSUMMIT.com - 7th Annual HOSTING Customer Event
+July 27-29 - HOSTINGpartnerSUMMIT.com - 2nd Annual HOSTING Partner Event
+September - HOSTING Pre-Holiday PCI-Compliance Party in Boston and NYC&lt;/p&gt;
+
+&lt;p&gt;“I’m excited to be one of the first to speak at the MILESTONE series. HOSTING is bringing the ‘Unified Cloud’ discussion to the technology community in many industries. We applaud HOSTING for its targeted emphasis on a market with such national importance — healthcare, where our partnership begins,” said Travis Good, M.D., CEO and co-founder of Catalyze.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze Selects Casey Bryson as Chief Strategy Officer</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-selects-casey-bryson-as-chief-strategy-officer"/>
+    <id>https://datica.com/press-release/catalyze-selects-casey-bryson-as-chief-strategy-officer</id>
+    <published>2016-01-14T00:00:00+00:00</published>
+    <updated>2016-01-14T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze Selects Casey Bryson as Chief Strategy Officer&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="healthcare-it-firm-strengthens-resources-with-latest-hire"&gt;Healthcare IT firm strengthens resources with latest hire.&lt;/h3&gt;
+
+&lt;p&gt;Madison, WI - (January 14, 2015)  Catalyze, Inc., today announced its newest executive team member. Casey Bryson steps into the Chief Strategy Officer position and will drive customer success. In his new role, Bryson will be reporting to CEO/Co-founder Travis Good, MD and President/Co-founder Mohan Balachandran.&lt;/p&gt;
+
+&lt;p&gt;Bryson will have oversight of Catalyze business relationships that are rooted in solving complex problems through collaboration and integration. “In efforts to align the wants and needs of hospital/provider systems with the core capabilities and competencies of Catalyze, my role will require relationship building with payers and other large and niche healthcare IT vendors in the community,” said Bryson. “Likewise, I’ll also work closely with the company’s sales, marketing and engineering to ensure alignment across all internal teams.”&lt;/p&gt;
+
+&lt;p&gt;Due to the company’s compliant hosting and integration solutions, Catalyze is in a unique position within the industry. “We have the ability to speak to different sectors of the healthcare industry,” said Catalyze President and Co-founder Mohan Balachandran. “With such deep domain experience in working with EHR customers, Casey brings a high level of industry knowledge, and also shares a vision of expanding the company through strategic business relationships.”&lt;/p&gt;
+
+&lt;p&gt;Bryson joined Catalyze earlier this month from Epic Hosting where he coordinated customer network and Epic environment deployments, internal technical projects, legal agreements and vendor relationships. Prior to his work with Epic Hosting, Bryson spent more than 10 years with Epic leading the charge to drive overall and long-term customer success. In that role he scoped projects for Meaningful Use, ICD-10, population health and patient engagement and patient confidentiality.&lt;/p&gt;
+
+&lt;p&gt;Catalyze VP of Sales, Kevin Lindbergh, said, “Such experience helps Bryson understand how to help customers make their business models function; that’s how Catalyze succeeds, because we sell the ability for our customers to get things done and go-to-market quickly.”&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze Introduces Redpoint to Manage the Entire Process of EHR Integrations</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-introduces-redpoint-to-manage-the-entire-process-of-ehr-integrations"/>
+    <id>https://datica.com/press-release/catalyze-introduces-redpoint-to-manage-the-entire-process-of-ehr-integrations</id>
+    <published>2015-12-02T00:00:00+00:00</published>
+    <updated>2015-12-02T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Catalyze Introduces Redpoint to Manage the Entire Process of EHR Integrations&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="redpoint-promises-to-enable-healthcare-integration-workflows-and-automate-secure-connectivity"&gt;Redpoint promises to enable healthcare integration workflows and automate secure connectivity&lt;/h3&gt;
+
+&lt;p&gt;(Madison, WI - December 2, 2015)  Catalyze, Inc., healthcare’s leading HITRUST CSF Certified cloud provider, announced today the immediate availability of Redpoint, its new product to manage the entire process of a typical healthcare integration. In addition to a completely new user experience, Redpoint includes three novel components:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scripts — pre-configured sets of EHR integrations packaged to enable specific workflows for digital health companies;&lt;/li&gt;
+  &lt;li&gt;Connectors — tools to automate secure connectivity to and from EHRs; and&lt;/li&gt;
+  &lt;li&gt;Bearings — workflows which coordinate delicate project management requirements throughout an integration.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Redpoint is the product evolution of Catalyze’s industry-leading integration services, used by many progressive digital health vendors. Redpoint supports all major EHRs. “We spent the last several years aligning our integration product with the mission and success of digital health vendors who are disrupting healthcare,” said Catalyze Co-founder and CEO Travis Good, MD. “Tailor-made to catalyze the shift from volume- to value-based care, Redpoint enables an intelligent integration workflow, which accelerates the adoptions and utilization of digital health.”&lt;/p&gt;
+
+&lt;h4 id="integration-is-a-journey-not-an-api-or-interface-engine"&gt;Integration is a Journey, not an API or Interface Engine&lt;/h4&gt;
+
+&lt;p&gt;Redpoint and its components will guide vendors through the entire process of a healthcare integration. The custom-built workflows, called Scripts, are for digital health use cases and some of these Scripts require multiple, bi-directional EHR interfaces. With Redpoint, customers simply get the APIs they require without needing to become experts in EHR interfaces. Redpoint addresses another major challenge to securing connections, typically via VPN, to health systems. This challenge grows exponentially at scale. Connectors automate the creation and management of secure connections, eliminating that burden for digital health vendors. Bearings round out the complimentary mix of components by managing specific project management requirements along the journey.&lt;/p&gt;
+
+&lt;p&gt;“Healthcare requires a fundamentally different menu of workflow options than it did when EHR integration standards were written 20+ years ago,” said Mohan Balachandran, co-founder and president of Catalyze. “Today, digital health vendors require a Sherpa, to guide them from one end of the healthcare integration process to the other. Redpoint now makes that possible.”&lt;/p&gt;
+
+&lt;h4 id="the-guide-for-digital-health-innovators"&gt;The Guide for Digital Health Innovators&lt;/h4&gt;
+
+&lt;p&gt;Starting today innovative digital health companies now have a dedicated partner to guide them through the integration process as they scale. Redpoint promises to bring stability and scalability to present integration challenges. The new wave of healthcare innovators can now intelligently and securely integrate with existing health systems as quickly as they establish new partnerships.&lt;/p&gt;
+
+&lt;p&gt;For more information on Redpoint or to contact a Catalyze integration expert, please go to  https://catalyze.io/redpoint.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Catalyze CEO to Present at Stanford Medicine X Conference</title>
+    <link rel="alternate" href="https://datica.com/press-release/catalyze-ceo-to-present-at-stanford-medicine-x-conference"/>
+    <id>https://datica.com/press-release/catalyze-ceo-to-present-at-stanford-medicine-x-conference</id>
+    <published>2015-09-08T00:00:00+00:00</published>
+    <updated>2015-09-08T00:00:00+00:00</updated>
+    <author>
+      <name>Marcia Noyes</name>
+    </author>
+    <summary type="html">&lt;p&gt;Travis Good, MD, to talk about acceleration of healthcare innovation with HIPAA compliant hosting and integration.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;h3 id="travis-good-md-to-talk-about-acceleration-of-healthcare-innovation-with-hipaa-compliant-hosting-and-integration"&gt;Travis Good, MD, to talk about acceleration of healthcare innovation with HIPAA compliant hosting and integration.&lt;/h3&gt;
+
+&lt;p&gt;MADISON, WISC. (PRWEB) SEPTEMBER 08, 2015&lt;/p&gt;
+
+&lt;p&gt;Travis Good, MD, MBA, MS, CEO and co-founder of &lt;a href="https://catalyze.io"&gt;Catalyze™&lt;/a&gt;, an innovative healthcare IT company that provides HIPAA compliant, HITRUST-certified hosting and integration for technology teams, is scheduled to speak at &lt;a href="http://medicinex.stanford.edu/2015-glance/"&gt;Stanford Medicine X&lt;/a&gt; – the leading patient-centered conference on emerging technology and medicine. Dr. Good’s Oral Ignite! talk “Compliant Cloud Computing: How it will accelerate healthcare innovation” will take place on Thursday, Sept. 26 at 10:15 a.m. in the Lower Lobby.&lt;/p&gt;
+
+&lt;p&gt;“Medicine X is unique among health care technology conferences with its focus on patient-centered innovation in health care and the exploration of technology to empower patients to be partners in their own care,” stated Stanford Medicine X Executive Director Larry Chu, MD, MS.&lt;/p&gt;
+
+&lt;p&gt;According to Stanford MedicineX, the organization received an all-time high number of applications to present at the 2015 conference, which will be held on the campus of Stanford University and run Sept. 23-27. Good will address delegates, including attendees from across the country and around the world. Additionally, the conference will include an online global viewership from more than 60 countries.&lt;/p&gt;
+
+&lt;p&gt;Over the past year Good has interviewed and hosted the nation’s top CIOs, innovation authors and healthcare entrepreneurs in the &lt;a href="https://catalyze.io/innovation"&gt;Catalyze Innovation Series&lt;/a&gt;. The series has uncovered the challenges of healthcare innovation and this talk will build upon those discoveries, including information on using cloud computing to accelerate healthcare innovation without the need for additional time and personnel in building a complicated compliance infrastructure.&lt;/p&gt;
+
+&lt;p&gt;“In the new Millennium medical education mirrors the daily challenges faced by healthcare enterprise. Together we are trying to find ways to create more patient engagement, become more patient-centered and do so in a secure and compliant environment that ensures protection of PHI,” explained Travis Good, MD, Catalyze, Inc. CEO and co-founder. “Stanford University’s Medicine X conference is a premier venue through which to present these discoveries and I’m honored to be chosen to speak to the finest medical students and educators who are helping to make a difference in these areas.”&lt;/p&gt;
+
+&lt;p&gt;To learn more about accelerating healthcare innovation, download the “Healthcare Innovation Series: 7 Big Ideas” report by clicking &lt;a href="https://catalyze.io/innovation/2015"&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
 </feed>
