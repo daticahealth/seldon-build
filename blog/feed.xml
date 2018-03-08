@@ -9,7 +9,23 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-03-06T00:00:00+00:00</updated>
+  <updated>2018-03-08T00:00:00+00:00</updated>
+  <entry>
+    <title>Microsoft and Datica Digital Health Bootcamp at SXSW</title>
+    <link rel="alternate" href="https://datica.com/blog/microsoft-datica-digital-health-bootcamp-at-sxsw"/>
+    <id>https://datica.com/blog/microsoft-datica-digital-health-bootcamp-at-sxsw</id>
+    <published>2018-03-08T00:00:00+00:00</published>
+    <updated>2018-03-08T00:00:00+00:00</updated>
+    <author>
+      <name>Kris Gösser</name>
+    </author>
+    <summary type="html">&lt;p&gt;Sunday March 11, we are hosting a day-long boot camp for digital health enthusiasts and entrepreneurs at South by Southwest (SXSW) in collaboration with Microsoft.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;This coming Sunday, March 11, we are holding a day-long boot camp for digital health enthusiasts and entrepreneurs at South by Southwest (SXSW).&lt;/p&gt;
+
+&lt;p&gt;Microsoft is co-hosting with us. We are very excited for the opportunity to share insight on what makes digital health succeed with our friends at Microsoft who have an excellent set of speakers lined up with us.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>2018 Healthcare Trends Part 5: The Real Cloud Comes to Healthcare</title>
     <link rel="alternate" href="https://datica.com/blog/2018-trends-pt-5-real-cloud-comes-to-healthcare"/>
@@ -145,20 +161,6 @@
 </summary>
     <content type="html">&lt;p&gt;Digital health is something of a buzzword in the industry right now, but evidence is emerging that digital health apps have the potential to both improve patient outcomes and &lt;a href="https://datica.com/blog/digital-health-apps-could-save-7-billion/"&gt;save money across the healthcare system&lt;/a&gt;.&lt;/p&gt;
 
-</content>
-  </entry>
-  <entry>
-    <title>Digital Health Apps Could Save the US $7 Billion</title>
-    <link rel="alternate" href="https://datica.com/blog/digital-health-apps-could-save-7-billion"/>
-    <id>https://datica.com/blog/digital-health-apps-could-save-7-billion</id>
-    <published>2018-02-13T00:00:00+00:00</published>
-    <updated>2018-02-13T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;Digital health apps have been accompanied by plenty of hype, but a new report shows that the hype may be justified with $7 billion/year potential.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Digital health apps have been around for a few years, and have been accompanied by plenty of hype, but a new report shows that the hype may be justified — not because of innovation, but because such apps have the potential to save the US healthcare system as much as $7 billion annually.&lt;/p&gt;
 </content>
   </entry>
 </feed>

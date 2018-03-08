@@ -1789,6 +1789,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/blog/microsoft-datica-digital-health-bootcamp-at-sxsw/</loc>
+    <lastmod>2018-03-07T15:03:42-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/blog/using-gnu-privacy-guard-and-openpgp-to-automatically-decrypt-sftp-files/</loc>
     <lastmod>2018-03-07T15:03:42-08:00</lastmod>
     <changefreq>weekly</changefreq>
