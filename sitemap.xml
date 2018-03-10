@@ -1003,6 +1003,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/blog/mapping-digital-health-dr-ethan-bechtel-ohmd/</loc>
+    <lastmod>2018-03-07T15:03:42-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/blog/inheritance-and-ownership-of-compliance-risk/</loc>
     <lastmod>2018-03-07T15:03:42-08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -1148,6 +1154,12 @@
   </url>
   <url>
     <loc>https://datica.com/blog/5-hipaa-topics-to-address-with-clinicians/</loc>
+    <lastmod>2018-03-07T15:03:42-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/blog/phi-exposed18-months-uva-data-breach/</loc>
     <lastmod>2018-03-07T15:03:42-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
