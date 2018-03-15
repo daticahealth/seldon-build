@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-03-10T00:00:00+00:00</updated>
+  <updated>2018-03-15T00:00:00+00:00</updated>
+  <entry>
+    <title>Payors Have Much to Gain from Advances in Technology</title>
+    <link rel="alternate" href="https://datica.com/blog/payors-gain-from-advances-in-technology"/>
+    <id>https://datica.com/blog/payors-gain-from-advances-in-technology</id>
+    <published>2018-03-15T00:00:00+00:00</published>
+    <updated>2018-03-15T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;Many healthcare networks, hospitals, and physicians’ offices know they need to make improvements in order to see the greatest gains from advances in technology, and according to a recent report by the credit rating agency AM Best, insurers are in the same boat.&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Many healthcare networks, hospitals, and physicians’ offices know they need to make improvements in order to see the greatest gains from advances in technology, and according to a recent report by the credit rating agency AM Best, insurers are in the same boat.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Mapping Digital Health: An Interview with Dr. Ethan Bechtel, Co-Founder and CEO of OhMD</title>
     <link rel="alternate" href="https://datica.com/blog/mapping-digital-health-dr-ethan-bechtel-ohmd"/>
@@ -146,22 +160,6 @@
     <summary type="html">&lt;p&gt;On transformation in healthcare, Dr. Richard Milani likens healthcare systems to ocean liners that can’t turn on a dime. Read more about healthcare transformation.&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;Dr. Richard Milani is the Chief Clinical Transformation Officer and Vice-Chairman of the Department of Cardiology at Ocshner Health System, and the author of the soon-to-be-released book &lt;a href="https://www.amazon.com/Death-Dollars-Solving-Epidemic-Chronic/dp/1683505875"&gt;Death and Dollars: Solving the Epidemic of Chronic Disease&lt;/a&gt;. Dr. Milani was a guest on the &lt;a href="https://datica.com/innovation/richard-milani-md-how-innovators-can-improve-the-clinical-experience-for-patients/"&gt;Datica Healthcare Innovators Podcast&lt;/a&gt; on January 19, 2018, and discussed the role of transformation in healthcare with Datica’s Chief Data Officer, Mark Olschesky.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>2018 Healthcare Trends Part 3 — 6 Predictions for the Post-EHR World</title>
-    <link rel="alternate" href="https://datica.com/blog/2018-trends-6-predictions-post-ehr-world"/>
-    <id>https://datica.com/blog/2018-trends-6-predictions-post-ehr-world</id>
-    <published>2018-02-21T00:00:00+00:00</published>
-    <updated>2018-02-21T00:00:00+00:00</updated>
-    <author>
-      <name>Travis Good, MD</name>
-    </author>
-    <summary type="html">&lt;p&gt;In this 3rd part of our 2018 Healthcare Trends series, Travis Good MD, CEO of Datica, offers a deep look at what we can expect to see in a post-EHR world.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Sadly, the biggest winners in our post-health reform world (post-HITECH and ACA) are neither patients nor providers; the big winners are electronic health record (EHR) companies and the cottage industry of consultants and services who support them. This isn’t an indictment of EHRs, though I don’t think EHRs have delivered on the promise of the triple aim. It’s merely a sad observation of the outcome of billions of dollars spent to improve healthcare. Regardless, we are here in 2018, and EHRs play a central role in the daily lives of providers and, by extension, patients.&lt;/p&gt;
-
-&lt;p&gt;In this third part of our &lt;a href="https://datica.com/blog/6-healthcare-trends-to-watch-in-2018/"&gt;2018 Healthcare Trends&lt;/a&gt; series, I offer predictions of what we can expect to see in a post-EHR world.&lt;/p&gt;
 </content>
   </entry>
 </feed>
