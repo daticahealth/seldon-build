@@ -9,7 +9,21 @@
   </author>
   <icon>https://datica.com/favicon.ico</icon>
   <logo>https://images.contentful.com/189dvqdsjh46/4SwayIJ5AcCe4iCU820mQs/504b8e57eacc0d81032d01ace96bc622/datica_logo__black.png?w=150</logo>
-  <updated>2018-03-15T00:00:00+00:00</updated>
+  <updated>2018-03-16T00:00:00+00:00</updated>
+  <entry>
+    <title>Overview of the Current Administration's Approach to HIT</title>
+    <link rel="alternate" href="https://datica.com/blog/overview-of-current-administrations-approach-to-hit"/>
+    <id>https://datica.com/blog/overview-of-current-administrations-approach-to-hit</id>
+    <published>2018-03-16T00:00:00+00:00</published>
+    <updated>2018-03-16T00:00:00+00:00</updated>
+    <author>
+      <name>Laleh Hassibi</name>
+    </author>
+    <summary type="html">&lt;p&gt;Two recent talks have shed light on what people in the healthcare information technology sector might expect from the current administration. Together, it’s clear that the administration wants to give consumers access to their health data. But, how?&lt;/p&gt;
+</summary>
+    <content type="html">&lt;p&gt;Two recent talks have shed light on what people in the healthcare information technology sector might expect from the current administration. The first was a speech by Alex Azar at the Federation of American Hospitals recent meeting about value-based care, and the second, given by Seema Verna at HIMSS18, emphasized the need for interoperability among EHRs. Together, these talks make it clear that the current administration wants to give consumers access to their health data. But, how will this happen?&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Payors Have Much to Gain from Advances in Technology</title>
     <link rel="alternate" href="https://datica.com/blog/payors-gain-from-advances-in-technology"/>
@@ -146,20 +160,6 @@
     <summary type="html">&lt;p&gt;The FDA has announced a new program for digital health software developers as part of a larger effort to develop a new regulatory framework. Should you care?&lt;/p&gt;
 </summary>
     <content type="html">&lt;p&gt;The US Food and Drug Administration (FDA) has announced a new program for digital health software developers as part of a larger effort to develop a new regulatory framework. For any company that designs and develops software that is considered a medical device, this is important news.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Role of Transformation in Healthcare with Dr. Richard Milani</title>
-    <link rel="alternate" href="https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani"/>
-    <id>https://datica.com/blog/role-transformation-in-healthcare-dr-richard-milani</id>
-    <published>2018-02-22T00:00:00+00:00</published>
-    <updated>2018-02-22T00:00:00+00:00</updated>
-    <author>
-      <name>Laleh Hassibi</name>
-    </author>
-    <summary type="html">&lt;p&gt;On transformation in healthcare, Dr. Richard Milani likens healthcare systems to ocean liners that can’t turn on a dime. Read more about healthcare transformation.&lt;/p&gt;
-</summary>
-    <content type="html">&lt;p&gt;Dr. Richard Milani is the Chief Clinical Transformation Officer and Vice-Chairman of the Department of Cardiology at Ocshner Health System, and the author of the soon-to-be-released book &lt;a href="https://www.amazon.com/Death-Dollars-Solving-Epidemic-Chronic/dp/1683505875"&gt;Death and Dollars: Solving the Epidemic of Chronic Disease&lt;/a&gt;. Dr. Milani was a guest on the &lt;a href="https://datica.com/innovation/richard-milani-md-how-innovators-can-improve-the-clinical-experience-for-patients/"&gt;Datica Healthcare Innovators Podcast&lt;/a&gt; on January 19, 2018, and discussed the role of transformation in healthcare with Datica’s Chief Data Officer, Mark Olschesky.&lt;/p&gt;
 </content>
   </entry>
 </feed>
