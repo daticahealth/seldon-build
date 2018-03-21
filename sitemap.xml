@@ -176,7 +176,7 @@
   </url>
   <url>
     <loc>https://datica.com/platform/compliance/</loc>
-    <lastmod>2018-03-16T10:22:05-07:00</lastmod>
+    <lastmod>2018-03-21T12:02:47-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -248,7 +248,7 @@
   </url>
   <url>
     <loc>https://datica.com/pricing/</loc>
-    <lastmod>2018-03-16T10:22:05-07:00</lastmod>
+    <lastmod>2018-03-19T18:01:30-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -2401,6 +2401,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://datica.com/events/9th-annual-beckers-hospital-review-meeting/</loc>
+    <lastmod>2018-03-07T15:03:42-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://datica.com/events/beckers-hospital-review-3rd-annual-health-it-revenue-cycle-conference/</loc>
     <lastmod>2018-03-07T15:03:42-08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -2528,6 +2534,12 @@
   </url>
   <url>
     <loc>https://datica.com/contact/scott-smith/</loc>
+    <lastmod>2018-01-24T17:13:20-08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://datica.com/about/james-kearney/</loc>
     <lastmod>2018-01-24T17:13:20-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
